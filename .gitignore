@@ -1,0 +1,25 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS
+.idea/
+.DS_Store
+__MACOSX/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local execution
+logs/
+*.log
+
+# Large generated OQLF inventories
+data/intermediate/oqlf_all_french_terms.csv
+data/intermediate/oqlf_all_same_entry_pairs.csv

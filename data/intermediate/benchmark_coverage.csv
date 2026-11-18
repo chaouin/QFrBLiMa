@@ -1,0 +1,242 @@
+feature_id,FI,FQ,source_url,status
+OQLF_001,puzzle,casse-tête,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871815/casse-tete,one_term_present_in_CSV
+OQLF_002,menu à prix fixe,table d’hôte,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360534/table-dhote,both_terms_in_same_CSV_entry
+OQLF_003,navire transbordeur,traversier,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1198666/traversier,both_terms_in_same_CSV_entry
+OQLF_004,canoë,canot,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2079485/canot,both_terms_in_same_CSV_entry
+OQLF_005,vacances universitaires,relâche,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26519650/relache,one_term_present_in_CSV
+OQLF_006,extrait d’acte de naissance,certificat de naissance,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520684/certificat-de-naissance,both_terms_in_same_CSV_entry
+OQLF_007,clé plate,clé ouverte,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2081962/cle-a-fourche,both_terms_in_same_CSV_entry
+OQLF_008,épicéa,épinette,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872062/epinette,both_terms_in_same_CSV_entry
+OQLF_009,palet,rondelle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8356162/rondelle,both_terms_in_same_CSV_entry
+OQLF_010,sans-abrisme,itinérance,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8363363/itinerance,both_terms_in_same_CSV_entry
+OQLF_011,basket,espadrille,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26511979/chaussure-de-sport,both_terms_in_same_CSV_entry
+OQLF_012,batte de baseball,bâton de baseball,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17018794/baton-de-baseball,both_terms_in_same_CSV_entry
+OQLF_013,chambre d’hôte,gîte touristique,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299019/gite-touristique,both_terms_in_same_CSV_entry
+OQLF_014,chaussure de ski,botte de ski,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350541/botte-de-ski,both_terms_in_same_CSV_entry
+OQLF_015,football,soccer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8351604/soccer,both_terms_in_same_CSV_entry
+OQLF_016,carte de visite professionnelle,carte professionnelle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870282/carte-professionnelle,both_terms_in_same_CSV_entry
+OQLF_017,living,vivoir,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872097/salle-de-sejour,both_terms_in_same_CSV_entry
+OQLF_018,abri de jardin,cabanon,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8869029/remise,both_terms_in_same_CSV_entry
+OQLF_019,immeuble de rapport,immeuble à revenus,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077836/immeuble-a-revenus,both_terms_in_same_CSV_entry
+OQLF_020,stationnement longitudinal,stationnement en parallèle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872256/stationnement-en-file,both_terms_in_same_CSV_entry
+OQLF_021,camion poubelle,camion de vidanges,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077588/camion-a-ordures,one_term_present_in_CSV
+OQLF_022,virement instantané,virement électronique,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26560231/virement-electronique,both_terms_in_same_CSV_entry
+OQLF_023,toboggan,glissoire,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8361651/glissoire,both_terms_in_same_CSV_entry
+OQLF_024,bonnet,tuque,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8356212/tuque,both_terms_in_same_CSV_entry
+OQLF_025,week-end,fin de semaine,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8361442/fin-de-semaine,one_term_present_in_CSV
+OQLF_026,lave-linge,laveuse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358417/machine-a-laver,both_terms_in_same_CSV_entry
+OQLF_027,faire du shopping,magasiner,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8357752/magasiner,one_term_present_in_CSV
+OQLF_028,portable,cellulaire,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8393991/telephone-cellulaire,both_terms_in_same_CSV_entry
+OQLF_029,tonnelle,abri-soleil,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8366597/abri-soleil,both_terms_in_same_CSV_entry
+OQLF_030,rigole,dalot,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8412767/dalot,both_terms_in_same_CSV_entry
+OQLF_031,lieu noir,goberge,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1198637/goberge,both_terms_in_same_CSV_entry
+OQLF_032,colin noir,goberge,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1198637/goberge,both_terms_in_same_CSV_entry
+OQLF_033,balai de l'Atlantique,plie du Canada,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1198638/plie-canadienne,both_terms_in_same_CSV_entry
+OQLF_034,diététicien,diététiste,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1198777/dietetiste,both_terms_in_same_CSV_entry
+OQLF_035,véhicule de loisirs,véhicule récréatif,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1199795/vehicule-de-plaisance,both_terms_in_same_CSV_entry
+OQLF_036,VDL,VR,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1199795/vehicule-de-plaisance,both_terms_in_same_CSV_entry
+OQLF_037,atténuateur de choc,atténuateur d'impact,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1298913/attenuateur-dimpact,both_terms_in_same_CSV_entry
+OQLF_038,chambre d'hôte,gîte,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299019/gite-touristique,both_terms_in_same_CSV_entry
+OQLF_039,déviation,détour,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299069/detour,both_terms_in_same_CSV_entry
+OQLF_040,commissaire aux comptes,vérificateur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299103/auditeur,both_terms_in_same_CSV_entry
+OQLF_041,médecin rééducateur,physiatre,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299132/physiatre,both_terms_in_same_CSV_entry
+OQLF_042,contrôle légal des comptes,vérification légale,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299918/audit-legal,both_terms_in_same_CSV_entry
+OQLF_043,canoéisme,canotage,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2069007/canotage,both_terms_in_same_CSV_entry
+OQLF_044,monospace,minifourgonnette,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2070395/minifourgonnette,both_terms_in_same_CSV_entry
+OQLF_045,société de bourse,courtier en valeurs mobilières,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2072228/maison-de-courtage-de-valeurs,both_terms_in_same_CSV_entry
+OQLF_046,centre de découverte de la nature,centre d'interprétation de la nature,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077297/centre-dinterpretation-de-la-nature,both_terms_in_same_CSV_entry
+OQLF_047,fraise à neige,souffleuse à neige,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077585/souffleuse-a-neige,both_terms_in_same_CSV_entry
+OQLF_048,fraise à neige,souffleuse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077585/souffleuse-a-neige,both_terms_in_same_CSV_entry
+OQLF_049,canoë d'expédition,canot d'expédition,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2079482/canot-dexpedition,both_terms_in_same_CSV_entry
+OQLF_050,canoé d'expédition,canot d'expédition,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2079482/canot-dexpedition,both_terms_in_same_CSV_entry
+OQLF_051,noix de pécan,noix de pacane,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2083802/noix-de-pacane,both_terms_in_same_CSV_entry
+OQLF_052,pécan,pacane,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2083802/noix-de-pacane,both_terms_in_same_CSV_entry
+OQLF_053,tourte à la viande,pâté à la viande,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2091350/pate-a-la-viande,both_terms_in_same_CSV_entry
+OQLF_054,tourte à la viande,tourtière,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2091350/pate-a-la-viande,both_terms_in_same_CSV_entry
+OQLF_055,crème glacée à l'italienne,crème glacée molle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2091996/creme-glacee-molle,both_terms_in_same_CSV_entry
+OQLF_056,glace à l'italienne,crème glacée molle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2091996/creme-glacee-molle,both_terms_in_same_CSV_entry
+OQLF_057,chaussure de ski de fond,botte de ski de fond,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8349531/botte-de-ski-de-fond,both_terms_in_same_CSV_entry
+OQLF_058,terrain de football,terrain de soccer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350207/terrain-de-soccer,both_terms_in_same_CSV_entry
+OQLF_059,stade de football,stade de soccer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350210/stade-de-soccer,both_terms_in_same_CSV_entry
+OQLF_060,subtiliser le palet,subtiliser la rondelle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350250/subtiliser-la-rondelle,both_terms_in_same_CSV_entry
+OQLF_061,subtiliser le palet,soutirer la rondelle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350250/subtiliser-la-rondelle,both_terms_in_same_CSV_entry
+OQLF_062,table de football,table de soccer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350267/table-de-soccer,both_terms_in_same_CSV_entry
+OQLF_063,palet libre,rondelle libre,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350421/rondelle-libre,both_terms_in_same_CSV_entry
+OQLF_064,prison,banc des punitions,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350555/banc-des-penalites,both_terms_in_same_CSV_entry
+OQLF_065,crosse de gardien de but,bâton de gardien de but,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8350985/baton-de-gardien-de-but,both_terms_in_same_CSV_entry
+OQLF_066,footballeur,joueur de soccer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8351148/joueur-de-soccer,both_terms_in_same_CSV_entry
+OQLF_067,joueur de football,joueur de soccer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8351148/joueur-de-soccer,both_terms_in_same_CSV_entry
+OQLF_068,plongeon imbrin,huard,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8351695/plongeon-huard,both_terms_in_same_CSV_entry
+OQLF_069,notice,feuillet d'information,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8352848/notice,both_terms_in_same_CSV_entry
+OQLF_070,camion hydrocureur,camion écureur d'égout,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8353753/camion-ecureur-degout,both_terms_in_same_CSV_entry
+OQLF_071,hydrocureur,écureur d'égout,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8353753/camion-ecureur-degout,both_terms_in_same_CSV_entry
+OQLF_072,hydrocureur,cureur d'égout,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8353753/camion-ecureur-degout,both_terms_in_same_CSV_entry
+OQLF_073,sursis probatoire,ordonnance de probation,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355170/ordonnance-de-probation,both_terms_in_same_CSV_entry
+OQLF_074,dégrafeur,dégrafeuse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355368/degrafeuse,both_terms_in_same_CSV_entry
+OQLF_075,arrache-agrafes,dégrafeuse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355368/degrafeuse,both_terms_in_same_CSV_entry
+OQLF_076,ôte-agrafes,dégrafeuse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355368/degrafeuse,both_terms_in_same_CSV_entry
+OQLF_077,picotiane,navet de prairie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355627/navet-de-prairie,both_terms_in_same_CSV_entry
+OQLF_078,picotiane,pomme blanche,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355627/navet-de-prairie,both_terms_in_same_CSV_entry
+OQLF_079,picotiane,pomme de prairie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355627/navet-de-prairie,both_terms_in_same_CSV_entry
+OQLF_080,bande à joint,ruban à joint,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8356276/ruban-a-joints,both_terms_in_same_CSV_entry
+OQLF_081,bizutage,initiation,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8357381/initiation,both_terms_in_same_CSV_entry
+OQLF_082,enduit chaux-ciment,stuc,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8357728/stuc,both_terms_in_same_CSV_entry
+OQLF_083,chalandage,magasinage,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8357751/magasinage,both_terms_in_same_CSV_entry
+OQLF_084,bal de promotion,bal de finissants,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358089/bal-de-finissants,both_terms_in_same_CSV_entry
+OQLF_085,airelle ponctuée,pomme de terre,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358162/airelle,both_terms_in_same_CSV_entry
+OQLF_086,mûre des marais,chicouté,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358247/chicoute,both_terms_in_same_CSV_entry
+OQLF_087,mûre des marais,chicoutai,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358247/chicoute,both_terms_in_same_CSV_entry
+OQLF_088,mûre des marais,plaquebière,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358247/chicoute,both_terms_in_same_CSV_entry
+OQLF_089,asbestose,amiantose,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358822/amiantose,both_terms_in_same_CSV_entry
+OQLF_090,lirette,catalogne,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358852/catalogne,both_terms_in_same_CSV_entry
+OQLF_091,harelde de Miquelon,cacaoui,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359776/harelde-kakawi,both_terms_in_same_CSV_entry
+OQLF_092,harelde boréale,cacaoui,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359776/harelde-kakawi,both_terms_in_same_CSV_entry
+OQLF_093,harelde de Miquelon,kakawi,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359776/harelde-kakawi,both_terms_in_same_CSV_entry
+OQLF_094,harelde boréale,kakawi,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359776/harelde-kakawi,both_terms_in_same_CSV_entry
+OQLF_095,harelde de Miquelon,canard kakawi,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359776/harelde-kakawi,both_terms_in_same_CSV_entry
+OQLF_096,harelde boréale,canard kakawi,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359776/harelde-kakawi,both_terms_in_same_CSV_entry
+OQLF_097,perche noire,achigan à petite bouche,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359907/achigan-a-petite-bouche,both_terms_in_same_CSV_entry
+OQLF_098,perche truitée,achigan à petite bouche,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8359907/achigan-a-petite-bouche,both_terms_in_same_CSV_entry
+OQLF_099,médicament-conseil,médicament sous contrôle pharmaceutique,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360337/medicament-sous-controle-pharmaceutique,both_terms_in_same_CSV_entry
+OQLF_100,médicament-conseil,médicament sous contrôle du pharmacien,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360337/medicament-sous-controle-pharmaceutique,both_terms_in_same_CSV_entry
+OQLF_101,magasin à rayons multiples,magasin à rayons,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360436/grand-magasin,both_terms_in_same_CSV_entry
+OQLF_102,menu,table d'hôte,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360534/table-dhote,both_terms_in_same_CSV_entry
+OQLF_103,piste de glisse,glissoire hivernale,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8361606/glissade-hivernale,both_terms_in_same_CSV_entry
+OQLF_104,piste de glisse,glissoire d'hiver,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8361606/glissade-hivernale,both_terms_in_same_CSV_entry
+OQLF_105,piste de glisse,glissade,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8361606/glissade-hivernale,both_terms_in_same_CSV_entry
+OQLF_106,pince cravate,épingle à cravate,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362016/pince-a-cravate,both_terms_in_same_CSV_entry
+OQLF_107,fixe-cravate,épingle à cravate,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362016/pince-a-cravate,both_terms_in_same_CSV_entry
+OQLF_108,fixe cravate,épingle à cravate,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362016/pince-a-cravate,both_terms_in_same_CSV_entry
+OQLF_109,gymnaste-animateur,meneur de claque,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362264/meneur-de-claque,both_terms_in_same_CSV_entry
+OQLF_110,gymnaste-animateur,meneuse de claque,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362264/meneur-de-claque,both_terms_in_same_CSV_entry
+OQLF_111,président,recteur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362849/recteur,both_terms_in_same_CSV_entry
+OQLF_112,président,rectrice,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362849/recteur,both_terms_in_same_CSV_entry
+OQLF_113,chaussure rigide,botte rigide,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8363151/botte-rigide,both_terms_in_same_CSV_entry
+OQLF_114,porridge,gruau,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8363388/gruau,both_terms_in_same_CSV_entry
+OQLF_115,déchèterie,écocentre,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8366329/ecocentre,both_terms_in_same_CSV_entry
+OQLF_116,habitation à loyer modéré,habitation à loyer modique,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8367218/habitation-a-loyer-modique,both_terms_in_same_CSV_entry
+OQLF_117,force athlétique,dynamophilie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8367924/dynamophilie,both_terms_in_same_CSV_entry
+OQLF_118,sapinette,bière d'épinette,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8370682/biere-depinette,both_terms_in_same_CSV_entry
+OQLF_119,chirurgie ambulatoire,chirurgie d'un jour,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8375364/chirurgie-dun-jour,both_terms_in_same_CSV_entry
+OQLF_120,clown thérapeute,amuseur-thérapeute,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8375881/amuseur-therapeute,both_terms_in_same_CSV_entry
+OQLF_121,clown hospitalier,amuseur-thérapeute,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8375881/amuseur-therapeute,both_terms_in_same_CSV_entry
+OQLF_122,hôpiclown,amuseur-thérapeute,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8375881/amuseur-therapeute,both_terms_in_same_CSV_entry
+OQLF_123,chirurgien stomatologiste,chirurgien buccal et maxillofacial,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8382560/chirurgien-buccal-et-maxillofacial,both_terms_in_same_CSV_entry
+OQLF_124,chirurgien stomatologiste,chirurgienne buccale et maxillofaciale,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8382560/chirurgien-buccal-et-maxillofacial,both_terms_in_same_CSV_entry
+OQLF_125,communication en PCV,appel à frais virés,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8388742/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_126,appel en PCV,appel à frais virés,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8388742/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_127,communication en PCV,communication à frais virés,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8388742/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_128,appel en PCV,communication à frais virés,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8388742/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_129,communication en PCV,communication payable à l'arrivée,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8388742/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_130,appel en PCV,communication payable à l'arrivée,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8388742/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_131,canoë-campeur,canot-campeur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8390693/canot-campeur,both_terms_in_same_CSV_entry
+OQLF_132,mètre à ruban,ruban à mesurer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8404066/ruban-a-mesurer,both_terms_in_same_CSV_entry
+OQLF_133,mètre à ruban,galon à mesurer,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8404066/ruban-a-mesurer,both_terms_in_same_CSV_entry
+OQLF_134,touche-touche,tague,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8410595/tague,both_terms_in_same_CSV_entry
+OQLF_135,stylomine,crayon à mine,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8411801/portemine,both_terms_in_same_CSV_entry
+OQLF_136,moulinet à vent,virevent,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8418289/moulin-a-vent,both_terms_in_same_CSV_entry
+OQLF_137,vice-président,orateur adjoint,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8450498/orateur-adjoint,both_terms_in_same_CSV_entry
+OQLF_138,ventilation de la couverture,ventilation de l'entretoit,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8477141/ventilation-de-la-toiture,both_terms_in_same_CSV_entry
+OQLF_139,ingénieur agronome,agronome,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8869741/agronome,both_terms_in_same_CSV_entry
+OQLF_140,cake,gâteau aux fruits,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870002/gateau-aux-fruits,both_terms_in_same_CSV_entry
+OQLF_141,service PCV,service à frais virés,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870043/appel-a-frais-vires,both_terms_in_same_CSV_entry
+OQLF_142,glacier,crèmerie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870753/cremerie,both_terms_in_same_CSV_entry
+OQLF_143,boutique de glaces,crèmerie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870753/cremerie,both_terms_in_same_CSV_entry
+OQLF_144,glacier,bar laitier,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870753/cremerie,both_terms_in_same_CSV_entry
+OQLF_145,boutique de glaces,bar laitier,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870753/cremerie,both_terms_in_same_CSV_entry
+OQLF_146,glacier,comptoir de crème glacée,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870753/cremerie,both_terms_in_same_CSV_entry
+OQLF_147,boutique de glaces,comptoir de crème glacée,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870753/cremerie,both_terms_in_same_CSV_entry
+OQLF_148,canoë-camping,canot-camping,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8870835/canot-camping,both_terms_in_same_CSV_entry
+OQLF_149,éducateur de jeunes enfants,éducateur de la petite enfance,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871022/educateur-de-la-petite-enfance,both_terms_in_same_CSV_entry
+OQLF_150,éducateur de jeunes enfants,éducateur en services de garde,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871022/educateur-de-la-petite-enfance,both_terms_in_same_CSV_entry
+OQLF_151,ligne numéro vert,ligne sans frais,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871582/ligne-sans-frais,both_terms_in_same_CSV_entry
+OQLF_152,ligne numéro vert,ligne 800,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871582/ligne-sans-frais,both_terms_in_same_CSV_entry
+OQLF_153,numéro vert,numéro sans frais,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871583/numero-sans-frais,both_terms_in_same_CSV_entry
+OQLF_154,numéro vert,numéro d'appel sans frais,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871583/numero-sans-frais,both_terms_in_same_CSV_entry
+OQLF_155,numéro vert,numéro 800,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871583/numero-sans-frais,both_terms_in_same_CSV_entry
+OQLF_156,assistant de service social,travailleur social,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871870/travailleur-social,both_terms_in_same_CSV_entry
+OQLF_157,assistant social,travailleur social,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871870/travailleur-social,both_terms_in_same_CSV_entry
+OQLF_158,prime d'émission,escompte d'émission d'obligations,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871918/escompte-demission-dobligations,both_terms_in_same_CSV_entry
+OQLF_159,prime d'émission,escompte à l'émission d'obligations,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871918/escompte-demission-dobligations,both_terms_in_same_CSV_entry
+OQLF_160,prime d'émission,escompte d'émission,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871918/escompte-demission-dobligations,both_terms_in_same_CSV_entry
+OQLF_161,compte de résultat,état des résultats,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871987/etat-des-resultats,both_terms_in_same_CSV_entry
+OQLF_162,atténuateur de choc non redirectionnel,atténuateur d'impact non redirectionnel,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872426/attenuateur-dimpact-non-redirectionnel,both_terms_in_same_CSV_entry
+OQLF_163,atténuateur de choc non redirectif,atténuateur d'impact non redirectionnel,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872426/attenuateur-dimpact-non-redirectionnel,both_terms_in_same_CSV_entry
+OQLF_164,atténuateur de choc redirectionnel,atténuateur d'impact redirectionnel,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872427/attenuateur-dimpact-redirectionnel,both_terms_in_same_CSV_entry
+OQLF_165,atténuateur de choc redirectif,atténuateur d'impact redirectionnel,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872427/attenuateur-dimpact-redirectionnel,both_terms_in_same_CSV_entry
+OQLF_166,produits et charges sur exercices antérieurs,redressements affectés aux exercices antérieurs,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872463/ajustements-sur-exercices-anterieurs,both_terms_in_same_CSV_entry
+OQLF_167,charges et produits sur exercices antérieurs,redressements affectés aux exercices antérieurs,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872463/ajustements-sur-exercices-anterieurs,both_terms_in_same_CSV_entry
+OQLF_168,citronnade,limonade,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872491/limonade,both_terms_in_same_CSV_entry
+OQLF_169,dîner,souper,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872574/souper,both_terms_in_same_CSV_entry
+OQLF_170,marché de l'ancien,marché de la revente,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872722/marche-de-la-revente,both_terms_in_same_CSV_entry
+OQLF_171,marché de l'immobilier ancien,marché de la revente,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872722/marche-de-la-revente,both_terms_in_same_CSV_entry
+OQLF_172,impôt sur le revenu,impôt sur le revenu des particuliers,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872817/impot-sur-le-revenu-des-particuliers,both_terms_in_same_CSV_entry
+OQLF_173,impôt sur le revenu,impôt des particuliers,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872817/impot-sur-le-revenu-des-particuliers,both_terms_in_same_CSV_entry
+OQLF_174,évasion fiscale,évitement fiscal,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872833/evitement-fiscal,both_terms_in_same_CSV_entry
+OQLF_175,porteur de journaux,camelot,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872836/camelot,both_terms_in_same_CSV_entry
+OQLF_176,crosse de hockey,bâton de hockey,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873050/baton-de-hockey,both_terms_in_same_CSV_entry
+OQLF_177,crosse,bâton de hockey,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873050/baton-de-hockey,both_terms_in_same_CSV_entry
+OQLF_178,crosse de hockey,bâton,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873050/baton-de-hockey,both_terms_in_same_CSV_entry
+OQLF_179,crosse,bâton,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873050/baton-de-hockey,both_terms_in_same_CSV_entry
+OQLF_180,garage,voie d'entreposage,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873221/voie-de-garage,both_terms_in_same_CSV_entry
+OQLF_181,image fidèle,présentation fidèle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873385/presentation-fidele,both_terms_in_same_CSV_entry
+OQLF_182,donner une image fidèle,présenter fidèlement,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873386/presenter-fidelement,both_terms_in_same_CSV_entry
+OQLF_183,morpion,tic-tac-toe,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8873656/tic-tac-toe,both_terms_in_same_CSV_entry
+OQLF_184,commissaire aux comptes,vérificateur légal,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8874053/auditeur-legal,both_terms_in_same_CSV_entry
+OQLF_185,toboggan en spirale,glissoire en spirale,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8887621/glissoire-en-spirale,both_terms_in_same_CSV_entry
+OQLF_186,toboggan en spirale,glissade en spirale,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8887621/glissoire-en-spirale,both_terms_in_same_CSV_entry
+OQLF_187,petit-duc de Californie,petit-duc de l'Ouest,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/9472881/petit-duc-des-montagnes,both_terms_in_same_CSV_entry
+OQLF_188,petit-duc indien,petit-duc des Indes,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/9472882/petit-duc-dorient,both_terms_in_same_CSV_entry
+OQLF_189,petit-duc nudipède,petit-duc à longues pattes,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/9480497/petit-duc-de-clark,both_terms_in_same_CSV_entry
+OQLF_190,fuligule à bec cerclé,fuligule à collier,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/9488621/fuligule-a-collier,both_terms_in_same_CSV_entry
+OQLF_191,policier en patrouille,patrouilleur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/13196913/patrouilleur,both_terms_in_same_CSV_entry
+OQLF_192,policier en patrouille,policier-patrouilleur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/13196913/patrouilleur,both_terms_in_same_CSV_entry
+OQLF_193,eau dentifrice,rince-bouche,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17012830/rince-bouche,both_terms_in_same_CSV_entry
+OQLF_194,batte de base-ball,bâton,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17018794/baton-de-baseball,both_terms_in_same_CSV_entry
+OQLF_195,batte,bâton,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17018794/baton-de-baseball,both_terms_in_same_CSV_entry
+OQLF_196,bordeaux,bourgogne,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17565636/bourgogne,both_terms_in_same_CSV_entry
+OQLF_197,serre-file,chercheur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18077245/chercheur,both_terms_in_same_CSV_entry
+OQLF_198,secrétaire de mairie,greffier municipal,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18493144/greffier-municipal,both_terms_in_same_CSV_entry
+OQLF_199,secrétaire de mairie,secrétaire municipal,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18493144/greffier-municipal,both_terms_in_same_CSV_entry
+OQLF_200,balle aux prisonniers,ballon-chasseur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18596709/ballon-prisonnier,both_terms_in_same_CSV_entry
+OQLF_201,carrossier-réparateur,débosseleur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18597956/carrossier,both_terms_in_same_CSV_entry
+OQLF_202,plan de travail,comptoir de salle de bains,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26501218/comptoir-de-salle-de-bains,both_terms_in_same_CSV_entry
+OQLF_203,plan de toilette,comptoir de salle de bains,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26501218/comptoir-de-salle-de-bains,both_terms_in_same_CSV_entry
+OQLF_204,pain perdu,pain doré,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26503077/pain-dore,both_terms_in_same_CSV_entry
+OQLF_205,Défenseur des droits,Protecteur du citoyen,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26505069/protecteur-du-citoyen,both_terms_in_same_CSV_entry
+OQLF_206,machine à glace à l'italienne,machine à crème glacée molle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26506859/machine-a-creme-glacee-molle,both_terms_in_same_CSV_entry
+OQLF_207,machine à glace italienne,machine à crème glacée molle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26506859/machine-a-creme-glacee-molle,both_terms_in_same_CSV_entry
+OQLF_208,déjeuner,dîner,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26511882/diner,both_terms_in_same_CSV_entry
+OQLF_209,vacances scolaires,relâche scolaire,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26512004/relache,both_terms_in_same_CSV_entry
+OQLF_210,petites vacances,relâche scolaire,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26512004/relache,both_terms_in_same_CSV_entry
+OQLF_211,appareil multiattache,broches,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520070/appareil-orthodontique-fixe,both_terms_in_same_CSV_entry
+OQLF_212,confiture allégée en sucres,tartinade de fruits,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520715/tartinade-de-fruits,both_terms_in_same_CSV_entry
+OQLF_213,préparation de fruits,tartinade de fruits,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520715/tartinade-de-fruits,both_terms_in_same_CSV_entry
+OQLF_214,confiture allégée en sucres,tartinade,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520715/tartinade-de-fruits,both_terms_in_same_CSV_entry
+OQLF_215,préparation de fruits,tartinade,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520715/tartinade-de-fruits,both_terms_in_same_CSV_entry
+OQLF_216,débit de tabac,tabagie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26526988/tabagie,both_terms_in_same_CSV_entry
+OQLF_217,bureau de tabac,tabagie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26526988/tabagie,both_terms_in_same_CSV_entry
+OQLF_218,tabac,tabagie,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26526988/tabagie,both_terms_in_same_CSV_entry
+OQLF_219,buraliste,tabagiste,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26527003/tabagiste,both_terms_in_same_CSV_entry
+OQLF_220,débitant de tabac,tabagiste,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26527003/tabagiste,both_terms_in_same_CSV_entry
+OQLF_221,débitante de tabac,tabagiste,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26527003/tabagiste,both_terms_in_same_CSV_entry
+OQLF_222,élément de langage,ligne de presse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26530086/ligne-de-presse,both_terms_in_same_CSV_entry
+OQLF_223,boqueteau,boisé,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26532893/boise,both_terms_in_same_CSV_entry
+OQLF_224,allocation de solidarité aux personnes âgées,pension de la Sécurité de la vieillesse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26542495/pension-de-la-securite-de-la-vieillesse,both_terms_in_same_CSV_entry
+OQLF_225,minimum vieillesse,pension de la Sécurité de la vieillesse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26542495/pension-de-la-securite-de-la-vieillesse,both_terms_in_same_CSV_entry
+OQLF_226,allocation de solidarité aux personnes âgées,pension de vieillesse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26542495/pension-de-la-securite-de-la-vieillesse,both_terms_in_same_CSV_entry
+OQLF_227,minimum vieillesse,pension de vieillesse,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26542495/pension-de-la-securite-de-la-vieillesse,both_terms_in_same_CSV_entry
+OQLF_228,boîte à goûter,boîte à lunch,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26543982/boite-a-lunch,both_terms_in_same_CSV_entry
+OQLF_229,boîte à déjeuner,boîte à lunch,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26543982/boite-a-lunch,both_terms_in_same_CSV_entry
+OQLF_230,cour anglaise,margelle,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26558203/margelle,both_terms_in_same_CSV_entry
+OQLF_231,cour anglaise,margelle de fenêtre,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26558203/margelle,both_terms_in_same_CSV_entry
+OQLF_232,déprogrammation,délestage,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26558638/delestage,both_terms_in_same_CSV_entry
+OQLF_233,répertoire électoral unique,liste électorale permanente,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559698/liste-electorale-permanente,both_terms_in_same_CSV_entry
+OQLF_234,répertoire électoral unique,registre national des électeurs,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559698/liste-electorale-permanente,both_terms_in_same_CSV_entry
+OQLF_235,coordinateur de direction,coordonnateur de direction,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26560689/coordonnateur-de-direction,both_terms_in_same_CSV_entry
+OQLF_236,coordinateur de direction,coordonnatrice de direction,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26560689/coordonnateur-de-direction,both_terms_in_same_CSV_entry
+OQLF_237,barrières de dégel,restrictions de charges en période de dégel,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26560857/restrictions-de-charges-en-periode-de-degel,both_terms_in_same_CSV_entry
+OQLF_238,football intérieur,soccer intérieur,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26560877/soccer-interieur,both_terms_in_same_CSV_entry
+OQLF_239,courtier grossiste,manufacturier,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26560906/concepteur,both_terms_in_same_CSV_entry
+OQLF_240,coque pour bébé,coquille pour bébé,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26570801/coquille-pour-bebe,both_terms_in_same_CSV_entry
+OQLF_241,coque pour bébé,coquille,https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26570801/coquille-pour-bebe,both_terms_in_same_CSV_entry

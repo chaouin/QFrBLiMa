@@ -1,0 +1,29 @@
+{
+  "source_archive": "corrected_v3.zip",
+  "source_archive_sha256": "696327af9c0b5e81fcee3b08adacfde822ae7e40a13b24f21ad900cdfb8fb18a",
+  "historical_benchmark_sha256": "3eb7694df674ebd6e90adddebb1be89cc8a8b7aad074133fa15fdd03aa9ac1af",
+  "public_benchmark_sha256": "7cff81d508ba129854f6f7c1a4312ec5834b93e7867bf609e005be48bb9efe6e",
+  "historical_to_public_id_mapping": "id_mapping.csv",
+  "models": [
+    "gemini",
+    "claude",
+    "gpt54",
+    "gemma4_12b_it",
+    "mistral_nemo_12b",
+    "qwen3_8b",
+    "aya_expanse_8b",
+    "llama31_8b"
+  ],
+  "pairs_per_model_per_order": 1205,
+  "n_total_predictions": 19280,
+  "contents": "16 paired prediction CSVs, eight annotated historical audit JSONs, model-level summary, ID map, provenance and regenerated full statistical analyses",
+  "no_model_inference": true,
+  "id_fields_changed": [
+    "pair_id",
+    "feature_id"
+  ],
+  "non_id_content_unchanged": true,
+  "claude_valid_field_added": true,
+  "note": "Historical judgment_id values deliberately retained. Full original audit paths refer to historical private project tree; no referenced raw model outputs included.",
+  "audit_structure": "One annotated historical audit per model including old and new pair IDs"
+}

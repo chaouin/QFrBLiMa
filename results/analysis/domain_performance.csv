@@ -1,0 +1,409 @@
+model,domain,n_pairs,n_markers,robust,original,inverted
+gemini,administration,5,1,1.0,1.0,1.0
+gemini,administration publique,45,9,0.8888888888888888,0.9333333333333333,0.9111111111111111
+gemini,agriculture,5,1,1.0,1.0,1.0
+gemini,alimentation,90,18,0.9666666666666667,0.9666666666666667,0.9888888888888889
+gemini,aménagement extérieur,5,1,1.0,1.0,1.0
+gemini,assurance,5,1,1.0,1.0,1.0
+gemini,bijouterie,15,3,0.0,0.0,0.0
+gemini,botanique,55,11,0.8363636363636363,0.9090909090909091,0.8545454545454545
+gemini,bureau,20,4,0.35,0.6,0.45
+gemini,chemin de fer,5,1,1.0,1.0,1.0
+gemini,circulation,5,1,1.0,1.0,1.0
+gemini,commerce,25,5,1.0,1.0,1.0
+gemini,comptabilité,40,8,0.95,0.95,0.975
+gemini,cosmétologie,5,1,1.0,1.0,1.0
+gemini,droit,20,4,1.0,1.0,1.0
+gemini,eau,15,3,1.0,1.0,1.0
+gemini,emballage et conditionnement,15,3,1.0,1.0,1.0
+gemini,entreprise,35,7,1.0,1.0,1.0
+gemini,finance,25,5,1.0,1.0,1.0
+gemini,gestion,15,3,1.0,1.0,1.0
+gemini,génie climatique,5,1,1.0,1.0,1.0
+gemini,habillement,10,2,1.0,1.0,1.0
+gemini,habitation,10,2,1.0,1.0,1.0
+gemini,immobilier,5,1,1.0,1.0,1.0
+gemini,incendie,5,1,0.8,0.8,1.0
+gemini,industrie automobile,20,4,1.0,1.0,1.0
+gemini,industrie de la construction,70,14,0.9857142857142858,1.0,0.9857142857142858
+gemini,jeu de quilles,5,1,1.0,1.0,1.0
+gemini,linge de maison,5,1,1.0,1.0,1.0
+gemini,loisir,90,18,1.0,1.0,1.0
+gemini,médecine,75,15,0.92,0.92,0.9333333333333333
+gemini,outillage,15,3,1.0,1.0,1.0
+gemini,physique,5,1,1.0,1.0,1.0
+gemini,plein air,5,1,1.0,1.0,1.0
+gemini,police,10,2,1.0,1.0,1.0
+gemini,protection de l'environnement,5,1,1.0,1.0,1.0
+gemini,restauration,5,1,1.0,1.0,1.0
+gemini,route,40,8,1.0,1.0,1.0
+gemini,services municipaux,5,1,1.0,1.0,1.0
+gemini,sociologie,5,1,1.0,1.0,1.0
+gemini,sport,120,24,0.9916666666666667,0.9916666666666667,1.0
+gemini,temps libre,5,1,1.0,1.0,1.0
+gemini,tourisme,5,1,1.0,1.0,1.0
+gemini,transport,10,2,0.8,1.0,0.8
+gemini,travail,5,1,0.0,0.2,0.2
+gemini,télécommunication,65,13,1.0,1.0,1.0
+gemini,zoologie,80,16,0.8125,0.8375,0.8125
+gemini,économie,15,3,1.0,1.0,1.0
+gemini,éducation,40,8,1.0,1.0,1.0
+gemini,élection,10,2,1.0,1.0,1.0
+gemini,équipement ménager,5,1,1.0,1.0,1.0
+claude,administration,5,1,1.0,1.0,1.0
+claude,administration publique,45,9,0.8666666666666667,0.8888888888888888,0.9333333333333333
+claude,agriculture,5,1,0.0,1.0,0.0
+claude,alimentation,90,18,0.7444444444444445,0.8333333333333334,0.8222222222222222
+claude,aménagement extérieur,5,1,1.0,1.0,1.0
+claude,assurance,5,1,1.0,1.0,1.0
+claude,bijouterie,15,3,0.0,0.0,0.0
+claude,botanique,55,11,0.6363636363636364,0.8181818181818182,0.7272727272727273
+claude,bureau,20,4,0.55,0.75,0.75
+claude,chemin de fer,5,1,1.0,1.0,1.0
+claude,circulation,5,1,1.0,1.0,1.0
+claude,commerce,25,5,1.0,1.0,1.0
+claude,comptabilité,40,8,0.675,1.0,0.675
+claude,cosmétologie,5,1,1.0,1.0,1.0
+claude,droit,20,4,0.65,1.0,0.65
+claude,eau,15,3,0.8,1.0,0.8
+claude,emballage et conditionnement,15,3,1.0,1.0,1.0
+claude,entreprise,35,7,0.5428571428571428,0.8571428571428571,0.5428571428571428
+claude,finance,25,5,0.72,0.8,0.92
+claude,gestion,15,3,0.6666666666666666,0.6666666666666666,1.0
+claude,génie climatique,5,1,1.0,1.0,1.0
+claude,habillement,10,2,1.0,1.0,1.0
+claude,habitation,10,2,1.0,1.0,1.0
+claude,immobilier,5,1,1.0,1.0,1.0
+claude,incendie,5,1,0.0,0.0,0.0
+claude,industrie automobile,20,4,1.0,1.0,1.0
+claude,industrie de la construction,70,14,0.7428571428571429,0.7714285714285715,0.8714285714285714
+claude,jeu de quilles,5,1,1.0,1.0,1.0
+claude,linge de maison,5,1,1.0,1.0,1.0
+claude,loisir,90,18,1.0,1.0,1.0
+claude,médecine,75,15,0.8,0.8666666666666667,0.8666666666666667
+claude,outillage,15,3,0.6666666666666666,0.6666666666666666,0.6666666666666666
+claude,physique,5,1,0.0,0.0,1.0
+claude,plein air,5,1,1.0,1.0,1.0
+claude,police,10,2,1.0,1.0,1.0
+claude,protection de l'environnement,5,1,1.0,1.0,1.0
+claude,restauration,5,1,1.0,1.0,1.0
+claude,route,40,8,0.275,0.625,0.4
+claude,services municipaux,5,1,1.0,1.0,1.0
+claude,sociologie,5,1,1.0,1.0,1.0
+claude,sport,120,24,0.7833333333333333,0.9916666666666667,0.7916666666666666
+claude,temps libre,5,1,1.0,1.0,1.0
+claude,tourisme,5,1,1.0,1.0,1.0
+claude,transport,10,2,0.5,0.5,0.5
+claude,travail,5,1,1.0,1.0,1.0
+claude,télécommunication,65,13,0.8153846153846154,1.0,0.8153846153846154
+claude,zoologie,80,16,0.675,0.75,0.7875
+claude,économie,15,3,0.6,0.6666666666666666,0.9333333333333333
+claude,éducation,40,8,0.975,0.975,1.0
+claude,élection,10,2,0.5,0.5,0.7
+claude,équipement ménager,5,1,1.0,1.0,1.0
+gpt54,administration,5,1,1.0,1.0,1.0
+gpt54,administration publique,45,9,0.9111111111111111,0.9777777777777777,0.9111111111111111
+gpt54,agriculture,5,1,0.0,0.2,0.4
+gpt54,alimentation,90,18,0.7555555555555555,0.8333333333333334,0.8444444444444444
+gpt54,aménagement extérieur,5,1,1.0,1.0,1.0
+gpt54,assurance,5,1,0.8,1.0,0.8
+gpt54,bijouterie,15,3,0.0,0.06666666666666667,0.2
+gpt54,botanique,55,11,0.6363636363636364,0.6545454545454545,0.6727272727272727
+gpt54,bureau,20,4,0.45,0.6,0.45
+gpt54,chemin de fer,5,1,0.6,0.6,1.0
+gpt54,circulation,5,1,0.0,0.4,0.4
+gpt54,commerce,25,5,0.64,0.68,0.84
+gpt54,comptabilité,40,8,0.55,0.6,0.6
+gpt54,cosmétologie,5,1,0.8,0.8,1.0
+gpt54,droit,20,4,0.25,0.35,0.4
+gpt54,eau,15,3,0.26666666666666666,0.5333333333333333,0.4
+gpt54,emballage et conditionnement,15,3,0.6666666666666666,0.8666666666666667,0.8
+gpt54,entreprise,35,7,0.6857142857142857,0.9142857142857143,0.7142857142857143
+gpt54,finance,25,5,0.6,0.8,0.8
+gpt54,gestion,15,3,0.6,0.7333333333333333,0.6
+gpt54,génie climatique,5,1,1.0,1.0,1.0
+gpt54,habillement,10,2,1.0,1.0,1.0
+gpt54,habitation,10,2,0.9,0.9,1.0
+gpt54,immobilier,5,1,1.0,1.0,1.0
+gpt54,incendie,5,1,0.0,0.0,0.0
+gpt54,industrie automobile,20,4,0.95,0.95,0.95
+gpt54,industrie de la construction,70,14,0.5714285714285714,0.6571428571428571,0.7285714285714285
+gpt54,jeu de quilles,5,1,0.0,0.4,0.2
+gpt54,linge de maison,5,1,0.6,0.8,0.8
+gpt54,loisir,90,18,0.8222222222222222,0.8666666666666667,0.8444444444444444
+gpt54,médecine,75,15,0.76,0.8933333333333333,0.84
+gpt54,outillage,15,3,0.5333333333333333,0.6,0.6
+gpt54,physique,5,1,0.2,0.6,0.6
+gpt54,plein air,5,1,1.0,1.0,1.0
+gpt54,police,10,2,1.0,1.0,1.0
+gpt54,protection de l'environnement,5,1,1.0,1.0,1.0
+gpt54,restauration,5,1,1.0,1.0,1.0
+gpt54,route,40,8,0.425,0.625,0.7
+gpt54,services municipaux,5,1,1.0,1.0,1.0
+gpt54,sociologie,5,1,1.0,1.0,1.0
+gpt54,sport,120,24,0.725,0.7833333333333333,0.7833333333333333
+gpt54,temps libre,5,1,1.0,1.0,1.0
+gpt54,tourisme,5,1,1.0,1.0,1.0
+gpt54,transport,10,2,0.7,0.9,0.8
+gpt54,travail,5,1,0.2,0.2,0.6
+gpt54,télécommunication,65,13,0.5384615384615384,0.6307692307692307,0.6307692307692307
+gpt54,zoologie,80,16,0.5375,0.7,0.6875
+gpt54,économie,15,3,0.9333333333333333,0.9333333333333333,1.0
+gpt54,éducation,40,8,0.9,0.95,0.95
+gpt54,élection,10,2,0.2,0.6,0.6
+gpt54,équipement ménager,5,1,1.0,1.0,1.0
+gemma4_12b_it,administration,5,1,0.0,0.2,0.0
+gemma4_12b_it,administration publique,45,9,0.6,0.6444444444444445,0.7333333333333333
+gemma4_12b_it,agriculture,5,1,0.0,0.0,0.0
+gemma4_12b_it,alimentation,90,18,0.5666666666666667,0.7111111111111111,0.6333333333333333
+gemma4_12b_it,aménagement extérieur,5,1,1.0,1.0,1.0
+gemma4_12b_it,assurance,5,1,0.4,0.8,0.4
+gemma4_12b_it,bijouterie,15,3,0.06666666666666667,0.2,0.4666666666666667
+gemma4_12b_it,botanique,55,11,0.6181818181818182,0.6545454545454545,0.7454545454545455
+gemma4_12b_it,bureau,20,4,0.2,0.55,0.3
+gemma4_12b_it,chemin de fer,5,1,0.4,0.6,0.8
+gemma4_12b_it,circulation,5,1,0.2,0.4,0.8
+gemma4_12b_it,commerce,25,5,0.32,0.4,0.6
+gemma4_12b_it,comptabilité,40,8,0.275,0.4,0.275
+gemma4_12b_it,cosmétologie,5,1,0.6,1.0,0.6
+gemma4_12b_it,droit,20,4,0.25,0.3,0.4
+gemma4_12b_it,eau,15,3,0.3333333333333333,0.6666666666666666,0.6666666666666666
+gemma4_12b_it,emballage et conditionnement,15,3,1.0,1.0,1.0
+gemma4_12b_it,entreprise,35,7,0.45714285714285713,0.6285714285714286,0.5714285714285714
+gemma4_12b_it,finance,25,5,0.12,0.28,0.16
+gemma4_12b_it,gestion,15,3,0.4,0.5333333333333333,0.4666666666666667
+gemma4_12b_it,génie climatique,5,1,1.0,1.0,1.0
+gemma4_12b_it,habillement,10,2,1.0,1.0,1.0
+gemma4_12b_it,habitation,10,2,0.5,0.5,0.5
+gemma4_12b_it,immobilier,5,1,1.0,1.0,1.0
+gemma4_12b_it,incendie,5,1,0.0,0.0,0.0
+gemma4_12b_it,industrie automobile,20,4,0.65,0.85,0.8
+gemma4_12b_it,industrie de la construction,70,14,0.5571428571428572,0.7428571428571429,0.6857142857142857
+gemma4_12b_it,jeu de quilles,5,1,1.0,1.0,1.0
+gemma4_12b_it,linge de maison,5,1,0.0,0.2,0.2
+gemma4_12b_it,loisir,90,18,0.6666666666666666,0.7222222222222222,0.7888888888888889
+gemma4_12b_it,médecine,75,15,0.44,0.5466666666666666,0.6266666666666667
+gemma4_12b_it,outillage,15,3,0.3333333333333333,0.6666666666666666,0.4
+gemma4_12b_it,physique,5,1,0.0,0.2,0.2
+gemma4_12b_it,plein air,5,1,0.8,0.8,1.0
+gemma4_12b_it,police,10,2,0.6,0.6,0.8
+gemma4_12b_it,protection de l'environnement,5,1,1.0,1.0,1.0
+gemma4_12b_it,restauration,5,1,1.0,1.0,1.0
+gemma4_12b_it,route,40,8,0.1,0.4,0.475
+gemma4_12b_it,services municipaux,5,1,0.0,0.0,0.2
+gemma4_12b_it,sociologie,5,1,0.8,1.0,0.8
+gemma4_12b_it,sport,120,24,0.6166666666666667,0.6666666666666666,0.65
+gemma4_12b_it,temps libre,5,1,1.0,1.0,1.0
+gemma4_12b_it,tourisme,5,1,1.0,1.0,1.0
+gemma4_12b_it,transport,10,2,0.5,0.8,0.6
+gemma4_12b_it,travail,5,1,0.0,0.0,0.0
+gemma4_12b_it,télécommunication,65,13,0.27692307692307694,0.4461538461538462,0.36923076923076925
+gemma4_12b_it,zoologie,80,16,0.4125,0.55,0.575
+gemma4_12b_it,économie,15,3,0.26666666666666666,0.4666666666666667,0.7333333333333333
+gemma4_12b_it,éducation,40,8,0.675,0.8,0.775
+gemma4_12b_it,élection,10,2,0.0,0.0,0.1
+gemma4_12b_it,équipement ménager,5,1,1.0,1.0,1.0
+mistral_nemo_12b,administration,5,1,0.0,0.6,0.4
+mistral_nemo_12b,administration publique,45,9,0.022222222222222223,0.4222222222222222,0.5777777777777777
+mistral_nemo_12b,agriculture,5,1,0.0,0.6,0.4
+mistral_nemo_12b,alimentation,90,18,0.26666666666666666,0.6555555555555556,0.6
+mistral_nemo_12b,aménagement extérieur,5,1,0.0,0.4,0.6
+mistral_nemo_12b,assurance,5,1,0.0,0.4,0.2
+mistral_nemo_12b,bijouterie,15,3,0.0,0.6,0.4
+mistral_nemo_12b,botanique,55,11,0.2909090909090909,0.6181818181818182,0.5818181818181818
+mistral_nemo_12b,bureau,20,4,0.0,0.65,0.2
+mistral_nemo_12b,chemin de fer,5,1,0.6,0.8,0.8
+mistral_nemo_12b,circulation,5,1,0.0,0.4,0.6
+mistral_nemo_12b,commerce,25,5,0.2,0.64,0.44
+mistral_nemo_12b,comptabilité,40,8,0.075,0.575,0.5
+mistral_nemo_12b,cosmétologie,5,1,0.0,0.6,0.4
+mistral_nemo_12b,droit,20,4,0.0,0.4,0.5
+mistral_nemo_12b,eau,15,3,0.0,0.5333333333333333,0.4
+mistral_nemo_12b,emballage et conditionnement,15,3,0.4,0.6666666666666666,0.7333333333333333
+mistral_nemo_12b,entreprise,35,7,0.02857142857142857,0.5142857142857142,0.5142857142857142
+mistral_nemo_12b,finance,25,5,0.12,0.72,0.4
+mistral_nemo_12b,gestion,15,3,0.0,0.4,0.4666666666666667
+mistral_nemo_12b,génie climatique,5,1,0.0,0.2,0.8
+mistral_nemo_12b,habillement,10,2,0.1,0.6,0.5
+mistral_nemo_12b,habitation,10,2,0.3,0.8,0.5
+mistral_nemo_12b,immobilier,5,1,0.2,0.6,0.6
+mistral_nemo_12b,incendie,5,1,0.0,0.8,0.0
+mistral_nemo_12b,industrie automobile,20,4,0.3,0.65,0.65
+mistral_nemo_12b,industrie de la construction,70,14,0.08571428571428572,0.5285714285714286,0.5
+mistral_nemo_12b,jeu de quilles,5,1,0.0,0.6,0.4
+mistral_nemo_12b,linge de maison,5,1,0.0,0.0,0.2
+mistral_nemo_12b,loisir,90,18,0.06666666666666667,0.4666666666666667,0.5888888888888889
+mistral_nemo_12b,médecine,75,15,0.013333333333333334,0.4266666666666667,0.56
+mistral_nemo_12b,outillage,15,3,0.06666666666666667,0.6666666666666666,0.4
+mistral_nemo_12b,physique,5,1,0.0,0.2,0.8
+mistral_nemo_12b,plein air,5,1,0.0,0.8,0.2
+mistral_nemo_12b,police,10,2,0.0,0.5,0.5
+mistral_nemo_12b,protection de l'environnement,5,1,0.2,0.2,1.0
+mistral_nemo_12b,restauration,5,1,0.6,0.8,0.8
+mistral_nemo_12b,route,40,8,0.0,0.55,0.45
+mistral_nemo_12b,services municipaux,5,1,0.2,0.6,0.6
+mistral_nemo_12b,sociologie,5,1,0.6,0.8,0.8
+mistral_nemo_12b,sport,120,24,0.075,0.48333333333333334,0.5083333333333333
+mistral_nemo_12b,temps libre,5,1,0.6,0.8,0.8
+mistral_nemo_12b,tourisme,5,1,0.0,0.2,0.8
+mistral_nemo_12b,transport,10,2,0.5,0.8,0.7
+mistral_nemo_12b,travail,5,1,0.0,0.6,0.4
+mistral_nemo_12b,télécommunication,65,13,0.0,0.4461538461538462,0.5076923076923077
+mistral_nemo_12b,zoologie,80,16,0.175,0.5375,0.575
+mistral_nemo_12b,économie,15,3,0.0,0.4,0.6
+mistral_nemo_12b,éducation,40,8,0.35,0.55,0.675
+mistral_nemo_12b,élection,10,2,0.0,0.4,0.6
+mistral_nemo_12b,équipement ménager,5,1,0.4,0.8,0.6
+qwen3_8b,administration,5,1,0.0,0.6,0.4
+qwen3_8b,administration publique,45,9,0.06666666666666667,0.4222222222222222,0.5555555555555556
+qwen3_8b,agriculture,5,1,0.0,0.4,0.4
+qwen3_8b,alimentation,90,18,0.06666666666666667,0.4888888888888889,0.4444444444444444
+qwen3_8b,aménagement extérieur,5,1,0.0,0.4,0.6
+qwen3_8b,assurance,5,1,0.0,0.6,0.4
+qwen3_8b,bijouterie,15,3,0.0,0.6,0.4
+qwen3_8b,botanique,55,11,0.01818181818181818,0.5272727272727272,0.32727272727272727
+qwen3_8b,bureau,20,4,0.0,0.6,0.35
+qwen3_8b,chemin de fer,5,1,0.0,0.4,0.6
+qwen3_8b,circulation,5,1,0.0,0.4,0.6
+qwen3_8b,commerce,25,5,0.0,0.4,0.44
+qwen3_8b,comptabilité,40,8,0.025,0.55,0.475
+qwen3_8b,cosmétologie,5,1,0.4,0.6,0.8
+qwen3_8b,droit,20,4,0.1,0.55,0.4
+qwen3_8b,eau,15,3,0.06666666666666667,0.5333333333333333,0.4666666666666667
+qwen3_8b,emballage et conditionnement,15,3,0.26666666666666666,0.7333333333333333,0.5333333333333333
+qwen3_8b,entreprise,35,7,0.14285714285714285,0.5428571428571428,0.45714285714285713
+qwen3_8b,finance,25,5,0.0,0.32,0.24
+qwen3_8b,gestion,15,3,0.06666666666666667,0.4666666666666667,0.6
+qwen3_8b,génie climatique,5,1,0.0,0.2,0.8
+qwen3_8b,habillement,10,2,0.0,0.6,0.4
+qwen3_8b,habitation,10,2,0.0,0.6,0.4
+qwen3_8b,immobilier,5,1,0.0,0.6,0.4
+qwen3_8b,incendie,5,1,0.0,0.8,0.2
+qwen3_8b,industrie automobile,20,4,0.0,0.5,0.45
+qwen3_8b,industrie de la construction,70,14,0.0,0.4857142857142857,0.5142857142857142
+qwen3_8b,jeu de quilles,5,1,0.0,0.6,0.4
+qwen3_8b,linge de maison,5,1,0.0,0.2,0.8
+qwen3_8b,loisir,90,18,0.044444444444444446,0.4444444444444444,0.5666666666666667
+qwen3_8b,médecine,75,15,0.04,0.4266666666666667,0.49333333333333335
+qwen3_8b,outillage,15,3,0.13333333333333333,0.7333333333333333,0.4
+qwen3_8b,physique,5,1,0.0,0.2,0.6
+qwen3_8b,plein air,5,1,0.0,0.6,0.2
+qwen3_8b,police,10,2,0.1,0.5,0.6
+qwen3_8b,protection de l'environnement,5,1,0.2,0.4,0.4
+qwen3_8b,restauration,5,1,0.2,0.4,0.8
+qwen3_8b,route,40,8,0.0,0.525,0.45
+qwen3_8b,services municipaux,5,1,0.0,0.6,0.4
+qwen3_8b,sociologie,5,1,0.0,0.4,0.4
+qwen3_8b,sport,120,24,0.14166666666666666,0.525,0.5416666666666666
+qwen3_8b,temps libre,5,1,0.2,0.4,0.8
+qwen3_8b,tourisme,5,1,0.0,0.2,0.6
+qwen3_8b,transport,10,2,0.3,0.6,0.7
+qwen3_8b,travail,5,1,0.0,0.6,0.4
+qwen3_8b,télécommunication,65,13,0.015384615384615385,0.35384615384615387,0.3384615384615385
+qwen3_8b,zoologie,80,16,0.1375,0.5125,0.3625
+qwen3_8b,économie,15,3,0.0,0.13333333333333333,0.3333333333333333
+qwen3_8b,éducation,40,8,0.175,0.525,0.5
+qwen3_8b,élection,10,2,0.0,0.4,0.6
+qwen3_8b,équipement ménager,5,1,0.2,0.8,0.4
+aya_expanse_8b,administration,5,1,0.0,0.4,0.4
+aya_expanse_8b,administration publique,45,9,0.0,0.4,0.5777777777777777
+aya_expanse_8b,agriculture,5,1,0.0,0.4,0.4
+aya_expanse_8b,alimentation,90,18,0.16666666666666666,0.5,0.5666666666666667
+aya_expanse_8b,aménagement extérieur,5,1,0.2,0.4,0.8
+aya_expanse_8b,assurance,5,1,0.0,0.2,0.4
+aya_expanse_8b,bijouterie,15,3,0.06666666666666667,0.6,0.4666666666666667
+aya_expanse_8b,botanique,55,11,0.14545454545454545,0.5818181818181818,0.509090909090909
+aya_expanse_8b,bureau,20,4,0.0,0.65,0.3
+aya_expanse_8b,chemin de fer,5,1,0.2,0.4,0.6
+aya_expanse_8b,circulation,5,1,0.6,0.6,0.8
+aya_expanse_8b,commerce,25,5,0.0,0.4,0.48
+aya_expanse_8b,comptabilité,40,8,0.275,0.575,0.6
+aya_expanse_8b,cosmétologie,5,1,0.2,0.6,0.6
+aya_expanse_8b,droit,20,4,0.0,0.5,0.5
+aya_expanse_8b,eau,15,3,0.06666666666666667,0.5333333333333333,0.5333333333333333
+aya_expanse_8b,emballage et conditionnement,15,3,0.0,0.6,0.4
+aya_expanse_8b,entreprise,35,7,0.02857142857142857,0.4857142857142857,0.42857142857142855
+aya_expanse_8b,finance,25,5,0.0,0.32,0.2
+aya_expanse_8b,gestion,15,3,0.0,0.13333333333333333,0.13333333333333333
+aya_expanse_8b,génie climatique,5,1,0.0,0.2,0.8
+aya_expanse_8b,habillement,10,2,0.0,0.6,0.1
+aya_expanse_8b,habitation,10,2,0.1,0.5,0.5
+aya_expanse_8b,immobilier,5,1,0.0,0.6,0.4
+aya_expanse_8b,incendie,5,1,0.0,0.2,0.0
+aya_expanse_8b,industrie automobile,20,4,0.05,0.5,0.45
+aya_expanse_8b,industrie de la construction,70,14,0.014285714285714285,0.4,0.45714285714285713
+aya_expanse_8b,jeu de quilles,5,1,0.0,0.6,0.4
+aya_expanse_8b,linge de maison,5,1,0.2,0.4,0.6
+aya_expanse_8b,loisir,90,18,0.022222222222222223,0.3333333333333333,0.4777777777777778
+aya_expanse_8b,médecine,75,15,0.06666666666666667,0.4,0.5066666666666667
+aya_expanse_8b,outillage,15,3,0.06666666666666667,0.3333333333333333,0.3333333333333333
+aya_expanse_8b,physique,5,1,0.0,0.2,0.2
+aya_expanse_8b,plein air,5,1,0.0,0.4,0.0
+aya_expanse_8b,police,10,2,0.0,0.5,0.5
+aya_expanse_8b,protection de l'environnement,5,1,0.2,0.2,1.0
+aya_expanse_8b,restauration,5,1,0.0,0.2,0.8
+aya_expanse_8b,route,40,8,0.05,0.475,0.4
+aya_expanse_8b,services municipaux,5,1,0.0,0.4,0.4
+aya_expanse_8b,sociologie,5,1,0.0,0.6,0.4
+aya_expanse_8b,sport,120,24,0.025,0.45,0.4666666666666667
+aya_expanse_8b,temps libre,5,1,0.0,0.4,0.6
+aya_expanse_8b,tourisme,5,1,0.0,0.2,0.8
+aya_expanse_8b,transport,10,2,0.2,0.6,0.5
+aya_expanse_8b,travail,5,1,0.2,0.6,0.4
+aya_expanse_8b,télécommunication,65,13,0.06153846153846154,0.4153846153846154,0.49230769230769234
+aya_expanse_8b,zoologie,80,16,0.2,0.5375,0.55
+aya_expanse_8b,économie,15,3,0.0,0.4,0.5333333333333333
+aya_expanse_8b,éducation,40,8,0.0,0.475,0.425
+aya_expanse_8b,élection,10,2,0.0,0.4,0.6
+aya_expanse_8b,équipement ménager,5,1,0.0,0.8,0.2
+llama31_8b,administration,5,1,0.0,0.0,0.0
+llama31_8b,administration publique,45,9,0.022222222222222223,0.28888888888888886,0.15555555555555556
+llama31_8b,agriculture,5,1,0.0,0.0,0.0
+llama31_8b,alimentation,90,18,0.2777777777777778,0.4222222222222222,0.5222222222222223
+llama31_8b,aménagement extérieur,5,1,0.2,0.2,0.4
+llama31_8b,assurance,5,1,0.0,0.0,0.0
+llama31_8b,bijouterie,15,3,0.4,0.7333333333333333,0.6
+llama31_8b,botanique,55,11,0.05454545454545454,0.36363636363636365,0.34545454545454546
+llama31_8b,bureau,20,4,0.4,0.7,0.7
+llama31_8b,chemin de fer,5,1,0.0,0.0,0.0
+llama31_8b,circulation,5,1,0.0,0.0,0.0
+llama31_8b,commerce,25,5,0.0,0.24,0.12
+llama31_8b,comptabilité,40,8,0.05,0.15,0.15
+llama31_8b,cosmétologie,5,1,0.6,0.6,0.8
+llama31_8b,droit,20,4,0.0,0.2,0.15
+llama31_8b,eau,15,3,0.0,0.2,0.26666666666666666
+llama31_8b,emballage et conditionnement,15,3,0.0,0.13333333333333333,0.06666666666666667
+llama31_8b,entreprise,35,7,0.14285714285714285,0.45714285714285713,0.37142857142857144
+llama31_8b,finance,25,5,0.12,0.28,0.68
+llama31_8b,gestion,15,3,0.0,0.13333333333333333,0.13333333333333333
+llama31_8b,génie climatique,5,1,1.0,1.0,1.0
+llama31_8b,habillement,10,2,0.3,0.3,0.6
+llama31_8b,habitation,10,2,0.3,0.3,0.6
+llama31_8b,immobilier,5,1,0.0,0.4,0.6
+llama31_8b,incendie,5,1,0.0,0.0,0.8
+llama31_8b,industrie automobile,20,4,0.05,0.15,0.25
+llama31_8b,industrie de la construction,70,14,0.12857142857142856,0.45714285714285713,0.34285714285714286
+llama31_8b,jeu de quilles,5,1,0.0,0.2,0.0
+llama31_8b,linge de maison,5,1,0.2,0.2,0.4
+llama31_8b,loisir,90,18,0.044444444444444446,0.24444444444444444,0.24444444444444444
+llama31_8b,médecine,75,15,0.09333333333333334,0.36,0.36
+llama31_8b,outillage,15,3,0.0,0.2,0.13333333333333333
+llama31_8b,physique,5,1,0.0,0.2,0.0
+llama31_8b,plein air,5,1,0.0,0.0,0.0
+llama31_8b,police,10,2,0.0,0.2,0.4
+llama31_8b,protection de l'environnement,5,1,0.0,0.6,0.2
+llama31_8b,restauration,5,1,0.0,0.8,0.2
+llama31_8b,route,40,8,0.025,0.1,0.1
+llama31_8b,services municipaux,5,1,0.4,0.6,0.6
+llama31_8b,sociologie,5,1,0.0,0.2,0.6
+llama31_8b,sport,120,24,0.09166666666666666,0.31666666666666665,0.2916666666666667
+llama31_8b,temps libre,5,1,0.0,0.0,0.4
+llama31_8b,tourisme,5,1,0.0,0.0,0.0
+llama31_8b,transport,10,2,0.4,0.6,0.7
+llama31_8b,travail,5,1,0.0,0.2,0.0
+llama31_8b,télécommunication,65,13,0.046153846153846156,0.3230769230769231,0.35384615384615387
+llama31_8b,zoologie,80,16,0.1,0.4375,0.45
+llama31_8b,économie,15,3,0.0,0.26666666666666666,0.06666666666666667
+llama31_8b,éducation,40,8,0.05,0.375,0.4
+llama31_8b,élection,10,2,0.0,0.0,0.2
+llama31_8b,équipement ménager,5,1,0.6,0.6,1.0

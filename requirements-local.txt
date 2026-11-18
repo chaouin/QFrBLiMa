@@ -1,0 +1,5 @@
+-r requirements.txt
+# Install PyTorch matching your CUDA runtime separately: https://pytorch.org
+transformers>=4.53
+accelerate>=1.2
+sentencepiece

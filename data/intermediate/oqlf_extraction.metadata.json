@@ -1,0 +1,29 @@
+{
+  "source_urls": {
+    "fiches": "https://www.donneesquebec.ca/recherche/dataset/1c6567bf-8995-40b9-84a4-50faabae12f4/resource/c3ce0af4-7c0f-4dd2-b53a-6dc7fb3ea5ef/download/fiches_recentes_signees_oqlf_2026-01-19.csv",
+    "official": "https://www.donneesquebec.ca/recherche/dataset/1c6567bf-8995-40b9-84a4-50faabae12f4/resource/882453c2-93c3-4204-b5ff-6d6297082ad9/download/termes_officialises_2026-01-14.csv"
+  },
+  "source_sha256": {
+    "fiches": "49a5a6ca2a42e5407c412bef19c771074b07ca2a9bff03dc90d2d9e2b70d3321",
+    "official": "1e13a1b91dca7e06be3be28fd32af099ab2793f505a9767bb7a84a24c30e8130"
+  },
+  "counts": {
+    "fiches_rows": 53899,
+    "official_rows": 1471,
+    "all_french_terms": 106578,
+    "all_same_entry_candidate_pairs": 100606,
+    "official_term_rows": 1549,
+    "evidence_counts": {
+      "explicit_QC_vs_EU": 384,
+      "QC_with_unlabelled_term": 1928,
+      "EU_with_unlabelled_term": 1182,
+      "other_same_entry_pair": 97112
+    },
+    "benchmark_coverage": {
+      "both_terms_in_same_CSV_entry": 236,
+      "one_term_present_in_CSV": 5
+    }
+  },
+  "methodology": "Full same-entry inventory; NO FI/FQ inference for unlabelled terms; manual curation required.",
+  "note": "Live GDT pages may differ from the 2026-01-19 archive and are kept separate."
+}

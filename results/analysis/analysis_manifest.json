@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "benchmark_sha256": "7cff81d508ba129854f6f7c1a4312ec5834b93e7867bf609e005be48bb9efe6e",
+  "models": [
+    "gemini",
+    "claude",
+    "gpt54",
+    "gemma4_12b_it",
+    "mistral_nemo_12b",
+    "qwen3_8b",
+    "aya_expanse_8b",
+    "llama31_8b"
+  ],
+  "n_pairs": 1205,
+  "n_markers": 241,
+  "n_models": 8,
+  "n_pairs_robust_for_none": 27,
+  "n_pairs_robust_for_all": 0,
+  "statistical_unit": "feature_id (241 marker clusters)",
+  "domain_assignment": "first semicolon-separated domain; before >",
+  "interpretation": "McNemar original vs inverted and FQ A vs B are distinct tests; domain analysis descriptive"
+}

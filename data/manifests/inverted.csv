@@ -1,0 +1,1206 @@
+pair_id,feature_id,judgment_id,candidate_a,candidate_b,true_fq_position,original_judgment_id
+OQLF_148_P03,OQLF_148,P00001,Les participants pratiquent le canoë-camping près du lac.,Les participants pratiquent le canot-camping près du lac.,B,J00738
+OQLF_158_P02,OQLF_158,P00002,Le comptable amortit la prime d'émission sur la durée des obligations émises sous le pair.,Le comptable amortit l'escompte d'émission d'obligations sur la durée des obligations émises sous le pair.,B,J00787
+OQLF_101_P05,OQLF_101,P00003,Les clients se rendent dans ce magasin à rayons multiples le samedi.,Les clients se rendent dans ce magasin à rayons le samedi.,B,J00505
+OQLF_148_P04,OQLF_148,P00004,Le guide explique les règles du canot-camping.,Le guide explique les règles du canoë-camping.,A,J00739
+OQLF_167_P05,OQLF_167,P00005,Les états financiers présentent les charges et produits sur exercices antérieurs séparément.,Les états financiers présentent les redressements affectés aux exercices antérieurs séparément.,B,J00835
+OQLF_123_P05,OQLF_123,P00006,Le rapport décrit les responsabilités du poste de chirurgien stomatologiste.,Le rapport décrit les responsabilités du poste de chirurgien buccal et maxillofacial.,B,J00615
+OQLF_094_P02,OQLF_094,P00007,Les scientifiques ont observé le kakawi au cours de leur étude.,Les scientifiques ont observé la harelde boréale au cours de leur étude.,A,J00467
+OQLF_207_P01,OQLF_207,P00008,Le glacier a installé une machine à glace italienne dans son commerce.,Le glacier a installé une machine à crème glacée molle dans son commerce.,B,J01031
+OQLF_241_P04,OQLF_241,P00009,Nous avons vérifié les attaches de la coquille.,Nous avons vérifié les attaches de la coque pour bébé.,A,J01204
+OQLF_044_P01,OQLF_044,P00010,Nous envisageons de louer une minifourgonnette pour les vacances.,Nous envisageons de louer un monospace pour les vacances.,A,J00216
+OQLF_072_P05,OQLF_072,P00011,L'équipe attend l'arrivée du cureur d'égout avant de commencer.,L'équipe attend l'arrivée de l'hydrocureur avant de commencer.,A,J00360
+OQLF_208_P04,OQLF_208,P00012,Elle prépare le déjeuner pour ses enfants.,Elle prépare le dîner pour ses enfants.,B,J01039
+OQLF_070_P04,OQLF_070,P00013,La municipalité a acheté un nouveau camion hydrocureur.,La municipalité a acheté un nouveau camion écureur d'égout.,B,J00349
+OQLF_017_P01,OQLF_017,P00014,Les enfants regardent la télévision dans le living.,Les enfants regardent la télévision dans le vivoir.,B,J00081
+OQLF_193_P02,OQLF_193,P00015,Elle utilise une eau dentifrice après le brossage.,Elle utilise un rince-bouche après le brossage.,B,J00962
+OQLF_184_P03,OQLF_184,P00016,L'entreprise souhaite engager un commissaire aux comptes indépendant.,L'entreprise souhaite engager un vérificateur légal indépendant.,B,J00918
+OQLF_070_P05,OQLF_070,P00017,L'équipe attend l'arrivée du camion hydrocureur avant de commencer.,L'équipe attend l'arrivée du camion écureur d'égout avant de commencer.,B,J00350
+OQLF_194_P04,OQLF_194,P00018,Son bâton s'est cassé pendant la rencontre.,Sa batte de base-ball s'est cassée pendant la rencontre.,A,J00969
+OQLF_029_P05,OQLF_029,P00019,Le vent a déplacé la tonnelle pendant la nuit.,Le vent a déplacé l'abri-soleil pendant la nuit.,B,J00145
+OQLF_202_P05,OQLF_202,P00020,Le plombier inspecte le plan de travail avant les travaux.,Le plombier inspecte le comptoir de salle de bains avant les travaux.,B,J01010
+OQLF_139_P05,OQLF_139,P00021,Le rapport décrit les responsabilités du poste d'ingénieur agronome.,Le rapport décrit les responsabilités du poste d'agronome.,B,J00695
+OQLF_075_P04,OQLF_075,P00022,Elle utilise la dégrafeuse pour séparer les feuilles.,Elle utilise l'arrache-agrafes pour séparer les feuilles.,A,J00374
+OQLF_115_P03,OQLF_115,P00023,Nous irons à l'écocentre samedi.,Nous irons à la déchèterie samedi.,A,J00573
+OQLF_071_P01,OQLF_071,P00024,La ville a envoyé un écureur d'égout pour nettoyer la conduite.,La ville a envoyé un hydrocureur pour nettoyer la conduite.,A,J00351
+OQLF_125_P01,OQLF_125,P00025,L'opérateur propose un appel à frais virés pour joindre la famille.,L'opérateur propose une communication en PCV pour joindre la famille.,A,J00621
+OQLF_173_P01,OQLF_173,P00026,Il prépare sa déclaration d'impôt sur le revenu.,Il prépare sa déclaration d'impôt des particuliers.,B,J00861
+OQLF_124_P05,OQLF_124,P00027,Le rapport décrit les responsabilités du poste de chirurgienne buccale et maxillofaciale.,Le rapport décrit les responsabilités du poste de chirurgien stomatologiste.,A,J00620
+OQLF_162_P05,OQLF_162,P00028,Le chantier comprend la pose d'un atténuateur de choc non redirectionnel de sécurité.,Le chantier comprend la pose d'un atténuateur d'impact non redirectionnel de sécurité.,B,J00810
+OQLF_235_P03,OQLF_235,P00029,Une personne exerçant le métier de coordonnateur de direction a été consultée.,Une personne exerçant le métier de coordinateur de direction a été consultée.,A,J01173
+OQLF_140_P02,OQLF_140,P00030,Nous avons partagé un gâteau aux fruits au dessert.,Nous avons partagé un cake au dessert.,A,J00697
+OQLF_074_P02,OQLF_074,P00031,La dégrafeuse est rangée dans le tiroir du bureau.,Le dégrafeur est rangé dans le tiroir du bureau.,A,J00367
+OQLF_213_P05,OQLF_213,P00032,Les enfants aiment la préparation de fruits au déjeuner.,Les enfants aiment la tartinade de fruits au déjeuner.,B,J01065
+OQLF_082_P04,OQLF_082,P00033,Ils ont choisi du stuc pour la finition.,Ils ont choisi de l'enduit chaux-ciment pour la finition.,A,J00409
+OQLF_150_P02,OQLF_150,P00034,Le directeur a rencontré un éducateur en services de garde lors de l'entrevue.,Le directeur a rencontré un éducateur de jeunes enfants lors de l'entrevue.,A,J00747
+OQLF_104_P03,OQLF_104,P00035,La glissoire d'hiver sera ouverte pendant les vacances.,La piste de glisse sera ouverte pendant les vacances.,A,J00518
+OQLF_159_P01,OQLF_159,P00036,L'entreprise a vendu ses obligations à 97 % de leur valeur nominale et inscrit une prime d'émission de 3 %.,L'entreprise a vendu ses obligations à 97 % de leur valeur nominale et inscrit un escompte à l'émission d'obligations de 3 %.,B,J00791
+OQLF_126_P03,OQLF_126,P00037,Cet appel en PCV transfère les frais au destinataire.,Cet appel à frais virés transfère les frais au destinataire.,B,J00628
+OQLF_218_P02,OQLF_218,P00038,Le tabac ferme à dix-huit heures.,La tabagie ferme à dix-huit heures.,B,J01087
+OQLF_193_P05,OQLF_193,P00039,L'étiquette de l'eau dentifrice présente ses ingrédients.,L'étiquette du rince-bouche présente ses ingrédients.,B,J00965
+OQLF_070_P02,OQLF_070,P00040,Un camion hydrocureur travaille sur cette rue aujourd'hui.,Un camion écureur d'égout travaille sur cette rue aujourd'hui.,B,J00347
+OQLF_039_P03,OQLF_039,P00041,Les panneaux annoncent une déviation à la prochaine intersection.,Les panneaux annoncent un détour à la prochaine intersection.,B,J00193
+OQLF_006_P04,OQLF_006,P00042,Une copie du certificat de naissance est requise.,Une copie de l'extrait d'acte de naissance est requise.,A,J00029
+OQLF_234_P01,OQLF_234,P00043,L'organisme tient à jour le répertoire électoral unique.,L'organisme tient à jour le registre national des électeurs.,B,J01166
+OQLF_217_P02,OQLF_217,P00044,Le bureau de tabac ferme à dix-huit heures.,La tabagie ferme à dix-huit heures.,B,J01082
+OQLF_108_P03,OQLF_108,P00045,Nous avons acheté un fixe-cravate en argent.,Nous avons acheté une épingle à cravate en argent.,B,J00538
+OQLF_202_P01,OQLF_202,P00046,L'entrepreneur a remplacé le comptoir de salle de bains.,L'entrepreneur a remplacé le plan de travail.,A,J01006
+OQLF_216_P04,OQLF_216,P00047,Nous sommes passés à la tabagie ce matin.,Nous sommes passés au débit de tabac ce matin.,A,J01079
+OQLF_097_P02,OQLF_097,P00048,Les scientifiques ont observé l'achigan à petite bouche au cours de leur étude.,Les scientifiques ont observé la perche noire au cours de leur étude.,A,J00482
+OQLF_100_P04,OQLF_100,P00049,Nous avons vérifié les conditions de vente du médicament sous contrôle du pharmacien.,Nous avons vérifié les conditions de vente du médicament-conseil.,A,J00499
+OQLF_100_P05,OQLF_100,P00050,Le pharmacien explique l'usage de ce médicament-conseil.,Le pharmacien explique l'usage de ce médicament sous contrôle du pharmacien.,B,J00500
+OQLF_212_P03,OQLF_212,P00051,Nous avons acheté un pot de confiture allégée en sucres.,Nous avons acheté un pot de tartinade de fruits.,B,J01058
+OQLF_014_P04,OQLF_014,P00052,Elle a perdu une chaussure de ski.,Elle a perdu une botte de ski.,B,J00069
+OQLF_047_P03,OQLF_047,P00053,Le conducteur a réparé la fraise à neige avant la tempête.,Le conducteur a réparé la souffleuse à neige avant la tempête.,B,J00233
+OQLF_006_P01,OQLF_006,P00054,Il faut joindre un certificat de naissance au dossier.,Il faut joindre un extrait d'acte de naissance au dossier.,A,J00026
+OQLF_199_P02,OQLF_199,P00055,L'annonce indique que le poste de secrétaire de mairie est à pourvoir.,L'annonce indique que le poste de secrétaire municipal est à pourvoir.,B,J00992
+OQLF_210_P01,OQLF_210,P00056,Les élèves attendent les petites vacances avec impatience.,Les élèves attendent la relâche scolaire avec impatience.,B,J01046
+OQLF_008_P04,OQLF_008,P00057,Le vent a cassé une branche de l'épicéa.,Le vent a cassé une branche de l'épinette.,B,J00039
+OQLF_223_P05,OQLF_223,P00058,Les enfants jouent à proximité du boisé.,Les enfants jouent à proximité du boqueteau.,A,J01115
+OQLF_027_P04,OQLF_027,P00059,Je préfère magasiner le matin.,Je préfère faire du shopping le matin.,A,J00134
+OQLF_206_P04,OQLF_206,P00060,Nous avons comparé plusieurs modèles de machine à glace à l'italienne.,Nous avons comparé plusieurs modèles de machine à crème glacée molle.,B,J01029
+OQLF_137_P05,OQLF_137,P00061,Le vice-président a pris la parole pendant la réunion.,L'orateur adjoint a pris la parole pendant la réunion.,B,J00685
+OQLF_145_P03,OQLF_145,P00062,Les enfants veulent aller au bar laitier.,Les enfants veulent aller à la boutique de glaces.,A,J00723
+OQLF_190_P03,OQLF_190,P00063,Le musée conserve une illustration du fuligule à bec cerclé.,Le musée conserve une illustration du fuligule à collier.,B,J00948
+OQLF_150_P01,OQLF_150,P00064,La municipalité recrute un éducateur en services de garde pour sa halte-garderie.,La municipalité recrute un éducateur de jeunes enfants pour sa halte-garderie.,A,J00746
+OQLF_093_P01,OQLF_093,P00065,Le guide présente le kakawi parmi les espèces recensées.,Le guide présente la harelde de Miquelon parmi les espèces recensées.,A,J00461
+OQLF_206_P01,OQLF_206,P00066,Le glacier a installé une machine à crème glacée molle dans son commerce.,Le glacier a installé une machine à glace à l'italienne dans son commerce.,A,J01026
+OQLF_158_P05,OQLF_158,P00067,L'auditeur vérifie le calcul de l'escompte d'émission d'obligations de l'emprunt vendu sous le pair.,L'auditeur vérifie le calcul de la prime d'émission de l'emprunt vendu sous le pair.,A,J00790
+OQLF_179_P04,OQLF_179,P00068,Sa crosse s'est cassée pendant la rencontre.,Son bâton s'est cassé pendant la rencontre.,B,J00894
+OQLF_161_P02,OQLF_161,P00069,Les administrateurs ont approuvé le compte de résultat.,Les administrateurs ont approuvé l'état des résultats.,B,J00802
+OQLF_164_P03,OQLF_164,P00070,Un atténuateur d'impact redirectionnel protège les usagers en cas de collision.,Un atténuateur de choc redirectionnel protège les usagers en cas de collision.,A,J00818
+OQLF_154_P05,OQLF_154,P00071,Les citoyens peuvent utiliser le numéro d'appel sans frais en semaine.,Les citoyens peuvent utiliser le numéro vert en semaine.,A,J00770
+OQLF_068_P04,OQLF_068,P00072,Le rapport décrit l'habitat du huard.,Le rapport décrit l'habitat du plongeon imbrin.,A,J00339
+OQLF_159_P03,OQLF_159,P00073,La note 7 précise la prime d'émission de l'emprunt émis sous le pair.,La note 7 précise l'escompte à l'émission d'obligations de l'emprunt émis sous le pair.,B,J00793
+OQLF_161_P03,OQLF_161,P00074,Ce document accompagne l'état des résultats de l'entreprise.,Ce document accompagne le compte de résultat de l'entreprise.,A,J00803
+OQLF_106_P02,OQLF_106,P00075,Cette pince-cravate appartenait à son grand-père.,Cette épingle à cravate appartenait à son grand-père.,B,J00527
+OQLF_049_P02,OQLF_049,P00076,Le club propose une initiation au canoë d'expédition.,Le club propose une initiation au canot d'expédition.,B,J00242
+OQLF_053_P03,OQLF_053,P00077,Cette boulangerie vend un excellent pâté à la viande.,Cette boulangerie vend une excellente tourte à la viande.,A,J00263
+OQLF_055_P02,OQLF_055,P00078,Ce comptoir vend de la crème glacée molle à la vanille.,Ce comptoir vend de la crème glacée à l'italienne à la vanille.,A,J00272
+OQLF_195_P03,OQLF_195,P00079,Le magasin vend un nouveau modèle de bâton.,Le magasin vend un nouveau modèle de batte.,A,J00973
+OQLF_112_P03,OQLF_112,P00080,Les professeurs ont rencontré la présidente.,Les professeurs ont rencontré la rectrice.,B,J00558
+OQLF_046_P04,OQLF_046,P00081,Un guide travaille au centre d'interprétation de la nature depuis plusieurs années.,Un guide travaille au centre de découverte de la nature depuis plusieurs années.,A,J00229
+OQLF_061_P02,OQLF_061,P00082,Le joueur a réussi à subtiliser le palet sans commettre de faute.,Le joueur a réussi à soutirer la rondelle sans commettre de faute.,B,J00302
+OQLF_026_P05,OQLF_026,P00083,Ils doivent remplacer leur vieux lave-linge.,Ils doivent remplacer leur vieille laveuse.,B,J00130
+OQLF_109_P01,OQLF_109,P00084,Le spectacle présente un gymnaste-animateur expérimenté.,Le spectacle présente un meneur de claque expérimenté.,B,J00541
+OQLF_192_P03,OQLF_192,P00085,Une personne exerçant le métier de policier-patrouilleur a été consultée.,Une personne exerçant le métier de policier en patrouille a été consultée.,A,J00958
+OQLF_121_P04,OQLF_121,P00086,Le personnel collabore avec un clown hospitalier formé.,Le personnel collabore avec un amuseur-thérapeute formé.,B,J00604
+OQLF_225_P04,OQLF_225,P00087,Le montant de la pension de la Sécurité de la vieillesse a été révisé.,Le montant du minimum vieillesse a été révisé.,A,J01124
+OQLF_040_P01,OQLF_040,P00088,Le conseil a nommé un commissaire aux comptes pour examiner les comptes.,Le conseil a nommé un vérificateur pour examiner les comptes.,B,J00196
+OQLF_052_P03,OQLF_052,P00089,Le marché vend des pacanes grillées.,Le marché vend des pécans grillés.,A,J00258
+OQLF_136_P03,OQLF_136,P00090,Nous avons installé un virevent sur le balcon.,Nous avons installé un moulinet à vent sur le balcon.,A,J00678
+OQLF_134_P01,OQLF_134,P00091,Les enfants jouent à la touche-touche dans la cour.,Les enfants jouent à la tague dans la cour.,B,J00666
+OQLF_036_P01,OQLF_036,P00092,Nous envisageons de louer un VR pour les vacances.,Nous envisageons de louer un VDL pour les vacances.,A,J00176
+OQLF_030_P02,OQLF_030,P00093,Il essaie d'éviter le dalot à chaque lancer.,Il essaie d'éviter la rigole à chaque lancer.,A,J00147
+OQLF_129_P03,OQLF_129,P00094,Cette communication payable à l'arrivée transfère les frais au destinataire.,Cette communication en PCV transfère les frais au destinataire.,A,J00643
+OQLF_212_P02,OQLF_212,P00095,Le marché propose une tartinade de fruits aux fraises.,Le marché propose une confiture allégée en sucres aux fraises.,A,J01057
+OQLF_004_P03,OQLF_004,P00096,Nous avons traversé le lac en canoë.,Nous avons traversé le lac en canot.,B,J00018
+OQLF_054_P04,OQLF_054,P00097,Elle a servi une tourtière bien chaude.,Elle a servi une tourte à la viande bien chaude.,A,J00269
+OQLF_054_P03,OQLF_054,P00098,Cette boulangerie vend une excellente tourtière.,Cette boulangerie vend une excellente tourte à la viande.,A,J00268
+OQLF_147_P01,OQLF_147,P00099,Nous sommes passés à la boutique de glaces après la promenade.,Nous sommes passés au comptoir de crème glacée après la promenade.,B,J00731
+OQLF_225_P02,OQLF_225,P00100,Le programme prévoit un minimum vieillesse pour certains retraités.,Le programme prévoit une pension de la Sécurité de la vieillesse pour certains retraités.,B,J01122
+OQLF_001_P01,OQLF_001,P00101,J'ai terminé le casse-tête de mille pièces hier soir.,J'ai terminé le puzzle de mille pièces hier soir.,A,J00001
+OQLF_001_P02,OQLF_001,P00102,Ce casse-tête représente une carte ancienne.,Ce puzzle représente une carte ancienne.,A,J00002
+OQLF_001_P03,OQLF_001,P00103,Les enfants ont sorti le casse-tête après le souper.,Les enfants ont sorti le puzzle après le souper.,A,J00003
+OQLF_001_P04,OQLF_001,P00104,Elle lui a offert un casse-tête pour son anniversaire.,Elle lui a offert un puzzle pour son anniversaire.,A,J00004
+OQLF_001_P05,OQLF_001,P00105,Le puzzle était plus difficile que prévu.,Le casse-tête était plus difficile que prévu.,B,J00005
+OQLF_002_P01,OQLF_002,P00106,Le restaurant propose une table d'hôte le midi.,Le restaurant propose un menu à prix fixe le midi.,A,J00006
+OQLF_002_P02,OQLF_002,P00107,Nous avons choisi la table d'hôte pour le souper.,Nous avons choisi le menu à prix fixe pour le souper.,A,J00007
+OQLF_002_P03,OQLF_002,P00108,Le menu à prix fixe comprend une entrée et un dessert.,La table d'hôte comprend une entrée et un dessert.,B,J00008
+OQLF_002_P04,OQLF_002,P00109,Le serveur nous a présenté la table d'hôte.,Le serveur nous a présenté le menu à prix fixe.,A,J00009
+OQLF_002_P05,OQLF_002,P00110,Cette table d'hôte change chaque semaine.,Ce menu à prix fixe change chaque semaine.,A,J00010
+OQLF_003_P01,OQLF_003,P00111,Le navire transbordeur quitte le quai à huit heures.,Le traversier quitte le quai à huit heures.,B,J00011
+OQLF_003_P02,OQLF_003,P00112,Nous avons pris le navire transbordeur pour traverser le fleuve.,Nous avons pris le traversier pour traverser le fleuve.,B,J00012
+OQLF_003_P03,OQLF_003,P00113,Les voitures montent à bord du navire transbordeur.,Les voitures montent à bord du traversier.,B,J00013
+OQLF_003_P04,OQLF_003,P00114,Le traversier transporte aussi des passagers à pied.,Le navire transbordeur transporte aussi des passagers à pied.,A,J00014
+OQLF_003_P05,OQLF_003,P00115,Le traversier a été retardé par le vent.,Le navire transbordeur a été retardé par le vent.,A,J00015
+OQLF_004_P01,OQLF_004,P00116,Ils ont loué un canot pour l'après-midi.,Ils ont loué un canoë pour l'après-midi.,A,J00016
+OQLF_004_P02,OQLF_004,P00117,Le canoë est attaché près du quai.,Le canot est attaché près du quai.,B,J00017
+OQLF_004_P04,OQLF_004,P00118,Elle range les pagaies dans le canoë.,Elle range les pagaies dans le canot.,B,J00019
+OQLF_004_P05,OQLF_004,P00119,Le canoë peut accueillir deux personnes.,Le canot peut accueillir deux personnes.,B,J00020
+OQLF_005_P01,OQLF_005,P00120,Les vacances universitaires commencent lundi.,La relâche commence lundi.,B,J00021
+OQLF_005_P02,OQLF_005,P00121,Je vais avancer mon mémoire pendant les vacances universitaires.,Je vais avancer mon mémoire pendant la relâche.,B,J00022
+OQLF_005_P03,OQLF_005,P00122,Le campus sera plus calme durant les vacances universitaires.,Le campus sera plus calme durant la relâche.,B,J00023
+OQLF_005_P04,OQLF_005,P00123,Elle rentre chez ses parents pour la relâche.,Elle rentre chez ses parents pour les vacances universitaires.,A,J00024
+OQLF_005_P05,OQLF_005,P00124,Les activités reprennent après la relâche.,Les activités reprennent après les vacances universitaires.,A,J00025
+OQLF_006_P02,OQLF_006,P00125,Elle a demandé un nouvel extrait d'acte de naissance.,Elle a demandé un nouveau certificat de naissance.,B,J00027
+OQLF_006_P03,OQLF_006,P00126,L'extrait d'acte de naissance a été envoyé par la poste.,Le certificat de naissance a été envoyé par la poste.,B,J00028
+OQLF_006_P05,OQLF_006,P00127,Le formulaire exige un extrait d'acte de naissance récent.,Le formulaire exige un certificat de naissance récent.,B,J00030
+OQLF_007_P01,OQLF_007,P00128,Passe-moi la clé plate de douze millimètres.,Passe-moi la clé ouverte de douze millimètres.,B,J00031
+OQLF_007_P02,OQLF_007,P00129,La clé plate est dans la boîte à outils.,La clé ouverte est dans la boîte à outils.,B,J00032
+OQLF_007_P03,OQLF_007,P00130,Il a serré l'écrou avec une clé plate.,Il a serré l'écrou avec une clé ouverte.,B,J00033
+OQLF_007_P04,OQLF_007,P00131,Cette clé plate est trop grande pour le boulon.,Cette clé ouverte est trop grande pour le boulon.,B,J00034
+OQLF_007_P05,OQLF_007,P00132,Elle cherche une clé plate pour terminer la réparation.,Elle cherche une clé ouverte pour terminer la réparation.,B,J00035
+OQLF_008_P01,OQLF_008,P00133,Un grand épicéa pousse derrière la maison.,Une grande épinette pousse derrière la maison.,B,J00036
+OQLF_008_P02,OQLF_008,P00134,L'épinette conserve ses aiguilles en hiver.,L'épicéa conserve ses aiguilles en hiver.,A,J00037
+OQLF_008_P03,OQLF_008,P00135,Ils ont planté un épicéa au fond du terrain.,Ils ont planté une épinette au fond du terrain.,B,J00038
+OQLF_008_P05,OQLF_008,P00136,Cette épinette mesure près de quinze mètres.,Cet épicéa mesure près de quinze mètres.,A,J00040
+OQLF_009_P01,OQLF_009,P00137,La rondelle a frappé le poteau.,Le palet a frappé le poteau.,A,J00041
+OQLF_009_P02,OQLF_009,P00138,Il a récupéré le palet derrière le but.,Il a récupéré la rondelle derrière le but.,B,J00042
+OQLF_009_P03,OQLF_009,P00139,Le gardien a bloqué la rondelle avec son gant.,Le gardien a bloqué le palet avec son gant.,A,J00043
+OQLF_009_P04,OQLF_009,P00140,La rondelle a glissé jusqu'au centre de la patinoire.,Le palet a glissé jusqu'au centre de la patinoire.,A,J00044
+OQLF_009_P05,OQLF_009,P00141,Elle a envoyé le palet dans le coin.,Elle a envoyé la rondelle dans le coin.,B,J00045
+OQLF_010_P01,OQLF_010,P00142,La ville finance un programme de lutte contre l'itinérance.,La ville finance un programme de lutte contre le sans-abrisme.,A,J00046
+OQLF_010_P02,OQLF_010,P00143,Le rapport analyse l'évolution du sans-abrisme.,Le rapport analyse l'évolution de l'itinérance.,B,J00047
+OQLF_010_P03,OQLF_010,P00144,Une équipe travaille auprès des personnes touchées par l'itinérance.,Une équipe travaille auprès des personnes touchées par le sans-abrisme.,A,J00048
+OQLF_010_P04,OQLF_010,P00145,Les chercheurs étudient les causes du sans-abrisme.,Les chercheurs étudient les causes de l'itinérance.,B,J00049
+OQLF_010_P05,OQLF_010,P00146,Le plan municipal comprend des mesures contre le sans-abrisme.,Le plan municipal comprend des mesures contre l'itinérance.,B,J00050
+OQLF_011_P01,OQLF_011,P00147,J'ai acheté une nouvelle paire de baskets.,J'ai acheté une nouvelle paire d'espadrilles.,B,J00051
+OQLF_011_P02,OQLF_011,P00148,Ses espadrilles sont encore mouillées.,Ses baskets sont encore mouillées.,A,J00052
+OQLF_011_P03,OQLF_011,P00149,Elle porte des espadrilles pour marcher longtemps.,Elle porte des baskets pour marcher longtemps.,A,J00053
+OQLF_011_P04,OQLF_011,P00150,Il a laissé ses baskets près de la porte.,Il a laissé ses espadrilles près de la porte.,B,J00054
+OQLF_011_P05,OQLF_011,P00151,Ces espadrilles sont très confortables.,Ces baskets sont très confortables.,A,J00055
+OQLF_012_P01,OQLF_012,P00152,Il a posé son bâton de baseball contre le banc.,Il a posé sa batte de baseball contre le banc.,A,J00056
+OQLF_012_P02,OQLF_012,P00153,La batte de baseball est faite en bois.,Le bâton de baseball est fait en bois.,B,J00057
+OQLF_012_P03,OQLF_012,P00154,Elle tient la batte de baseball à deux mains.,Elle tient le bâton de baseball à deux mains.,B,J00058
+OQLF_012_P04,OQLF_012,P00155,Ce bâton de baseball est trop lourd.,Cette batte de baseball est trop lourde.,A,J00059
+OQLF_012_P05,OQLF_012,P00156,Le joueur a changé de bâton de baseball.,Le joueur a changé de batte de baseball.,A,J00060
+OQLF_013_P01,OQLF_013,P00157,Nous avons réservé un gîte touristique près du village.,Nous avons réservé une chambre d'hôte près du village.,A,J00061
+OQLF_013_P02,OQLF_013,P00158,Ce gîte touristique sert le petit-déjeuner.,Cette chambre d'hôte sert le petit-déjeuner.,A,J00062
+OQLF_013_P03,OQLF_013,P00159,Le gîte touristique accueille des voyageurs toute l'année.,La chambre d'hôte accueille des voyageurs toute l'année.,A,J00063
+OQLF_013_P04,OQLF_013,P00160,Ils cherchent une chambre d'hôte pour deux nuits.,Ils cherchent un gîte touristique pour deux nuits.,B,J00064
+OQLF_013_P05,OQLF_013,P00161,Le gîte touristique se trouve au bord du lac.,La chambre d'hôte se trouve au bord du lac.,A,J00065
+OQLF_014_P01,OQLF_014,P00162,Ma botte de ski est mal ajustée.,Ma chaussure de ski est mal ajustée.,A,J00066
+OQLF_014_P02,OQLF_014,P00163,Il serre la boucle de sa chaussure de ski.,Il serre la boucle de sa botte de ski.,B,J00067
+OQLF_014_P03,OQLF_014,P00164,Cette chaussure de ski est trop rigide.,Cette botte de ski est trop rigide.,B,J00068
+OQLF_014_P05,OQLF_014,P00165,La botte de ski doit rester bien fixée.,La chaussure de ski doit rester bien fixée.,A,J00070
+OQLF_015_P01,OQLF_015,P00166,Les enfants jouent au soccer après l'école.,Les enfants jouent au football après l'école.,A,J00071
+OQLF_015_P02,OQLF_015,P00167,Le tournoi de soccer commence samedi.,Le tournoi de football commence samedi.,A,J00072
+OQLF_015_P03,OQLF_015,P00168,Elle s'est inscrite dans un club de football.,Elle s'est inscrite dans un club de soccer.,B,J00073
+OQLF_015_P04,OQLF_015,P00169,Nous regardons un match de football ce soir.,Nous regardons un match de soccer ce soir.,B,J00074
+OQLF_015_P05,OQLF_015,P00170,Le terrain de soccer est encore mouillé.,Le terrain de football est encore mouillé.,A,J00075
+OQLF_016_P01,OQLF_016,P00171,Elle m'a remis sa carte professionnelle.,Elle m'a remis sa carte de visite professionnelle.,A,J00076
+OQLF_016_P02,OQLF_016,P00172,Son numéro figure sur sa carte de visite professionnelle.,Son numéro figure sur sa carte professionnelle.,B,J00077
+OQLF_016_P03,OQLF_016,P00173,Il a commandé une nouvelle carte professionnelle.,Il a commandé une nouvelle carte de visite professionnelle.,A,J00078
+OQLF_016_P04,OQLF_016,P00174,La carte de visite professionnelle indique son titre.,La carte professionnelle indique son titre.,B,J00079
+OQLF_016_P05,OQLF_016,P00175,J'ai rangé sa carte de visite professionnelle dans mon dossier.,J'ai rangé sa carte professionnelle dans mon dossier.,B,J00080
+OQLF_017_P02,OQLF_017,P00176,Le living donne sur le jardin.,Le vivoir donne sur le jardin.,B,J00082
+OQLF_017_P03,OQLF_017,P00177,Nous avons repeint le vivoir hier.,Nous avons repeint le living hier.,A,J00083
+OQLF_017_P04,OQLF_017,P00178,Le canapé est installé dans le vivoir.,Le canapé est installé dans le living.,A,J00084
+OQLF_017_P05,OQLF_017,P00179,Le living est la pièce la plus lumineuse.,Le vivoir est la pièce la plus lumineuse.,B,J00085
+OQLF_018_P01,OQLF_018,P00180,La tondeuse est rangée dans l'abri de jardin.,La tondeuse est rangée dans le cabanon.,B,J00086
+OQLF_018_P02,OQLF_018,P00181,Il a construit un cabanon derrière la maison.,Il a construit un abri de jardin derrière la maison.,A,J00087
+OQLF_018_P03,OQLF_018,P00182,Les vélos restent dans l'abri de jardin pendant l'hiver.,Les vélos restent dans le cabanon pendant l'hiver.,B,J00088
+OQLF_018_P04,OQLF_018,P00183,La porte du cabanon ferme mal.,La porte de l'abri de jardin ferme mal.,A,J00089
+OQLF_018_P05,OQLF_018,P00184,Nous avons vidé l'abri de jardin ce matin.,Nous avons vidé le cabanon ce matin.,B,J00090
+OQLF_019_P01,OQLF_019,P00185,Il souhaite acheter un immeuble de rapport.,Il souhaite acheter un immeuble à revenus.,B,J00091
+OQLF_019_P02,OQLF_019,P00186,Cet immeuble de rapport compte six logements.,Cet immeuble à revenus compte six logements.,B,J00092
+OQLF_019_P03,OQLF_019,P00187,La banque évalue la rentabilité de l'immeuble de rapport.,La banque évalue la rentabilité de l'immeuble à revenus.,B,J00093
+OQLF_019_P04,OQLF_019,P00188,Ils ont rénové leur immeuble à revenus.,Ils ont rénové leur immeuble de rapport.,A,J00094
+OQLF_019_P05,OQLF_019,P00189,Le prix de l'immeuble à revenus a augmenté.,Le prix de l'immeuble de rapport a augmenté.,A,J00095
+OQLF_020_P01,OQLF_020,P00190,L'examen comprend une manœuvre de stationnement en parallèle.,L'examen comprend une manœuvre de stationnement longitudinal.,A,J00096
+OQLF_020_P02,OQLF_020,P00191,Elle pratique le stationnement en parallèle avant son examen.,Elle pratique le stationnement longitudinal avant son examen.,A,J00097
+OQLF_020_P03,OQLF_020,P00192,Le stationnement longitudinal est permis sur cette rue.,Le stationnement en parallèle est permis sur cette rue.,B,J00098
+OQLF_020_P04,OQLF_020,P00193,Il maîtrise maintenant le stationnement longitudinal.,Il maîtrise maintenant le stationnement en parallèle.,B,J00099
+OQLF_020_P05,OQLF_020,P00194,La leçon porte sur le stationnement en parallèle.,La leçon porte sur le stationnement longitudinal.,A,J00100
+OQLF_021_P01,OQLF_021,P00195,Le camion de vidanges passe tôt le mardi matin.,Le camion poubelle passe tôt le mardi matin.,A,J00101
+OQLF_021_P02,OQLF_021,P00196,Le camion poubelle s'est arrêté devant la maison.,Le camion de vidanges s'est arrêté devant la maison.,B,J00102
+OQLF_021_P03,OQLF_021,P00197,On entend le camion de vidanges au bout de la rue.,On entend le camion poubelle au bout de la rue.,A,J00103
+OQLF_021_P04,OQLF_021,P00198,Le camion poubelle collecte les sacs noirs.,Le camion de vidanges collecte les sacs noirs.,B,J00104
+OQLF_021_P05,OQLF_021,P00199,Le camion poubelle a changé d'itinéraire cette semaine.,Le camion de vidanges a changé d'itinéraire cette semaine.,B,J00105
+OQLF_022_P01,OQLF_022,P00200,Je t'envoie l'argent par virement électronique.,Je t'envoie l'argent par virement instantané.,A,J00106
+OQLF_022_P02,OQLF_022,P00201,Le virement électronique est arrivé en quelques secondes.,Le virement instantané est arrivé en quelques secondes.,A,J00107
+OQLF_022_P03,OQLF_022,P00202,Elle a confirmé le virement instantané sur son téléphone.,Elle a confirmé le virement électronique sur son téléphone.,B,J00108
+OQLF_022_P04,OQLF_022,P00203,Nous avons reçu le virement instantané ce matin.,Nous avons reçu le virement électronique ce matin.,B,J00109
+OQLF_022_P05,OQLF_022,P00204,Le paiement se fera par virement électronique.,Le paiement se fera par virement instantané.,A,J00110
+OQLF_023_P01,OQLF_023,P00205,Les enfants jouent sur la glissoire.,Les enfants jouent sur le toboggan.,A,J00111
+OQLF_023_P02,OQLF_023,P00206,La glissoire est fermée pour réparation.,Le toboggan est fermé pour réparation.,A,J00112
+OQLF_023_P03,OQLF_023,P00207,Elle attend son tour en haut du toboggan.,Elle attend son tour en haut de la glissoire.,B,J00113
+OQLF_023_P04,OQLF_023,P00208,Le nouveau toboggan est installé près des balançoires.,La nouvelle glissoire est installée près des balançoires.,B,J00114
+OQLF_023_P05,OQLF_023,P00209,La pluie a rendu la glissoire très glissante.,La pluie a rendu le toboggan très glissant.,A,J00115
+OQLF_024_P01,OQLF_024,P00210,Il a mis son bonnet avant de sortir.,Il a mis sa tuque avant de sortir.,B,J00116
+OQLF_024_P02,OQLF_024,P00211,Son bonnet est resté dans la voiture.,Sa tuque est restée dans la voiture.,B,J00117
+OQLF_024_P03,OQLF_024,P00212,Elle cherche un bonnet chaud pour l'hiver.,Elle cherche une tuque chaude pour l'hiver.,B,J00118
+OQLF_024_P04,OQLF_024,P00213,La tuque bleue est posée sur la chaise.,Le bonnet bleu est posé sur la chaise.,A,J00119
+OQLF_024_P05,OQLF_024,P00214,J'ai oublié mon bonnet à la maison.,J'ai oublié ma tuque à la maison.,B,J00120
+OQLF_025_P01,OQLF_025,P00215,Nous partons à la campagne cette fin de semaine.,Nous partons à la campagne ce week-end.,A,J00121
+OQLF_025_P02,OQLF_025,P00216,Qu'est-ce que tu fais ce week-end?,Qu'est-ce que tu fais cette fin de semaine?,B,J00122
+OQLF_025_P03,OQLF_025,P00217,Le musée sera gratuit pendant la fin de semaine.,Le musée sera gratuit pendant le week-end.,A,J00123
+OQLF_025_P04,OQLF_025,P00218,Ils viennent nous voir le week-end prochain.,Ils viennent nous voir la fin de semaine prochaine.,B,J00124
+OQLF_025_P05,OQLF_025,P00219,J'ai beaucoup travaillé pendant la fin de semaine.,J'ai beaucoup travaillé pendant le week-end.,A,J00125
+OQLF_026_P01,OQLF_026,P00220,Le lave-linge est en panne depuis hier.,La laveuse est en panne depuis hier.,B,J00126
+OQLF_026_P02,OQLF_026,P00221,J'ai mis les serviettes dans le lave-linge.,J'ai mis les serviettes dans la laveuse.,B,J00127
+OQLF_026_P03,OQLF_026,P00222,Cette laveuse consomme peu d'eau.,Ce lave-linge consomme peu d'eau.,A,J00128
+OQLF_026_P04,OQLF_026,P00223,Le lave-linge termine son cycle dans dix minutes.,La laveuse termine son cycle dans dix minutes.,B,J00129
+OQLF_027_P01,OQLF_027,P00224,Nous allons magasiner cet après-midi.,Nous allons faire du shopping cet après-midi.,A,J00131
+OQLF_027_P02,OQLF_027,P00225,Elle aime magasiner avec sa sœur.,Elle aime faire du shopping avec sa sœur.,A,J00132
+OQLF_027_P03,OQLF_027,P00226,Ils sont allés faire du shopping pour les fêtes.,Ils sont allés magasiner pour les fêtes.,B,J00133
+OQLF_027_P05,OQLF_027,P00227,On peut magasiner avant le dîner.,On peut faire du shopping avant le dîner.,A,J00135
+OQLF_028_P01,OQLF_028,P00228,Mon cellulaire n'a presque plus de batterie.,Mon portable n'a presque plus de batterie.,A,J00136
+OQLF_028_P02,OQLF_028,P00229,Elle a oublié son cellulaire au bureau.,Elle a oublié son portable au bureau.,A,J00137
+OQLF_028_P03,OQLF_028,P00230,Je vais t'appeler sur ton cellulaire.,Je vais t'appeler sur ton portable.,A,J00138
+OQLF_028_P04,OQLF_028,P00231,Son cellulaire sonne depuis quelques minutes.,Son portable sonne depuis quelques minutes.,A,J00139
+OQLF_028_P05,OQLF_028,P00232,Il a changé de portable la semaine dernière.,Il a changé de cellulaire la semaine dernière.,B,J00140
+OQLF_029_P01,OQLF_029,P00233,Nous avons installé une tonnelle dans le jardin.,Nous avons installé un abri-soleil dans le jardin.,B,J00141
+OQLF_029_P02,OQLF_029,P00234,L'abri-soleil protège la table du soleil.,La tonnelle protège la table du soleil.,A,J00142
+OQLF_029_P03,OQLF_029,P00235,Ils ont décoré l'abri-soleil avec des lumières.,Ils ont décoré la tonnelle avec des lumières.,A,J00143
+OQLF_029_P04,OQLF_029,P00236,L'abri-soleil restera monté tout l'été.,La tonnelle restera montée tout l'été.,A,J00144
+OQLF_030_P01,OQLF_030,P00237,La boule est tombée dans le dalot.,La boule est tombée dans la rigole.,A,J00146
+OQLF_030_P03,OQLF_030,P00238,La rigole longe toute l'allée de quilles.,Le dalot longe toute l'allée de quilles.,B,J00148
+OQLF_030_P04,OQLF_030,P00239,Sa première boule a fini dans la rigole.,Sa première boule a fini dans le dalot.,B,J00149
+OQLF_030_P05,OQLF_030,P00240,L'enfant regarde la boule rouler dans la rigole.,L'enfant regarde la boule rouler dans le dalot.,B,J00150
+OQLF_031_P01,OQLF_031,P00241,Le guide présente la goberge parmi les espèces recensées.,Le guide présente le lieu noir parmi les espèces recensées.,A,J00151
+OQLF_031_P02,OQLF_031,P00242,Les scientifiques ont observé la goberge au cours de leur étude.,Les scientifiques ont observé le lieu noir au cours de leur étude.,A,J00152
+OQLF_031_P03,OQLF_031,P00243,Le musée conserve une illustration de la goberge.,Le musée conserve une illustration du lieu noir.,A,J00153
+OQLF_031_P04,OQLF_031,P00244,Le rapport décrit l'habitat du lieu noir.,Le rapport décrit l'habitat de la goberge.,B,J00154
+OQLF_031_P05,OQLF_031,P00245,Les visiteurs ont découvert le lieu noir dans l'exposition.,Les visiteurs ont découvert la goberge dans l'exposition.,B,J00155
+OQLF_032_P01,OQLF_032,P00246,Le guide présente le colin noir parmi les espèces recensées.,Le guide présente la goberge parmi les espèces recensées.,B,J00156
+OQLF_032_P02,OQLF_032,P00247,Les scientifiques ont observé le colin noir au cours de leur étude.,Les scientifiques ont observé la goberge au cours de leur étude.,B,J00157
+OQLF_032_P03,OQLF_032,P00248,Le musée conserve une illustration du colin noir.,Le musée conserve une illustration de la goberge.,B,J00158
+OQLF_032_P04,OQLF_032,P00249,Le rapport décrit l'habitat de la goberge.,Le rapport décrit l'habitat du colin noir.,A,J00159
+OQLF_032_P05,OQLF_032,P00250,Les visiteurs ont découvert la goberge dans l'exposition.,Les visiteurs ont découvert le colin noir dans l'exposition.,A,J00160
+OQLF_033_P01,OQLF_033,P00251,Le guide présente le balai de l'Atlantique parmi les espèces recensées.,Le guide présente la plie du Canada parmi les espèces recensées.,B,J00161
+OQLF_033_P02,OQLF_033,P00252,Les scientifiques ont observé la plie du Canada au cours de leur étude.,Les scientifiques ont observé le balai de l'Atlantique au cours de leur étude.,A,J00162
+OQLF_033_P03,OQLF_033,P00253,Le musée conserve une illustration de la plie du Canada.,Le musée conserve une illustration du balai de l'Atlantique.,A,J00163
+OQLF_033_P04,OQLF_033,P00254,Le rapport décrit l'habitat de la plie du Canada.,Le rapport décrit l'habitat du balai de l'Atlantique.,A,J00164
+OQLF_033_P05,OQLF_033,P00255,Les visiteurs ont découvert le balai de l'Atlantique dans l'exposition.,Les visiteurs ont découvert la plie du Canada dans l'exposition.,B,J00165
+OQLF_034_P01,OQLF_034,P00256,Le service cherche une personne qualifiée pour le poste de diététiste.,Le service cherche une personne qualifiée pour le poste de diététicien.,A,J00166
+OQLF_034_P02,OQLF_034,P00257,L'annonce indique que le poste de diététiste est à pourvoir.,L'annonce indique que le poste de diététicien est à pourvoir.,A,J00167
+OQLF_034_P03,OQLF_034,P00258,Une personne exerçant le métier de diététicien a été consultée.,Une personne exerçant le métier de diététiste a été consultée.,B,J00168
+OQLF_034_P04,OQLF_034,P00259,La formation prépare au métier de diététiste.,La formation prépare au métier de diététicien.,A,J00169
+OQLF_034_P05,OQLF_034,P00260,Le rapport décrit les responsabilités du poste de diététicien.,Le rapport décrit les responsabilités du poste de diététiste.,B,J00170
+OQLF_035_P01,OQLF_035,P00261,Nous envisageons de louer un véhicule récréatif pour les vacances.,Nous envisageons de louer un véhicule de loisirs pour les vacances.,A,J00171
+OQLF_035_P02,OQLF_035,P00262,Le concessionnaire propose un véhicule de loisirs d'occasion.,Le concessionnaire propose un véhicule récréatif d'occasion.,B,J00172
+OQLF_035_P03,OQLF_035,P00263,Ce véhicule de loisirs est stationné près du terrain de camping.,Ce véhicule récréatif est stationné près du terrain de camping.,B,J00173
+OQLF_035_P04,OQLF_035,P00264,Ils ont acheté un véhicule récréatif pour voyager l'été.,Ils ont acheté un véhicule de loisirs pour voyager l'été.,A,J00174
+OQLF_035_P05,OQLF_035,P00265,Le propriétaire entretient régulièrement son véhicule de loisirs.,Le propriétaire entretient régulièrement son véhicule récréatif.,B,J00175
+OQLF_036_P02,OQLF_036,P00266,Le concessionnaire propose un VDL d'occasion.,Le concessionnaire propose un VR d'occasion.,B,J00177
+OQLF_036_P03,OQLF_036,P00267,Ce VDL est stationné près du terrain de camping.,Ce VR est stationné près du terrain de camping.,B,J00178
+OQLF_036_P04,OQLF_036,P00268,Ils ont acheté un VR pour voyager l'été.,Ils ont acheté un VDL pour voyager l'été.,A,J00179
+OQLF_036_P05,OQLF_036,P00269,Le propriétaire entretient régulièrement son VDL.,Le propriétaire entretient régulièrement son VR.,B,J00180
+OQLF_037_P01,OQLF_037,P00270,Les techniciens ont installé un atténuateur d'impact le long de la route.,Les techniciens ont installé un atténuateur de choc le long de la route.,A,J00181
+OQLF_037_P02,OQLF_037,P00271,Le plan prévoit un nouvel atténuateur d'impact devant l'obstacle.,Le plan prévoit un nouvel atténuateur de choc devant l'obstacle.,A,J00182
+OQLF_037_P03,OQLF_037,P00272,Un atténuateur d'impact protège les usagers en cas de collision.,Un atténuateur de choc protège les usagers en cas de collision.,A,J00183
+OQLF_037_P04,OQLF_037,P00273,L'équipe inspecte chaque atténuateur d'impact après un accident.,L'équipe inspecte chaque atténuateur de choc après un accident.,A,J00184
+OQLF_037_P05,OQLF_037,P00274,Le chantier comprend la pose d'un atténuateur de choc de sécurité.,Le chantier comprend la pose d'un atténuateur d'impact de sécurité.,B,J00185
+OQLF_038_P01,OQLF_038,P00275,Nous avons réservé une chambre d'hôte pour la fin de semaine.,Nous avons réservé un gîte pour la fin de semaine.,B,J00186
+OQLF_038_P02,OQLF_038,P00276,La brochure recommande un gîte au centre du village.,La brochure recommande une chambre d'hôte au centre du village.,A,J00187
+OQLF_038_P03,OQLF_038,P00277,Ils cherchent un gîte près de la montagne.,Ils cherchent une chambre d'hôte près de la montagne.,A,J00188
+OQLF_038_P04,OQLF_038,P00278,Cette chambre d'hôte accueille des voyageurs toute l'année.,Ce gîte accueille des voyageurs toute l'année.,B,J00189
+OQLF_038_P05,OQLF_038,P00279,Le propriétaire a rénové son gîte avant l'été.,Le propriétaire a rénové sa chambre d'hôte avant l'été.,A,J00190
+OQLF_039_P01,OQLF_039,P00280,Les travaux imposent un détour pendant deux semaines.,Les travaux imposent une déviation pendant deux semaines.,A,J00191
+OQLF_039_P02,OQLF_039,P00281,Un détour permet de contourner le chantier.,Une déviation permet de contourner le chantier.,A,J00192
+OQLF_039_P04,OQLF_039,P00282,La municipalité a prévu une déviation pour les automobilistes.,La municipalité a prévu un détour pour les automobilistes.,B,J00194
+OQLF_039_P05,OQLF_039,P00283,Nous avons suivi le détour indiqué sur la carte.,Nous avons suivi la déviation indiquée sur la carte.,A,J00195
+OQLF_040_P02,OQLF_040,P00284,Le rapport du vérificateur sera publié demain.,Le rapport du commissaire aux comptes sera publié demain.,A,J00197
+OQLF_040_P03,OQLF_040,P00285,L'entreprise souhaite engager un vérificateur indépendant.,L'entreprise souhaite engager un commissaire aux comptes indépendant.,A,J00198
+OQLF_040_P04,OQLF_040,P00286,Le vérificateur vérifie les documents financiers.,Le commissaire aux comptes vérifie les documents financiers.,A,J00199
+OQLF_040_P05,OQLF_040,P00287,La direction attend l'avis du vérificateur.,La direction attend l'avis du commissaire aux comptes.,A,J00200
+OQLF_041_P01,OQLF_041,P00288,Le service cherche une personne qualifiée pour le poste de médecin rééducateur.,Le service cherche une personne qualifiée pour le poste de physiatre.,B,J00201
+OQLF_041_P02,OQLF_041,P00289,L'annonce indique que le poste de physiatre est à pourvoir.,L'annonce indique que le poste de médecin rééducateur est à pourvoir.,A,J00202
+OQLF_041_P03,OQLF_041,P00290,Une personne exerçant le métier de médecin rééducateur a été consultée.,Une personne exerçant le métier de physiatre a été consultée.,B,J00203
+OQLF_041_P04,OQLF_041,P00291,La formation prépare au métier de physiatre.,La formation prépare au métier de médecin rééducateur.,A,J00204
+OQLF_041_P05,OQLF_041,P00292,Le rapport décrit les responsabilités du poste de physiatre.,Le rapport décrit les responsabilités du poste de médecin rééducateur.,A,J00205
+OQLF_042_P01,OQLF_042,P00293,Le conseil exige un contrôle légal des comptes annuel.,Le conseil exige une vérification légale annuelle.,B,J00206
+OQLF_042_P02,OQLF_042,P00294,La société a fait réaliser une vérification légale des comptes.,La société a fait réaliser un contrôle légal des comptes.,A,J00207
+OQLF_042_P03,OQLF_042,P00295,Le rapport porte sur le contrôle légal des comptes de l'exercice.,Le rapport porte sur la vérification légale de l'exercice.,B,J00208
+OQLF_042_P04,OQLF_042,P00296,Les administrateurs discutent des coûts de la vérification légale.,Les administrateurs discutent des coûts du contrôle légal des comptes.,A,J00209
+OQLF_042_P05,OQLF_042,P00297,Une vérification légale indépendante a été demandée.,Un contrôle légal des comptes indépendant a été demandé.,A,J00210
+OQLF_043_P01,OQLF_043,P00298,Nous avons choisi le canoéisme pour notre voyage d'été.,Nous avons choisi le canotage pour notre voyage d'été.,B,J00211
+OQLF_043_P02,OQLF_043,P00299,Le club propose une initiation au canoéisme.,Le club propose une initiation au canotage.,B,J00212
+OQLF_043_P03,OQLF_043,P00300,Les participants pratiquent le canoéisme près du lac.,Les participants pratiquent le canotage près du lac.,B,J00213
+OQLF_043_P04,OQLF_043,P00301,Le guide explique les règles du canoéisme.,Le guide explique les règles du canotage.,B,J00214
+OQLF_043_P05,OQLF_043,P00302,Ils préparent leur équipement pour le canoéisme.,Ils préparent leur équipement pour le canotage.,B,J00215
+OQLF_044_P02,OQLF_044,P00303,Le concessionnaire propose un monospace d'occasion.,Le concessionnaire propose une minifourgonnette d'occasion.,B,J00217
+OQLF_044_P03,OQLF_044,P00304,Cette minifourgonnette est stationnée près du terrain de camping.,Ce monospace est stationné près du terrain de camping.,A,J00218
+OQLF_044_P04,OQLF_044,P00305,Ils ont acheté une minifourgonnette pour voyager l'été.,Ils ont acheté un monospace pour voyager l'été.,A,J00219
+OQLF_044_P05,OQLF_044,P00306,Le propriétaire entretient régulièrement son monospace.,Le propriétaire entretient régulièrement sa minifourgonnette.,B,J00220
+OQLF_045_P01,OQLF_045,P00307,Elle travaille dans une société de bourse depuis cinq ans.,Elle travaille chez un courtier en valeurs mobilières depuis cinq ans.,B,J00221
+OQLF_045_P02,OQLF_045,P00308,La société de bourse a présenté ses résultats financiers.,Le courtier en valeurs mobilières a présenté ses résultats financiers.,B,J00222
+OQLF_045_P03,OQLF_045,P00309,Nous avons contacté un courtier en valeurs mobilières pour obtenir des conseils.,Nous avons contacté une société de bourse pour obtenir des conseils.,A,J00223
+OQLF_045_P04,OQLF_045,P00310,Cette société de bourse accompagne plusieurs investisseurs.,Ce courtier en valeurs mobilières accompagne plusieurs investisseurs.,B,J00224
+OQLF_045_P05,OQLF_045,P00311,La direction du courtier en valeurs mobilières a changé récemment.,La direction de la société de bourse a changé récemment.,A,J00225
+OQLF_046_P01,OQLF_046,P00312,La classe visitera le centre de découverte de la nature demain.,La classe visitera le centre d'interprétation de la nature demain.,B,J00226
+OQLF_046_P02,OQLF_046,P00313,Le centre de découverte de la nature propose des activités éducatives.,Le centre d'interprétation de la nature propose des activités éducatives.,B,J00227
+OQLF_046_P03,OQLF_046,P00314,Les familles ont découvert le centre d'interprétation de la nature pendant les vacances.,Les familles ont découvert le centre de découverte de la nature pendant les vacances.,A,J00228
+OQLF_046_P05,OQLF_046,P00315,Le parc prévoit d'agrandir son centre d'interprétation de la nature.,Le parc prévoit d'agrandir son centre de découverte de la nature.,A,J00230
+OQLF_047_P01,OQLF_047,P00316,La municipalité utilise une souffleuse à neige pour dégager la route.,La municipalité utilise une fraise à neige pour dégager la route.,A,J00231
+OQLF_047_P02,OQLF_047,P00317,Une fraise à neige est passée devant notre maison ce matin.,Une souffleuse à neige est passée devant notre maison ce matin.,B,J00232
+OQLF_047_P04,OQLF_047,P00318,Nous avons vu une souffleuse à neige travailler près de l'école.,Nous avons vu une fraise à neige travailler près de l'école.,A,J00234
+OQLF_047_P05,OQLF_047,P00319,La souffleuse à neige enlève rapidement la neige accumulée.,La fraise à neige enlève rapidement la neige accumulée.,A,J00235
+OQLF_048_P01,OQLF_048,P00320,La municipalité utilise une fraise à neige pour dégager la route.,La municipalité utilise une souffleuse pour dégager la route.,B,J00236
+OQLF_048_P02,OQLF_048,P00321,Une fraise à neige est passée devant notre maison ce matin.,Une souffleuse est passée devant notre maison ce matin.,B,J00237
+OQLF_048_P03,OQLF_048,P00322,Le conducteur a réparé la fraise à neige avant la tempête.,Le conducteur a réparé la souffleuse avant la tempête.,B,J00238
+OQLF_048_P04,OQLF_048,P00323,Nous avons vu une fraise à neige travailler près de l'école.,Nous avons vu une souffleuse travailler près de l'école.,B,J00239
+OQLF_048_P05,OQLF_048,P00324,La fraise à neige enlève rapidement la neige accumulée.,La souffleuse enlève rapidement la neige accumulée.,B,J00240
+OQLF_049_P01,OQLF_049,P00325,Nous avons choisi le canot d'expédition pour notre voyage d'été.,Nous avons choisi le canoë d'expédition pour notre voyage d'été.,A,J00241
+OQLF_049_P03,OQLF_049,P00326,Les participants pratiquent le canot d'expédition près du lac.,Les participants pratiquent le canoë d'expédition près du lac.,A,J00243
+OQLF_049_P04,OQLF_049,P00327,Le guide explique les règles du canoë d'expédition.,Le guide explique les règles du canot d'expédition.,B,J00244
+OQLF_049_P05,OQLF_049,P00328,Ils préparent leur équipement pour le canot d'expédition.,Ils préparent leur équipement pour le canoë d'expédition.,A,J00245
+OQLF_050_P01,OQLF_050,P00329,Nous avons choisi le canoë d'expédition pour notre voyage d'été.,Nous avons choisi le canot d'expédition pour notre voyage d'été.,B,J00246
+OQLF_050_P02,OQLF_050,P00330,Le club propose une initiation au canoë d'expédition.,Le club propose une initiation au canot d'expédition.,B,J00247
+OQLF_050_P03,OQLF_050,P00331,Les participants pratiquent le canot d'expédition près du lac.,Les participants pratiquent le canoë d'expédition près du lac.,A,J00248
+OQLF_050_P04,OQLF_050,P00332,Le guide explique les règles du canot d'expédition.,Le guide explique les règles du canoë d'expédition.,A,J00249
+OQLF_050_P05,OQLF_050,P00333,Ils préparent leur équipement pour le canot d'expédition.,Ils préparent leur équipement pour le canoë d'expédition.,A,J00250
+OQLF_051_P01,OQLF_051,P00334,La recette contient des noix de pacane.,La recette contient des noix de pécan.,A,J00251
+OQLF_051_P02,OQLF_051,P00335,Elle a ajouté des noix de pécan à son dessert.,Elle a ajouté des noix de pacane à son dessert.,B,J00252
+OQLF_051_P03,OQLF_051,P00336,Le marché vend des noix de pacane grillées.,Le marché vend des noix de pécan grillées.,A,J00253
+OQLF_051_P04,OQLF_051,P00337,Nous avons acheté un sac de noix de pacane.,Nous avons acheté un sac de noix de pécan.,A,J00254
+OQLF_051_P05,OQLF_051,P00338,Ce gâteau est garni de noix de pacane.,Ce gâteau est garni de noix de pécan.,A,J00255
+OQLF_052_P01,OQLF_052,P00339,La recette contient des pacanes.,La recette contient des pécans.,A,J00256
+OQLF_052_P02,OQLF_052,P00340,Elle a ajouté des pécans à son dessert.,Elle a ajouté des pacanes à son dessert.,B,J00257
+OQLF_052_P04,OQLF_052,P00341,Nous avons acheté un sac de pécan.,Nous avons acheté un sac de pacane.,B,J00259
+OQLF_052_P05,OQLF_052,P00342,Ce gâteau est garni de pécan.,Ce gâteau est garni de pacane.,B,J00260
+OQLF_053_P01,OQLF_053,P00343,La famille prépare un pâté à la viande pour le réveillon.,La famille prépare une tourte à la viande pour le réveillon.,A,J00261
+OQLF_053_P02,OQLF_053,P00344,Nous avons partagé une tourte à la viande au souper.,Nous avons partagé un pâté à la viande au souper.,B,J00262
+OQLF_053_P04,OQLF_053,P00345,Elle a servi une tourte à la viande bien chaude.,Elle a servi un pâté à la viande bien chaud.,B,J00264
+OQLF_053_P05,OQLF_053,P00346,La recette de tourte à la viande vient de sa grand-mère.,La recette de pâté à la viande vient de sa grand-mère.,B,J00265
+OQLF_054_P01,OQLF_054,P00347,La famille prépare une tourtière pour le réveillon.,La famille prépare une tourte à la viande pour le réveillon.,A,J00266
+OQLF_054_P02,OQLF_054,P00348,Nous avons partagé une tourte à la viande au souper.,Nous avons partagé une tourtière au souper.,B,J00267
+OQLF_054_P05,OQLF_054,P00349,La recette de tourte à la viande vient de sa grand-mère.,La recette de tourtière vient de sa grand-mère.,B,J00270
+OQLF_055_P01,OQLF_055,P00350,Les enfants ont commandé de la crème glacée molle.,Les enfants ont commandé de la crème glacée à l'italienne.,A,J00271
+OQLF_055_P03,OQLF_055,P00351,Nous avons mangé de la crème glacée à l'italienne après le dîner.,Nous avons mangé de la crème glacée molle après le dîner.,B,J00273
+OQLF_055_P04,OQLF_055,P00352,La machine prépare de la crème glacée molle au chocolat.,La machine prépare de la crème glacée à l'italienne au chocolat.,A,J00274
+OQLF_055_P05,OQLF_055,P00353,"En été, ils préfèrent la crème glacée à l'italienne aux autres desserts.","En été, ils préfèrent la crème glacée molle aux autres desserts.",B,J00275
+OQLF_056_P01,OQLF_056,P00354,Les enfants ont commandé de la glace à l'italienne.,Les enfants ont commandé de la crème glacée molle.,B,J00276
+OQLF_056_P02,OQLF_056,P00355,Ce comptoir vend de la glace à l'italienne à la vanille.,Ce comptoir vend de la crème glacée molle à la vanille.,B,J00277
+OQLF_056_P03,OQLF_056,P00356,Nous avons mangé de la glace à l'italienne après le dîner.,Nous avons mangé de la crème glacée molle après le dîner.,B,J00278
+OQLF_056_P04,OQLF_056,P00357,La machine prépare de la crème glacée molle au chocolat.,La machine prépare de la glace à l'italienne au chocolat.,A,J00279
+OQLF_056_P05,OQLF_056,P00358,"En été, ils préfèrent la glace à l'italienne aux autres desserts.","En été, ils préfèrent la crème glacée molle aux autres desserts.",B,J00280
+OQLF_057_P01,OQLF_057,P00359,J'ai acheté une nouvelle chaussure de ski de fond pour cette saison.,J'ai acheté une nouvelle botte de ski de fond pour cette saison.,B,J00281
+OQLF_057_P02,OQLF_057,P00360,Cette chaussure de ski de fond me serre un peu le pied.,Cette botte de ski de fond me serre un peu le pied.,B,J00282
+OQLF_057_P03,OQLF_057,P00361,Le magasin propose plusieurs modèles de chaussure de ski de fond.,Le magasin propose plusieurs modèles de botte de ski de fond.,B,J00283
+OQLF_057_P04,OQLF_057,P00362,Il faut bien ajuster chaque botte de ski de fond avant de partir.,Il faut bien ajuster chaque chaussure de ski de fond avant de partir.,A,J00284
+OQLF_057_P05,OQLF_057,P00363,Le vendeur recommande une chaussure de ski de fond plus confortable.,Le vendeur recommande une botte de ski de fond plus confortable.,B,J00285
+OQLF_058_P01,OQLF_058,P00364,Le tournoi aura lieu sur le terrain de soccer municipal.,Le tournoi aura lieu sur le terrain de football municipal.,A,J00286
+OQLF_058_P02,OQLF_058,P00365,Les joueurs s'entraînent près du terrain de football.,Les joueurs s'entraînent près du terrain de soccer.,B,J00287
+OQLF_058_P03,OQLF_058,P00366,Le club rénove son terrain de football cet été.,Le club rénove son terrain de soccer cet été.,B,J00288
+OQLF_058_P04,OQLF_058,P00367,Nous avons rendez-vous au terrain de soccer après l'école.,Nous avons rendez-vous au terrain de football après l'école.,A,J00289
+OQLF_058_P05,OQLF_058,P00368,Les responsables ont inspecté le terrain de football avant le match.,Les responsables ont inspecté le terrain de soccer avant le match.,B,J00290
+OQLF_059_P01,OQLF_059,P00369,Le tournoi aura lieu au stade de soccer municipal.,Le tournoi aura lieu au stade de football municipal.,A,J00291
+OQLF_059_P02,OQLF_059,P00370,Les joueurs s'entraînent près du stade de soccer.,Les joueurs s'entraînent près du stade de football.,A,J00292
+OQLF_059_P03,OQLF_059,P00371,Le club rénove son stade de soccer cet été.,Le club rénove son stade de football cet été.,A,J00293
+OQLF_059_P04,OQLF_059,P00372,Nous avons rendez-vous au stade de soccer après l'école.,Nous avons rendez-vous au stade de football après l'école.,A,J00294
+OQLF_059_P05,OQLF_059,P00373,Les responsables ont inspecté le stade de football avant le match.,Les responsables ont inspecté le stade de soccer avant le match.,B,J00295
+OQLF_060_P01,OQLF_060,P00374,Le défenseur a tenté de subtiliser le palet à son adversaire.,Le défenseur a tenté de subtiliser la rondelle à son adversaire.,B,J00296
+OQLF_060_P02,OQLF_060,P00375,Le joueur a réussi à subtiliser le palet sans commettre de faute.,Le joueur a réussi à subtiliser la rondelle sans commettre de faute.,B,J00297
+OQLF_060_P03,OQLF_060,P00376,"À la fin de l'action, il voulait subtiliser le palet.","À la fin de l'action, il voulait subtiliser la rondelle.",B,J00298
+OQLF_060_P04,OQLF_060,P00377,L'entraîneur lui a conseillé de subtiliser le palet plus rapidement.,L'entraîneur lui a conseillé de subtiliser la rondelle plus rapidement.,B,J00299
+OQLF_060_P05,OQLF_060,P00378,"Pendant l'entraînement, l'équipe apprend à subtiliser le palet.","Pendant l'entraînement, l'équipe apprend à subtiliser la rondelle.",B,J00300
+OQLF_061_P01,OQLF_061,P00379,Le défenseur a tenté de subtiliser le palet à son adversaire.,Le défenseur a tenté de soutirer la rondelle à son adversaire.,B,J00301
+OQLF_061_P03,OQLF_061,P00380,"À la fin de l'action, il voulait soutirer la rondelle.","À la fin de l'action, il voulait subtiliser le palet.",A,J00303
+OQLF_061_P04,OQLF_061,P00381,L'entraîneur lui a conseillé de soutirer la rondelle plus rapidement.,L'entraîneur lui a conseillé de subtiliser le palet plus rapidement.,A,J00304
+OQLF_061_P05,OQLF_061,P00382,"Pendant l'entraînement, l'équipe apprend à subtiliser le palet.","Pendant l'entraînement, l'équipe apprend à soutirer la rondelle.",B,J00305
+OQLF_062_P01,OQLF_062,P00383,Le tournoi aura lieu sur la table de football municipale.,Le tournoi aura lieu sur la table de soccer municipale.,B,J00306
+OQLF_062_P02,OQLF_062,P00384,Les joueurs s'entraînent près de la table de soccer.,Les joueurs s'entraînent près de la table de football.,A,J00307
+OQLF_062_P03,OQLF_062,P00385,Le club rénove sa table de soccer cet été.,Le club rénove sa table de football cet été.,A,J00308
+OQLF_062_P04,OQLF_062,P00386,Nous avons rendez-vous à la table de soccer après l'école.,Nous avons rendez-vous à la table de football après l'école.,A,J00309
+OQLF_062_P05,OQLF_062,P00387,Les responsables ont inspecté la table de soccer avant le match.,Les responsables ont inspecté la table de football avant le match.,A,J00310
+OQLF_063_P01,OQLF_063,P00388,L'arbitre a signalé un palet libre.,L'arbitre a signalé une rondelle libre.,B,J00311
+OQLF_063_P02,OQLF_063,P00389,Les joueurs se sont précipités sur la rondelle libre.,Les joueurs se sont précipités sur le palet libre.,A,J00312
+OQLF_063_P03,OQLF_063,P00390,L'entraîneur a expliqué la situation de rondelle libre.,L'entraîneur a expliqué la situation de palet libre.,A,J00313
+OQLF_063_P04,OQLF_063,P00391,La séquence commence par une rondelle libre près du filet.,La séquence commence par un palet libre près du filet.,A,J00314
+OQLF_063_P05,OQLF_063,P00392,La vidéo montre un palet libre au centre de la patinoire.,La vidéo montre une rondelle libre au centre de la patinoire.,B,J00315
+OQLF_064_P01,OQLF_064,P00393,Le joueur a été envoyé au banc des punitions après la faute.,Le joueur a été envoyé à la prison après la faute.,A,J00316
+OQLF_064_P02,OQLF_064,P00394,Il est resté sur le banc des punitions pendant deux minutes.,Il est resté à la prison pendant deux minutes.,A,J00317
+OQLF_064_P03,OQLF_064,P00395,L'arbitre a désigné le banc des punitions.,L'arbitre a désigné la prison.,A,J00318
+OQLF_064_P04,OQLF_064,P00396,Les spectateurs regardaient le banc des punitions pendant la pénalité.,Les spectateurs regardaient la prison pendant la pénalité.,A,J00319
+OQLF_064_P05,OQLF_064,P00397,Le hockeyeur a quitté la prison à la fin de la sanction.,Le hockeyeur a quitté le banc des punitions à la fin de la sanction.,B,J00320
+OQLF_065_P01,OQLF_065,P00398,Le joueur a remplacé sa crosse de gardien de but avant le match.,Le joueur a remplacé son bâton de gardien de but avant le match.,B,J00321
+OQLF_065_P02,OQLF_065,P00399,Il a rangé le bâton de gardien de but dans son sac de sport.,Il a rangé la crosse de gardien de but dans son sac de sport.,A,J00322
+OQLF_065_P03,OQLF_065,P00400,Le magasin vend un nouveau modèle de crosse de gardien de but.,Le magasin vend un nouveau modèle de bâton de gardien de but.,B,J00323
+OQLF_065_P04,OQLF_065,P00401,Son bâton de gardien de but s'est cassé pendant la rencontre.,Sa crosse de gardien de but s'est cassée pendant la rencontre.,A,J00324
+OQLF_065_P05,OQLF_065,P00402,L'entraîneur a vérifié l'état du bâton de gardien de but.,L'entraîneur a vérifié l'état de la crosse de gardien de but.,A,J00325
+OQLF_066_P01,OQLF_066,P00403,Ce footballeur a marqué deux buts.,Ce joueur de soccer a marqué deux buts.,B,J00326
+OQLF_066_P02,OQLF_066,P00404,L'équipe cherche un jeune joueur de soccer talentueux.,L'équipe cherche un jeune footballeur talentueux.,A,J00327
+OQLF_066_P03,OQLF_066,P00405,Le journaliste a interviewé le joueur de soccer.,Le journaliste a interviewé le footballeur.,A,J00328
+OQLF_066_P04,OQLF_066,P00406,Chaque footballeur s'entraîne avant le tournoi.,Chaque joueur de soccer s'entraîne avant le tournoi.,B,J00329
+OQLF_066_P05,OQLF_066,P00407,Un joueur de soccer professionnel est venu rencontrer les élèves.,Un footballeur professionnel est venu rencontrer les élèves.,A,J00330
+OQLF_067_P01,OQLF_067,P00408,Ce joueur de soccer a marqué deux buts.,Ce joueur de football a marqué deux buts.,A,J00331
+OQLF_067_P02,OQLF_067,P00409,L'équipe cherche un jeune joueur de football talentueux.,L'équipe cherche un jeune joueur de soccer talentueux.,B,J00332
+OQLF_067_P03,OQLF_067,P00410,Le journaliste a interviewé le joueur de football.,Le journaliste a interviewé le joueur de soccer.,B,J00333
+OQLF_067_P04,OQLF_067,P00411,Chaque joueur de soccer s'entraîne avant le tournoi.,Chaque joueur de football s'entraîne avant le tournoi.,A,J00334
+OQLF_067_P05,OQLF_067,P00412,Un joueur de soccer professionnel est venu rencontrer les élèves.,Un joueur de football professionnel est venu rencontrer les élèves.,A,J00335
+OQLF_068_P01,OQLF_068,P00413,Le guide présente un plongeon imbrin parmi les espèces recensées.,Le guide présente un huard parmi les espèces recensées.,B,J00336
+OQLF_068_P02,OQLF_068,P00414,Les scientifiques ont observé un huard au cours de leur étude.,Les scientifiques ont observé un plongeon imbrin au cours de leur étude.,A,J00337
+OQLF_068_P03,OQLF_068,P00415,Le musée conserve une illustration d'un plongeon imbrin.,Le musée conserve une illustration d'un huard.,B,J00338
+OQLF_068_P05,OQLF_068,P00416,Les visiteurs ont découvert un huard dans l'exposition.,Les visiteurs ont découvert un plongeon imbrin dans l'exposition.,A,J00340
+OQLF_069_P01,OQLF_069,P00417,Le fabricant a ajouté un feuillet d'information à la boîte.,Le fabricant a ajouté une notice à la boîte.,A,J00341
+OQLF_069_P02,OQLF_069,P00418,Il faut lire le feuillet d'information avant d'utiliser ce produit.,Il faut lire la notice avant d'utiliser ce produit.,A,J00342
+OQLF_069_P03,OQLF_069,P00419,La notice explique les précautions à prendre.,Le feuillet d'information explique les précautions à prendre.,B,J00343
+OQLF_069_P04,OQLF_069,P00420,Nous avons trouvé un feuillet d'information dans l'emballage.,Nous avons trouvé une notice dans l'emballage.,A,J00344
+OQLF_069_P05,OQLF_069,P00421,Le pharmacien a consulté la notice du produit.,Le pharmacien a consulté le feuillet d'information du produit.,B,J00345
+OQLF_070_P01,OQLF_070,P00422,La ville a envoyé un camion hydrocureur pour nettoyer la conduite.,La ville a envoyé un camion écureur d'égout pour nettoyer la conduite.,B,J00346
+OQLF_070_P03,OQLF_070,P00423,Le chantier nécessite un camion écureur d'égout spécialisé.,Le chantier nécessite un camion hydrocureur spécialisé.,A,J00348
+OQLF_071_P02,OQLF_071,P00424,Un écureur d'égout travaille sur cette rue aujourd'hui.,Un hydrocureur travaille sur cette rue aujourd'hui.,A,J00352
+OQLF_071_P03,OQLF_071,P00425,Le chantier nécessite un hydrocureur spécialisé.,Le chantier nécessite un écureur d'égout spécialisé.,B,J00353
+OQLF_071_P04,OQLF_071,P00426,La municipalité a acheté un nouvel écureur d'égout.,La municipalité a acheté un nouvel hydrocureur.,A,J00354
+OQLF_071_P05,OQLF_071,P00427,L'équipe attend l'arrivée de l'hydrocureur avant de commencer.,L'équipe attend l'arrivée de l'écureur d'égout avant de commencer.,B,J00355
+OQLF_072_P01,OQLF_072,P00428,La ville a envoyé un hydrocureur pour nettoyer la conduite.,La ville a envoyé un cureur d'égout pour nettoyer la conduite.,B,J00356
+OQLF_072_P02,OQLF_072,P00429,Un hydrocureur travaille sur cette rue aujourd'hui.,Un cureur d'égout travaille sur cette rue aujourd'hui.,B,J00357
+OQLF_072_P03,OQLF_072,P00430,Le chantier nécessite un cureur d'égout spécialisé.,Le chantier nécessite un hydrocureur spécialisé.,A,J00358
+OQLF_072_P04,OQLF_072,P00431,La municipalité a acheté un nouveau cureur d'égout.,La municipalité a acheté un nouvel hydrocureur.,A,J00359
+OQLF_073_P01,OQLF_073,P00432,Le tribunal a prononcé un sursis probatoire.,Le tribunal a prononcé une ordonnance de probation.,B,J00361
+OQLF_073_P02,OQLF_073,P00433,Le juge a expliqué les conditions du sursis probatoire.,Le juge a expliqué les conditions de l'ordonnance de probation.,B,J00362
+OQLF_073_P03,OQLF_073,P00434,L'avocat a demandé une ordonnance de probation pour son client.,L'avocat a demandé un sursis probatoire pour son client.,A,J00363
+OQLF_073_P04,OQLF_073,P00435,La décision mentionne un sursis probatoire de douze mois.,La décision mentionne une ordonnance de probation de douze mois.,B,J00364
+OQLF_073_P05,OQLF_073,P00436,Le dossier fait état d'un sursis probatoire récent.,Le dossier fait état d'une ordonnance de probation récente.,B,J00365
+OQLF_074_P01,OQLF_074,P00437,Peux-tu me passer la dégrafeuse pour retirer cette agrafe?,Peux-tu me passer le dégrafeur pour retirer cette agrafe?,A,J00366
+OQLF_074_P03,OQLF_074,P00438,Nous avons acheté un dégrafeur pour les documents.,Nous avons acheté une dégrafeuse pour les documents.,B,J00368
+OQLF_074_P04,OQLF_074,P00439,Elle utilise le dégrafeur pour séparer les feuilles.,Elle utilise la dégrafeuse pour séparer les feuilles.,B,J00369
+OQLF_074_P05,OQLF_074,P00440,Le nouveau dégrafeur fonctionne très bien.,La nouvelle dégrafeuse fonctionne très bien.,B,J00370
+OQLF_075_P01,OQLF_075,P00441,Peux-tu me passer l'arrache-agrafes pour retirer cette agrafe?,Peux-tu me passer la dégrafeuse pour retirer cette agrafe?,B,J00371
+OQLF_075_P02,OQLF_075,P00442,L'arrache-agrafes est rangé dans le tiroir du bureau.,La dégrafeuse est rangée dans le tiroir du bureau.,B,J00372
+OQLF_075_P03,OQLF_075,P00443,Nous avons acheté une dégrafeuse pour les documents.,Nous avons acheté un arrache-agrafes pour les documents.,A,J00373
+OQLF_075_P05,OQLF_075,P00444,Le nouvel arrache-agrafes fonctionne très bien.,La nouvelle dégrafeuse fonctionne très bien.,B,J00375
+OQLF_076_P01,OQLF_076,P00445,Peux-tu me passer l'ôte-agrafes pour retirer cette agrafe?,Peux-tu me passer la dégrafeuse pour retirer cette agrafe?,B,J00376
+OQLF_076_P02,OQLF_076,P00446,L'ôte-agrafes est rangé dans le tiroir du bureau.,La dégrafeuse est rangée dans le tiroir du bureau.,B,J00377
+OQLF_076_P03,OQLF_076,P00447,Nous avons acheté un ôte-agrafes pour les documents.,Nous avons acheté une dégrafeuse pour les documents.,B,J00378
+OQLF_076_P04,OQLF_076,P00448,Elle utilise la dégrafeuse pour séparer les feuilles.,Elle utilise l'ôte-agrafes pour séparer les feuilles.,A,J00379
+OQLF_076_P05,OQLF_076,P00449,Le nouvel ôte-agrafes fonctionne très bien.,La nouvelle dégrafeuse fonctionne très bien.,B,J00380
+OQLF_077_P01,OQLF_077,P00450,Le guide présente la picotiane parmi les espèces recensées.,Le guide présente le navet de prairie parmi les espèces recensées.,B,J00381
+OQLF_077_P02,OQLF_077,P00451,Les scientifiques ont observé la picotiane au cours de leur étude.,Les scientifiques ont observé le navet de prairie au cours de leur étude.,B,J00382
+OQLF_077_P03,OQLF_077,P00452,Le musée conserve une illustration de la picotiane.,Le musée conserve une illustration du navet de prairie.,B,J00383
+OQLF_077_P04,OQLF_077,P00453,Le rapport décrit l'habitat de la picotiane.,Le rapport décrit l'habitat du navet de prairie.,B,J00384
+OQLF_077_P05,OQLF_077,P00454,Les visiteurs ont découvert la picotiane dans l'exposition.,Les visiteurs ont découvert le navet de prairie dans l'exposition.,B,J00385
+OQLF_078_P01,OQLF_078,P00455,Le guide présente la picotiane parmi les espèces recensées.,Le guide présente la pomme blanche parmi les espèces recensées.,B,J00386
+OQLF_078_P02,OQLF_078,P00456,Les scientifiques ont observé la picotiane au cours de leur étude.,Les scientifiques ont observé la pomme blanche au cours de leur étude.,B,J00387
+OQLF_078_P03,OQLF_078,P00457,Le musée conserve une illustration de la picotiane.,Le musée conserve une illustration de la pomme blanche.,B,J00388
+OQLF_078_P04,OQLF_078,P00458,Le rapport décrit l'habitat de la pomme blanche.,Le rapport décrit l'habitat de la picotiane.,A,J00389
+OQLF_078_P05,OQLF_078,P00459,Les visiteurs ont découvert la picotiane dans l'exposition.,Les visiteurs ont découvert la pomme blanche dans l'exposition.,B,J00390
+OQLF_079_P01,OQLF_079,P00460,Le guide présente la picotiane parmi les espèces recensées.,Le guide présente la pomme de prairie parmi les espèces recensées.,B,J00391
+OQLF_079_P02,OQLF_079,P00461,Les scientifiques ont observé la pomme de prairie au cours de leur étude.,Les scientifiques ont observé la picotiane au cours de leur étude.,A,J00392
+OQLF_079_P03,OQLF_079,P00462,Le musée conserve une illustration de la picotiane.,Le musée conserve une illustration de la pomme de prairie.,B,J00393
+OQLF_079_P04,OQLF_079,P00463,Le rapport décrit l'habitat de la pomme de prairie.,Le rapport décrit l'habitat de la picotiane.,A,J00394
+OQLF_079_P05,OQLF_079,P00464,Les visiteurs ont découvert la pomme de prairie dans l'exposition.,Les visiteurs ont découvert la picotiane dans l'exposition.,A,J00395
+OQLF_080_P01,OQLF_080,P00465,L'ouvrier pose une bande à joint sur le joint.,L'ouvrier pose un ruban à joint sur le joint.,B,J00396
+OQLF_080_P02,OQLF_080,P00466,Nous avons acheté de la bande à joint au magasin de rénovation.,Nous avons acheté du ruban à joint au magasin de rénovation.,B,J00397
+OQLF_080_P03,OQLF_080,P00467,La bande à joint doit être appliquée soigneusement.,Le ruban à joint doit être appliqué soigneusement.,B,J00398
+OQLF_080_P04,OQLF_080,P00468,Il reste un rouleau de bande à joint dans l'atelier.,Il reste un rouleau de ruban à joint dans l'atelier.,B,J00399
+OQLF_080_P05,OQLF_080,P00469,Le guide explique comment installer le ruban à joint.,Le guide explique comment installer la bande à joint.,A,J00400
+OQLF_081_P01,OQLF_081,P00470,L'université encadre les activités de bizutage.,L'université encadre les activités d'initiation.,B,J00401
+OQLF_081_P02,OQLF_081,P00471,Les nouveaux membres participent à un bizutage.,Les nouveaux membres participent à une initiation.,B,J00402
+OQLF_081_P03,OQLF_081,P00472,Le groupe prépare une activité de bizutage.,Le groupe prépare une activité d'initiation.,B,J00403
+OQLF_081_P04,OQLF_081,P00473,Les responsables veulent éviter les abus pendant le bizutage.,Les responsables veulent éviter les abus pendant l'initiation.,B,J00404
+OQLF_081_P05,OQLF_081,P00474,Les étudiants discutent des traditions de bizutage.,Les étudiants discutent des traditions d'initiation.,B,J00405
+OQLF_082_P01,OQLF_082,P00475,Les murs extérieurs sont recouverts de stuc.,Les murs extérieurs sont recouverts d'enduit chaux-ciment.,A,J00406
+OQLF_082_P02,OQLF_082,P00476,L'entrepreneur applique une couche d'enduit chaux-ciment.,L'entrepreneur applique une couche de stuc.,B,J00407
+OQLF_082_P03,OQLF_082,P00477,Cette façade ancienne comporte du stuc.,Cette façade ancienne comporte de l'enduit chaux-ciment.,A,J00408
+OQLF_082_P05,OQLF_082,P00478,Le stuc doit sécher avant la peinture.,L'enduit chaux-ciment doit sécher avant la peinture.,A,J00410
+OQLF_083_P01,OQLF_083,P00479,Elle fait son magasinage le samedi matin.,Elle fait son chalandage le samedi matin.,A,J00411
+OQLF_083_P02,OQLF_083,P00480,Nous avons prévu une journée de magasinage.,Nous avons prévu une journée de chalandage.,A,J00412
+OQLF_083_P03,OQLF_083,P00481,Le centre-ville attire les amateurs de magasinage.,Le centre-ville attire les amateurs de chalandage.,A,J00413
+OQLF_083_P04,OQLF_083,P00482,Ils sont partis faire du magasinage après le travail.,Ils sont partis faire du chalandage après le travail.,A,J00414
+OQLF_083_P05,OQLF_083,P00483,Cette rue est populaire pour le chalandage.,Cette rue est populaire pour le magasinage.,B,J00415
+OQLF_084_P01,OQLF_084,P00484,Les élèves préparent leur bal de finissants pour juin.,Les élèves préparent leur bal de promotion pour juin.,A,J00416
+OQLF_084_P02,OQLF_084,P00485,Le bal de finissants se déroulera dans une grande salle.,Le bal de promotion se déroulera dans une grande salle.,A,J00417
+OQLF_084_P03,OQLF_084,P00486,Elle a choisi une robe pour le bal de promotion.,Elle a choisi une robe pour le bal de finissants.,B,J00418
+OQLF_084_P04,OQLF_084,P00487,Les parents assisteront au début du bal de finissants.,Les parents assisteront au début du bal de promotion.,A,J00419
+OQLF_084_P05,OQLF_084,P00488,L'école organise son bal de promotion chaque printemps.,L'école organise son bal de finissants chaque printemps.,B,J00420
+OQLF_085_P01,OQLF_085,P00489,"Dans ce lexique des petits fruits, la pomme de terre est décrite comme une baie rouge et acide.","Dans ce lexique des petits fruits, l'airelle ponctuée est décrite comme une baie rouge et acide.",A,J00421
+OQLF_085_P02,OQLF_085,P00490,"Dans un inventaire de baies sauvages, on relève la pomme de terre parmi les fruits comestibles.","Dans un inventaire de baies sauvages, on relève l'airelle ponctuée parmi les fruits comestibles.",A,J00422
+OQLF_085_P03,OQLF_085,P00491,"Au cours d'une sortie de cueillette de baies en forêt, elle a récolté de la pomme de terre.","Au cours d'une sortie de cueillette de baies en forêt, elle a récolté de l'airelle ponctuée.",A,J00423
+OQLF_085_P04,OQLF_085,P00492,"Dans ce guide botanique, l'airelle ponctuée est une petite baie employée dans les desserts.","Dans ce guide botanique, la pomme de terre est une petite baie employée dans les desserts.",B,J00424
+OQLF_085_P05,OQLF_085,P00493,Le glossaire des fruits régionaux présente la pomme de terre comme une baie sauvage.,Le glossaire des fruits régionaux présente l'airelle ponctuée comme une baie sauvage.,A,J00425
+OQLF_086_P01,OQLF_086,P00494,Le guide présente la mûre des marais parmi les espèces recensées.,Le guide présente la chicouté parmi les espèces recensées.,B,J00426
+OQLF_086_P02,OQLF_086,P00495,Les scientifiques ont observé la mûre des marais au cours de leur étude.,Les scientifiques ont observé la chicouté au cours de leur étude.,B,J00427
+OQLF_086_P03,OQLF_086,P00496,Le musée conserve une illustration de la mûre des marais.,Le musée conserve une illustration de la chicouté.,B,J00428
+OQLF_086_P04,OQLF_086,P00497,Le rapport décrit l'habitat de la mûre des marais.,Le rapport décrit l'habitat de la chicouté.,B,J00429
+OQLF_086_P05,OQLF_086,P00498,Les visiteurs ont découvert la chicouté dans l'exposition.,Les visiteurs ont découvert la mûre des marais dans l'exposition.,A,J00430
+OQLF_087_P01,OQLF_087,P00499,Le guide présente le chicoutai parmi les espèces recensées.,Le guide présente la mûre des marais parmi les espèces recensées.,A,J00431
+OQLF_087_P02,OQLF_087,P00500,Les scientifiques ont observé la mûre des marais au cours de leur étude.,Les scientifiques ont observé le chicoutai au cours de leur étude.,B,J00432
+OQLF_087_P03,OQLF_087,P00501,Le musée conserve une illustration du chicoutai.,Le musée conserve une illustration de la mûre des marais.,A,J00433
+OQLF_087_P04,OQLF_087,P00502,Le rapport décrit l'habitat du chicoutai.,Le rapport décrit l'habitat de la mûre des marais.,A,J00434
+OQLF_087_P05,OQLF_087,P00503,Les visiteurs ont découvert la mûre des marais dans l'exposition.,Les visiteurs ont découvert le chicoutai dans l'exposition.,B,J00435
+OQLF_088_P01,OQLF_088,P00504,Le guide présente la plaquebière parmi les espèces recensées.,Le guide présente la mûre des marais parmi les espèces recensées.,A,J00436
+OQLF_088_P02,OQLF_088,P00505,Les scientifiques ont observé la plaquebière au cours de leur étude.,Les scientifiques ont observé la mûre des marais au cours de leur étude.,A,J00437
+OQLF_088_P03,OQLF_088,P00506,Le musée conserve une illustration de la plaquebière.,Le musée conserve une illustration de la mûre des marais.,A,J00438
+OQLF_088_P04,OQLF_088,P00507,Le rapport décrit l'habitat de la plaquebière.,Le rapport décrit l'habitat de la mûre des marais.,A,J00439
+OQLF_088_P05,OQLF_088,P00508,Les visiteurs ont découvert la mûre des marais dans l'exposition.,Les visiteurs ont découvert la plaquebière dans l'exposition.,B,J00440
+OQLF_089_P01,OQLF_089,P00509,Le médecin a diagnostiqué une amiantose.,Le médecin a diagnostiqué une asbestose.,A,J00441
+OQLF_089_P02,OQLF_089,P00510,Le dossier médical mentionne une amiantose.,Le dossier médical mentionne une asbestose.,A,J00442
+OQLF_089_P03,OQLF_089,P00511,Les chercheurs étudient les causes de l'asbestose.,Les chercheurs étudient les causes de l'amiantose.,B,J00443
+OQLF_089_P04,OQLF_089,P00512,La prévention de l'asbestose est une priorité.,La prévention de l'amiantose est une priorité.,B,J00444
+OQLF_089_P05,OQLF_089,P00513,Le rapport décrit plusieurs cas d'amiantose.,Le rapport décrit plusieurs cas d'asbestose.,A,J00445
+OQLF_090_P01,OQLF_090,P00514,Cette couverture est une lirette traditionnelle.,Cette couverture est une catalogne traditionnelle.,B,J00446
+OQLF_090_P02,OQLF_090,P00515,L'artisane fabrique une catalogne sur son métier.,L'artisane fabrique une lirette sur son métier.,A,J00447
+OQLF_090_P03,OQLF_090,P00516,Nous avons acheté une catalogne au marché.,Nous avons acheté une lirette au marché.,A,J00448
+OQLF_090_P04,OQLF_090,P00517,La catalogne est exposée au musée régional.,La lirette est exposée au musée régional.,A,J00449
+OQLF_090_P05,OQLF_090,P00518,Elle a réparé une vieille catalogne colorée.,Elle a réparé une vieille lirette colorée.,A,J00450
+OQLF_091_P01,OQLF_091,P00519,Le guide présente la harelde de Miquelon parmi les espèces recensées.,Le guide présente le cacaoui parmi les espèces recensées.,B,J00451
+OQLF_091_P02,OQLF_091,P00520,Les scientifiques ont observé le cacaoui au cours de leur étude.,Les scientifiques ont observé la harelde de Miquelon au cours de leur étude.,A,J00452
+OQLF_091_P03,OQLF_091,P00521,Le guide d'ornithologie présente le cacaoui.,Le guide d'ornithologie présente la harelde de Miquelon.,A,J00453
+OQLF_091_P04,OQLF_091,P00522,Le naturaliste a photographié un cacaoui au bord du fleuve.,Le naturaliste a photographié une harelde de Miquelon au bord du fleuve.,A,J00454
+OQLF_091_P05,OQLF_091,P00523,Les visiteurs ont découvert la harelde de Miquelon dans l'exposition.,Les visiteurs ont découvert le cacaoui dans l'exposition.,B,J00455
+OQLF_092_P01,OQLF_092,P00524,Le guide présente la harelde boréale parmi les espèces recensées.,Le guide présente le cacaoui parmi les espèces recensées.,B,J00456
+OQLF_092_P02,OQLF_092,P00525,Les scientifiques ont observé le cacaoui au cours de leur étude.,Les scientifiques ont observé la harelde boréale au cours de leur étude.,A,J00457
+OQLF_092_P03,OQLF_092,P00526,Le musée conserve une illustration du cacaoui.,Le musée conserve une illustration de la harelde boréale.,A,J00458
+OQLF_092_P04,OQLF_092,P00527,Le rapport décrit l'habitat de la harelde boréale.,Le rapport décrit l'habitat du cacaoui.,B,J00459
+OQLF_092_P05,OQLF_092,P00528,Les visiteurs ont découvert le cacaoui dans l'exposition.,Les visiteurs ont découvert la harelde boréale dans l'exposition.,A,J00460
+OQLF_093_P02,OQLF_093,P00529,Les scientifiques ont observé la harelde de Miquelon au cours de leur étude.,Les scientifiques ont observé le kakawi au cours de leur étude.,B,J00462
+OQLF_093_P03,OQLF_093,P00530,Cette affiche scolaire représente une harelde de Miquelon.,Cette affiche scolaire représente un kakawi.,B,J00463
+OQLF_093_P04,OQLF_093,P00531,Les ornithologues ont dénombré la harelde de Miquelon pendant l'hiver.,Les ornithologues ont dénombré le kakawi pendant l'hiver.,B,J00464
+OQLF_093_P05,OQLF_093,P00532,Les visiteurs ont découvert la harelde de Miquelon dans l'exposition.,Les visiteurs ont découvert le kakawi dans l'exposition.,B,J00465
+OQLF_094_P01,OQLF_094,P00533,Le guide présente le kakawi parmi les espèces recensées.,Le guide présente la harelde boréale parmi les espèces recensées.,A,J00466
+OQLF_094_P03,OQLF_094,P00534,L'exposition présente un spécimen du kakawi.,L'exposition présente un spécimen de la harelde boréale.,A,J00468
+OQLF_094_P04,OQLF_094,P00535,Le kakawi migre vers le sud à l'automne.,La harelde boréale migre vers le sud à l'automne.,A,J00469
+OQLF_094_P05,OQLF_094,P00536,Les visiteurs ont découvert le kakawi dans l'exposition.,Les visiteurs ont découvert la harelde boréale dans l'exposition.,A,J00470
+OQLF_095_P01,OQLF_095,P00537,Le guide présente la harelde de Miquelon parmi les espèces recensées.,Le guide présente le canard kakawi parmi les espèces recensées.,B,J00471
+OQLF_095_P02,OQLF_095,P00538,Les scientifiques ont observé le canard kakawi au cours de leur étude.,Les scientifiques ont observé la harelde de Miquelon au cours de leur étude.,A,J00472
+OQLF_095_P03,OQLF_095,P00539,Le livre de chasse décrit la harelde de Miquelon.,Le livre de chasse décrit le canard kakawi.,B,J00473
+OQLF_095_P04,OQLF_095,P00540,Le garde-faune a signalé la présence d'un canard kakawi.,Le garde-faune a signalé la présence d'une harelde de Miquelon.,A,J00474
+OQLF_095_P05,OQLF_095,P00541,Les visiteurs ont découvert la harelde de Miquelon dans l'exposition.,Les visiteurs ont découvert le canard kakawi dans l'exposition.,B,J00475
+OQLF_096_P01,OQLF_096,P00542,Le guide présente le canard kakawi parmi les espèces recensées.,Le guide présente la harelde boréale parmi les espèces recensées.,A,J00476
+OQLF_096_P02,OQLF_096,P00543,Les scientifiques ont observé le canard kakawi au cours de leur étude.,Les scientifiques ont observé la harelde boréale au cours de leur étude.,A,J00477
+OQLF_096_P03,OQLF_096,P00544,L'étudiant a dessiné la harelde boréale dans son carnet.,L'étudiant a dessiné le canard kakawi dans son carnet.,B,J00478
+OQLF_096_P04,OQLF_096,P00545,Un canard kakawi nichait près du lac.,Une harelde boréale nichait près du lac.,A,J00479
+OQLF_096_P05,OQLF_096,P00546,Les visiteurs ont découvert la harelde boréale dans l'exposition.,Les visiteurs ont découvert le canard kakawi dans l'exposition.,B,J00480
+OQLF_097_P01,OQLF_097,P00547,Le guide présente la perche noire parmi les espèces recensées.,Le guide présente l'achigan à petite bouche parmi les espèces recensées.,B,J00481
+OQLF_097_P03,OQLF_097,P00548,Le pêcheur a attrapé une perche noire près du quai.,Le pêcheur a attrapé un achigan à petite bouche près du quai.,B,J00483
+OQLF_097_P04,OQLF_097,P00549,Le biologiste a mesuré une perche noire.,Le biologiste a mesuré un achigan à petite bouche.,B,J00484
+OQLF_097_P05,OQLF_097,P00550,Les visiteurs ont découvert l'achigan à petite bouche dans l'exposition.,Les visiteurs ont découvert la perche noire dans l'exposition.,A,J00485
+OQLF_098_P01,OQLF_098,P00551,Le guide présente la perche truitée parmi les espèces recensées.,Le guide présente l'achigan à petite bouche parmi les espèces recensées.,B,J00486
+OQLF_098_P02,OQLF_098,P00552,Les scientifiques ont observé l'achigan à petite bouche au cours de leur étude.,Les scientifiques ont observé la perche truitée au cours de leur étude.,A,J00487
+OQLF_098_P03,OQLF_098,P00553,Le restaurant sert un filet d'achigan à petite bouche.,Le restaurant sert un filet de perche truitée.,A,J00488
+OQLF_098_P04,OQLF_098,P00554,L'achigan à petite bouche est abondant dans ce lac.,La perche truitée est abondante dans ce lac.,A,J00489
+OQLF_098_P05,OQLF_098,P00555,Les visiteurs ont découvert la perche truitée dans l'exposition.,Les visiteurs ont découvert l'achigan à petite bouche dans l'exposition.,B,J00490
+OQLF_099_P01,OQLF_099,P00556,Le patient demande conseil pour un médicament sous contrôle pharmaceutique.,Le patient demande conseil pour un médicament-conseil.,A,J00491
+OQLF_099_P02,OQLF_099,P00557,La pharmacie propose un médicament-conseil.,La pharmacie propose un médicament sous contrôle pharmaceutique.,B,J00492
+OQLF_099_P03,OQLF_099,P00558,Ce médicament sous contrôle pharmaceutique exige l'avis d'un pharmacien.,Ce médicament-conseil exige l'avis d'un pharmacien.,A,J00493
+OQLF_099_P04,OQLF_099,P00559,Nous avons vérifié les conditions de vente du médicament sous contrôle pharmaceutique.,Nous avons vérifié les conditions de vente du médicament-conseil.,A,J00494
+OQLF_099_P05,OQLF_099,P00560,Le pharmacien explique l'usage de ce médicament-conseil.,Le pharmacien explique l'usage de ce médicament sous contrôle pharmaceutique.,B,J00495
+OQLF_100_P01,OQLF_100,P00561,Le patient demande conseil pour un médicament-conseil.,Le patient demande conseil pour un médicament sous contrôle du pharmacien.,B,J00496
+OQLF_100_P02,OQLF_100,P00562,La pharmacie propose un médicament-conseil.,La pharmacie propose un médicament sous contrôle du pharmacien.,B,J00497
+OQLF_100_P03,OQLF_100,P00563,Ce médicament sous contrôle du pharmacien exige l'avis d'un pharmacien.,Ce médicament-conseil exige l'avis d'un pharmacien.,A,J00498
+OQLF_101_P01,OQLF_101,P00564,Le quartier compte un grand magasin à rayons.,Le quartier compte un grand magasin à rayons multiples.,A,J00501
+OQLF_101_P02,OQLF_101,P00565,Nous avons visité un nouveau magasin à rayons.,Nous avons visité un nouveau magasin à rayons multiples.,A,J00502
+OQLF_101_P03,OQLF_101,P00566,Ce magasin à rayons multiples propose plusieurs départements.,Ce magasin à rayons propose plusieurs départements.,B,J00503
+OQLF_101_P04,OQLF_101,P00567,La chaîne ouvrira un magasin à rayons multiples au printemps.,La chaîne ouvrira un magasin à rayons au printemps.,B,J00504
+OQLF_102_P01,OQLF_102,P00568,Le restaurant propose une table d'hôte le midi.,Le restaurant propose un menu le midi.,A,J00506
+OQLF_102_P02,OQLF_102,P00569,Nous avons choisi la table d'hôte pour le souper.,Nous avons choisi le menu pour le souper.,A,J00507
+OQLF_102_P03,OQLF_102,P00570,La table d'hôte comprend une entrée et un dessert.,Le menu comprend une entrée et un dessert.,A,J00508
+OQLF_102_P04,OQLF_102,P00571,Le serveur nous a expliqué le menu.,Le serveur nous a expliqué la table d'hôte.,B,J00509
+OQLF_102_P05,OQLF_102,P00572,Ce menu change chaque semaine.,Cette table d'hôte change chaque semaine.,B,J00510
+OQLF_103_P01,OQLF_103,P00573,Les enfants jouent sur la piste de glisse.,Les enfants jouent sur la glissoire hivernale.,B,J00511
+OQLF_103_P02,OQLF_103,P00574,La municipalité a aménagé une nouvelle piste de glisse.,La municipalité a aménagé une nouvelle glissoire hivernale.,B,J00512
+OQLF_103_P03,OQLF_103,P00575,La piste de glisse sera ouverte pendant les vacances.,La glissoire hivernale sera ouverte pendant les vacances.,B,J00513
+OQLF_103_P04,OQLF_103,P00576,Les moniteurs surveillent la piste de glisse.,Les moniteurs surveillent la glissoire hivernale.,B,J00514
+OQLF_103_P05,OQLF_103,P00577,Nous avons essayé la glissoire hivernale en fin de semaine.,Nous avons essayé la piste de glisse en fin de semaine.,A,J00515
+OQLF_104_P01,OQLF_104,P00578,Les enfants jouent sur la piste de glisse.,Les enfants jouent sur la glissoire d'hiver.,B,J00516
+OQLF_104_P02,OQLF_104,P00579,La municipalité a aménagé une nouvelle glissoire d'hiver.,La municipalité a aménagé une nouvelle piste de glisse.,A,J00517
+OQLF_104_P04,OQLF_104,P00580,Les moniteurs surveillent la glissoire d'hiver.,Les moniteurs surveillent la piste de glisse.,A,J00519
+OQLF_104_P05,OQLF_104,P00581,Nous avons essayé la glissoire d'hiver en fin de semaine.,Nous avons essayé la piste de glisse en fin de semaine.,A,J00520
+OQLF_105_P01,OQLF_105,P00582,Les enfants jouent sur la glissade.,Les enfants jouent sur la piste de glisse.,A,J00521
+OQLF_105_P02,OQLF_105,P00583,La municipalité a aménagé une nouvelle glissade.,La municipalité a aménagé une nouvelle piste de glisse.,A,J00522
+OQLF_105_P03,OQLF_105,P00584,La piste de glisse sera ouverte pendant les vacances.,La glissade sera ouverte pendant les vacances.,B,J00523
+OQLF_105_P04,OQLF_105,P00585,Les moniteurs surveillent la glissade.,Les moniteurs surveillent la piste de glisse.,A,J00524
+OQLF_105_P05,OQLF_105,P00586,Nous avons essayé la piste de glisse en fin de semaine.,Nous avons essayé la glissade en fin de semaine.,B,J00525
+OQLF_106_P01,OQLF_106,P00587,Il porte une pince-cravate avec sa tenue.,Il porte une épingle à cravate avec sa tenue.,B,J00526
+OQLF_106_P03,OQLF_106,P00588,Nous avons acheté une épingle à cravate en argent.,Nous avons acheté une pince-cravate en argent.,A,J00528
+OQLF_106_P04,OQLF_106,P00589,La pince-cravate est tombée pendant la cérémonie.,L'épingle à cravate est tombée pendant la cérémonie.,B,J00529
+OQLF_106_P05,OQLF_106,P00590,Le bijoutier a réparé sa pince-cravate.,Le bijoutier a réparé son épingle à cravate.,B,J00530
+OQLF_107_P01,OQLF_107,P00591,Il porte une épingle à cravate avec sa tenue.,Il porte un fixe-cravate avec sa tenue.,A,J00531
+OQLF_107_P02,OQLF_107,P00592,Ce fixe-cravate appartenait à son grand-père.,Cette épingle à cravate appartenait à son grand-père.,B,J00532
+OQLF_107_P03,OQLF_107,P00593,Nous avons acheté une épingle à cravate en argent.,Nous avons acheté un fixe-cravate en argent.,A,J00533
+OQLF_107_P04,OQLF_107,P00594,Son fixe-cravate en argent brillait sous les lumières.,Son épingle à cravate en argent brillait sous les lumières.,B,J00534
+OQLF_107_P05,OQLF_107,P00595,Le bijoutier a réparé son fixe-cravate.,Le bijoutier a réparé son épingle à cravate.,B,J00535
+OQLF_108_P01,OQLF_108,P00596,Il porte une épingle à cravate avec sa tenue.,Il porte un fixe-cravate avec sa tenue.,A,J00536
+OQLF_108_P02,OQLF_108,P00597,Ce fixe-cravate appartenait à son grand-père.,Cette épingle à cravate appartenait à son grand-père.,B,J00537
+OQLF_108_P04,OQLF_108,P00598,Le marié a perdu son épingle à cravate pendant la réception.,Le marié a perdu son fixe-cravate pendant la réception.,A,J00539
+OQLF_108_P05,OQLF_108,P00599,Le bijoutier a réparé son épingle à cravate.,Le bijoutier a réparé son fixe-cravate.,A,J00540
+OQLF_109_P02,OQLF_109,P00600,L'équipe a recruté un meneur de claque pour la saison.,L'équipe a recruté un gymnaste-animateur pour la saison.,A,J00542
+OQLF_109_P03,OQLF_109,P00601,Les élèves ont rencontré un meneur de claque après le match.,Les élèves ont rencontré un gymnaste-animateur après le match.,A,J00543
+OQLF_109_P04,OQLF_109,P00602,Le meneur de claque anime la foule pendant la rencontre.,Le gymnaste-animateur anime la foule pendant la rencontre.,A,J00544
+OQLF_109_P05,OQLF_109,P00603,Un gymnaste-animateur participe à la démonstration.,Un meneur de claque participe à la démonstration.,B,J00545
+OQLF_110_P01,OQLF_110,P00604,Le spectacle présente une gymnaste-animatrice expérimentée.,Le spectacle présente une meneuse de claque expérimentée.,B,J00546
+OQLF_110_P02,OQLF_110,P00605,L'équipe a recruté une meneuse de claque pour la saison.,L'équipe a recruté une gymnaste-animatrice pour la saison.,A,J00547
+OQLF_110_P03,OQLF_110,P00606,Les élèves ont rencontré une gymnaste-animatrice après le match.,Les élèves ont rencontré une meneuse de claque après le match.,B,J00548
+OQLF_110_P04,OQLF_110,P00607,La meneuse de claque anime la foule pendant la rencontre.,La gymnaste-animatrice anime la foule pendant la rencontre.,A,J00549
+OQLF_110_P05,OQLF_110,P00608,Une meneuse de claque participe à la démonstration.,Une gymnaste-animatrice participe à la démonstration.,A,J00550
+OQLF_111_P01,OQLF_111,P00609,L'université a nommé un nouveau recteur.,L'université a nommé un nouveau président.,A,J00551
+OQLF_111_P02,OQLF_111,P00610,Le recteur présentera les orientations de l'établissement.,Le président présentera les orientations de l'établissement.,A,J00552
+OQLF_111_P03,OQLF_111,P00611,Les professeurs ont rencontré le recteur.,Les professeurs ont rencontré le président.,A,J00553
+OQLF_111_P04,OQLF_111,P00612,Le mandat du recteur commence en septembre.,Le mandat du président commence en septembre.,A,J00554
+OQLF_111_P05,OQLF_111,P00613,Une cérémonie accueille le nouveau président.,Une cérémonie accueille le nouveau recteur.,B,J00555
+OQLF_112_P01,OQLF_112,P00614,L'université a nommé une nouvelle rectrice.,L'université a nommé une nouvelle présidente.,A,J00556
+OQLF_112_P02,OQLF_112,P00615,La rectrice présentera les orientations de l'établissement.,La présidente présentera les orientations de l'établissement.,A,J00557
+OQLF_112_P04,OQLF_112,P00616,Le mandat de la rectrice commence en septembre.,Le mandat de la présidente commence en septembre.,A,J00559
+OQLF_112_P05,OQLF_112,P00617,Une cérémonie accueille la nouvelle présidente.,Une cérémonie accueille la nouvelle rectrice.,B,J00560
+OQLF_113_P01,OQLF_113,P00618,J'ai acheté une nouvelle chaussure rigide pour cette saison.,J'ai acheté une nouvelle botte rigide pour cette saison.,B,J00561
+OQLF_113_P02,OQLF_113,P00619,Cette botte rigide me serre un peu le pied.,Cette chaussure rigide me serre un peu le pied.,A,J00562
+OQLF_113_P03,OQLF_113,P00620,Le magasin propose plusieurs modèles de chaussure rigide.,Le magasin propose plusieurs modèles de botte rigide.,B,J00563
+OQLF_113_P04,OQLF_113,P00621,Il faut bien ajuster chaque botte rigide avant de partir.,Il faut bien ajuster chaque chaussure rigide avant de partir.,A,J00564
+OQLF_113_P05,OQLF_113,P00622,Le vendeur recommande une botte rigide plus confortable.,Le vendeur recommande une chaussure rigide plus confortable.,A,J00565
+OQLF_114_P01,OQLF_114,P00623,Elle mange du gruau au déjeuner.,Elle mange du porridge au déjeuner.,A,J00566
+OQLF_114_P02,OQLF_114,P00624,Le restaurant sert du gruau chaud.,Le restaurant sert du porridge chaud.,A,J00567
+OQLF_114_P03,OQLF_114,P00625,Nous avons préparé du gruau avec des fruits.,Nous avons préparé du porridge avec des fruits.,A,J00568
+OQLF_114_P04,OQLF_114,P00626,Ce bol de porridge est nourrissant.,Ce bol de gruau est nourrissant.,B,J00569
+OQLF_114_P05,OQLF_114,P00627,Les enfants aiment le gruau à la cannelle.,Les enfants aiment le porridge à la cannelle.,A,J00570
+OQLF_115_P01,OQLF_115,P00628,Les citoyens déposent leurs vieux appareils à l'écocentre.,Les citoyens déposent leurs vieux appareils à la déchèterie.,A,J00571
+OQLF_115_P02,OQLF_115,P00629,La municipalité ouvre une nouvelle déchèterie.,La municipalité ouvre un nouvel écocentre.,B,J00572
+OQLF_115_P04,OQLF_115,P00630,L'écocentre accepte certains matériaux de rénovation.,La déchèterie accepte certains matériaux de rénovation.,A,J00574
+OQLF_115_P05,OQLF_115,P00631,Le site de la ville indique les heures de l'écocentre.,Le site de la ville indique les heures de la déchèterie.,A,J00575
+OQLF_116_P01,OQLF_116,P00632,La ville prévoit une nouvelle habitation à loyer modéré.,La ville prévoit une nouvelle habitation à loyer modique.,B,J00576
+OQLF_116_P02,OQLF_116,P00633,Plusieurs familles habitent dans une habitation à loyer modique.,Plusieurs familles habitent dans une habitation à loyer modéré.,A,J00577
+OQLF_116_P03,OQLF_116,P00634,Le programme finance la construction d'une habitation à loyer modéré.,Le programme finance la construction d'une habitation à loyer modique.,B,J00578
+OQLF_116_P04,OQLF_116,P00635,La demande pour une habitation à loyer modique augmente.,La demande pour une habitation à loyer modéré augmente.,A,J00579
+OQLF_116_P05,OQLF_116,P00636,Ce quartier comprend une habitation à loyer modéré récente.,Ce quartier comprend une habitation à loyer modique récente.,B,J00580
+OQLF_117_P01,OQLF_117,P00637,Elle pratique la force athlétique depuis plusieurs années.,Elle pratique la dynamophilie depuis plusieurs années.,B,J00581
+OQLF_117_P02,OQLF_117,P00638,Le club organise une compétition de force athlétique.,Le club organise une compétition de dynamophilie.,B,J00582
+OQLF_117_P03,OQLF_117,P00639,Les athlètes s'entraînent pour la dynamophilie.,Les athlètes s'entraînent pour la force athlétique.,A,J00583
+OQLF_117_P04,OQLF_117,P00640,Le championnat de dynamophilie attire beaucoup de participants.,Le championnat de force athlétique attire beaucoup de participants.,A,J00584
+OQLF_117_P05,OQLF_117,P00641,Un entraîneur explique les règles de la dynamophilie.,Un entraîneur explique les règles de la force athlétique.,A,J00585
+OQLF_118_P01,OQLF_118,P00642,Ils ont commandé une sapinette au restaurant.,Ils ont commandé une bière d'épinette au restaurant.,B,J00586
+OQLF_118_P02,OQLF_118,P00643,La boutique propose une sapinette artisanale.,La boutique propose une bière d'épinette artisanale.,B,J00587
+OQLF_118_P03,OQLF_118,P00644,Nous avons goûté une sapinette bien fraîche.,Nous avons goûté une bière d'épinette bien fraîche.,B,J00588
+OQLF_118_P04,OQLF_118,P00645,Cette sapinette accompagne le repas.,Cette bière d'épinette accompagne le repas.,B,J00589
+OQLF_118_P05,OQLF_118,P00646,Le menu présente une bière d'épinette locale.,Le menu présente une sapinette locale.,A,J00590
+OQLF_119_P01,OQLF_119,P00647,L'hôpital propose une chirurgie d'un jour pour cette intervention.,L'hôpital propose une chirurgie ambulatoire pour cette intervention.,A,J00591
+OQLF_119_P02,OQLF_119,P00648,La chirurgie ambulatoire permet un retour à domicile rapide.,La chirurgie d'un jour permet un retour à domicile rapide.,B,J00592
+OQLF_119_P03,OQLF_119,P00649,Le chirurgien a recommandé une chirurgie d'un jour.,Le chirurgien a recommandé une chirurgie ambulatoire.,A,J00593
+OQLF_119_P04,OQLF_119,P00650,Le service de chirurgie d'un jour accueille plusieurs patients.,Le service de chirurgie ambulatoire accueille plusieurs patients.,A,J00594
+OQLF_119_P05,OQLF_119,P00651,Cette opération relève de la chirurgie d'un jour.,Cette opération relève de la chirurgie ambulatoire.,A,J00595
+OQLF_120_P01,OQLF_120,P00652,L'hôpital accueille un clown thérapeute chaque semaine.,L'hôpital accueille un amuseur-thérapeute chaque semaine.,B,J00596
+OQLF_120_P02,OQLF_120,P00653,Les enfants ont rencontré un amuseur-thérapeute au service de pédiatrie.,Les enfants ont rencontré un clown thérapeute au service de pédiatrie.,A,J00597
+OQLF_120_P03,OQLF_120,P00654,Un amuseur-thérapeute participe aux activités du centre.,Un clown thérapeute participe aux activités du centre.,A,J00598
+OQLF_120_P04,OQLF_120,P00655,Le personnel collabore avec un amuseur-thérapeute formé.,Le personnel collabore avec un clown thérapeute formé.,A,J00599
+OQLF_120_P05,OQLF_120,P00656,Le programme recrute un clown thérapeute pour les visites.,Le programme recrute un amuseur-thérapeute pour les visites.,B,J00600
+OQLF_121_P01,OQLF_121,P00657,L'hôpital accueille un amuseur-thérapeute chaque semaine.,L'hôpital accueille un clown hospitalier chaque semaine.,A,J00601
+OQLF_121_P02,OQLF_121,P00658,Les enfants ont rencontré un amuseur-thérapeute au service de pédiatrie.,Les enfants ont rencontré un clown hospitalier au service de pédiatrie.,A,J00602
+OQLF_121_P03,OQLF_121,P00659,Un clown hospitalier participe aux activités du centre.,Un amuseur-thérapeute participe aux activités du centre.,B,J00603
+OQLF_121_P05,OQLF_121,P00660,Le programme recrute un clown hospitalier pour les visites.,Le programme recrute un amuseur-thérapeute pour les visites.,B,J00605
+OQLF_122_P01,OQLF_122,P00661,L'hôpital accueille un hôpiclown chaque semaine.,L'hôpital accueille un amuseur-thérapeute chaque semaine.,B,J00606
+OQLF_122_P02,OQLF_122,P00662,Les enfants ont rencontré un hôpiclown au service de pédiatrie.,Les enfants ont rencontré un amuseur-thérapeute au service de pédiatrie.,B,J00607
+OQLF_122_P03,OQLF_122,P00663,Un hôpiclown participe aux activités du centre.,Un amuseur-thérapeute participe aux activités du centre.,B,J00608
+OQLF_122_P04,OQLF_122,P00664,Le personnel collabore avec un amuseur-thérapeute formé.,Le personnel collabore avec un hôpiclown formé.,A,J00609
+OQLF_122_P05,OQLF_122,P00665,Le programme recrute un amuseur-thérapeute pour les visites.,Le programme recrute un hôpiclown pour les visites.,A,J00610
+OQLF_123_P01,OQLF_123,P00666,Le service cherche une personne qualifiée pour le poste de chirurgien buccal et maxillofacial.,Le service cherche une personne qualifiée pour le poste de chirurgien stomatologiste.,A,J00611
+OQLF_123_P02,OQLF_123,P00667,L'annonce indique que le poste de chirurgien buccal et maxillofacial est à pourvoir.,L'annonce indique que le poste de chirurgien stomatologiste est à pourvoir.,A,J00612
+OQLF_123_P03,OQLF_123,P00668,Une personne exerçant le métier de chirurgien stomatologiste a été consultée.,Une personne exerçant le métier de chirurgien buccal et maxillofacial a été consultée.,B,J00613
+OQLF_123_P04,OQLF_123,P00669,La formation prépare au métier de chirurgien stomatologiste.,La formation prépare au métier de chirurgien buccal et maxillofacial.,B,J00614
+OQLF_124_P01,OQLF_124,P00670,Le service cherche une personne qualifiée pour le poste de chirurgien stomatologiste.,Le service cherche une personne qualifiée pour le poste de chirurgienne buccale et maxillofaciale.,B,J00616
+OQLF_124_P02,OQLF_124,P00671,L'annonce indique que le poste de chirurgien stomatologiste est à pourvoir.,L'annonce indique que le poste de chirurgienne buccale et maxillofaciale est à pourvoir.,B,J00617
+OQLF_124_P03,OQLF_124,P00672,Une personne exerçant le métier de chirurgien stomatologiste a été consultée.,Une personne exerçant le métier de chirurgienne buccale et maxillofaciale a été consultée.,B,J00618
+OQLF_124_P04,OQLF_124,P00673,La formation prépare au métier de chirurgien stomatologiste.,La formation prépare au métier de chirurgienne buccale et maxillofaciale.,B,J00619
+OQLF_125_P02,OQLF_125,P00674,Nous avons demandé un appel à frais virés à la compagnie de téléphone.,Nous avons demandé une communication en PCV à la compagnie de téléphone.,A,J00622
+OQLF_125_P03,OQLF_125,P00675,Cette communication en PCV transfère les frais au destinataire.,Cet appel à frais virés transfère les frais au destinataire.,B,J00623
+OQLF_125_P04,OQLF_125,P00676,Le service clientèle explique le fonctionnement de la communication en PCV.,Le service clientèle explique le fonctionnement de l'appel à frais virés.,B,J00624
+OQLF_125_P05,OQLF_125,P00677,Les clients utilisent encore cet appel à frais virés à l'occasion.,Les clients utilisent encore cette communication en PCV à l'occasion.,A,J00625
+OQLF_126_P01,OQLF_126,P00678,L'opérateur propose un appel à frais virés pour joindre la famille.,L'opérateur propose un appel en PCV pour joindre la famille.,A,J00626
+OQLF_126_P02,OQLF_126,P00679,Nous avons demandé un appel à frais virés à la compagnie de téléphone.,Nous avons demandé un appel en PCV à la compagnie de téléphone.,A,J00627
+OQLF_126_P04,OQLF_126,P00680,Le client a refusé l'appel en PCV venant de l'étranger.,Le client a refusé l'appel à frais virés venant de l'étranger.,B,J00629
+OQLF_126_P05,OQLF_126,P00681,Les clients utilisent encore cet appel à frais virés à l'occasion.,Les clients utilisent encore cet appel en PCV à l'occasion.,A,J00630
+OQLF_127_P01,OQLF_127,P00682,L'opérateur propose une communication à frais virés pour joindre la famille.,L'opérateur propose une communication en PCV pour joindre la famille.,A,J00631
+OQLF_127_P02,OQLF_127,P00683,Nous avons demandé une communication en PCV à la compagnie de téléphone.,Nous avons demandé une communication à frais virés à la compagnie de téléphone.,B,J00632
+OQLF_127_P03,OQLF_127,P00684,Cette communication en PCV transfère les frais au destinataire.,Cette communication à frais virés transfère les frais au destinataire.,B,J00633
+OQLF_127_P04,OQLF_127,P00685,Le service clientèle explique le fonctionnement de la communication en PCV.,Le service clientèle explique le fonctionnement de la communication à frais virés.,B,J00634
+OQLF_127_P05,OQLF_127,P00686,Les clients utilisent encore cette communication à frais virés à l'occasion.,Les clients utilisent encore cette communication en PCV à l'occasion.,A,J00635
+OQLF_128_P01,OQLF_128,P00687,L'opérateur propose une communication à frais virés pour joindre la famille.,L'opérateur propose un appel en PCV pour joindre la famille.,A,J00636
+OQLF_128_P02,OQLF_128,P00688,Nous avons demandé une communication à frais virés à la compagnie de téléphone.,Nous avons demandé un appel en PCV à la compagnie de téléphone.,A,J00637
+OQLF_128_P03,OQLF_128,P00689,Cet appel en PCV transfère les frais au destinataire.,Cette communication à frais virés transfère les frais au destinataire.,B,J00638
+OQLF_128_P04,OQLF_128,P00690,L'opérateur a confirmé la communication à frais virés avant de la transférer.,L'opérateur a confirmé l'appel en PCV avant de le transférer.,A,J00639
+OQLF_128_P05,OQLF_128,P00691,Les clients utilisent encore cet appel en PCV à l'occasion.,Les clients utilisent encore cette communication à frais virés à l'occasion.,B,J00640
+OQLF_129_P01,OQLF_129,P00692,L'opérateur propose une communication en PCV pour joindre la famille.,L'opérateur propose une communication payable à l'arrivée pour joindre la famille.,B,J00641
+OQLF_129_P02,OQLF_129,P00693,Nous avons demandé une communication en PCV à la compagnie de téléphone.,Nous avons demandé une communication payable à l'arrivée à la compagnie de téléphone.,B,J00642
+OQLF_129_P04,OQLF_129,P00694,Le service clientèle explique le fonctionnement de la communication en PCV.,Le service clientèle explique le fonctionnement de la communication payable à l'arrivée.,B,J00644
+OQLF_129_P05,OQLF_129,P00695,Les clients utilisent encore cette communication payable à l'arrivée à l'occasion.,Les clients utilisent encore cette communication en PCV à l'occasion.,A,J00645
+OQLF_130_P01,OQLF_130,P00696,L'opérateur propose un appel en PCV pour joindre la famille.,L'opérateur propose une communication payable à l'arrivée pour joindre la famille.,B,J00646
+OQLF_130_P02,OQLF_130,P00697,Nous avons demandé une communication payable à l'arrivée à la compagnie de téléphone.,Nous avons demandé un appel en PCV à la compagnie de téléphone.,A,J00647
+OQLF_130_P03,OQLF_130,P00698,Cet appel en PCV transfère les frais au destinataire.,Cette communication payable à l'arrivée transfère les frais au destinataire.,B,J00648
+OQLF_130_P04,OQLF_130,P00699,Elle a accepté la communication payable à l'arrivée pendant son voyage.,Elle a accepté l'appel en PCV pendant son voyage.,A,J00649
+OQLF_130_P05,OQLF_130,P00700,Les clients utilisent encore cette communication payable à l'arrivée à l'occasion.,Les clients utilisent encore cet appel en PCV à l'occasion.,A,J00650
+OQLF_131_P01,OQLF_131,P00701,Nous avons choisi le canoë-campeur pour notre voyage d'été.,Nous avons choisi le canot-campeur pour notre voyage d'été.,B,J00651
+OQLF_131_P02,OQLF_131,P00702,Le club propose une initiation au canoë-campeur.,Le club propose une initiation au canot-campeur.,B,J00652
+OQLF_131_P03,OQLF_131,P00703,Les participants pratiquent le canot-campeur près du lac.,Les participants pratiquent le canoë-campeur près du lac.,A,J00653
+OQLF_131_P04,OQLF_131,P00704,Le guide explique les règles du canoë-campeur.,Le guide explique les règles du canot-campeur.,B,J00654
+OQLF_131_P05,OQLF_131,P00705,Ils préparent leur équipement pour le canoë-campeur.,Ils préparent leur équipement pour le canot-campeur.,B,J00655
+OQLF_132_P01,OQLF_132,P00706,Le menuisier a sorti son mètre à ruban.,Le menuisier a sorti son ruban à mesurer.,B,J00656
+OQLF_132_P02,OQLF_132,P00707,Utilise un ruban à mesurer pour vérifier la longueur.,Utilise un mètre à ruban pour vérifier la longueur.,A,J00657
+OQLF_132_P03,OQLF_132,P00708,Elle a acheté un mètre à ruban neuf.,Elle a acheté un ruban à mesurer neuf.,B,J00658
+OQLF_132_P04,OQLF_132,P00709,Le mètre à ruban est rangé dans la boîte à outils.,Le ruban à mesurer est rangé dans la boîte à outils.,B,J00659
+OQLF_132_P05,OQLF_132,P00710,Il a mesuré la pièce avec un mètre à ruban.,Il a mesuré la pièce avec un ruban à mesurer.,B,J00660
+OQLF_133_P01,OQLF_133,P00711,Le menuisier a sorti son galon à mesurer.,Le menuisier a sorti son mètre à ruban.,A,J00661
+OQLF_133_P02,OQLF_133,P00712,Utilise un galon à mesurer pour vérifier la longueur.,Utilise un mètre à ruban pour vérifier la longueur.,A,J00662
+OQLF_133_P03,OQLF_133,P00713,Elle a acheté un mètre à ruban neuf.,Elle a acheté un galon à mesurer neuf.,B,J00663
+OQLF_133_P04,OQLF_133,P00714,Le galon à mesurer est rangé dans la boîte à outils.,Le mètre à ruban est rangé dans la boîte à outils.,A,J00664
+OQLF_133_P05,OQLF_133,P00715,Il a mesuré la pièce avec un galon à mesurer.,Il a mesuré la pièce avec un mètre à ruban.,A,J00665
+OQLF_134_P02,OQLF_134,P00716,Nous avons organisé une partie de touche-touche.,Nous avons organisé une partie de tague.,B,J00667
+OQLF_134_P03,OQLF_134,P00717,La tague est populaire à la récréation.,La touche-touche est populaire à la récréation.,A,J00668
+OQLF_134_P04,OQLF_134,P00718,Ils ont proposé de jouer à la touche-touche.,Ils ont proposé de jouer à la tague.,B,J00669
+OQLF_134_P05,OQLF_134,P00719,L'animatrice explique les règles de la tague.,L'animatrice explique les règles de la touche-touche.,A,J00670
+OQLF_135_P01,OQLF_135,P00720,Elle dessine avec un stylomine.,Elle dessine avec un crayon à mine.,B,J00671
+OQLF_135_P02,OQLF_135,P00721,J'ai perdu mon stylomine en classe.,J'ai perdu mon crayon à mine en classe.,B,J00672
+OQLF_135_P03,OQLF_135,P00722,Il a taillé son stylomine avant l'examen.,Il a taillé son crayon à mine avant l'examen.,B,J00673
+OQLF_135_P04,OQLF_135,P00723,Le magasin vend un crayon à mine.,Le magasin vend un stylomine.,A,J00674
+OQLF_135_P05,OQLF_135,P00724,Peux-tu me prêter ton crayon à mine?,Peux-tu me prêter ton stylomine?,A,J00675
+OQLF_136_P01,OQLF_136,P00725,Le vent fait tourner le virevent dans le jardin.,Le vent fait tourner le moulinet à vent dans le jardin.,A,J00676
+OQLF_136_P02,OQLF_136,P00726,Les enfants fabriquent un virevent en papier.,Les enfants fabriquent un moulinet à vent en papier.,A,J00677
+OQLF_136_P04,OQLF_136,P00727,Le moulinet à vent tourne très vite aujourd'hui.,Le virevent tourne très vite aujourd'hui.,B,J00679
+OQLF_136_P05,OQLF_136,P00728,Elle a décoré son virevent de plusieurs couleurs.,Elle a décoré son moulinet à vent de plusieurs couleurs.,A,J00680
+OQLF_137_P01,OQLF_137,P00729,L'assemblée a élu un orateur adjoint.,L'assemblée a élu un vice-président.,A,J00681
+OQLF_137_P02,OQLF_137,P00730,Le vice-président dirige la séance en l'absence du titulaire.,L'orateur adjoint dirige la séance en l'absence du titulaire.,B,J00682
+OQLF_137_P03,OQLF_137,P00731,Les députés ont salué l'orateur adjoint.,Les députés ont salué le vice-président.,A,J00683
+OQLF_137_P04,OQLF_137,P00732,Le mandat de l'orateur adjoint commence aujourd'hui.,Le mandat du vice-président commence aujourd'hui.,A,J00684
+OQLF_138_P01,OQLF_138,P00733,Les travaux amélioreront la ventilation de l'entretoit de la maison.,Les travaux amélioreront la ventilation de la couverture de la maison.,A,J00686
+OQLF_138_P02,OQLF_138,P00734,L'entrepreneur inspecte la ventilation de l'entretoit.,L'entrepreneur inspecte la ventilation de la couverture.,A,J00687
+OQLF_138_P03,OQLF_138,P00735,Une bonne ventilation de l'entretoit aide à limiter l'humidité.,Une bonne ventilation de la couverture aide à limiter l'humidité.,A,J00688
+OQLF_138_P04,OQLF_138,P00736,Le rapport recommande de revoir la ventilation de la couverture.,Le rapport recommande de revoir la ventilation de l'entretoit.,B,J00689
+OQLF_138_P05,OQLF_138,P00737,La ventilation de l'entretoit a été refaite l'an dernier.,La ventilation de la couverture a été refaite l'an dernier.,A,J00690
+OQLF_139_P01,OQLF_139,P00738,Le service cherche une personne qualifiée pour le poste d'ingénieur agronome.,Le service cherche une personne qualifiée pour le poste d'agronome.,B,J00691
+OQLF_139_P02,OQLF_139,P00739,L'annonce indique que le poste d'agronome est à pourvoir.,L'annonce indique que le poste d'ingénieur agronome est à pourvoir.,A,J00692
+OQLF_139_P03,OQLF_139,P00740,Une personne exerçant le métier d'agronome a été consultée.,Une personne exerçant le métier d'ingénieur agronome a été consultée.,A,J00693
+OQLF_139_P04,OQLF_139,P00741,La formation prépare au métier d'ingénieur agronome.,La formation prépare au métier d'agronome.,B,J00694
+OQLF_140_P01,OQLF_140,P00742,Elle a préparé un gâteau aux fruits pour la fête.,Elle a préparé un cake pour la fête.,A,J00696
+OQLF_140_P03,OQLF_140,P00743,La boulangerie vend un délicieux cake.,La boulangerie vend un délicieux gâteau aux fruits.,B,J00698
+OQLF_140_P04,OQLF_140,P00744,Cette recette de gâteau aux fruits contient des raisins.,Cette recette de cake contient des raisins.,A,J00699
+OQLF_140_P05,OQLF_140,P00745,Il a apporté un cake fait maison.,Il a apporté un gâteau aux fruits fait maison.,B,J00700
+OQLF_141_P01,OQLF_141,P00746,L'opérateur propose un service PCV pour joindre la famille.,L'opérateur propose un service à frais virés pour joindre la famille.,B,J00701
+OQLF_141_P02,OQLF_141,P00747,Nous avons demandé un service PCV à la compagnie de téléphone.,Nous avons demandé un service à frais virés à la compagnie de téléphone.,B,J00702
+OQLF_141_P03,OQLF_141,P00748,Ce service PCV transfère les frais au destinataire.,Ce service à frais virés transfère les frais au destinataire.,B,J00703
+OQLF_141_P04,OQLF_141,P00749,Le service clientèle explique le fonctionnement du service à frais virés.,Le service clientèle explique le fonctionnement du service PCV.,A,J00704
+OQLF_141_P05,OQLF_141,P00750,Les clients utilisent encore ce service à frais virés à l'occasion.,Les clients utilisent encore ce service PCV à l'occasion.,A,J00705
+OQLF_142_P01,OQLF_142,P00751,Nous sommes passés chez le glacier après la promenade.,Nous sommes passés à la crèmerie après la promenade.,B,J00706
+OQLF_142_P02,OQLF_142,P00752,Le glacier ouvre dès le printemps.,La crèmerie ouvre dès le printemps.,B,J00707
+OQLF_142_P03,OQLF_142,P00753,Les enfants veulent aller à la crèmerie.,Les enfants veulent aller chez le glacier.,A,J00708
+OQLF_142_P04,OQLF_142,P00754,Un nouveau glacier s'installe près du parc.,Une nouvelle crèmerie s'installe près du parc.,B,J00709
+OQLF_142_P05,OQLF_142,P00755,Le glacier propose plusieurs parfums.,La crèmerie propose plusieurs parfums.,B,J00710
+OQLF_143_P01,OQLF_143,P00756,Nous sommes passés à la boutique de glaces après la promenade.,Nous sommes passés à la crèmerie après la promenade.,B,J00711
+OQLF_143_P02,OQLF_143,P00757,La boutique de glaces ouvre dès le printemps.,La crèmerie ouvre dès le printemps.,B,J00712
+OQLF_143_P03,OQLF_143,P00758,Les enfants veulent aller à la boutique de glaces.,Les enfants veulent aller à la crèmerie.,B,J00713
+OQLF_143_P04,OQLF_143,P00759,Une nouvelle crèmerie s'installe près du parc.,Une nouvelle boutique de glaces s'installe près du parc.,A,J00714
+OQLF_143_P05,OQLF_143,P00760,La boutique de glaces propose plusieurs parfums.,La crèmerie propose plusieurs parfums.,B,J00715
+OQLF_144_P01,OQLF_144,P00761,Nous sommes passés au bar laitier après la promenade.,Nous sommes passés chez le glacier après la promenade.,A,J00716
+OQLF_144_P02,OQLF_144,P00762,Le glacier ouvre dès le printemps.,Le bar laitier ouvre dès le printemps.,B,J00717
+OQLF_144_P03,OQLF_144,P00763,Les enfants veulent aller au bar laitier.,Les enfants veulent aller chez le glacier.,A,J00718
+OQLF_144_P04,OQLF_144,P00764,Un nouveau bar laitier s'installe près du parc.,Un nouveau glacier s'installe près du parc.,A,J00719
+OQLF_144_P05,OQLF_144,P00765,Le glacier propose plusieurs parfums.,Le bar laitier propose plusieurs parfums.,B,J00720
+OQLF_145_P01,OQLF_145,P00766,Nous sommes passés au bar laitier après la promenade.,Nous sommes passés à la boutique de glaces après la promenade.,A,J00721
+OQLF_145_P02,OQLF_145,P00767,La boutique de glaces ouvre dès le printemps.,Le bar laitier ouvre dès le printemps.,B,J00722
+OQLF_145_P04,OQLF_145,P00768,Une nouvelle boutique de glaces s'installe près du parc.,Un nouveau bar laitier s'installe près du parc.,B,J00724
+OQLF_145_P05,OQLF_145,P00769,La boutique de glaces propose plusieurs parfums.,Le bar laitier propose plusieurs parfums.,B,J00725
+OQLF_146_P01,OQLF_146,P00770,Nous sommes passés chez le glacier après la promenade.,Nous sommes passés au comptoir de crème glacée après la promenade.,B,J00726
+OQLF_146_P02,OQLF_146,P00771,Le glacier ouvre dès le printemps.,Le comptoir de crème glacée ouvre dès le printemps.,B,J00727
+OQLF_146_P03,OQLF_146,P00772,Les enfants veulent aller au comptoir de crème glacée.,Les enfants veulent aller chez le glacier.,A,J00728
+OQLF_146_P04,OQLF_146,P00773,Un nouveau comptoir de crème glacée s'installe près du parc.,Un nouveau glacier s'installe près du parc.,A,J00729
+OQLF_146_P05,OQLF_146,P00774,Le glacier propose plusieurs parfums.,Le comptoir de crème glacée propose plusieurs parfums.,B,J00730
+OQLF_147_P02,OQLF_147,P00775,La boutique de glaces ouvre dès le printemps.,Le comptoir de crème glacée ouvre dès le printemps.,B,J00732
+OQLF_147_P03,OQLF_147,P00776,Les enfants veulent aller à la boutique de glaces.,Les enfants veulent aller au comptoir de crème glacée.,B,J00733
+OQLF_147_P04,OQLF_147,P00777,Un nouveau comptoir de crème glacée s'installe près du parc.,Une nouvelle boutique de glaces s'installe près du parc.,A,J00734
+OQLF_147_P05,OQLF_147,P00778,Le comptoir de crème glacée propose plusieurs parfums.,La boutique de glaces propose plusieurs parfums.,A,J00735
+OQLF_148_P01,OQLF_148,P00779,Nous avons choisi le canot-camping pour notre voyage d'été.,Nous avons choisi le canoë-camping pour notre voyage d'été.,A,J00736
+OQLF_148_P02,OQLF_148,P00780,Le club propose une initiation au canoë-camping.,Le club propose une initiation au canot-camping.,B,J00737
+OQLF_148_P05,OQLF_148,P00781,Ils préparent leur équipement pour le canot-camping.,Ils préparent leur équipement pour le canoë-camping.,A,J00740
+OQLF_149_P01,OQLF_149,P00782,La garderie a embauché un éducateur de la petite enfance cet automne.,La garderie a embauché un éducateur de jeunes enfants cet automne.,A,J00741
+OQLF_149_P02,OQLF_149,P00783,Le centre cherche un éducateur de la petite enfance pour le groupe des trottineurs.,Le centre cherche un éducateur de jeunes enfants pour le groupe des trottineurs.,A,J00742
+OQLF_149_P03,OQLF_149,P00784,Mon voisin travaille comme éducateur de jeunes enfants.,Mon voisin travaille comme éducateur de la petite enfance.,B,J00743
+OQLF_149_P04,OQLF_149,P00785,Mon frère étudie pour devenir éducateur de la petite enfance.,Mon frère étudie pour devenir éducateur de jeunes enfants.,A,J00744
+OQLF_149_P05,OQLF_149,P00786,Le ministère a publié une offre pour un éducateur de jeunes enfants.,Le ministère a publié une offre pour un éducateur de la petite enfance.,B,J00745
+OQLF_150_P03,OQLF_150,P00787,Un éducateur en services de garde a animé l'atelier de bricolage.,Un éducateur de jeunes enfants a animé l'atelier de bricolage.,A,J00748
+OQLF_150_P04,OQLF_150,P00788,La famille a remercié l'éducateur en services de garde de son dévouement.,La famille a remercié l'éducateur de jeunes enfants de son dévouement.,A,J00749
+OQLF_150_P05,OQLF_150,P00789,Le centre de loisirs offre un poste d'éducateur de jeunes enfants durant l'été.,Le centre de loisirs offre un poste d'éducateur en services de garde durant l'été.,B,J00750
+OQLF_151_P01,OQLF_151,P00790,L'organisme dispose d'une ligne numéro vert pour les appels.,L'organisme dispose d'une ligne sans frais pour les appels.,B,J00751
+OQLF_151_P02,OQLF_151,P00791,Nous avons composé la ligne numéro vert indiquée sur la lettre.,Nous avons composé la ligne sans frais indiquée sur la lettre.,B,J00752
+OQLF_151_P03,OQLF_151,P00792,Le service clientèle propose une ligne sans frais.,Le service clientèle propose une ligne numéro vert.,A,J00753
+OQLF_151_P04,OQLF_151,P00793,Le site affiche une ligne sans frais pour obtenir de l'aide.,Le site affiche une ligne numéro vert pour obtenir de l'aide.,A,J00754
+OQLF_151_P05,OQLF_151,P00794,Les citoyens peuvent utiliser la ligne sans frais en semaine.,Les citoyens peuvent utiliser la ligne numéro vert en semaine.,A,J00755
+OQLF_152_P01,OQLF_152,P00795,L'organisme dispose d'une ligne numéro vert pour les appels.,L'organisme dispose d'une ligne 800 pour les appels.,B,J00756
+OQLF_152_P02,OQLF_152,P00796,Nous avons composé la ligne 800 indiquée sur la lettre.,Nous avons composé la ligne numéro vert indiquée sur la lettre.,A,J00757
+OQLF_152_P03,OQLF_152,P00797,Le service clientèle propose une ligne numéro vert.,Le service clientèle propose une ligne 800.,B,J00758
+OQLF_152_P04,OQLF_152,P00798,Le site affiche une ligne 800 pour obtenir de l'aide.,Le site affiche une ligne numéro vert pour obtenir de l'aide.,A,J00759
+OQLF_152_P05,OQLF_152,P00799,Les citoyens peuvent utiliser la ligne 800 en semaine.,Les citoyens peuvent utiliser la ligne numéro vert en semaine.,A,J00760
+OQLF_153_P01,OQLF_153,P00800,L'organisme dispose d'un numéro sans frais pour les appels.,L'organisme dispose d'un numéro vert pour les appels.,A,J00761
+OQLF_153_P02,OQLF_153,P00801,Nous avons composé le numéro vert indiqué sur la lettre.,Nous avons composé le numéro sans frais indiqué sur la lettre.,B,J00762
+OQLF_153_P03,OQLF_153,P00802,Le service clientèle propose un numéro vert.,Le service clientèle propose un numéro sans frais.,B,J00763
+OQLF_153_P04,OQLF_153,P00803,Le site affiche un numéro vert pour obtenir de l'aide.,Le site affiche un numéro sans frais pour obtenir de l'aide.,B,J00764
+OQLF_153_P05,OQLF_153,P00804,Les citoyens peuvent utiliser le numéro sans frais en semaine.,Les citoyens peuvent utiliser le numéro vert en semaine.,A,J00765
+OQLF_154_P01,OQLF_154,P00805,L'organisme dispose d'un numéro d'appel sans frais pour les appels.,L'organisme dispose d'un numéro vert pour les appels.,A,J00766
+OQLF_154_P02,OQLF_154,P00806,Nous avons composé le numéro d'appel sans frais indiqué sur la lettre.,Nous avons composé le numéro vert indiqué sur la lettre.,A,J00767
+OQLF_154_P03,OQLF_154,P00807,Le service clientèle propose un numéro d'appel sans frais.,Le service clientèle propose un numéro vert.,A,J00768
+OQLF_154_P04,OQLF_154,P00808,Le site affiche un numéro vert pour obtenir de l'aide.,Le site affiche un numéro d'appel sans frais pour obtenir de l'aide.,B,J00769
+OQLF_155_P01,OQLF_155,P00809,L'organisme dispose d'un numéro vert pour les appels.,L'organisme dispose d'un numéro 800 pour les appels.,B,J00771
+OQLF_155_P02,OQLF_155,P00810,Nous avons composé le numéro 800 indiqué sur la lettre.,Nous avons composé le numéro vert indiqué sur la lettre.,A,J00772
+OQLF_155_P03,OQLF_155,P00811,Le service clientèle propose un numéro vert.,Le service clientèle propose un numéro 800.,B,J00773
+OQLF_155_P04,OQLF_155,P00812,Le site affiche un numéro vert pour obtenir de l'aide.,Le site affiche un numéro 800 pour obtenir de l'aide.,B,J00774
+OQLF_155_P05,OQLF_155,P00813,Les citoyens peuvent utiliser le numéro vert en semaine.,Les citoyens peuvent utiliser le numéro 800 en semaine.,B,J00775
+OQLF_156_P01,OQLF_156,P00814,Le CLSC a embauché un travailleur social.,Le CLSC a embauché un assistant de service social.,A,J00776
+OQLF_156_P02,OQLF_156,P00815,La famille a rencontré un assistant de service social à l'hôpital.,La famille a rencontré un travailleur social à l'hôpital.,B,J00777
+OQLF_156_P03,OQLF_156,P00816,Le tribunal a demandé l'avis d'un travailleur social.,Le tribunal a demandé l'avis d'un assistant de service social.,A,J00778
+OQLF_156_P04,OQLF_156,P00817,Mon cousin travaille comme travailleur social.,Mon cousin travaille comme assistant de service social.,A,J00779
+OQLF_156_P05,OQLF_156,P00818,L'école a fait appel à un travailleur social pour aider l'élève.,L'école a fait appel à un assistant de service social pour aider l'élève.,A,J00780
+OQLF_157_P01,OQLF_157,P00819,L'organisme communautaire cherche un travailleur social bilingue.,L'organisme communautaire cherche un assistant social bilingue.,A,J00781
+OQLF_157_P02,OQLF_157,P00820,Un travailleur social a visité la famille mardi.,Un assistant social a visité la famille mardi.,A,J00782
+OQLF_157_P03,OQLF_157,P00821,Elle a téléphoné à l'assistant social de son quartier.,Elle a téléphoné au travailleur social de son quartier.,B,J00783
+OQLF_157_P04,OQLF_157,P00822,"Après son diplôme, il est devenu assistant social.","Après son diplôme, il est devenu travailleur social.",B,J00784
+OQLF_157_P05,OQLF_157,P00823,Le refuge emploie un assistant social à temps plein.,Le refuge emploie un travailleur social à temps plein.,B,J00785
+OQLF_158_P01,OQLF_158,P00824,"Les obligations ont été émises à 95 % de leur valeur nominale, ce qui crée une prime d'émission de 5 %.","Les obligations ont été émises à 95 % de leur valeur nominale, ce qui crée un escompte d'émission d'obligations de 5 %.",B,J00786
+OQLF_158_P03,OQLF_158,P00825,Le bilan présente l'escompte d'émission d'obligations des titres vendus sous leur valeur nominale.,Le bilan présente la prime d'émission des titres vendus sous leur valeur nominale.,A,J00788
+OQLF_158_P04,OQLF_158,P00826,L'escompte d'émission d'obligations correspond à l'écart entre la valeur nominale et le prix d'émission.,La prime d'émission correspond à l'écart entre la valeur nominale et le prix d'émission.,A,J00789
+OQLF_159_P02,OQLF_159,P00827,"Le taux d'intérêt effectif dépasse le taux nominal, ce qui explique la prime d'émission.","Le taux d'intérêt effectif dépasse le taux nominal, ce qui explique l'escompte à l'émission d'obligations.",B,J00792
+OQLF_159_P04,OQLF_159,P00828,Le trésorier a calculé la prime d'émission en soustrayant le prix d'émission de la valeur nominale.,Le trésorier a calculé l'escompte à l'émission d'obligations en soustrayant le prix d'émission de la valeur nominale.,B,J00794
+OQLF_159_P05,OQLF_159,P00829,"Plus le taux nominal est faible, plus la prime d'émission est élevée.","Plus le taux nominal est faible, plus l'escompte à l'émission d'obligations est élevé.",B,J00795
+OQLF_160_P01,OQLF_160,P00830,Le courtier a expliqué la prime d'émission à un client qui achetait des obligations sous le pair.,Le courtier a expliqué l'escompte d'émission à un client qui achetait des obligations sous le pair.,B,J00796
+OQLF_160_P02,OQLF_160,P00831,"La société a amorti la prime d'émission sur cinq ans, jusqu'à l'échéance des obligations.","La société a amorti l'escompte d'émission sur cinq ans, jusqu'à l'échéance des obligations.",B,J00797
+OQLF_160_P03,OQLF_160,P00832,Le tableau indique la prime d'émission de chaque série d'obligations vendue sous sa valeur nominale.,Le tableau indique l'escompte d'émission de chaque série d'obligations vendue sous sa valeur nominale.,B,J00798
+OQLF_160_P04,OQLF_160,P00833,"Le prix d'émission des obligations était inférieur à leur valeur nominale, d'où la prime d'émission.","Le prix d'émission des obligations était inférieur à leur valeur nominale, d'où l'escompte d'émission.",B,J00799
+OQLF_160_P05,OQLF_160,P00834,Le vérificateur a revu la prime d'émission créée par la vente des obligations sous le pair.,Le vérificateur a revu l'escompte d'émission créé par la vente des obligations sous le pair.,B,J00800
+OQLF_161_P01,OQLF_161,P00835,Le trésorier a présenté le compte de résultat annuel.,Le trésorier a présenté l'état des résultats annuel.,B,J00801
+OQLF_161_P04,OQLF_161,P00836,Le rapport contient un état des résultats détaillé.,Le rapport contient un compte de résultat détaillé.,A,J00804
+OQLF_161_P05,OQLF_161,P00837,L'équipe prépare l'état des résultats de fin d'exercice.,L'équipe prépare le compte de résultat de fin d'exercice.,A,J00805
+OQLF_162_P01,OQLF_162,P00838,Les techniciens ont installé un atténuateur de choc non redirectionnel le long de la route.,Les techniciens ont installé un atténuateur d'impact non redirectionnel le long de la route.,B,J00806
+OQLF_162_P02,OQLF_162,P00839,Le plan prévoit un nouvel atténuateur de choc non redirectionnel devant l'obstacle.,Le plan prévoit un nouvel atténuateur d'impact non redirectionnel devant l'obstacle.,B,J00807
+OQLF_162_P03,OQLF_162,P00840,Un atténuateur de choc non redirectionnel protège les usagers en cas de collision.,Un atténuateur d'impact non redirectionnel protège les usagers en cas de collision.,B,J00808
+OQLF_162_P04,OQLF_162,P00841,L'équipe inspecte chaque atténuateur de choc non redirectionnel après un accident.,L'équipe inspecte chaque atténuateur d'impact non redirectionnel après un accident.,B,J00809
+OQLF_163_P01,OQLF_163,P00842,Les techniciens ont installé un atténuateur d'impact non redirectionnel le long de la route.,Les techniciens ont installé un atténuateur de choc non redirectif le long de la route.,A,J00811
+OQLF_163_P02,OQLF_163,P00843,Le plan prévoit un nouvel atténuateur de choc non redirectif devant l'obstacle.,Le plan prévoit un nouvel atténuateur d'impact non redirectionnel devant l'obstacle.,B,J00812
+OQLF_163_P03,OQLF_163,P00844,Un atténuateur de choc non redirectif protège les usagers en cas de collision.,Un atténuateur d'impact non redirectionnel protège les usagers en cas de collision.,B,J00813
+OQLF_163_P04,OQLF_163,P00845,L'équipe inspecte chaque atténuateur d'impact non redirectionnel après un accident.,L'équipe inspecte chaque atténuateur de choc non redirectif après un accident.,A,J00814
+OQLF_163_P05,OQLF_163,P00846,Le chantier comprend la pose d'un atténuateur d'impact non redirectionnel de sécurité.,Le chantier comprend la pose d'un atténuateur de choc non redirectif de sécurité.,A,J00815
+OQLF_164_P01,OQLF_164,P00847,Les techniciens ont installé un atténuateur de choc redirectionnel le long de la route.,Les techniciens ont installé un atténuateur d'impact redirectionnel le long de la route.,B,J00816
+OQLF_164_P02,OQLF_164,P00848,Le plan prévoit un nouvel atténuateur de choc redirectionnel devant l'obstacle.,Le plan prévoit un nouvel atténuateur d'impact redirectionnel devant l'obstacle.,B,J00817
+OQLF_164_P04,OQLF_164,P00849,L'équipe inspecte chaque atténuateur de choc redirectionnel après un accident.,L'équipe inspecte chaque atténuateur d'impact redirectionnel après un accident.,B,J00819
+OQLF_164_P05,OQLF_164,P00850,Le chantier comprend la pose d'un atténuateur d'impact redirectionnel de sécurité.,Le chantier comprend la pose d'un atténuateur de choc redirectionnel de sécurité.,A,J00820
+OQLF_165_P01,OQLF_165,P00851,Les techniciens ont installé un atténuateur de choc redirectif le long de la route.,Les techniciens ont installé un atténuateur d'impact redirectionnel le long de la route.,B,J00821
+OQLF_165_P02,OQLF_165,P00852,Le plan prévoit un nouvel atténuateur d'impact redirectionnel devant l'obstacle.,Le plan prévoit un nouvel atténuateur de choc redirectif devant l'obstacle.,A,J00822
+OQLF_165_P03,OQLF_165,P00853,Un atténuateur de choc redirectif protège les usagers en cas de collision.,Un atténuateur d'impact redirectionnel protège les usagers en cas de collision.,B,J00823
+OQLF_165_P04,OQLF_165,P00854,L'équipe inspecte chaque atténuateur d'impact redirectionnel après un accident.,L'équipe inspecte chaque atténuateur de choc redirectif après un accident.,A,J00824
+OQLF_165_P05,OQLF_165,P00855,Le chantier comprend la pose d'un atténuateur d'impact redirectionnel de sécurité.,Le chantier comprend la pose d'un atténuateur de choc redirectif de sécurité.,A,J00825
+OQLF_166_P01,OQLF_166,P00856,Le comptable a enregistré les produits et charges sur exercices antérieurs.,Le comptable a enregistré les redressements affectés aux exercices antérieurs.,B,J00826
+OQLF_166_P02,OQLF_166,P00857,Le rapport explique les redressements affectés aux exercices antérieurs constatés cette année.,Le rapport explique les produits et charges sur exercices antérieurs constatés cette année.,A,J00827
+OQLF_166_P03,OQLF_166,P00858,L'auditeur examine les redressements affectés aux exercices antérieurs dans les comptes.,L'auditeur examine les produits et charges sur exercices antérieurs dans les comptes.,A,J00828
+OQLF_166_P04,OQLF_166,P00859,La direction a demandé une analyse des redressements affectés aux exercices antérieurs.,La direction a demandé une analyse des produits et charges sur exercices antérieurs.,A,J00829
+OQLF_166_P05,OQLF_166,P00860,Les états financiers présentent les produits et charges sur exercices antérieurs séparément.,Les états financiers présentent les redressements affectés aux exercices antérieurs séparément.,B,J00830
+OQLF_167_P01,OQLF_167,P00861,Le comptable a enregistré les charges et produits sur exercices antérieurs.,Le comptable a enregistré les redressements affectés aux exercices antérieurs.,B,J00831
+OQLF_167_P02,OQLF_167,P00862,Le rapport explique les charges et produits sur exercices antérieurs constatés cette année.,Le rapport explique les redressements affectés aux exercices antérieurs constatés cette année.,B,J00832
+OQLF_167_P03,OQLF_167,P00863,L'auditeur examine les charges et produits sur exercices antérieurs dans les comptes.,L'auditeur examine les redressements affectés aux exercices antérieurs dans les comptes.,B,J00833
+OQLF_167_P04,OQLF_167,P00864,La direction a demandé une analyse des charges et produits sur exercices antérieurs.,La direction a demandé une analyse des redressements affectés aux exercices antérieurs.,B,J00834
+OQLF_168_P01,OQLF_168,P00865,Elle a préparé une limonade bien fraîche.,Elle a préparé une citronnade bien fraîche.,A,J00836
+OQLF_168_P02,OQLF_168,P00866,Le café sert une limonade maison.,Le café sert une citronnade maison.,A,J00837
+OQLF_168_P03,OQLF_168,P00867,Nous avons commandé une limonade au citron.,Nous avons commandé une citronnade au citron.,A,J00838
+OQLF_168_P04,OQLF_168,P00868,Les enfants ont bu de la citronnade au pique-nique.,Les enfants ont bu de la limonade au pique-nique.,B,J00839
+OQLF_168_P05,OQLF_168,P00869,Cette citronnade contient peu de sucre.,Cette limonade contient peu de sucre.,B,J00840
+OQLF_169_P01,OQLF_169,P00870,La famille se réunit pour le souper.,La famille se réunit pour le dîner.,A,J00841
+OQLF_169_P02,OQLF_169,P00871,Nous avons réservé une table pour le dîner.,Nous avons réservé une table pour le souper.,B,J00842
+OQLF_169_P03,OQLF_169,P00872,Le souper commence vers vingt heures dans cette famille.,Le dîner commence vers vingt heures dans cette famille.,A,J00843
+OQLF_169_P04,OQLF_169,P00873,Elle prépare le souper pour ses enfants.,Elle prépare le dîner pour ses enfants.,A,J00844
+OQLF_169_P05,OQLF_169,P00874,Ils ont discuté du projet pendant le dîner.,Ils ont discuté du projet pendant le souper.,B,J00845
+OQLF_170_P01,OQLF_170,P00875,Les acheteurs s'intéressent au marché de l'ancien.,Les acheteurs s'intéressent au marché de la revente.,B,J00846
+OQLF_170_P02,OQLF_170,P00876,Le rapport analyse les prix sur le marché de l'ancien.,Le rapport analyse les prix sur le marché de la revente.,B,J00847
+OQLF_170_P03,OQLF_170,P00877,Les agents observent une hausse du marché de l'ancien.,Les agents observent une hausse du marché de la revente.,B,J00848
+OQLF_170_P04,OQLF_170,P00878,Les maisons sont rares sur le marché de l'ancien.,Les maisons sont rares sur le marché de la revente.,B,J00849
+OQLF_170_P05,OQLF_170,P00879,L'étude compare plusieurs segments du marché de l'ancien.,L'étude compare plusieurs segments du marché de la revente.,B,J00850
+OQLF_171_P01,OQLF_171,P00880,Les acheteurs s'intéressent au marché de l'immobilier ancien.,Les acheteurs s'intéressent au marché de la revente.,B,J00851
+OQLF_171_P02,OQLF_171,P00881,Le rapport analyse les prix sur le marché de l'immobilier ancien.,Le rapport analyse les prix sur le marché de la revente.,B,J00852
+OQLF_171_P03,OQLF_171,P00882,Les agents observent une hausse du marché de l'immobilier ancien.,Les agents observent une hausse du marché de la revente.,B,J00853
+OQLF_171_P04,OQLF_171,P00883,Les maisons sont rares sur le marché de la revente.,Les maisons sont rares sur le marché de l'immobilier ancien.,A,J00854
+OQLF_171_P05,OQLF_171,P00884,L'étude compare plusieurs segments du marché de l'immobilier ancien.,L'étude compare plusieurs segments du marché de la revente.,B,J00855
+OQLF_172_P01,OQLF_172,P00885,Il prépare sa déclaration d'impôt sur le revenu.,Il prépare sa déclaration d'impôt sur le revenu des particuliers.,B,J00856
+OQLF_172_P02,OQLF_172,P00886,La réforme concerne l'impôt sur le revenu des particuliers.,La réforme concerne l'impôt sur le revenu.,A,J00857
+OQLF_172_P03,OQLF_172,P00887,Le guide explique le calcul de l'impôt sur le revenu des particuliers.,Le guide explique le calcul de l'impôt sur le revenu.,A,J00858
+OQLF_172_P04,OQLF_172,P00888,Les contribuables posent des questions sur l'impôt sur le revenu des particuliers.,Les contribuables posent des questions sur l'impôt sur le revenu.,A,J00859
+OQLF_172_P05,OQLF_172,P00889,Le ministre a annoncé des changements à l'impôt sur le revenu des particuliers.,Le ministre a annoncé des changements à l'impôt sur le revenu.,A,J00860
+OQLF_173_P02,OQLF_173,P00890,La réforme concerne l'impôt sur le revenu.,La réforme concerne l'impôt des particuliers.,B,J00862
+OQLF_173_P03,OQLF_173,P00891,Le guide explique le calcul de l'impôt des particuliers.,Le guide explique le calcul de l'impôt sur le revenu.,A,J00863
+OQLF_173_P04,OQLF_173,P00892,Les contribuables posent des questions sur l'impôt sur le revenu.,Les contribuables posent des questions sur l'impôt des particuliers.,B,J00864
+OQLF_173_P05,OQLF_173,P00893,Le ministre a annoncé des changements à l'impôt des particuliers.,Le ministre a annoncé des changements à l'impôt sur le revenu.,A,J00865
+OQLF_174_P01,OQLF_174,P00894,Le rapport analyse un cas d'évitement fiscal.,Le rapport analyse un cas d'évasion fiscale.,A,J00866
+OQLF_174_P02,OQLF_174,P00895,Les spécialistes débattent des limites de l'évitement fiscal.,Les spécialistes débattent des limites de l'évasion fiscale.,A,J00867
+OQLF_174_P03,OQLF_174,P00896,Cette stratégie soulève des questions d'évasion fiscale.,Cette stratégie soulève des questions d'évitement fiscal.,B,J00868
+OQLF_174_P04,OQLF_174,P00897,Le comité examine les risques d'évasion fiscale.,Le comité examine les risques d'évitement fiscal.,B,J00869
+OQLF_174_P05,OQLF_174,P00898,Les règles visent à réduire l'évitement fiscal.,Les règles visent à réduire l'évasion fiscale.,A,J00870
+OQLF_175_P01,OQLF_175,P00899,Le porteur de journaux passe chaque matin dans notre rue.,Le camelot passe chaque matin dans notre rue.,B,J00871
+OQLF_175_P02,OQLF_175,P00900,Ce jeune camelot distribue les quotidiens.,Ce jeune porteur de journaux distribue les quotidiens.,A,J00872
+OQLF_175_P03,OQLF_175,P00901,Le journal cherche un camelot pour le quartier.,Le journal cherche un porteur de journaux pour le quartier.,A,J00873
+OQLF_175_P04,OQLF_175,P00902,Nous avons croisé le camelot à l'aube.,Nous avons croisé le porteur de journaux à l'aube.,A,J00874
+OQLF_175_P05,OQLF_175,P00903,Le porteur de journaux a terminé sa tournée avant huit heures.,Le camelot a terminé sa tournée avant huit heures.,B,J00875
+OQLF_176_P01,OQLF_176,P00904,Le joueur a remplacé sa crosse de hockey avant le match.,Le joueur a remplacé son bâton de hockey avant le match.,B,J00876
+OQLF_176_P02,OQLF_176,P00905,Il a rangé le bâton de hockey dans son sac de sport.,Il a rangé la crosse de hockey dans son sac de sport.,A,J00877
+OQLF_176_P03,OQLF_176,P00906,Le magasin vend un nouveau modèle de bâton de hockey.,Le magasin vend un nouveau modèle de crosse de hockey.,A,J00878
+OQLF_176_P04,OQLF_176,P00907,Sa crosse de hockey s'est cassée pendant la rencontre.,Son bâton de hockey s'est cassé pendant la rencontre.,B,J00879
+OQLF_176_P05,OQLF_176,P00908,L'entraîneur a vérifié l'état de la crosse de hockey.,L'entraîneur a vérifié l'état du bâton de hockey.,B,J00880
+OQLF_177_P01,OQLF_177,P00909,Le joueur a remplacé sa crosse avant le match.,Le joueur a remplacé son bâton de hockey avant le match.,B,J00881
+OQLF_177_P02,OQLF_177,P00910,Il a rangé le bâton de hockey dans son sac de sport.,Il a rangé la crosse dans son sac de sport.,A,J00882
+OQLF_177_P03,OQLF_177,P00911,Le magasin vend un nouveau modèle de bâton de hockey.,Le magasin vend un nouveau modèle de crosse.,A,J00883
+OQLF_177_P04,OQLF_177,P00912,Son bâton de hockey s'est cassé pendant la rencontre.,Sa crosse s'est cassée pendant la rencontre.,A,J00884
+OQLF_177_P05,OQLF_177,P00913,L'entraîneur a vérifié l'état du bâton de hockey.,L'entraîneur a vérifié l'état de la crosse.,A,J00885
+OQLF_178_P01,OQLF_178,P00914,Le joueur a remplacé son bâton avant le match.,Le joueur a remplacé sa crosse de hockey avant le match.,A,J00886
+OQLF_178_P02,OQLF_178,P00915,Il a rangé la crosse de hockey dans son sac de sport.,Il a rangé le bâton dans son sac de sport.,B,J00887
+OQLF_178_P03,OQLF_178,P00916,Le magasin vend un nouveau modèle de bâton.,Le magasin vend un nouveau modèle de crosse de hockey.,A,J00888
+OQLF_178_P04,OQLF_178,P00917,Son bâton s'est cassé pendant la rencontre.,Sa crosse de hockey s'est cassée pendant la rencontre.,A,J00889
+OQLF_178_P05,OQLF_178,P00918,L'entraîneur a vérifié l'état de la crosse de hockey.,L'entraîneur a vérifié l'état du bâton.,B,J00890
+OQLF_179_P01,OQLF_179,P00919,Le joueur a remplacé son bâton avant le match.,Le joueur a remplacé sa crosse avant le match.,A,J00891
+OQLF_179_P02,OQLF_179,P00920,Il a rangé la crosse dans son sac de sport.,Il a rangé le bâton dans son sac de sport.,B,J00892
+OQLF_179_P03,OQLF_179,P00921,Le magasin vend un nouveau modèle de bâton.,Le magasin vend un nouveau modèle de crosse.,A,J00893
+OQLF_179_P05,OQLF_179,P00922,L'entraîneur a vérifié l'état de la crosse.,L'entraîneur a vérifié l'état du bâton.,B,J00895
+OQLF_180_P01,OQLF_180,P00923,Le train attend sur la voie d'entreposage.,Le train attend au garage.,A,J00896
+OQLF_180_P02,OQLF_180,P00924,La gare possède une voie d'entreposage supplémentaire.,La gare possède un garage supplémentaire.,A,J00897
+OQLF_180_P03,OQLF_180,P00925,Les employés inspectent la voie d'entreposage.,Les employés inspectent le garage.,A,J00898
+OQLF_180_P04,OQLF_180,P00926,Ce wagon sera déplacé vers le garage.,Ce wagon sera déplacé vers la voie d'entreposage.,B,J00899
+OQLF_180_P05,OQLF_180,P00927,Le plan ferroviaire indique un nouveau garage.,Le plan ferroviaire indique une nouvelle voie d'entreposage.,B,J00900
+OQLF_181_P01,OQLF_181,P00928,Le rapport doit offrir une image fidèle des finances.,Le rapport doit offrir une présentation fidèle des finances.,B,J00901
+OQLF_181_P02,OQLF_181,P00929,Les auditeurs évaluent l'image fidèle des états.,Les auditeurs évaluent la présentation fidèle des états.,B,J00902
+OQLF_181_P03,OQLF_181,P00930,La direction insiste sur l'image fidèle de l'information.,La direction insiste sur la présentation fidèle de l'information.,B,J00903
+OQLF_181_P04,OQLF_181,P00931,La norme exige une présentation fidèle de la situation financière.,La norme exige une image fidèle de la situation financière.,A,J00904
+OQLF_181_P05,OQLF_181,P00932,L'annexe explique le principe d'image fidèle.,L'annexe explique le principe de présentation fidèle.,B,J00905
+OQLF_182_P01,OQLF_182,P00933,Les comptes doivent donner une image fidèle de la situation financière.,Les comptes doivent présenter fidèlement la situation financière.,B,J00906
+OQLF_182_P02,OQLF_182,P00934,Le rapport cherche à donner une image fidèle des résultats.,Le rapport cherche à présenter fidèlement les résultats.,B,J00907
+OQLF_182_P03,OQLF_182,P00935,L'entreprise s'engage à présenter fidèlement ses activités.,L'entreprise s'engage à donner une image fidèle de ses activités.,A,J00908
+OQLF_182_P04,OQLF_182,P00936,Les normes demandent de présenter fidèlement les transactions.,Les normes demandent de donner une image fidèle des transactions.,A,J00909
+OQLF_182_P05,OQLF_182,P00937,Le directeur souhaite donner une image fidèle des faits comptables.,Le directeur souhaite présenter fidèlement les faits comptables.,B,J00910
+OQLF_183_P01,OQLF_183,P00938,Les enfants jouent au tic-tac-toe après l'école.,Les enfants jouent au morpion après l'école.,A,J00911
+OQLF_183_P02,OQLF_183,P00939,Nous avons fait une partie de morpion.,Nous avons fait une partie de tic-tac-toe.,B,J00912
+OQLF_183_P03,OQLF_183,P00940,Elle a gagné au morpion deux fois.,Elle a gagné au tic-tac-toe deux fois.,B,J00913
+OQLF_183_P04,OQLF_183,P00941,Le jeu de morpion est dessiné sur une feuille.,Le jeu de tic-tac-toe est dessiné sur une feuille.,B,J00914
+OQLF_183_P05,OQLF_183,P00942,Ils apprennent les règles du tic-tac-toe.,Ils apprennent les règles du morpion.,A,J00915
+OQLF_184_P01,OQLF_184,P00943,Le conseil a nommé un vérificateur légal pour examiner les comptes.,Le conseil a nommé un commissaire aux comptes pour examiner les comptes.,A,J00916
+OQLF_184_P02,OQLF_184,P00944,Le rapport du commissaire aux comptes sera publié demain.,Le rapport du vérificateur légal sera publié demain.,B,J00917
+OQLF_184_P04,OQLF_184,P00945,Le commissaire aux comptes vérifie les documents financiers.,Le vérificateur légal vérifie les documents financiers.,B,J00919
+OQLF_184_P05,OQLF_184,P00946,La direction attend l'avis du vérificateur légal.,La direction attend l'avis du commissaire aux comptes.,A,J00920
+OQLF_185_P01,OQLF_185,P00947,Les enfants jouent sur la glissoire en spirale.,Les enfants jouent sur le toboggan en spirale.,A,J00921
+OQLF_185_P02,OQLF_185,P00948,La municipalité a aménagé une nouvelle glissoire en spirale.,La municipalité a aménagé un nouveau toboggan en spirale.,A,J00922
+OQLF_185_P03,OQLF_185,P00949,La glissoire en spirale sera ouverte pendant les vacances.,Le toboggan en spirale sera ouvert pendant les vacances.,A,J00923
+OQLF_185_P04,OQLF_185,P00950,Les moniteurs surveillent le toboggan en spirale.,Les moniteurs surveillent la glissoire en spirale.,B,J00924
+OQLF_185_P05,OQLF_185,P00951,Nous avons essayé la glissoire en spirale en fin de semaine.,Nous avons essayé le toboggan en spirale en fin de semaine.,A,J00925
+OQLF_186_P01,OQLF_186,P00952,Les enfants jouent sur le toboggan en spirale.,Les enfants jouent sur la glissade en spirale.,B,J00926
+OQLF_186_P02,OQLF_186,P00953,La municipalité a aménagé une nouvelle glissade en spirale.,La municipalité a aménagé un nouveau toboggan en spirale.,A,J00927
+OQLF_186_P03,OQLF_186,P00954,La glissade en spirale sera ouverte pendant les vacances.,Le toboggan en spirale sera ouvert pendant les vacances.,A,J00928
+OQLF_186_P04,OQLF_186,P00955,Les moniteurs surveillent la glissade en spirale.,Les moniteurs surveillent le toboggan en spirale.,A,J00929
+OQLF_186_P05,OQLF_186,P00956,Nous avons essayé la glissade en spirale en fin de semaine.,Nous avons essayé le toboggan en spirale en fin de semaine.,A,J00930
+OQLF_187_P01,OQLF_187,P00957,Le guide présente le petit-duc de Californie parmi les espèces recensées.,Le guide présente le petit-duc de l'Ouest parmi les espèces recensées.,B,J00931
+OQLF_187_P02,OQLF_187,P00958,Les scientifiques ont observé le petit-duc de l'Ouest au cours de leur étude.,Les scientifiques ont observé le petit-duc de Californie au cours de leur étude.,A,J00932
+OQLF_187_P03,OQLF_187,P00959,Le musée conserve une illustration du petit-duc de l'Ouest.,Le musée conserve une illustration du petit-duc de Californie.,A,J00933
+OQLF_187_P04,OQLF_187,P00960,Le rapport décrit l'habitat du petit-duc de Californie.,Le rapport décrit l'habitat du petit-duc de l'Ouest.,B,J00934
+OQLF_187_P05,OQLF_187,P00961,Les visiteurs ont découvert le petit-duc de Californie dans l'exposition.,Les visiteurs ont découvert le petit-duc de l'Ouest dans l'exposition.,B,J00935
+OQLF_188_P01,OQLF_188,P00962,Le guide présente le petit-duc indien parmi les espèces recensées.,Le guide présente le petit-duc des Indes parmi les espèces recensées.,B,J00936
+OQLF_188_P02,OQLF_188,P00963,Les scientifiques ont observé le petit-duc indien au cours de leur étude.,Les scientifiques ont observé le petit-duc des Indes au cours de leur étude.,B,J00937
+OQLF_188_P03,OQLF_188,P00964,Le musée conserve une illustration du petit-duc indien.,Le musée conserve une illustration du petit-duc des Indes.,B,J00938
+OQLF_188_P04,OQLF_188,P00965,Le rapport décrit l'habitat du petit-duc indien.,Le rapport décrit l'habitat du petit-duc des Indes.,B,J00939
+OQLF_188_P05,OQLF_188,P00966,Les visiteurs ont découvert le petit-duc des Indes dans l'exposition.,Les visiteurs ont découvert le petit-duc indien dans l'exposition.,A,J00940
+OQLF_189_P01,OQLF_189,P00967,Le guide présente le petit-duc à longues pattes parmi les espèces recensées.,Le guide présente le petit-duc nudipède parmi les espèces recensées.,A,J00941
+OQLF_189_P02,OQLF_189,P00968,Les scientifiques ont observé le petit-duc nudipède au cours de leur étude.,Les scientifiques ont observé le petit-duc à longues pattes au cours de leur étude.,B,J00942
+OQLF_189_P03,OQLF_189,P00969,Le musée conserve une illustration du petit-duc nudipède.,Le musée conserve une illustration du petit-duc à longues pattes.,B,J00943
+OQLF_189_P04,OQLF_189,P00970,Le rapport décrit l'habitat du petit-duc nudipède.,Le rapport décrit l'habitat du petit-duc à longues pattes.,B,J00944
+OQLF_189_P05,OQLF_189,P00971,Les visiteurs ont découvert le petit-duc à longues pattes dans l'exposition.,Les visiteurs ont découvert le petit-duc nudipède dans l'exposition.,A,J00945
+OQLF_190_P01,OQLF_190,P00972,Le guide présente le fuligule à collier parmi les espèces recensées.,Le guide présente le fuligule à bec cerclé parmi les espèces recensées.,A,J00946
+OQLF_190_P02,OQLF_190,P00973,Les scientifiques ont observé le fuligule à collier au cours de leur étude.,Les scientifiques ont observé le fuligule à bec cerclé au cours de leur étude.,A,J00947
+OQLF_190_P04,OQLF_190,P00974,Le rapport décrit l'habitat du fuligule à collier.,Le rapport décrit l'habitat du fuligule à bec cerclé.,A,J00949
+OQLF_190_P05,OQLF_190,P00975,Les visiteurs ont découvert le fuligule à bec cerclé dans l'exposition.,Les visiteurs ont découvert le fuligule à collier dans l'exposition.,B,J00950
+OQLF_191_P01,OQLF_191,P00976,Le service cherche une personne qualifiée pour le poste de policier en patrouille.,Le service cherche une personne qualifiée pour le poste de patrouilleur.,B,J00951
+OQLF_191_P02,OQLF_191,P00977,L'annonce indique que le poste de policier en patrouille est à pourvoir.,L'annonce indique que le poste de patrouilleur est à pourvoir.,B,J00952
+OQLF_191_P03,OQLF_191,P00978,Une personne exerçant le métier de policier en patrouille a été consultée.,Une personne exerçant le métier de patrouilleur a été consultée.,B,J00953
+OQLF_191_P04,OQLF_191,P00979,La formation prépare au métier de patrouilleur.,La formation prépare au métier de policier en patrouille.,A,J00954
+OQLF_191_P05,OQLF_191,P00980,Le rapport décrit les responsabilités du poste de patrouilleur.,Le rapport décrit les responsabilités du poste de policier en patrouille.,A,J00955
+OQLF_192_P01,OQLF_192,P00981,Le service cherche une personne qualifiée pour le poste de policier en patrouille.,Le service cherche une personne qualifiée pour le poste de policier-patrouilleur.,B,J00956
+OQLF_192_P02,OQLF_192,P00982,L'annonce indique que le poste de policier en patrouille est à pourvoir.,L'annonce indique que le poste de policier-patrouilleur est à pourvoir.,B,J00957
+OQLF_192_P04,OQLF_192,P00983,La formation prépare au métier de policier-patrouilleur.,La formation prépare au métier de policier en patrouille.,A,J00959
+OQLF_192_P05,OQLF_192,P00984,Le rapport décrit les responsabilités du poste de policier-patrouilleur.,Le rapport décrit les responsabilités du poste de policier en patrouille.,A,J00960
+OQLF_193_P01,OQLF_193,P00985,Le dentiste recommande une eau dentifrice adaptée.,Le dentiste recommande un rince-bouche adapté.,B,J00961
+OQLF_193_P03,OQLF_193,P00986,Le pharmacien propose un rince-bouche sans alcool.,Le pharmacien propose une eau dentifrice sans alcool.,A,J00963
+OQLF_193_P04,OQLF_193,P00987,Nous avons acheté un rince-bouche à la pharmacie.,Nous avons acheté une eau dentifrice à la pharmacie.,A,J00964
+OQLF_194_P01,OQLF_194,P00988,Le joueur a remplacé sa batte de base-ball avant le match.,Le joueur a remplacé son bâton avant le match.,B,J00966
+OQLF_194_P02,OQLF_194,P00989,Il a rangé la batte de base-ball dans son sac de sport.,Il a rangé le bâton dans son sac de sport.,B,J00967
+OQLF_194_P03,OQLF_194,P00990,Le magasin vend un nouveau modèle de batte de base-ball.,Le magasin vend un nouveau modèle de bâton.,B,J00968
+OQLF_194_P05,OQLF_194,P00991,L'entraîneur a vérifié l'état de la batte de base-ball.,L'entraîneur a vérifié l'état du bâton.,B,J00970
+OQLF_195_P01,OQLF_195,P00992,Le joueur a remplacé sa batte avant le match.,Le joueur a remplacé son bâton avant le match.,B,J00971
+OQLF_195_P02,OQLF_195,P00993,Il a rangé le bâton dans son sac de sport.,Il a rangé la batte dans son sac de sport.,A,J00972
+OQLF_195_P04,OQLF_195,P00994,Son bâton s'est cassé pendant la rencontre.,Sa batte s'est cassée pendant la rencontre.,A,J00974
+OQLF_195_P05,OQLF_195,P00995,L'entraîneur a vérifié l'état du bâton.,L'entraîneur a vérifié l'état de la batte.,A,J00975
+OQLF_196_P01,OQLF_196,P00996,Elle a choisi une robe bourgogne pour la cérémonie.,Elle a choisi une robe bordeaux pour la cérémonie.,A,J00976
+OQLF_196_P02,OQLF_196,P00997,Les murs du salon ont été peints en bourgogne.,Les murs du salon ont été peints en bordeaux.,A,J00977
+OQLF_196_P03,OQLF_196,P00998,Il porte une cravate bourgogne avec son costume gris.,Il porte une cravate bordeaux avec son costume gris.,A,J00978
+OQLF_196_P04,OQLF_196,P00999,Le fabricant propose ce fauteuil en bourgogne et en beige.,Le fabricant propose ce fauteuil en bordeaux et en beige.,A,J00979
+OQLF_196_P05,OQLF_196,P01000,Elle cherche des chaussures bordeaux pour assortir à son sac.,Elle cherche des chaussures bourgogne pour assortir à son sac.,B,J00980
+OQLF_197_P01,OQLF_197,P01001,Le chercheur vérifie que tous les bureaux ont été évacués.,Le serre-file vérifie que tous les bureaux ont été évacués.,A,J00981
+OQLF_197_P02,OQLF_197,P01002,"Pendant l'alarme incendie, le serre-file inspecte les salles de réunion.","Pendant l'alarme incendie, le chercheur inspecte les salles de réunion.",B,J00982
+OQLF_197_P03,OQLF_197,P01003,Le responsable de la sécurité demande au serre-file de vérifier les toilettes avant de quitter l'étage.,Le responsable de la sécurité demande au chercheur de vérifier les toilettes avant de quitter l'étage.,B,J00983
+OQLF_197_P04,OQLF_197,P01004,"Lors de l'exercice d'évacuation, le serre-file s'assure qu'il ne reste personne dans les locaux.","Lors de l'exercice d'évacuation, le chercheur s'assure qu'il ne reste personne dans les locaux.",B,J00984
+OQLF_197_P05,OQLF_197,P01005,"Une fois sa zone inspectée, le serre-file signale que l'évacuation est terminée.","Une fois sa zone inspectée, le chercheur signale que l'évacuation est terminée.",B,J00985
+OQLF_198_P01,OQLF_198,P01006,Le service cherche une personne qualifiée pour le poste de greffier municipal.,Le service cherche une personne qualifiée pour le poste de secrétaire de mairie.,A,J00986
+OQLF_198_P02,OQLF_198,P01007,L'annonce indique que le poste de greffier municipal est à pourvoir.,L'annonce indique que le poste de secrétaire de mairie est à pourvoir.,A,J00987
+OQLF_198_P03,OQLF_198,P01008,Une personne exerçant le métier de greffier municipal a été consultée.,Une personne exerçant le métier de secrétaire de mairie a été consultée.,A,J00988
+OQLF_198_P04,OQLF_198,P01009,La formation prépare au métier de greffier municipal.,La formation prépare au métier de secrétaire de mairie.,A,J00989
+OQLF_198_P05,OQLF_198,P01010,Le rapport décrit les responsabilités du poste de greffier municipal.,Le rapport décrit les responsabilités du poste de secrétaire de mairie.,A,J00990
+OQLF_199_P01,OQLF_199,P01011,Le service cherche une personne qualifiée pour le poste de secrétaire municipal.,Le service cherche une personne qualifiée pour le poste de secrétaire de mairie.,A,J00991
+OQLF_199_P03,OQLF_199,P01012,Une personne exerçant le métier de secrétaire de mairie a été consultée.,Une personne exerçant le métier de secrétaire municipal a été consultée.,B,J00993
+OQLF_199_P04,OQLF_199,P01013,La formation prépare au métier de secrétaire de mairie.,La formation prépare au métier de secrétaire municipal.,B,J00994
+OQLF_199_P05,OQLF_199,P01014,Le rapport décrit les responsabilités du poste de secrétaire municipal.,Le rapport décrit les responsabilités du poste de secrétaire de mairie.,A,J00995
+OQLF_200_P01,OQLF_200,P01015,Les élèves jouent au ballon-chasseur dans le gymnase.,Les élèves jouent à la balle aux prisonniers dans le gymnase.,A,J00996
+OQLF_200_P02,OQLF_200,P01016,Le camp organise un tournoi de ballon-chasseur.,Le camp organise un tournoi de balle aux prisonniers.,A,J00997
+OQLF_200_P03,OQLF_200,P01017,Nous avons expliqué les règles de la balle aux prisonniers.,Nous avons expliqué les règles du ballon-chasseur.,B,J00998
+OQLF_200_P04,OQLF_200,P01018,Les enfants adorent une partie de ballon-chasseur.,Les enfants adorent une partie de balle aux prisonniers.,A,J00999
+OQLF_200_P05,OQLF_200,P01019,L'éducateur a prévu la balle aux prisonniers pour l'après-midi.,L'éducateur a prévu le ballon-chasseur pour l'après-midi.,B,J01000
+OQLF_201_P01,OQLF_201,P01020,Le service cherche une personne qualifiée pour le poste de débosseleur.,Le service cherche une personne qualifiée pour le poste de carrossier-réparateur.,A,J01001
+OQLF_201_P02,OQLF_201,P01021,L'annonce indique que le poste de carrossier-réparateur est à pourvoir.,L'annonce indique que le poste de débosseleur est à pourvoir.,B,J01002
+OQLF_201_P03,OQLF_201,P01022,Une personne exerçant le métier de débosseleur a été consultée.,Une personne exerçant le métier de carrossier-réparateur a été consultée.,A,J01003
+OQLF_201_P04,OQLF_201,P01023,La formation prépare au métier de carrossier-réparateur.,La formation prépare au métier de débosseleur.,B,J01004
+OQLF_201_P05,OQLF_201,P01024,Le rapport décrit les responsabilités du poste de carrossier-réparateur.,Le rapport décrit les responsabilités du poste de débosseleur.,B,J01005
+OQLF_202_P02,OQLF_202,P01025,Nous avons choisi un nouveau comptoir de salle de bains en pierre.,Nous avons choisi un nouveau plan de travail en pierre.,A,J01007
+OQLF_202_P03,OQLF_202,P01026,Le comptoir de salle de bains est facile à nettoyer.,Le plan de travail est facile à nettoyer.,A,J01008
+OQLF_202_P04,OQLF_202,P01027,Cette maison possède un grand plan de travail.,Cette maison possède un grand comptoir de salle de bains.,B,J01009
+OQLF_203_P01,OQLF_203,P01028,L'entrepreneur a remplacé le comptoir de salle de bains.,L'entrepreneur a remplacé le plan de toilette.,A,J01011
+OQLF_203_P02,OQLF_203,P01029,Nous avons choisi un nouveau comptoir de salle de bains en pierre.,Nous avons choisi un nouveau plan de toilette en pierre.,A,J01012
+OQLF_203_P03,OQLF_203,P01030,Le comptoir de salle de bains est facile à nettoyer.,Le plan de toilette est facile à nettoyer.,A,J01013
+OQLF_203_P04,OQLF_203,P01031,Cette maison possède un grand comptoir de salle de bains.,Cette maison possède un grand plan de toilette.,A,J01014
+OQLF_203_P05,OQLF_203,P01032,Le plombier inspecte le comptoir de salle de bains avant les travaux.,Le plombier inspecte le plan de toilette avant les travaux.,A,J01015
+OQLF_204_P01,OQLF_204,P01033,Elle prépare du pain doré pour le déjeuner.,Elle prépare du pain perdu pour le déjeuner.,A,J01016
+OQLF_204_P02,OQLF_204,P01034,Nous avons commandé du pain perdu au restaurant.,Nous avons commandé du pain doré au restaurant.,B,J01017
+OQLF_204_P03,OQLF_204,P01035,Les enfants adorent le pain doré avec des fruits.,Les enfants adorent le pain perdu avec des fruits.,A,J01018
+OQLF_204_P04,OQLF_204,P01036,La recette de pain doré demande du pain et des œufs.,La recette de pain perdu demande du pain et des œufs.,A,J01019
+OQLF_204_P05,OQLF_204,P01037,Le café sert du pain perdu le dimanche matin.,Le café sert du pain doré le dimanche matin.,B,J01020
+OQLF_205_P01,OQLF_205,P01038,Le citoyen a saisi le Protecteur du citoyen au sujet de sa plainte.,Le citoyen a saisi le Défenseur des droits au sujet de sa plainte.,A,J01021
+OQLF_205_P02,OQLF_205,P01039,Le rapport annuel du Protecteur du citoyen a été publié.,Le rapport annuel du Défenseur des droits a été publié.,A,J01022
+OQLF_205_P03,OQLF_205,P01040,Une requête a été adressée au Protecteur du citoyen.,Une requête a été adressée au Défenseur des droits.,A,J01023
+OQLF_205_P04,OQLF_205,P01041,Le bureau du Protecteur du citoyen a répondu à la demande.,Le bureau du Défenseur des droits a répondu à la demande.,A,J01024
+OQLF_205_P05,OQLF_205,P01042,Le Défenseur des droits examine des plaintes visant l'administration.,Le Protecteur du citoyen examine des plaintes visant l'administration.,B,J01025
+OQLF_206_P02,OQLF_206,P01043,Une machine à crème glacée molle neuve a été livrée ce matin.,Une machine à glace à l'italienne neuve a été livrée ce matin.,A,J01027
+OQLF_206_P03,OQLF_206,P01044,Le technicien répare la machine à glace à l'italienne.,Le technicien répare la machine à crème glacée molle.,B,J01028
+OQLF_206_P05,OQLF_206,P01045,Cette machine à glace à l'italienne sert beaucoup de clients en été.,Cette machine à crème glacée molle sert beaucoup de clients en été.,B,J01030
+OQLF_207_P02,OQLF_207,P01046,Une machine à glace italienne neuve a été livrée ce matin.,Une machine à crème glacée molle neuve a été livrée ce matin.,B,J01032
+OQLF_207_P03,OQLF_207,P01047,Le technicien répare la machine à crème glacée molle.,Le technicien répare la machine à glace italienne.,A,J01033
+OQLF_207_P04,OQLF_207,P01048,Nous avons comparé plusieurs modèles de machine à glace italienne.,Nous avons comparé plusieurs modèles de machine à crème glacée molle.,B,J01034
+OQLF_207_P05,OQLF_207,P01049,Cette machine à crème glacée molle sert beaucoup de clients en été.,Cette machine à glace italienne sert beaucoup de clients en été.,A,J01035
+OQLF_208_P01,OQLF_208,P01050,La famille se réunit pour le déjeuner.,La famille se réunit pour le dîner.,B,J01036
+OQLF_208_P02,OQLF_208,P01051,Nous avons réservé une table pour le déjeuner.,Nous avons réservé une table pour le dîner.,B,J01037
+OQLF_208_P03,OQLF_208,P01052,Le dîner commence vers midi dans cette famille.,Le déjeuner commence vers midi dans cette famille.,A,J01038
+OQLF_208_P05,OQLF_208,P01053,Ils ont discuté du projet pendant le dîner.,Ils ont discuté du projet pendant le déjeuner.,A,J01040
+OQLF_209_P01,OQLF_209,P01054,Les élèves attendent les vacances scolaires avec impatience.,Les élèves attendent la relâche scolaire avec impatience.,B,J01041
+OQLF_209_P02,OQLF_209,P01055,La relâche scolaire commence lundi dans cette école.,Les vacances scolaires commencent lundi dans cette école.,A,J01042
+OQLF_209_P03,OQLF_209,P01056,Ils partiront en voyage pendant les vacances scolaires.,Ils partiront en voyage pendant la relâche scolaire.,B,J01043
+OQLF_209_P04,OQLF_209,P01057,Les parents préparent des activités pour la relâche scolaire.,Les parents préparent des activités pour les vacances scolaires.,A,J01044
+OQLF_209_P05,OQLF_209,P01058,Le calendrier indique les dates de la relâche scolaire.,Le calendrier indique les dates des vacances scolaires.,A,J01045
+OQLF_210_P02,OQLF_210,P01059,Les petites vacances commencent lundi dans cette école.,La relâche scolaire commence lundi dans cette école.,B,J01047
+OQLF_210_P03,OQLF_210,P01060,Ils partiront en voyage pendant les petites vacances.,Ils partiront en voyage pendant la relâche scolaire.,B,J01048
+OQLF_210_P04,OQLF_210,P01061,Les parents préparent des activités pour la relâche scolaire.,Les parents préparent des activités pour les petites vacances.,A,J01049
+OQLF_210_P05,OQLF_210,P01062,Le calendrier indique les dates des petites vacances.,Le calendrier indique les dates de la relâche scolaire.,B,J01050
+OQLF_211_P01,OQLF_211,P01063,L'orthodontiste utilise des broches pour aligner les dents.,L'orthodontiste utilise un appareil multiattache pour aligner les dents.,A,J01051
+OQLF_211_P02,OQLF_211,P01064,Le dentiste a demandé un appareil multiattache pour l'adolescent.,Le dentiste a demandé des broches pour l'adolescent.,B,J01052
+OQLF_211_P03,OQLF_211,P01065,L'appareil multiattache a été retiré après le traitement.,Les broches ont été retirées après le traitement.,B,J01053
+OQLF_211_P04,OQLF_211,P01066,L'orthodontiste a posé des broches à l'adolescent.,L'orthodontiste a posé un appareil multiattache à l'adolescent.,A,J01054
+OQLF_211_P05,OQLF_211,P01067,L'orthodontiste a choisi un appareil multiattache adapté.,L'orthodontiste a choisi des broches adaptées.,B,J01055
+OQLF_212_P01,OQLF_212,P01068,Elle étale de la confiture allégée en sucres sur sa tartine.,Elle étale de la tartinade de fruits sur sa tartine.,B,J01056
+OQLF_212_P04,OQLF_212,P01069,Cette tartinade de fruits contient beaucoup de fruits.,Cette confiture allégée en sucres contient beaucoup de fruits.,A,J01059
+OQLF_212_P05,OQLF_212,P01070,Les enfants aiment la confiture allégée en sucres au déjeuner.,Les enfants aiment la tartinade de fruits au déjeuner.,B,J01060
+OQLF_213_P01,OQLF_213,P01071,Elle étale de la tartinade de fruits sur sa tartine.,Elle étale de la préparation de fruits sur sa tartine.,A,J01061
+OQLF_213_P02,OQLF_213,P01072,Le marché propose une préparation de fruits aux fraises.,Le marché propose une tartinade de fruits aux fraises.,B,J01062
+OQLF_213_P03,OQLF_213,P01073,Nous avons acheté un pot de tartinade de fruits.,Nous avons acheté un pot de préparation de fruits.,A,J01063
+OQLF_213_P04,OQLF_213,P01074,Cette préparation de fruits contient beaucoup de fruits.,Cette tartinade de fruits contient beaucoup de fruits.,B,J01064
+OQLF_214_P01,OQLF_214,P01075,Elle étale de la confiture allégée en sucres sur sa tartine.,Elle étale de la tartinade sur sa tartine.,B,J01066
+OQLF_214_P02,OQLF_214,P01076,Le marché propose une confiture allégée en sucres aux fraises.,Le marché propose une tartinade aux fraises.,B,J01067
+OQLF_214_P03,OQLF_214,P01077,Nous avons acheté un pot de tartinade.,Nous avons acheté un pot de confiture allégée en sucres.,A,J01068
+OQLF_214_P04,OQLF_214,P01078,Cette confiture allégée en sucres contient beaucoup de fruits.,Cette tartinade contient beaucoup de fruits.,B,J01069
+OQLF_214_P05,OQLF_214,P01079,Les enfants aiment la tartinade au déjeuner.,Les enfants aiment la confiture allégée en sucres au déjeuner.,A,J01070
+OQLF_215_P01,OQLF_215,P01080,Elle étale de la tartinade sur sa tartine.,Elle étale de la préparation de fruits sur sa tartine.,A,J01071
+OQLF_215_P02,OQLF_215,P01081,Le marché propose une préparation de fruits aux fraises.,Le marché propose une tartinade aux fraises.,B,J01072
+OQLF_215_P03,OQLF_215,P01082,Nous avons acheté un pot de tartinade.,Nous avons acheté un pot de préparation de fruits.,A,J01073
+OQLF_215_P04,OQLF_215,P01083,Cette préparation de fruits contient beaucoup de fruits.,Cette tartinade contient beaucoup de fruits.,B,J01074
+OQLF_215_P05,OQLF_215,P01084,Les enfants aiment la préparation de fruits au déjeuner.,Les enfants aiment la tartinade au déjeuner.,B,J01075
+OQLF_216_P01,OQLF_216,P01085,Il s'est arrêté au débit de tabac du quartier.,Il s'est arrêté à la tabagie du quartier.,B,J01076
+OQLF_216_P02,OQLF_216,P01086,Le débit de tabac ferme à dix-huit heures.,La tabagie ferme à dix-huit heures.,B,J01077
+OQLF_216_P03,OQLF_216,P01087,Un nouveau débit de tabac a ouvert près de la gare.,Une nouvelle tabagie a ouvert près de la gare.,B,J01078
+OQLF_216_P05,OQLF_216,P01088,Le propriétaire du débit de tabac connaît ses clients.,Le propriétaire de la tabagie connaît ses clients.,B,J01080
+OQLF_217_P01,OQLF_217,P01089,Il s'est arrêté à la tabagie du quartier.,Il s'est arrêté au bureau de tabac du quartier.,A,J01081
+OQLF_217_P03,OQLF_217,P01090,Un nouveau bureau de tabac a ouvert près de la gare.,Une nouvelle tabagie a ouvert près de la gare.,B,J01083
+OQLF_217_P04,OQLF_217,P01091,Nous sommes passés à la tabagie ce matin.,Nous sommes passés au bureau de tabac ce matin.,A,J01084
+OQLF_217_P05,OQLF_217,P01092,Le propriétaire de la tabagie connaît ses clients.,Le propriétaire du bureau de tabac connaît ses clients.,A,J01085
+OQLF_218_P01,OQLF_218,P01093,Il s'est arrêté au tabac du quartier.,Il s'est arrêté à la tabagie du quartier.,B,J01086
+OQLF_218_P03,OQLF_218,P01094,Une nouvelle tabagie a ouvert près de la gare.,Un nouveau tabac a ouvert près de la gare.,A,J01088
+OQLF_218_P04,OQLF_218,P01095,Nous sommes passés au tabac ce matin.,Nous sommes passés à la tabagie ce matin.,B,J01089
+OQLF_218_P05,OQLF_218,P01096,Le propriétaire du tabac connaît ses clients.,Le propriétaire de la tabagie connaît ses clients.,B,J01090
+OQLF_219_P01,OQLF_219,P01097,Le service cherche une personne qualifiée pour le poste de buraliste.,Le service cherche une personne qualifiée pour le poste de tabagiste.,B,J01091
+OQLF_219_P02,OQLF_219,P01098,L'annonce indique que le poste de buraliste est à pourvoir.,L'annonce indique que le poste de tabagiste est à pourvoir.,B,J01092
+OQLF_219_P03,OQLF_219,P01099,Une personne exerçant le métier de tabagiste a été consultée.,Une personne exerçant le métier de buraliste a été consultée.,A,J01093
+OQLF_219_P04,OQLF_219,P01100,La formation prépare au métier de tabagiste.,La formation prépare au métier de buraliste.,A,J01094
+OQLF_219_P05,OQLF_219,P01101,Le rapport décrit les responsabilités du poste de buraliste.,Le rapport décrit les responsabilités du poste de tabagiste.,B,J01095
+OQLF_220_P01,OQLF_220,P01102,Le service cherche une personne qualifiée pour le poste de tabagiste.,Le service cherche une personne qualifiée pour le poste de débitant de tabac.,A,J01096
+OQLF_220_P02,OQLF_220,P01103,L'annonce indique que le poste de tabagiste est à pourvoir.,L'annonce indique que le poste de débitant de tabac est à pourvoir.,A,J01097
+OQLF_220_P03,OQLF_220,P01104,Une personne exerçant le métier de tabagiste a été consultée.,Une personne exerçant le métier de débitant de tabac a été consultée.,A,J01098
+OQLF_220_P04,OQLF_220,P01105,La formation prépare au métier de tabagiste.,La formation prépare au métier de débitant de tabac.,A,J01099
+OQLF_220_P05,OQLF_220,P01106,Le rapport décrit les responsabilités du poste de débitant de tabac.,Le rapport décrit les responsabilités du poste de tabagiste.,B,J01100
+OQLF_221_P01,OQLF_221,P01107,Le service cherche une personne qualifiée pour le poste de tabagiste.,Le service cherche une personne qualifiée pour le poste de débitante de tabac.,A,J01101
+OQLF_221_P02,OQLF_221,P01108,L'annonce indique que le poste de tabagiste est à pourvoir.,L'annonce indique que le poste de débitante de tabac est à pourvoir.,A,J01102
+OQLF_221_P03,OQLF_221,P01109,Une personne exerçant le métier de tabagiste a été consultée.,Une personne exerçant le métier de débitante de tabac a été consultée.,A,J01103
+OQLF_221_P04,OQLF_221,P01110,La formation prépare au métier de tabagiste.,La formation prépare au métier de débitante de tabac.,A,J01104
+OQLF_221_P05,OQLF_221,P01111,Le rapport décrit les responsabilités du poste de débitante de tabac.,Le rapport décrit les responsabilités du poste de tabagiste.,B,J01105
+OQLF_222_P01,OQLF_222,P01112,Le porte-parole a répété l'élément de langage devant les journalistes.,Le porte-parole a répété la ligne de presse devant les journalistes.,B,J01106
+OQLF_222_P02,OQLF_222,P01113,L'équipe prépare une ligne de presse avant la conférence.,L'équipe prépare un élément de langage avant la conférence.,A,J01107
+OQLF_222_P03,OQLF_222,P01114,Cet élément de langage résume la position du ministère.,Cette ligne de presse résume la position du ministère.,B,J01108
+OQLF_222_P04,OQLF_222,P01115,Le service de communication révise l'élément de langage.,Le service de communication révise la ligne de presse.,B,J01109
+OQLF_222_P05,OQLF_222,P01116,Le communiqué reprend la ligne de presse officielle.,Le communiqué reprend l'élément de langage officiel.,A,J01110
+OQLF_223_P01,OQLF_223,P01117,Les promeneurs traversent un boqueteau près de la rivière.,Les promeneurs traversent un boisé près de la rivière.,B,J01111
+OQLF_223_P02,OQLF_223,P01118,La ville souhaite protéger ce boqueteau.,La ville souhaite protéger ce boisé.,B,J01112
+OQLF_223_P03,OQLF_223,P01119,Nous avons observé des oiseaux dans le boqueteau.,Nous avons observé des oiseaux dans le boisé.,B,J01113
+OQLF_223_P04,OQLF_223,P01120,Un sentier longe le boqueteau.,Un sentier longe le boisé.,B,J01114
+OQLF_224_P01,OQLF_224,P01121,Le retraité reçoit une pension de la Sécurité de la vieillesse chaque mois.,Le retraité reçoit une allocation de solidarité aux personnes âgées chaque mois.,A,J01116
+OQLF_224_P02,OQLF_224,P01122,Le programme prévoit une pension de la Sécurité de la vieillesse pour certains retraités.,Le programme prévoit une allocation de solidarité aux personnes âgées pour certains retraités.,A,J01117
+OQLF_224_P03,OQLF_224,P01123,Elle a fait une demande d'allocation de solidarité aux personnes âgées.,Elle a fait une demande de pension de la Sécurité de la vieillesse.,B,J01118
+OQLF_224_P04,OQLF_224,P01124,Le montant de la pension de la Sécurité de la vieillesse a été révisé.,Le montant de l'allocation de solidarité aux personnes âgées a été révisé.,A,J01119
+OQLF_224_P05,OQLF_224,P01125,Le conseiller explique les conditions de l'allocation de solidarité aux personnes âgées.,Le conseiller explique les conditions de la pension de la Sécurité de la vieillesse.,B,J01120
+OQLF_225_P01,OQLF_225,P01126,Le retraité reçoit une pension de la Sécurité de la vieillesse chaque mois.,Le retraité reçoit un minimum vieillesse chaque mois.,A,J01121
+OQLF_225_P03,OQLF_225,P01127,Elle a fait une demande de pension de la Sécurité de la vieillesse.,Elle a fait une demande de minimum vieillesse.,A,J01123
+OQLF_225_P05,OQLF_225,P01128,Le conseiller explique les conditions du minimum vieillesse.,Le conseiller explique les conditions de la pension de la Sécurité de la vieillesse.,B,J01125
+OQLF_226_P01,OQLF_226,P01129,Le retraité reçoit une allocation de solidarité aux personnes âgées chaque mois.,Le retraité reçoit une pension de vieillesse chaque mois.,B,J01126
+OQLF_226_P02,OQLF_226,P01130,Le programme prévoit une allocation de solidarité aux personnes âgées pour certains retraités.,Le programme prévoit une pension de vieillesse pour certains retraités.,B,J01127
+OQLF_226_P03,OQLF_226,P01131,Mon grand-père a déposé une demande d'allocation de solidarité aux personnes âgées.,Mon grand-père a déposé une demande de pension de vieillesse.,B,J01128
+OQLF_226_P04,OQLF_226,P01132,Le gouvernement a augmenté la pension de vieillesse.,Le gouvernement a augmenté l'allocation de solidarité aux personnes âgées.,A,J01129
+OQLF_226_P05,OQLF_226,P01133,Le formulaire sert à demander la pension de vieillesse.,Le formulaire sert à demander l'allocation de solidarité aux personnes âgées.,A,J01130
+OQLF_227_P01,OQLF_227,P01134,Le retraité reçoit une pension de vieillesse chaque mois.,Le retraité reçoit un minimum vieillesse chaque mois.,A,J01131
+OQLF_227_P02,OQLF_227,P01135,Le programme prévoit une pension de vieillesse pour certains retraités.,Le programme prévoit un minimum vieillesse pour certains retraités.,A,J01132
+OQLF_227_P03,OQLF_227,P01136,Elle a fait une demande de minimum vieillesse.,Elle a fait une demande de pension de vieillesse.,B,J01133
+OQLF_227_P04,OQLF_227,P01137,Le montant du minimum vieillesse a été révisé.,Le montant de la pension de vieillesse a été révisé.,B,J01134
+OQLF_227_P05,OQLF_227,P01138,Le conseiller explique les conditions du minimum vieillesse.,Le conseiller explique les conditions de la pension de vieillesse.,B,J01135
+OQLF_228_P01,OQLF_228,P01139,L'enfant a oublié sa boîte à lunch à l'école.,L'enfant a oublié sa boîte à goûter à l'école.,A,J01136
+OQLF_228_P02,OQLF_228,P01140,Nous avons acheté une boîte à goûter isotherme.,Nous avons acheté une boîte à lunch isotherme.,B,J01137
+OQLF_228_P03,OQLF_228,P01141,Elle range son repas dans une boîte à goûter.,Elle range son repas dans une boîte à lunch.,B,J01138
+OQLF_228_P04,OQLF_228,P01142,La boîte à goûter est posée sur la table.,La boîte à lunch est posée sur la table.,B,J01139
+OQLF_228_P05,OQLF_228,P01143,Les parents préparent la boîte à goûter chaque matin.,Les parents préparent la boîte à lunch chaque matin.,B,J01140
+OQLF_229_P01,OQLF_229,P01144,L'enfant a oublié sa boîte à lunch à l'école.,L'enfant a oublié sa boîte à déjeuner à l'école.,A,J01141
+OQLF_229_P02,OQLF_229,P01145,Nous avons acheté une boîte à lunch isotherme.,Nous avons acheté une boîte à déjeuner isotherme.,A,J01142
+OQLF_229_P03,OQLF_229,P01146,Elle range son repas dans une boîte à déjeuner.,Elle range son repas dans une boîte à lunch.,B,J01143
+OQLF_229_P04,OQLF_229,P01147,La boîte à déjeuner est posée sur la table.,La boîte à lunch est posée sur la table.,B,J01144
+OQLF_229_P05,OQLF_229,P01148,Les parents préparent la boîte à déjeuner chaque matin.,Les parents préparent la boîte à lunch chaque matin.,B,J01145
+OQLF_230_P01,OQLF_230,P01149,L'entrepreneur a réparé la cour anglaise près du sous-sol.,L'entrepreneur a réparé la margelle près du sous-sol.,B,J01146
+OQLF_230_P02,OQLF_230,P01150,La cour anglaise empêche l'eau d'entrer près de la fenêtre.,La margelle empêche l'eau d'entrer près de la fenêtre.,B,J01147
+OQLF_230_P03,OQLF_230,P01151,Nous avons nettoyé la margelle au printemps.,Nous avons nettoyé la cour anglaise au printemps.,A,J01148
+OQLF_230_P04,OQLF_230,P01152,Le plan indique une margelle devant la fenêtre.,Le plan indique une cour anglaise devant la fenêtre.,A,J01149
+OQLF_230_P05,OQLF_230,P01153,Une grille protège la margelle.,Une grille protège la cour anglaise.,A,J01150
+OQLF_231_P01,OQLF_231,P01154,L'entrepreneur a réparé la margelle de fenêtre près du sous-sol.,L'entrepreneur a réparé la cour anglaise près du sous-sol.,A,J01151
+OQLF_231_P02,OQLF_231,P01155,La margelle de fenêtre empêche l'eau d'entrer près de la fenêtre.,La cour anglaise empêche l'eau d'entrer près de la fenêtre.,A,J01152
+OQLF_231_P03,OQLF_231,P01156,Nous avons nettoyé la margelle de fenêtre au printemps.,Nous avons nettoyé la cour anglaise au printemps.,A,J01153
+OQLF_231_P04,OQLF_231,P01157,Le plan indique une margelle de fenêtre devant la fenêtre.,Le plan indique une cour anglaise devant la fenêtre.,A,J01154
+OQLF_231_P05,OQLF_231,P01158,Une grille protège la cour anglaise.,Une grille protège la margelle de fenêtre.,B,J01155
+OQLF_232_P01,OQLF_232,P01159,La compagnie annonce une déprogrammation pendant la pointe.,La compagnie annonce un délestage pendant la pointe.,B,J01156
+OQLF_232_P02,OQLF_232,P01160,Le réseau a procédé à un délestage temporaire.,Le réseau a procédé à une déprogrammation temporaire.,A,J01157
+OQLF_232_P03,OQLF_232,P01161,Les gestionnaires ont planifié un délestage pour éviter une surcharge.,Les gestionnaires ont planifié une déprogrammation pour éviter une surcharge.,A,J01158
+OQLF_232_P04,OQLF_232,P01162,Une déprogrammation peut toucher plusieurs clients.,Un délestage peut toucher plusieurs clients.,B,J01159
+OQLF_232_P05,OQLF_232,P01163,L'avis explique les raisons de la déprogrammation.,L'avis explique les raisons du délestage.,B,J01160
+OQLF_233_P01,OQLF_233,P01164,L'organisme tient à jour la liste électorale permanente.,L'organisme tient à jour le répertoire électoral unique.,A,J01161
+OQLF_233_P02,OQLF_233,P01165,Une vérification du répertoire électoral unique est prévue.,Une vérification de la liste électorale permanente est prévue.,B,J01162
+OQLF_233_P03,OQLF_233,P01166,Les responsables ont consulté la liste électorale permanente.,Les responsables ont consulté le répertoire électoral unique.,A,J01163
+OQLF_233_P04,OQLF_233,P01167,La réforme modifiera le fonctionnement de la liste électorale permanente.,La réforme modifiera le fonctionnement du répertoire électoral unique.,A,J01164
+OQLF_233_P05,OQLF_233,P01168,Le rapport décrit les données de la liste électorale permanente.,Le rapport décrit les données du répertoire électoral unique.,A,J01165
+OQLF_234_P02,OQLF_234,P01169,Une vérification du registre national des électeurs est prévue.,Une vérification du répertoire électoral unique est prévue.,A,J01167
+OQLF_234_P03,OQLF_234,P01170,Les responsables ont consulté le répertoire électoral unique.,Les responsables ont consulté le registre national des électeurs.,B,J01168
+OQLF_234_P04,OQLF_234,P01171,La réforme modifiera le fonctionnement du registre national des électeurs.,La réforme modifiera le fonctionnement du répertoire électoral unique.,A,J01169
+OQLF_234_P05,OQLF_234,P01172,Le rapport décrit les données du répertoire électoral unique.,Le rapport décrit les données du registre national des électeurs.,B,J01170
+OQLF_235_P01,OQLF_235,P01173,Le service cherche une personne qualifiée pour le poste de coordonnateur de direction.,Le service cherche une personne qualifiée pour le poste de coordinateur de direction.,A,J01171
+OQLF_235_P02,OQLF_235,P01174,L'annonce indique que le poste de coordinateur de direction est à pourvoir.,L'annonce indique que le poste de coordonnateur de direction est à pourvoir.,B,J01172
+OQLF_235_P04,OQLF_235,P01175,La formation prépare au métier de coordonnateur de direction.,La formation prépare au métier de coordinateur de direction.,A,J01174
+OQLF_235_P05,OQLF_235,P01176,Le rapport décrit les responsabilités du poste de coordonnateur de direction.,Le rapport décrit les responsabilités du poste de coordinateur de direction.,A,J01175
+OQLF_236_P01,OQLF_236,P01177,Le service cherche une personne qualifiée pour le poste de coordinateur de direction.,Le service cherche une personne qualifiée pour le poste de coordonnatrice de direction.,B,J01176
+OQLF_236_P02,OQLF_236,P01178,L'annonce indique que le poste de coordonnatrice de direction est à pourvoir.,L'annonce indique que le poste de coordinateur de direction est à pourvoir.,A,J01177
+OQLF_236_P03,OQLF_236,P01179,Une personne exerçant le métier de coordonnatrice de direction a été consultée.,Une personne exerçant le métier de coordinateur de direction a été consultée.,A,J01178
+OQLF_236_P04,OQLF_236,P01180,La formation prépare au métier de coordinateur de direction.,La formation prépare au métier de coordonnatrice de direction.,B,J01179
+OQLF_236_P05,OQLF_236,P01181,Le rapport décrit les responsabilités du poste de coordinateur de direction.,Le rapport décrit les responsabilités du poste de coordonnatrice de direction.,B,J01180
+OQLF_237_P01,OQLF_237,P01182,Le ministère annonce des barrières de dégel au printemps.,Le ministère annonce des restrictions de charges en période de dégel au printemps.,B,J01181
+OQLF_237_P02,OQLF_237,P01183,Les transporteurs doivent respecter les restrictions de charges en période de dégel.,Les transporteurs doivent respecter les barrières de dégel.,A,J01182
+OQLF_237_P03,OQLF_237,P01184,La route est soumise à des barrières de dégel.,La route est soumise à des restrictions de charges en période de dégel.,B,J01183
+OQLF_237_P04,OQLF_237,P01185,Le calendrier précise la durée des restrictions de charges en période de dégel.,Le calendrier précise la durée des barrières de dégel.,A,J01184
+OQLF_237_P05,OQLF_237,P01186,Les autorités ont expliqué les barrières de dégel aux entreprises.,Les autorités ont expliqué les restrictions de charges en période de dégel aux entreprises.,B,J01185
+OQLF_238_P01,OQLF_238,P01187,Le centre sportif propose du soccer intérieur cet hiver.,Le centre sportif propose du football intérieur cet hiver.,A,J01186
+OQLF_238_P02,OQLF_238,P01188,Les jeunes pratiquent le soccer intérieur au gymnase.,Les jeunes pratiquent le football intérieur au gymnase.,A,J01187
+OQLF_238_P03,OQLF_238,P01189,Le club organise un tournoi de football intérieur.,Le club organise un tournoi de soccer intérieur.,B,J01188
+OQLF_238_P04,OQLF_238,P01190,Nous avons réservé un terrain pour le football intérieur.,Nous avons réservé un terrain pour le soccer intérieur.,B,J01189
+OQLF_238_P05,OQLF_238,P01191,L'entraîneur donne un cours de soccer intérieur.,L'entraîneur donne un cours de football intérieur.,A,J01190
+OQLF_239_P01,OQLF_239,P01192,Le détaillant commande ses produits auprès du manufacturier.,Le détaillant commande ses produits auprès du courtier grossiste.,A,J01191
+OQLF_239_P02,OQLF_239,P01193,Ce courtier grossiste fournit plusieurs commerces.,Ce manufacturier fournit plusieurs commerces.,B,J01192
+OQLF_239_P03,OQLF_239,P01194,L'entreprise a changé de courtier grossiste récemment.,L'entreprise a changé de manufacturier récemment.,B,J01193
+OQLF_239_P04,OQLF_239,P01195,Nous avons rencontré un courtier grossiste lors du salon.,Nous avons rencontré un manufacturier lors du salon.,B,J01194
+OQLF_239_P05,OQLF_239,P01196,Le contrat lie le magasin au manufacturier.,Le contrat lie le magasin au courtier grossiste.,A,J01195
+OQLF_240_P01,OQLF_240,P01197,Le bébé dort dans sa coquille pour bébé.,Le bébé dort dans sa coque pour bébé.,A,J01196
+OQLF_240_P02,OQLF_240,P01198,Les parents ont installé la coquille pour bébé dans la voiture.,Les parents ont installé la coque pour bébé dans la voiture.,A,J01197
+OQLF_240_P03,OQLF_240,P01199,Cette coquille pour bébé est adaptée aux nouveau-nés.,Cette coque pour bébé est adaptée aux nouveau-nés.,A,J01198
+OQLF_240_P04,OQLF_240,P01200,Nous avons vérifié les attaches de la coquille pour bébé.,Nous avons vérifié les attaches de la coque pour bébé.,A,J01199
+OQLF_240_P05,OQLF_240,P01201,La famille transporte le bébé dans une coquille pour bébé.,La famille transporte le bébé dans une coque pour bébé.,A,J01200
+OQLF_241_P01,OQLF_241,P01202,Le bébé dort dans sa coque pour bébé.,Le bébé dort dans sa coquille.,B,J01201
+OQLF_241_P02,OQLF_241,P01203,Les parents ont installé la coquille dans la voiture.,Les parents ont installé la coque pour bébé dans la voiture.,A,J01202
+OQLF_241_P03,OQLF_241,P01204,Cette coquille est adaptée aux nouveau-nés.,Cette coque pour bébé est adaptée aux nouveau-nés.,A,J01203
+OQLF_241_P05,OQLF_241,P01205,La famille transporte le bébé dans une coquille.,La famille transporte le bébé dans une coque pour bébé.,A,J01205
