@@ -118,7 +118,7 @@ A prediction is correct when the model identifies the documented FQ candidate. `
 
 All sentence pairs are evaluated in both candidate orders. **Order-robust accuracy** measures the proportion of pairs correctly identified in both presentations.
 
-The evaluation prompt and output schema are available in [`QFrBLiMa/protocol.py`](qfrblima/protocol.py).
+The evaluation prompt and output schema are available in [`qfrblima/protocol.py`](qfrblima/protocol.py).
 
 ## Experiments & Results
 
@@ -195,7 +195,7 @@ Results should therefore be interpreted as contrastive regional linguistic recog
 
 If you use QFrBLiMa in your research, please cite the associated paper:
 
-*QFrBLiMa: A Contrastive Benchmark for Quebec French Linguistic Marker Recognition in LLMs.*
+*QFrBLiMa: a Quebec French Benchmark of Linguistic Markers.*
 
 A BibTeX citation and preprint link will be added following publication.
 
