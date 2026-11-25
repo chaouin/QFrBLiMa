@@ -1,0 +1,97 @@
+model,broad_category,n_pairs,n_markers,robust_successes,robust
+aya_expanse_8b,"Business, Commerce and Finance",170,34,13,0.07647058823529412
+aya_expanse_8b,Construction and Tools,110,22,4,0.03636363636363636
+aya_expanse_8b,Education and Social Services,45,9,0,0.0
+aya_expanse_8b,Everyday Life and Consumer Goods,80,16,3,0.0375
+aya_expanse_8b,Food and Hospitality,100,20,15,0.15
+aya_expanse_8b,Health and Medicine,80,16,6,0.075
+aya_expanse_8b,Public Administration and Law,100,20,0,0.0
+aya_expanse_8b,Road Use and Safety,40,8,2,0.05
+aya_expanse_8b,Science and Nature,150,30,25,0.16666666666666666
+aya_expanse_8b,Sports and Recreation,225,45,5,0.022222222222222223
+aya_expanse_8b,Technology and Communications,65,13,4,0.06153846153846154
+aya_expanse_8b,Transportation and Vehicles,40,8,7,0.175
+claude,"Business, Commerce and Finance",170,34,123,0.7235294117647059
+claude,Construction and Tools,110,22,84,0.7636363636363637
+claude,Education and Social Services,45,9,44,0.9777777777777777
+claude,Everyday Life and Consumer Goods,80,16,56,0.7
+claude,Food and Hospitality,100,20,77,0.77
+claude,Health and Medicine,80,16,65,0.8125
+claude,Public Administration and Law,100,20,77,0.77
+claude,Road Use and Safety,40,8,11,0.275
+claude,Science and Nature,150,30,94,0.6266666666666667
+claude,Sports and Recreation,225,45,199,0.8844444444444445
+claude,Technology and Communications,65,13,53,0.8153846153846154
+claude,Transportation and Vehicles,40,8,35,0.875
+gemini,"Business, Commerce and Finance",170,34,163,0.9588235294117647
+gemini,Construction and Tools,110,22,109,0.990909090909091
+gemini,Education and Social Services,45,9,45,1.0
+gemini,Everyday Life and Consumer Goods,80,16,52,0.65
+gemini,Food and Hospitality,100,20,97,0.97
+gemini,Health and Medicine,80,16,74,0.925
+gemini,Public Administration and Law,100,20,94,0.94
+gemini,Road Use and Safety,40,8,40,1.0
+gemini,Science and Nature,150,30,126,0.84
+gemini,Sports and Recreation,225,45,224,0.9955555555555555
+gemini,Technology and Communications,65,13,65,1.0
+gemini,Transportation and Vehicles,40,8,38,0.95
+gemma4_12b_it,"Business, Commerce and Finance",170,34,55,0.3235294117647059
+gemma4_12b_it,Construction and Tools,110,22,59,0.5363636363636364
+gemma4_12b_it,Education and Social Services,45,9,31,0.6888888888888889
+gemma4_12b_it,Everyday Life and Consumer Goods,80,16,40,0.5
+gemma4_12b_it,Food and Hospitality,100,20,61,0.61
+gemma4_12b_it,Health and Medicine,80,16,36,0.45
+gemma4_12b_it,Public Administration and Law,100,20,38,0.38
+gemma4_12b_it,Road Use and Safety,40,8,4,0.1
+gemma4_12b_it,Science and Nature,150,30,72,0.48
+gemma4_12b_it,Sports and Recreation,225,45,148,0.6577777777777778
+gemma4_12b_it,Technology and Communications,65,13,18,0.27692307692307694
+gemma4_12b_it,Transportation and Vehicles,40,8,21,0.525
+gpt54,"Business, Commerce and Finance",170,34,110,0.6470588235294118
+gpt54,Construction and Tools,110,22,62,0.5636363636363636
+gpt54,Education and Social Services,45,9,41,0.9111111111111111
+gpt54,Everyday Life and Consumer Goods,80,16,46,0.575
+gpt54,Food and Hospitality,100,20,78,0.78
+gpt54,Health and Medicine,80,16,61,0.7625
+gpt54,Public Administration and Law,100,20,68,0.68
+gpt54,Road Use and Safety,40,8,17,0.425
+gpt54,Science and Nature,150,30,84,0.56
+gpt54,Sports and Recreation,225,45,171,0.76
+gpt54,Technology and Communications,65,13,35,0.5384615384615384
+gpt54,Transportation and Vehicles,40,8,29,0.725
+llama31_8b,"Business, Commerce and Finance",170,34,10,0.058823529411764705
+llama31_8b,Construction and Tools,110,22,15,0.13636363636363635
+llama31_8b,Education and Social Services,45,9,2,0.044444444444444446
+llama31_8b,Everyday Life and Consumer Goods,80,16,24,0.3
+llama31_8b,Food and Hospitality,100,20,25,0.25
+llama31_8b,Health and Medicine,80,16,10,0.125
+llama31_8b,Public Administration and Law,100,20,3,0.03
+llama31_8b,Road Use and Safety,40,8,1,0.025
+llama31_8b,Science and Nature,150,30,11,0.07333333333333333
+llama31_8b,Sports and Recreation,225,45,15,0.06666666666666667
+llama31_8b,Technology and Communications,65,13,3,0.046153846153846156
+llama31_8b,Transportation and Vehicles,40,8,5,0.125
+mistral_nemo_12b,"Business, Commerce and Finance",170,34,13,0.07647058823529412
+mistral_nemo_12b,Construction and Tools,110,22,7,0.06363636363636363
+mistral_nemo_12b,Education and Social Services,45,9,17,0.37777777777777777
+mistral_nemo_12b,Everyday Life and Consumer Goods,80,16,12,0.15
+mistral_nemo_12b,Food and Hospitality,100,20,27,0.27
+mistral_nemo_12b,Health and Medicine,80,16,1,0.0125
+mistral_nemo_12b,Public Administration and Law,100,20,2,0.02
+mistral_nemo_12b,Road Use and Safety,40,8,0,0.0
+mistral_nemo_12b,Science and Nature,150,30,31,0.20666666666666667
+mistral_nemo_12b,Sports and Recreation,225,45,18,0.08
+mistral_nemo_12b,Technology and Communications,65,13,0,0.0
+mistral_nemo_12b,Transportation and Vehicles,40,8,14,0.35
+qwen3_8b,"Business, Commerce and Finance",170,34,7,0.041176470588235294
+qwen3_8b,Construction and Tools,110,22,3,0.02727272727272727
+qwen3_8b,Education and Social Services,45,9,7,0.15555555555555556
+qwen3_8b,Everyday Life and Consumer Goods,80,16,5,0.0625
+qwen3_8b,Food and Hospitality,100,20,7,0.07
+qwen3_8b,Health and Medicine,80,16,5,0.0625
+qwen3_8b,Public Administration and Law,100,20,6,0.06
+qwen3_8b,Road Use and Safety,40,8,0,0.0
+qwen3_8b,Science and Nature,150,30,13,0.08666666666666667
+qwen3_8b,Sports and Recreation,225,45,22,0.09777777777777778
+qwen3_8b,Technology and Communications,65,13,1,0.015384615384615385
+qwen3_8b,Transportation and Vehicles,40,8,3,0.075
