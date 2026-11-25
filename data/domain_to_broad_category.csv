@@ -1,0 +1,52 @@
+broad_category,primary_domain,n_markers,n_pairs
+Sports and Recreation,sport,24,120
+Sports and Recreation,loisir,18,90
+Sports and Recreation,jeu de quilles,1,5
+Sports and Recreation,plein air,1,5
+Sports and Recreation,temps libre,1,5
+Food and Hospitality,alimentation,18,90
+Food and Hospitality,restauration,1,5
+Food and Hospitality,tourisme,1,5
+Health and Medicine,médecine,15,75
+Health and Medicine,cosmétologie,1,5
+Science and Nature,zoologie,16,80
+Science and Nature,botanique,11,55
+Science and Nature,agriculture,1,5
+Science and Nature,physique,1,5
+Science and Nature,protection de l'environnement,1,5
+Technology and Communications,télécommunication,13,65
+Construction and Tools,industrie de la construction,14,70
+Construction and Tools,eau,3,15
+Construction and Tools,outillage,3,15
+Construction and Tools,aménagement extérieur,1,5
+Construction and Tools,génie climatique,1,5
+Public Administration and Law,administration publique,9,45
+Public Administration and Law,droit,4,20
+Public Administration and Law,police,2,10
+Public Administration and Law,élection,2,10
+Public Administration and Law,administration,1,5
+Public Administration and Law,incendie,1,5
+Public Administration and Law,services municipaux,1,5
+"Business, Commerce and Finance",comptabilité,8,40
+"Business, Commerce and Finance",entreprise,7,35
+"Business, Commerce and Finance",commerce,5,25
+"Business, Commerce and Finance",finance,5,25
+"Business, Commerce and Finance",gestion,3,15
+"Business, Commerce and Finance",économie,3,15
+"Business, Commerce and Finance",assurance,1,5
+"Business, Commerce and Finance",immobilier,1,5
+"Business, Commerce and Finance",travail,1,5
+Education and Social Services,éducation,8,40
+Education and Social Services,sociologie,1,5
+Transportation and Vehicles,industrie automobile,4,20
+Transportation and Vehicles,transport,2,10
+Transportation and Vehicles,chemin de fer,1,5
+Transportation and Vehicles,circulation,1,5
+Road Use and Safety,route,8,40
+Everyday Life and Consumer Goods,bureau,4,20
+Everyday Life and Consumer Goods,bijouterie,3,15
+Everyday Life and Consumer Goods,emballage et conditionnement,3,15
+Everyday Life and Consumer Goods,habillement,2,10
+Everyday Life and Consumer Goods,habitation,2,10
+Everyday Life and Consumer Goods,linge de maison,1,5
+Everyday Life and Consumer Goods,équipement ménager,1,5

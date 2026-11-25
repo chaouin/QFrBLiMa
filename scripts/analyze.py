@@ -14,10 +14,11 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from qfrblima.protocol import PREFERENCES,load_benchmark,prediction,digest
+from plot_publication_figures import generate_figures
 
 MODELS=['gemini','claude','gpt54','gemma4_12b_it','mistral_nemo_12b','qwen3_8b','aya_expanse_8b','llama31_8b']
-LABELS={'gemini':'Gemini','claude':'Claude','gpt54':'GPT-5.4','gemma4_12b_it':'Gemma 4',
-        'mistral_nemo_12b':'Mistral NeMo','qwen3_8b':'Qwen3','aya_expanse_8b':'Aya Expanse','llama31_8b':'Llama 3.1'}
+LABELS={'gemini':'Gemini 3.8 Flash','claude':'Claude Opus 4.8','gpt54':'GPT-5.4','gemma4_12b_it':'Gemma 4 12B IT',
+        'mistral_nemo_12b':'Mistral NeMo 12B','qwen3_8b':'Qwen3 8B','aya_expanse_8b':'Aya Expanse 8B','llama31_8b':'Llama 3.1 8B'}
 
 def holm(ps):
     p=np.asarray(ps,dtype=float);idx=np.argsort(p);out=np.zeros(len(p));prev=0.
@@ -165,7 +166,7 @@ def main():
     p.add_argument('--predictions',type=Path,default=Path('results/predictions'))
     p.add_argument('--out',type=Path,default=Path('results/analysis'))
     p.add_argument('--models',nargs='+',default=MODELS)
-    p.add_argument('--bootstrap',type=int,default=20000)
+    p.add_argument('--bootstrap',type=int,default=10000)
     p.add_argument('--permutations',type=int,default=20000)
     p.add_argument('--seed',type=int,default=42)
     a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
@@ -242,7 +243,10 @@ def main():
       ('marker_recognition.csv',pd.DataFrame(marker)),('domain_performance.csv',pd.DataFrame(domains)),
       ('difficult_markers.csv',hard),('shared_pair_errors.csv',pairs_agg)]:
         df.to_csv(a.out/filename,index=False)
-    plot_both(overall,a.out);plot_domains(pd.DataFrame(domains),a.out)
+    plot_both(overall,a.out)  # Keep the legacy two-order stacked bar figure.
+    # Paper figures: two-panel accuracy, bootstrap CIs, and 12-category heatmap.
+    # IMPORTANT: do not call plot_domains() here: it would overwrite the new heatmap.
+    generate_figures(a.out, Path('data/domain_to_broad_category.csv'))
     manifest={'seed':a.seed,'benchmark_sha256':digest(a.benchmark),'models':a.models,
       'n_pairs':len(b),'n_markers':b.feature_id.nunique(),
       'n_models':len(a.models),'n_pairs_robust_for_none':int((pairs_agg.n_models_robust==0).sum()),
