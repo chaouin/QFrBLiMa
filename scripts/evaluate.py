@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run QFrMark originals, inversions, or both, using API or local HF models.
+"""Run QFrBLiMa originals, inversions, or both, using API or local HF models.
 
 The same fixed dataset placements are used for all models. Claude retains its
 historical batch-size 10; other models use one item/request. Invalid outputs
@@ -10,8 +10,8 @@ import argparse, hashlib,json,os,sys,time,traceback
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import pandas as pd
-from qfrmark.protocol import (SYSTEM_PROMPT,schema,user_prompt,validate_response,load_benchmark,
-                              make_jobs,prediction,digest)
+from qfrblima.protocol import (SYSTEM_PROMPT, schema, user_prompt, validate_response, load_benchmark,
+                               make_jobs, prediction, digest)
 
 ALIASES={'llama31_8b','aya_expanse_8b','qwen3_8b','mistral_nemo_12b','gemma4_12b_it',
          'gpt54','gemini','claude'}
@@ -36,7 +36,7 @@ def guarded_config(out,a,benchmark_sha):
     cfg={'model_key':a.model,'provider':PROVIDERS[a.model], 'checkpoint':a.checkpoint,
          'benchmark_sha256':benchmark_sha,'seed':a.seed,'batch_size':a.batch_size,
          'max_new_tokens':a.max_new_tokens,'max_retries':a.max_retries,
-         'protocol':'qfrmark_original_public_v1', 'reasoning_effort':'none' if a.model=='gpt54' else None,
+         'protocol':'qfrblima_original_public_v1', 'reasoning_effort':'none' if a.model=='gpt54' else None,
          'gemini_thinking_level':a.thinking_level if a.model=='gemini' else None}
     path=out/'run_config.json'
     if path.exists() and json.loads(path.read_text(encoding='utf-8'))!=cfg:
@@ -162,7 +162,7 @@ def run_order(a,jobs,call):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--benchmark',type=Path,default=Path('data/qfrmark.csv'))
+    p.add_argument('--benchmark',type=Path,default=Path('data/qfrblima.csv'))
     p.add_argument('--out',type=Path,default=Path('results/predictions'))
     p.add_argument('--model',choices=sorted(ALIASES),required=True)
     p.add_argument('--checkpoint',required=True,help='EXACT API ID or HF model ID / local checkpoint path')

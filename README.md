@@ -1,13 +1,13 @@
 
-# QFrMark: A Contrastive Benchmark for Quebec French Linguistic Marker Recognition in LLMs
+# QFrBLiMa: A Contrastive Benchmark for Quebec French Linguistic Marker Recognition in LLMs
 
-**QFrMark** is a contrastive benchmark designed to evaluate large language models' (LLMs) ability to recognize linguistic expressions associated with **Quebec French (FQ)** compared with **International French (FI)**.
+**QFrBLiMa** is a contrastive benchmark designed to evaluate large language models' (LLMs) ability to recognize linguistic expressions associated with **Quebec French (FQ)** compared with **International French (FI)**.
 
-Unlike grammatical minimal-pair benchmarks, QFrMark evaluates **regional linguistic recognition rather than grammatical acceptability**. Both sentence variants may be grammatically correct.
+Unlike grammatical minimal-pair benchmarks, QFrBLiMa evaluates **regional linguistic recognition rather than grammatical acceptability**. Both sentence variants may be grammatically correct.
 
 The benchmark comprises **1,205 contrastive sentence pairs**, covering **241 linguistic markers** across five contexts per marker. The markers are grounded in terminology documented by the *Grand dictionnaire terminologique* (GDT), maintained by the Office québécois de la langue française (OQLF).
 
-**Dataset:** [Hugging Face](https://huggingface.co/datasets/chaouin/qfrmark) | **Paper:** Preprint forthcoming
+**Dataset:** [Hugging Face](https://huggingface.co/datasets/chaouin/QFrBLiMa) | **Paper:** Preprint forthcoming
 
 ## Dataset Statistics
 
@@ -25,7 +25,7 @@ The benchmark comprises **1,205 contrastive sentence pairs**, covering **241 lin
 
 ## Dataset Availability & Usage
 
-QFrMark is available on [Hugging Face](https://huggingface.co/datasets/chaouin/qfrmark) and directly in [`data/qfrmark.csv`](data/qfrmark.csv).
+QFrBLiMa is available on [Hugging Face](https://huggingface.co/datasets/chaouin/QFrBLiMa) and directly in [`data/QFrBLiMa.csv`](data/QFrBLiMa.csv).
 
 ### Loading the Dataset
 
@@ -40,7 +40,7 @@ pip install datasets
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("chaouin/qfrmark", split="test")
+dataset = load_dataset("chaouin/QFrBLiMa", split="test")
 
 print(dataset[0])
 print(f"Pairs: {len(dataset)}")
@@ -54,7 +54,7 @@ from datasets import load_dataset
 
 dataset = load_dataset(
     "csv",
-    data_files={"test": "data/qfrmark.csv"},
+    data_files={"test": "data/QFrBLiMa.csv"},
     split="test",
 )
 
@@ -90,7 +90,7 @@ The dataset contains the following fields:
 
 ## Benchmark Construction
 
-QFrMark was constructed using terminology from the OQLF's *Grand dictionnaire terminologique*.
+QFrBLiMa was constructed using terminology from the OQLF's *Grand dictionnaire terminologique*.
 
 Linguistic markers were manually selected and curated from extracted terminological variants, removing redundant forms and retaining representative regional contrasts.
 
@@ -118,7 +118,7 @@ A prediction is correct when the model identifies the documented FQ candidate. `
 
 All sentence pairs are evaluated in both candidate orders. **Order-robust accuracy** measures the proportion of pairs correctly identified in both presentations.
 
-The evaluation prompt and output schema are available in [`qfrmark/protocol.py`](qfrmark/protocol.py).
+The evaluation prompt and output schema are available in [`QFrBLiMa/protocol.py`](QFrBLiMa/protocol.py).
 
 ## Experiments & Results
 
@@ -133,8 +133,8 @@ For detailed findings and discussion, please refer to the accompanying paper (pr
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/chaouin/QFrMark.git
-cd QFrMark
+git clone https://github.com/chaouin/QFrBLiMa.git
+cd QFrBLiMa
 
 python -m venv .venv
 source .venv/bin/activate
@@ -160,14 +160,14 @@ For new model evaluations, see [`scripts/evaluate.py`](scripts/evaluate.py), [`c
 ## Repository Structure
 
 ```text
-QFrMark/
+QFrBLiMa/
 ├── configs/                # Model configurations
 ├── data/
-│   ├── qfrmark.csv         # Benchmark dataset
+│   ├── QFrBLiMa.csv         # Benchmark dataset
 │   ├── raw/                # OQLF source data
 │   ├── intermediate/       # Extracted terminology
 │   └── manifests/          # Candidate-order manifests
-├── qfrmark/                # Evaluation protocol
+├── QFrBLiMa/                # Evaluation protocol
 ├── scripts/                # Extraction, inference, analysis
 ├── results/                # Predictions and analyses
 ├── slurm/                  # Cluster execution
@@ -179,7 +179,7 @@ QFrMark/
 
 ## Limitations
 
-QFrMark evaluates recognition of documented regional linguistic associations rather than exclusive distinctions between French varieties.
+QFrBLiMa evaluates recognition of documented regional linguistic associations rather than exclusive distinctions between French varieties.
 
 International French is an operational comparison category, not a homogeneous linguistic variety. Sentence contexts were researcher-authored and were not independently validated by external annotators.
 
@@ -187,15 +187,15 @@ Results should therefore be interpreted as contrastive regional linguistic recog
 
 ## Citation
 
-If you use QFrMark in your research, please cite the associated paper:
+If you use QFrBLiMa in your research, please cite the associated paper:
 
-*QFrMark: A Contrastive Benchmark for Quebec French Linguistic Marker Recognition in LLMs.*
+*QFrBLiMa: A Contrastive Benchmark for Quebec French Linguistic Marker Recognition in LLMs.*
 
 A BibTeX citation and preprint link will be added following publication.
 
 ## License
 
-QFrMark is distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+QFrBLiMa is distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 The benchmark incorporates terminology from the *Grand dictionnaire terminologique* (GDT), maintained by the **Office québécois de la langue française (OQLF)** and distributed through **Données Québec**.
 

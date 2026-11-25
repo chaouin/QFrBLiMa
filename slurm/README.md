@@ -2,7 +2,7 @@ Use `mkdir -p logs` before `sbatch`. Example:
 
 ```bash
 export MODEL_ROOT="$HOME/models"
-export VENV_PATH="$HOME/qfrmark-venv"
+export VENV_PATH="$HOME/qfrblima-venv"
 mkdir -p logs
 sbatch --account=YOUR_ALLOCATION slurm/open_models.sh
 ```

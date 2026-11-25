@@ -4,8 +4,8 @@ import argparse,json,sys
 from pathlib import Path
 import pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from qfrmark.protocol import load_benchmark, make_jobs, digest
-p=argparse.ArgumentParser();p.add_argument('--benchmark',type=Path,default=Path('data/qfrmark.csv'))
+from qfrblima.protocol import load_benchmark, make_jobs, digest
+p=argparse.ArgumentParser();p.add_argument('--benchmark',type=Path,default=Path('data/qfrblima.csv'))
 p.add_argument('--out',type=Path,default=Path('data/manifests'));p.add_argument('--seed',type=int,default=42)
 a=p.parse_args();df=load_benchmark(a.benchmark);original,inverted=make_jobs(df,a.seed)
 a.out.mkdir(parents=True,exist_ok=True)

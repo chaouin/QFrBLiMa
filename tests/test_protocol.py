@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import pandas as pd
-from qfrmark.protocol import make_jobs,schema,validate_response, user_prompt
+from qfrblima.protocol import make_jobs,schema,validate_response, user_prompt
 
 def test_balance_and_inversion():
     df=pd.DataFrame({'pair_id':[str(i) for i in range(1205)],

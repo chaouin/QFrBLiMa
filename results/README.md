@@ -1,6 +1,6 @@
-# QFrMark — public results
+# QFrBLiMa — public results
 
-Copy the contents of this directory into the root of `results/` in the QFrMark GitHub repository.
+Copy the contents of this directory into the root of `results/` in the QFrBLiMa GitHub repository.
 
 ## What is included
 
@@ -15,17 +15,17 @@ The 100-pair historical controls, already present within the 1,205 inverted judg
 
 ## Identifier migration and provenance
 
-Predictions are directly copied from `corrected_v3.zip`, except that `pair_id` and `feature_id` were mapped to the unified public OQLF identifiers. Rows were re-ordered to match `data/qfrmark.csv`. Claude's historic CSV did not include the `valid` column; `valid=True` was added after checking the presence and admissible values of all 1,205 preferences. **No predicted preferences, rationale, candidates, correctness labels, or judgments were changed.** `judgment_id` and `original_judgment_id` retain their historical identifiers. The historical audit payloads are preserved within each public audit, alongside the corresponding new pair ID. The original archive should be retained privately for archival provenance.
+Predictions are directly copied from `corrected_v3.zip`, except that `pair_id` and `feature_id` were mapped to the unified public OQLF identifiers. Rows were re-ordered to match `data/qfrblima.csv`. Claude's historic CSV did not include the `valid` column; `valid=True` was added after checking the presence and admissible values of all 1,205 preferences. **No predicted preferences, rationale, candidates, correctness labels, or judgments were changed.** `judgment_id` and `original_judgment_id` retain their historical identifiers. The historical audit payloads are preserved within each public audit, alongside the corresponding new pair ID. The original archive should be retained privately for archival provenance.
 
 The original full dataset and public version were compared row-by-row: only the two identifier fields differ. Claude historical predictions omitted a `valid` column; the public export adds `valid=True` as derived metadata after validating all explicit preferences. The public results were checked against the benchmark for exact candidate texts, A/B swaps, correctness, unique pairs and the aggregate summary of the corrected archive.
 
 ## Reproduce paper tables and graphics
 
-From the QFrMark repository root:
+From the QFrBLiMa repository root:
 
 ```bash
 python scripts/analyze.py \
-  --benchmark data/qfrmark.csv \
+  --benchmark data/qfrblima.csv \
   --predictions results/predictions \
   --out results/analysis \
   --bootstrap 20000 --permutations 20000 --seed 42

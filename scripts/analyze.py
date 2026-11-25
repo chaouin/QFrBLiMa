@@ -13,7 +13,7 @@ from scipy.stats import binomtest
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from qfrmark.protocol import PREFERENCES,load_benchmark,prediction,digest
+from qfrblima.protocol import PREFERENCES,load_benchmark,prediction,digest
 
 MODELS=['gemini','claude','gpt54','gemma4_12b_it','mistral_nemo_12b','qwen3_8b','aya_expanse_8b','llama31_8b']
 LABELS={'gemini':'Gemini','claude':'Claude','gpt54':'GPT-5.4','gemma4_12b_it':'Gemma 4',
@@ -161,7 +161,7 @@ def plot_domains(domain,out):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--benchmark',type=Path,default=Path('data/qfrmark.csv'))
+    p.add_argument('--benchmark',type=Path,default=Path('data/qfrblima.csv'))
     p.add_argument('--predictions',type=Path,default=Path('results/predictions'))
     p.add_argument('--out',type=Path,default=Path('results/analysis'))
     p.add_argument('--models',nargs='+',default=MODELS)

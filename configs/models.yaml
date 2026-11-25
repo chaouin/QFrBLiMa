@@ -1,10 +1,10 @@
-# QFrMark: standardized evaluation configuration
+# QFrBLiMa: standardized evaluation configuration
 # One judgment per request for all models.
 # Fields set to null must be filled using the exact model/dependency version
 # used in the run being documented; do not infer them from a display name.
 
 benchmark:
-  name: QFrMark
+  name: QFrBLiMa
   n_markers: 241
   n_sentence_pairs: 1205
   seed: 42
@@ -136,7 +136,7 @@ models:
 
 evaluation_protocol:
   prompt_type: zero_shot
-  prompt_source: qfrmark/protocol.py
+  prompt_source: qfrblima/protocol.py
   candidates_anonymized: true
   gold_labels_hidden: true
   judgments_per_request: 1

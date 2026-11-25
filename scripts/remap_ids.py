@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply public QFrMark IDs to historical result CSV files without changing any predictions.
+"""Apply public QFrBLiMa IDs to historical result CSV files without changing any predictions.
 
 The model's judgment_id, candidate contents, preferences and correctness are not modified.
 The mapping only renames pair_id and feature_id. Input is never overwritten.

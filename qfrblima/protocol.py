@@ -1,4 +1,4 @@
-"""Immutable QFrMark benchmark protocol, adapted from the original evaluation scripts."""
+"""Immutable QFrBLiMa benchmark protocol, adapted from the original evaluation scripts."""
 from __future__ import annotations
 import hashlib, json, random
 from pathlib import Path

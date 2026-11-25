@@ -11,7 +11,7 @@ verified FI/FQ pairs.
 
 Usage (from repository root):
   python scripts/extract_oqlf_markers.py
-  python scripts/extract_oqlf_markers.py --benchmark data/qfrmark.csv \\
+  python scripts/extract_oqlf_markers.py --benchmark data/qfrblima.csv \\
     --gdt-url https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077588/camion-a-ordures
 """
 from __future__ import annotations
@@ -83,7 +83,7 @@ def fetch(url, out, no_download=False):
     if out.is_file():return
     if no_download:raise FileNotFoundError(out)
     out.parent.mkdir(parents=True,exist_ok=True)
-    with urlopen(Request(url,headers={'User-Agent':'QFrMark-reproducibility/1.0'}),timeout=120) as response:
+    with urlopen(Request(url,headers={'User-Agent':'QFrBLiMa-reproducibility/1.0'}),timeout=120) as response:
         content=response.read()
     if len(content)<1000 or b'<html' in content[:400].lower() and out.suffix=='.csv':
         raise ValueError(f'Unexpected download for {url}')
