@@ -166,7 +166,7 @@ def main():
     p.add_argument('--predictions',type=Path,default=Path('results/predictions'))
     p.add_argument('--out',type=Path,default=Path('results/analysis'))
     p.add_argument('--models',nargs='+',default=MODELS)
-    p.add_argument('--bootstrap',type=int,default=10000)
+    p.add_argument('--bootstrap',type=int,default=20000)
     p.add_argument('--permutations',type=int,default=20000)
     p.add_argument('--seed',type=int,default=42)
     a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)

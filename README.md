@@ -1,5 +1,5 @@
 
-# QFrBLiMa: A Contrastive Benchmark for Quebec French Linguistic Marker Recognition in LLMs
+# QFrBLiMa: a Quebec French Benchmark of Linguistic Markers
 
 **QFrBLiMa** is a contrastive benchmark designed to evaluate large language models' (LLMs) ability to recognize linguistic expressions associated with **Quebec French (FQ)** compared with **International French (FI)**.
 
@@ -40,7 +40,7 @@ pip install datasets
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("chaouin/QFrBLiMa", split="test")
+dataset = load_dataset("chaouin/qfrblima", split="test")
 
 print(dataset[0])
 print(f"Pairs: {len(dataset)}")
@@ -150,7 +150,13 @@ python scripts/prepare.py
 Reproduce the analyses using the released model predictions:
 
 ```bash
-python scripts/analyze.py
+python scripts/analyze.py \
+  --benchmark data/qfrblima.csv \
+  --predictions results/predictions \
+  --out results/analysis \
+  --bootstrap 20000 \
+  --permutations 20000 \
+  --seed 42
 ```
 
 These analyses do not require API keys or a GPU.
