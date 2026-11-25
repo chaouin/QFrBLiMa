@@ -2,10 +2,8 @@
   "model": "mistral_nemo_12b",
   "historical_pair_id": "OQLF_178_P03",
   "public_pair_id": "OQLF_208_P03",
-  "historical_benchmark_sha256": "3eb7694df674ebd6e90adddebb1be89cc8a8b7aad074133fa15fdd03aa9ac1af",
   "historical_audit": {
     "pair_id": "OQLF_178_P03",
-    "benchmark_sha256": "3eb7694df674ebd6e90adddebb1be89cc8a8b7aad074133fa15fdd03aa9ac1af",
     "source_main": "llm_judge/outputs/markers_v2_benchmark/full/mistral_nemo_12b/main_results.csv",
     "source_extension": "llm_judge/outputs/markers_v2_benchmark/position_extension/mistral_nemo_12b/position_control_results.csv",
     "source_correction_main": "llm_judge/outputs/markers_v2_benchmark/corrections/OQLF_178_P03/mistral_nemo_12b/main_results.csv",

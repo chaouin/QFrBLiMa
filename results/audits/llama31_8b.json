@@ -2,10 +2,8 @@
   "model": "llama31_8b",
   "historical_pair_id": "OQLF_178_P03",
   "public_pair_id": "OQLF_208_P03",
-  "historical_benchmark_sha256": "3eb7694df674ebd6e90adddebb1be89cc8a8b7aad074133fa15fdd03aa9ac1af",
   "historical_audit": {
     "pair_id": "OQLF_178_P03",
-    "benchmark_sha256": "3eb7694df674ebd6e90adddebb1be89cc8a8b7aad074133fa15fdd03aa9ac1af",
     "source_main": "llm_judge/outputs/markers_v2_benchmark/full/llama31_8b/main_results_recovered.csv",
     "source_extension": "llm_judge/outputs/markers_v2_benchmark/position_extension/llama31_8b/position_control_results_recovered.csv",
     "source_correction_main": "llm_judge/outputs/markers_v2_benchmark/corrections/OQLF_178_P03/llama31_8b/main_results.csv",
