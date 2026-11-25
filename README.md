@@ -7,7 +7,7 @@ Unlike grammatical minimal-pair benchmarks, QFrBLiMa evaluates **regional lingui
 
 The benchmark comprises **1,205 contrastive sentence pairs**, covering **241 linguistic markers** across five contexts per marker. The markers are grounded in terminology documented by the *Grand dictionnaire terminologique* (GDT), maintained by the Office québécois de la langue française (OQLF).
 
-**Dataset:** [Hugging Face](https://huggingface.co/datasets/chaouin/QFrBLiMa) | **Paper:** Preprint forthcoming
+**Dataset:** [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima) | **Paper:** Preprint forthcoming
 
 ## Dataset Statistics
 
@@ -25,7 +25,7 @@ The benchmark comprises **1,205 contrastive sentence pairs**, covering **241 lin
 
 ## Dataset Availability & Usage
 
-QFrBLiMa is available on [Hugging Face](https://huggingface.co/datasets/chaouin/QFrBLiMa) and directly in [`data/QFrBLiMa.csv`](data/QFrBLiMa.csv).
+QFrBLiMa is available on [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima) and directly in [`data/qfrblima.csv`](data/qfrblima.csv).
 
 ### Loading the Dataset
 
@@ -54,7 +54,7 @@ from datasets import load_dataset
 
 dataset = load_dataset(
     "csv",
-    data_files={"test": "data/QFrBLiMa.csv"},
+    data_files={"test": "data/qfrblima.csv"},
     split="test",
 )
 
@@ -118,7 +118,7 @@ A prediction is correct when the model identifies the documented FQ candidate. `
 
 All sentence pairs are evaluated in both candidate orders. **Order-robust accuracy** measures the proportion of pairs correctly identified in both presentations.
 
-The evaluation prompt and output schema are available in [`QFrBLiMa/protocol.py`](QFrBLiMa/protocol.py).
+The evaluation prompt and output schema are available in [`QFrBLiMa/protocol.py`](qfrblima/protocol.py).
 
 ## Experiments & Results
 
@@ -163,11 +163,11 @@ For new model evaluations, see [`scripts/evaluate.py`](scripts/evaluate.py), [`c
 QFrBLiMa/
 ├── configs/                # Model configurations
 ├── data/
-│   ├── QFrBLiMa.csv         # Benchmark dataset
+│   ├── qfrblima.csv        # Benchmark dataset
 │   ├── raw/                # OQLF source data
 │   ├── intermediate/       # Extracted terminology
 │   └── manifests/          # Candidate-order manifests
-├── QFrBLiMa/                # Evaluation protocol
+├── qfrblima/               # Evaluation protocol
 ├── scripts/                # Extraction, inference, analysis
 ├── results/                # Predictions and analyses
 ├── slurm/                  # Cluster execution
