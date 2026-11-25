@@ -55,7 +55,7 @@ models:
     interface: anthropic.messages.create
     model_id: claude-opus-4-8
     batch_size: 1
-    max_output_tokens: 8000
+    max_output_tokens: 768
     output_format: json_schema
     max_retries: 5
     sleep_seconds_between_requests: 0.5

@@ -169,7 +169,7 @@ def main():
     p.add_argument('--order',choices=['original','inverted','both'],default='both')
     p.add_argument('--seed',type=int,default=42)
     p.add_argument('--max-new-tokens',type=int,default=768)
-    p.add_argument('--claude-max-tokens',type=int,default=8000)
+    p.add_argument('--claude-max-tokens',type=int,default=768)
     p.add_argument('--thinking-level',choices=['low','medium','high'],default='low')
     p.add_argument('--batch-size',type=int,default=None)
     p.add_argument('--max-retries',type=int,default=5)

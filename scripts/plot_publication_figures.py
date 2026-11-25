@@ -69,7 +69,15 @@ def plot_two_panel(overall: pd.DataFrame, out: Path) -> None:
         color="#31688e" if i<3 else "#8051a1"
         a.scatter(original[i],both[i],s=115,c=color,edgecolors="white",linewidths=1,zorder=3)
         a.text(original[i],both[i],str(i+1),ha="center",va="center",color="white",fontsize=7.5,weight="bold",zorder=4)
-    a.set(xlim=(18,102),ylim=(-3,102),xlabel="Original-order accuracy (%)",ylabel="Order-robust accuracy (%)")
+    a.set(
+        xlim=(0, 102),
+        ylim=(0, 102),
+        xlabel="Original-order accuracy (%)",
+        ylabel="Order-robust accuracy (%)"
+    )
+    a.set_xticks(np.arange(0, 101, 20))
+    a.set_yticks(np.arange(0, 101, 20))
+    a.set_aspect("equal", adjustable="box")
     a.set_title("(a) Original vs. order-robust accuracy",weight="bold")
     a.grid(alpha=.17)
     y=np.arange(8)
