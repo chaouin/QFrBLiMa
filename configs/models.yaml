@@ -1,7 +1,5 @@
 # QFrBLiMa: standardized evaluation configuration
 # One judgment per request for all models.
-# Fields set to null must be filled using the exact model/dependency version
-# used in the run being documented; do not infer them from a display name.
 
 benchmark:
   name: QFrBLiMa
@@ -47,7 +45,6 @@ models:
     max_output_tokens: 768
     response_mime_type: application/json
     json_schema: true
-    api_sdk_version: null
 
   claude:
     display_name: Claude Opus 4.8
@@ -59,7 +56,6 @@ models:
     output_format: json_schema
     max_retries: 5
     sleep_seconds_between_requests: 0.5
-    api_sdk_version: null
 
   gpt54:
     display_name: GPT-5.4
@@ -70,13 +66,11 @@ models:
     reasoning_effort: none
     max_output_tokens: 768
     output_format: strict_json_schema
-    api_sdk_version: null
 
   gemma4_12b_it:
     display_name: Gemma 4 12B IT
     provider: huggingface_local
     model_repository: google/gemma-4-12B-it
-    model_revision: null
     architecture: AutoModelForMultimodalLM
     dtype: auto
     device_map: auto
@@ -88,7 +82,6 @@ models:
     display_name: Mistral NeMo 12B Instruct
     provider: huggingface_local
     model_repository: mistralai/Mistral-Nemo-Instruct-2407
-    model_revision: null
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -101,7 +94,6 @@ models:
     display_name: Qwen3 8B
     provider: huggingface_local
     model_repository: Qwen/Qwen3-8B
-    model_revision: null
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -114,7 +106,6 @@ models:
     display_name: Aya Expanse 8B
     provider: huggingface_local
     model_repository: CohereLabs/aya-expanse-8b
-    model_revision: null
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -126,7 +117,6 @@ models:
     display_name: Llama 3.1 8B Instruct
     provider: huggingface_local
     model_repository: meta-llama/Llama-3.1-8B-Instruct
-    model_revision: null
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto

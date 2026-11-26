@@ -243,7 +243,14 @@ def main():
       n_models_robust_any=('model',lambda _:0))
     features=features.drop(columns=['n_models_robust_any'])
     features['incorrect_both_rate']=features.incorrect_both_n/features.n
-    hard=features.sort_values('incorrect_both_rate',ascending=False).reset_index()
+    hard = (
+        features.reset_index()
+        .sort_values(
+            ['incorrect_both_rate', 'feature_id'],
+            ascending=[False, True]
+        )
+        .reset_index(drop=True)
+    )
     pairs_agg=all_pairs.groupby('pair_id').agg(n_models_robust=('correct_both','sum'),
         n_models_incorrect_both=('incorrect_both','sum')).reset_index()
     for filename,df in [('overall.csv',overall),('paired_mcnemar_holm.csv',t),
