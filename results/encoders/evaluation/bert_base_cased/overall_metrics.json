@@ -1,0 +1,52 @@
+{
+  "n_pairs": 1205,
+  "n_examples": 2410,
+  "accuracy": 0.537759336099585,
+  "balanced_accuracy": 0.5377593360995852,
+  "f1_macro": 0.5243941239536543,
+  "confusion_matrix_FI_FQ": [
+    [
+      446,
+      759
+    ],
+    [
+      355,
+      850
+    ]
+  ],
+  "mean_FI_score_fq": 0.605391469887949,
+  "mean_FQ_score_fq": 0.6755725794886862,
+  "median_FQ_score_fq": 0.8400081396102905,
+  "FQ_score_ge_05": 0.7053941908713693,
+  "FQ_score_ge_08": 0.5369294605809128,
+  "FQ_score_ge_09": 0.4107883817427386,
+  "FI_score_lt_05": 0.37012448132780085,
+  "mean_paired_delta": 0.07018110960073715,
+  "median_paired_delta": 0.010214380919933319,
+  "delta_95ci": [
+    0.05012110207105935,
+    0.09108809581921604
+  ],
+  "pairwise_FQ_higher": 0.5800829875518673,
+  "pairwise_ties": 0.0,
+  "both_correct": 0.17095435684647303,
+  "pairwise_marker_cluster_95ci": [
+    0.5278008298755188,
+    0.6307053941908713
+  ],
+  "delta_marker_cluster_95ci": [
+    0.03263646745777307,
+    0.10864768912219896
+  ],
+  "marker_recognition": {
+    "full": 92,
+    "partial": 100,
+    "none": 49
+  },
+  "benchmark_sha256": "7cff81d508ba129854f6f7c1a4312ec5834b93e7867bf609e005be48bb9efe6e",
+  "bootstrap_replicates": 20000,
+  "seed": 42,
+  "checkpoint": "fq-fi_classifier/outputs/bert_base_cased_fqfi_genre_balanced_seed42/best_model",
+  "input_csv": "fq-fi_classifier/data/contrastive_markers/qfrblima.csv",
+  "note": "Softmax scores are not calibrated probabilities; no training performed."
+}
