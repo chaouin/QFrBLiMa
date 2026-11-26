@@ -1,5 +1,8 @@
 # QFrBLiMa: standardized evaluation configuration
 # One judgment per request for all models.
+# Historical SDK versions are unavailable.
+# Open-weight revisions were recovered from local Hugging Face download metadata.
+# All recorded files per model share one revision; historical file identity was not independently verified.
 
 benchmark:
   name: QFrBLiMa
@@ -45,6 +48,7 @@ models:
     max_output_tokens: 768
     response_mime_type: application/json
     json_schema: true
+    api_sdk_version: null  # Historical SDK version not confirmed.
 
   claude:
     display_name: Claude Opus 4.8
@@ -56,6 +60,7 @@ models:
     output_format: json_schema
     max_retries: 5
     sleep_seconds_between_requests: 0.5
+    api_sdk_version: null  # Historical SDK version not confirmed.
 
   gpt54:
     display_name: GPT-5.4
@@ -66,11 +71,13 @@ models:
     reasoning_effort: none
     max_output_tokens: 768
     output_format: strict_json_schema
+    api_sdk_version: null  # Historical SDK version not confirmed.
 
   gemma4_12b_it:
     display_name: Gemma 4 12B IT
     provider: huggingface_local
     model_repository: google/gemma-4-12B-it
+    model_revision: "43c9d014b231474fa7212dbb48a762566c2b255d"
     architecture: AutoModelForMultimodalLM
     dtype: auto
     device_map: auto
@@ -82,6 +89,7 @@ models:
     display_name: Mistral NeMo 12B Instruct
     provider: huggingface_local
     model_repository: mistralai/Mistral-Nemo-Instruct-2407
+    model_revision: "04d8a90549d23fc6bd7f642064003592df51e9b3"
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -94,6 +102,7 @@ models:
     display_name: Qwen3 8B
     provider: huggingface_local
     model_repository: Qwen/Qwen3-8B
+    model_revision: "b968826d9c46dd6066d109eabc6255188de91218"
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -106,6 +115,7 @@ models:
     display_name: Aya Expanse 8B
     provider: huggingface_local
     model_repository: CohereLabs/aya-expanse-8b
+    model_revision: "5062468bf9bc0c6035fd64e06274333ec127d980"
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -117,6 +127,7 @@ models:
     display_name: Llama 3.1 8B Instruct
     provider: huggingface_local
     model_repository: meta-llama/Llama-3.1-8B-Instruct
+    model_revision: "0e9e39f249a16976918f6564b8830bc894c89659"
     architecture: AutoModelForCausalLM
     dtype: bfloat16
     device_map: auto
@@ -155,4 +166,3 @@ statistical_analysis:
     method: marker_cluster_sign_flip_permutation
     permutations: 20000
     multiple_comparison_correction: holm
-

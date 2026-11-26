@@ -1,3 +1,5 @@
+# Pretrained revisions recovered from local Hugging Face download metadata.
+# All recorded files per model share one revision; historical file identity was not independently verified.
 seed: 42
 
 training:
@@ -20,20 +22,25 @@ evaluation:
 models:
   camembert:
     pretrained_model: camembert/camembert-base
+    model_revision: "a75967561c78f2aa81cc41045378d3b4ee25af9e"
     pretraining_language: French
 
   camembertv2:
     pretrained_model: almanach/camembertv2-base
+    model_revision: "42096e44334c6d256ef099c5d8936f9e272a938f"
     pretraining_language: French
 
   moderncamembert:
     pretrained_model: almanach/moderncamembert-base
+    model_revision: "8e70002226c4fc069b6920d142a83cbad1ce1266"
     pretraining_language: French
 
   bert_base_cased:
     pretrained_model: google-bert/bert-base-cased
+    model_revision: "cd5ef92a9fb2f889e972770a36d4ed042daf221e"
     pretraining_language: English
 
   roberta_base:
     pretrained_model: FacebookAI/roberta-base
+    model_revision: "e2da8e2f811d1448a5b465c236feacd80ffbac7b"
     pretraining_language: English
