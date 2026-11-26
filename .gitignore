@@ -1,25 +1,23 @@
+# Encoder checkpoints
+checkpoints/
+**/best_model/
+**/checkpoint-*/
+*.safetensors
+pytorch_model.bin
+optimizer.pt
+scheduler.pt
+scaler.pt
 
-# Python
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
+# Generated training corpus
+data/training_corpus/raw/
+data/training_corpus/processed/
+data/training_corpus/splits/
 
-# IDE and OS
-.idea/
-.DS_Store
-__MACOSX/
+# Training artifacts
+wandb/
+runs/
+.cache/
 
-# Secrets
-.env
-.env.*
-!.env.example
-
-# Local execution
-logs/
-*.log
-
-# Large generated OQLF inventories
-data/intermediate/oqlf_all_french_terms.csv
-data/intermediate/oqlf_all_same_entry_pairs.csv
+# HPC logs
+*.out
+*.err

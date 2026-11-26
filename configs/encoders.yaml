@@ -1,0 +1,39 @@
+seed: 42
+
+training:
+  epochs: 3
+  batch_size: 16
+  gradient_accumulation: 2
+  eval_batch_size: 64
+  max_length: 128
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.06
+  selection_metric: macro_f1
+
+evaluation:
+  batch_size: 64
+  max_length: 128
+  bootstrap: 20000
+  classification_threshold: 0.5
+
+models:
+  camembert:
+    pretrained_model: camembert/camembert-base
+    pretraining_language: French
+
+  camembertv2:
+    pretrained_model: almanach/camembertv2-base
+    pretraining_language: French
+
+  moderncamembert:
+    pretrained_model: almanach/moderncamembert-base
+    pretraining_language: French
+
+  bert_base_cased:
+    pretrained_model: google-bert/bert-base-cased
+    pretraining_language: English
+
+  roberta_base:
+    pretrained_model: FacebookAI/roberta-base
+    pretraining_language: English
