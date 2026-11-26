@@ -1,0 +1,16 @@
+{
+  "data_dir": "${QFR_CORPUS_ROOT}/data/fq_fi_classifier_corpus",
+  "model": "${QFR_PRETRAINED_ROOT}/camembertv2",
+  "output_dir": "${QFR_CHECKPOINT_ROOT}/camembertv2_fqfi_genre_balanced_seed42",
+  "epochs": 3,
+  "batch_size": 16,
+  "grad_accum": 2,
+  "eval_batch_size": 64,
+  "max_length": 128,
+  "lr": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "seed": 42,
+  "workers": 4,
+  "torch": "2.7.1"
+}
