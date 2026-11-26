@@ -1,4 +1,3 @@
-
 # QFrBLiMa: a Quebec French Benchmark of Linguistic Markers
 
 **QFrBLiMa** is a contrastive benchmark designed to evaluate language models' ability to recognize linguistic expressions associated with **Quebec French (QFr)** compared with **Metropolitan French (MFr)**. We evaluate both large language models (LLMs) and supervised encoder classifiers.
@@ -7,11 +6,11 @@ Unlike grammatical minimal-pair benchmarks, QFrBLiMa evaluates **regional lingui
 
 The benchmark comprises **1,205 contrastive sentence pairs**, covering **241 linguistic markers** across five contexts per marker. The markers are grounded in terminology documented by the *Grand dictionnaire terminologique* (GDT), maintained by the Office québécois de la langue française (OQLF).
 
-**Dataset:** [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima) | **Paper:** Preprint forthcoming
+**Dataset:** [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima) | **Models:** [Fine-tuned classifiers](#supervised-encoders) | **Paper:** Preprint forthcoming
 
 ## Terminology and Notation
 
-The scientific notation is **MFr (Metropolitan French)** and **QFr (Quebec French)**. For backward compatibility, legacy identifiers `FI` (0) and `FQ` (1) are retained in the dataset, code, prompts and historical results. These denote the same operational categories, not a claim that International French and Metropolitan French are linguistically synonymous.
+The scientific notation is **MFr (Metropolitan French)** and **QFr (Quebec French)**. For backward compatibility, legacy identifiers `FI` (0) and `FQ` (1) are retained in the dataset, code, prompts and historical results. These denote the same operational categories.
 
 ## Dataset Statistics
 
@@ -96,7 +95,7 @@ The dataset contains the following fields:
 
 QFrBLiMa was constructed using terminology from the OQLF's *Grand dictionnaire terminologique*.
 
-Linguistic markers were manually selected and curated from extracted terminological variants, removing redundant forms and retaining representative regional contrasts.
+Linguistic markers were automatically extracted from terminological data, followed by manual review and cleaning to remove redundant forms and retain documented regional contrasts.
 
 Five sentence contexts were manually constructed for each of the **241 retained markers**, resulting in **1,205 contrastive sentence pairs**.
 
@@ -128,7 +127,7 @@ The evaluation prompt and output schema are available in [`qfrblima/protocol.py`
 
 ### Encoders: independent sentence scoring
 
-The five encoder classifiers are fine-tuned on a separate regional classification corpus. Each sentence is scored independently using the predicted probability of QFr. A pair is correct when the QFr sentence receives a strictly higher QFr probability than its MFr counterpart; ties count as incorrect. Candidate-order inversion is not required for this protocol.
+The five encoder classifiers are fine-tuned on a separate regional classification corpus. Each sentence is scored independently using the class-1 softmax score (QFr). These scores have not been calibrated. A pair is correct when the QFr sentence receives a strictly higher QFr score than its MFr counterpart; ties count as incorrect. Candidate-order inversion is not required for this protocol.
 
 Sentence-level accuracy and macro-F1 are also reported using a classification threshold of 0.5. The implementation is available in [`scripts/encoders/evaluate_classifiers.py`](scripts/encoders/evaluate_classifiers.py).
 
@@ -143,7 +142,7 @@ The separate corpus contains 938,484 examples across six genres, balanced betwee
 | Test | 93,428 |
 | Total | 938,484 |
 
-The classifiers were trained for three epochs with seed 42, a learning rate of 2e-5, an effective batch size of 32 and a maximum sequence length of 128. Checkpoints were selected using validation macro-F1. See [`data/training_corpus/README.md`](data/training_corpus/README.md) for source provenance, construction instructions, aggregate statistics and reconstruction limitations.
+The classifiers were trained for three epochs with seed 42, a learning rate of 2e-5, an effective batch size of 32 and a maximum sequence length of 128. Checkpoints were selected using validation macro-F1 (epoch 2 for ModernCamemBERT and epoch 3 for the other four models). See [`data/training_corpus/README.md`](data/training_corpus/README.md) for source provenance, construction instructions, aggregate statistics and reconstruction limitations.
 
 ## Experiments & Results
 
@@ -166,13 +165,15 @@ Mean single-order accuracy averages accuracy across the two candidate presentati
 
 ### Supervised encoders
 
-| Model | Internal test macro-F1 | QFrBLiMa macro-F1 | Strict pairwise accuracy (95% CI) |
-| --- | ---: | ---: | ---: |
-| CamemBERT | 97.56% | 59.20% | 72.45% (67.97–76.68%) |
-| CamemBERTv2 | 97.07% | 54.89% | 70.37% (65.73–74.85%) |
-| ModernCamemBERT | 97.09% | 53.24% | 69.38% (64.98–73.61%) |
-| BERT-base-cased | 95.45% | 52.44% | 58.01% (52.78–63.07%) |
-| RoBERTa-base | 96.36% | 53.68% | 59.67% (54.94–64.32%) |
+The five fine-tuned classifiers are available on Hugging Face. Each model card documents training, evaluation and intended use.
+
+| Model | Internal test macro-F1 | QFrBLiMa sentence accuracy | QFrBLiMa sentence macro-F1 | Strict pairwise accuracy (95% CI) |
+| --- | ---: | ---: | ---: | ---: |
+| [CamemBERT](https://huggingface.co/chaouin/qfrblima-camembert) | 97.56% | 59.38% | 59.20% | 72.45% (67.97–76.68%) |
+| [CamemBERTv2](https://huggingface.co/chaouin/qfrblima-camembertv2) | 97.07% | 57.39% | 54.89% | 70.37% (65.73–74.85%) |
+| [ModernCamemBERT](https://huggingface.co/chaouin/qfrblima-moderncamembert) | 97.09% | 56.97% | 53.24% | 69.38% (64.98–73.61%) |
+| [BERT-base-cased](https://huggingface.co/chaouin/qfrblima-bert-base-cased) | 95.45% | 53.78% | 52.44% | 58.01% (52.78–63.07%) |
+| [RoBERTa-base](https://huggingface.co/chaouin/qfrblima-roberta-base) | 96.36% | 54.27% | 53.68% | 59.67% (54.94–64.32%) |
 
 Internal training results, external predictions and statistical analyses are available in [`results/encoders/`](results/encoders/).
 
@@ -250,7 +251,48 @@ python scripts/encoders/compare_models.py \
   --seed 42
 ```
 
-### Encoder training and inference
+### Using the released classifiers
+
+The fine-tuned checkpoints can be used without access to the supervised corpus or retraining. Install PyTorch and Transformers in a compatible environment (see `requirements-encoders.txt` for reference versions).
+
+```python
+import torch
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+model_id = "chaouin/qfrblima-camembert"
+tokenizer = AutoTokenizer.from_pretrained(model_id, use_fast=True)
+model = AutoModelForSequenceClassification.from_pretrained(model_id)
+model.eval()
+
+texts = [
+    "J'ai terminé le puzzle hier soir.",
+    "J'ai terminé le casse-tête hier soir.",
+]
+inputs = tokenizer(texts, padding=True, truncation=True,
+                   max_length=128, return_tensors="pt")
+
+with torch.inference_mode():
+    scores = model(**inputs).logits.softmax(dim=-1)[:, 1]
+
+print(scores.tolist())  # QFr scores
+print("QFr sentence ranked higher:", (scores[1] > scores[0]).item())
+```
+
+Class 0 (`FI`) corresponds to MFr and class 1 (`FQ`) to QFr. Replace `model_id` with any of the five model identifiers linked above.
+
+To evaluate a released checkpoint on the full benchmark, first download it locally (the evaluation script loads local files only):
+
+```bash
+hf download chaouin/qfrblima-camembert --local-dir checkpoints/released-camembert
+
+python scripts/encoders/evaluate_classifiers.py \
+  --pairs-csv data/qfrblima.csv \
+  --model checkpoints/released-camembert \
+  --output-dir results/encoders/new_evaluation/camembert \
+  --device cpu
+```
+
+### Encoder fine-tuning
 
 The reference dependency versions are recorded in `requirements-encoders.txt` and `requirements-corpus.txt`. Use separate Python 3.11 environments for corpus preparation and model training. The dependency lists reflect the inspected environments; installation on other platforms and exact historical versions have not been fully verified. On HPC systems, use the site-compatible PyTorch/CUDA builds.
 
@@ -330,7 +372,7 @@ Results should therefore be interpreted as contrastive regional linguistic recog
 
 The supervised corpus uses source-based variety labels, which are imperfect proxies for regional linguistic usage. High internal classification scores do not necessarily imply strong contrastive recognition. The different evaluation protocols also limit direct comparison between LLMs and encoders.
 
-Some historical preparation steps and source versions remain unresolved. See the data and model availability statement below.
+The benchmark and classifiers are intended for research, not for inferring a person's origin or identity. Exact reconstruction of the supervised corpus and historical source versions has not been fully verified. See the data and model availability statement below.
 
 ## Data and Model Availability
 
@@ -338,7 +380,7 @@ Following the approach of [Khan et al. (2026)](https://aclanthology.org/2026.lre
 
 We provide corpus construction scripts, source documentation, aggregate corpus statistics, training configurations, evaluation pipelines and experimental results. Source-specific access and usage conditions are documented in [`data/training_corpus/sources.yaml`](data/training_corpus/sources.yaml).
 
-The benchmark is available on [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima). We intend to release the five fine-tuned regional classifiers on Hugging Face, subject to confirmation of the applicable pretrained-model licenses and training-data usage permissions. Fine-tuned weights are not yet distributed; links will be added when available.
+The benchmark is available on [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima). The five fine-tuned regional classifiers are available through their individual [Hugging Face model repositories](#supervised-encoders). The checkpoints are distributed separately from the supervised corpus and can be used for inference and benchmark evaluation without reconstructing that corpus.
 
 ## Citation
 
@@ -354,6 +396,6 @@ QFrBLiMa is distributed under the [Creative Commons Attribution-NonCommercial-Sh
 
 The benchmark incorporates terminology from the *Grand dictionnaire terminologique* (GDT), maintained by the **Office québécois de la langue française (OQLF)** and distributed through **Données Québec**.
 
-Original source attribution and applicable licensing conditions must be preserved. The benchmark license does not grant rights to third-party materials beyond those provided by their respective rights holders. The supervised training sources remain subject to their own licenses and access restrictions. Any future model release will specify its applicable license separately.
+Original source attribution and applicable licensing conditions must be preserved. The benchmark license does not grant rights to third-party materials beyond those provided by their respective rights holders. The supervised training sources remain subject to their own licenses and access restrictions. The benchmark license does not automatically extend to the model weights or the separate supervised training corpus. Refer to each model repository for its applicable licensing terms.
 
 See [LICENSE](LICENSE.txt) for details.
