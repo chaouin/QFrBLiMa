@@ -71,8 +71,9 @@ distribution:
   full_corpus_redistributed: false
 
   reason: >
-    Redistribution rights have not been established for all
-    constituent resources.
+    Following Khan et al. (2026), raw supervised corpus texts and
+    generated training, validation and test splits are not publicly
+    redistributed due to copyright and source-specific usage restrictions.
 
   publicly_available_artifacts:
     - corpus_construction_scripts
@@ -81,10 +82,17 @@ distribution:
 
   license_note: >
     Each source remains subject to its original licensing and
-    usage conditions. The repository's software license does not
+    usage conditions. The repository license does not
     supersede the rights associated with the underlying data.
 
   checkpoint_redistribution: pending_confirmation
+  checkpoint_release_plan:
+    platform: Hugging Face
+    scope: five fine-tuned regional classifiers
+    conditions: >
+      Subject to confirmation of the applicable pretrained-model licenses
+      and training-data usage permissions. Research access to the shared
+      collection does not by itself establish redistribution permission.
 
 # ============================================================
 # Corpus sources

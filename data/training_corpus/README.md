@@ -83,9 +83,9 @@ See [corpus_statistics.csv](corpus_statistics.csv) for the breakdown by genre an
 
 ## Data availability and licensing
 
-The complete supervised corpus is not redistributed because redistribution rights have not been established for all constituent resources. The repository provides construction scripts, source documentation and aggregate statistics. Researchers must obtain the original resources independently and comply with their applicable access and usage conditions.
+Following [Khan et al. (2026)](https://aclanthology.org/2026.lrec-1.840/), we do not publicly redistribute the supervised corpus, including raw source texts and generated training, validation and test splits, due to copyright and source-specific usage restrictions. The repository provides construction scripts, source documentation and aggregate statistics. Researchers must obtain the original resources independently and comply with their applicable access and usage conditions.
 
-The shared corpus metadata includes Creative Commons licenses and non-commercial research restrictions. Independently acquired resources are subject to their respective licenses and terms, including Etalab Open Licence 2.0, CC BY 4.0 (CoMeRe), CC BY-NC-SA 4.0 (CEFC-ORFEO), non-commercial research restrictions (MLSUM), and source-specific terms (VGQ). See [sources.yaml](sources.yaml) for details. The scope of the Vie-publique license for report text, the Radio-Canada usage conditions, and any applicable subcorpus-specific restrictions remain to be confirmed. The repository's software license does not supersede the rights associated with the source data. Redistribution of the fine-tuned checkpoints remains pending confirmation.
+The shared corpus metadata includes Creative Commons licenses and non-commercial research restrictions. Independently acquired resources are subject to their respective licenses and terms, including Etalab Open Licence 2.0, CC BY 4.0 (CoMeRe), CC BY-NC-SA 4.0 (CEFC-ORFEO), non-commercial research restrictions (MLSUM), and source-specific terms (VGQ). See [sources.yaml](sources.yaml) for details. The scope of the Vie-publique license for report text, the Radio-Canada usage conditions, and any applicable subcorpus-specific restrictions remain to be confirmed. The repository license does not supersede the rights associated with the source data. We intend to release the five fine-tuned classifiers on Hugging Face, subject to confirmation of the applicable pretrained-model licenses and training-data usage permissions. Access to the shared collection does not by itself establish permission to redistribute source texts or model weights.
 
 ## Limitations
 
@@ -99,4 +99,3 @@ The shared corpus metadata includes Creative Commons licenses and non-commercial
 Khan, E., Saidani, F., Van Esbroeck, O., Khoury, R., & Kosseim, L. (2026). *Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study*. LREC 2026. https://aclanthology.org/2026.lrec-1.840/
 
 Additional resource links and licensing references are listed in [sources.yaml](sources.yaml).
-

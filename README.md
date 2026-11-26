@@ -330,7 +330,15 @@ Results should therefore be interpreted as contrastive regional linguistic recog
 
 The supervised corpus uses source-based variety labels, which are imperfect proxies for regional linguistic usage. High internal classification scores do not necessarily imply strong contrastive recognition. The different evaluation protocols also limit direct comparison between LLMs and encoders.
 
-The raw supervised corpus, generated training splits and fine-tuned checkpoints are not distributed in this release. Source-specific access and redistribution conditions are documented in [`data/training_corpus/sources.yaml`](data/training_corpus/sources.yaml). Some historical preparation steps and source versions remain unresolved.
+Some historical preparation steps and source versions remain unresolved. See the data and model availability statement below.
+
+## Data and Model Availability
+
+Following the approach of [Khan et al. (2026)](https://aclanthology.org/2026.lrec-1.840/), we do not publicly redistribute the supervised training corpus, including its raw texts and generated training, validation and test splits, due to copyright and source-specific usage restrictions.
+
+We provide corpus construction scripts, source documentation, aggregate corpus statistics, training configurations, evaluation pipelines and experimental results. Source-specific access and usage conditions are documented in [`data/training_corpus/sources.yaml`](data/training_corpus/sources.yaml).
+
+The benchmark is available on [Hugging Face](https://huggingface.co/datasets/chaouin/qfrblima). We intend to release the five fine-tuned regional classifiers on Hugging Face, subject to confirmation of the applicable pretrained-model licenses and training-data usage permissions. Fine-tuned weights are not yet distributed; links will be added when available.
 
 ## Citation
 
@@ -346,6 +354,6 @@ QFrBLiMa is distributed under the [Creative Commons Attribution-NonCommercial-Sh
 
 The benchmark incorporates terminology from the *Grand dictionnaire terminologique* (GDT), maintained by the **Office québécois de la langue française (OQLF)** and distributed through **Données Québec**.
 
-Original source attribution and applicable licensing conditions must be preserved. The benchmark license does not override the separate licenses and access restrictions of the supervised training sources.
+Original source attribution and applicable licensing conditions must be preserved. The benchmark license does not grant rights to third-party materials beyond those provided by their respective rights holders. The supervised training sources remain subject to their own licenses and access restrictions. Any future model release will specify its applicable license separately.
 
 See [LICENSE](LICENSE.txt) for details.
