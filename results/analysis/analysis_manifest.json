@@ -18,5 +18,5 @@
   "n_pairs_robust_for_all": 0,
   "statistical_unit": "feature_id (241 marker clusters)",
   "domain_assignment": "first semicolon-separated domain; before >",
-  "interpretation": "McNemar original vs inverted and FQ A vs B are distinct tests; domain analysis descriptive"
+  "interpretation": "McNemar original vs inverted and QFr A vs B are distinct tests; domain analysis descriptive"
 }

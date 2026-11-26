@@ -1,7 +1,5 @@
 # QFrBLiMa — public results
 
-Copy the contents of this directory into the root of `results/` in the QFrBLiMa GitHub repository.
-
 This document describes the released LLM results. The scientific notation is **MFr (Metropolitan French)** and **QFr (Quebec French)**. For backward compatibility, legacy identifiers `FI` (0) and `FQ` (1) are retained in the dataset, code, prompts and historical results. These denote the same operational categories, not a claim that International French and Metropolitan French are linguistically synonymous.
 
 ## What is included
