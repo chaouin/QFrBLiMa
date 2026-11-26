@@ -2,6 +2,8 @@
 
 Copy the contents of this directory into the root of `results/` in the QFrBLiMa GitHub repository.
 
+This document describes the released LLM results. The scientific notation is **MFr (Metropolitan French)** and **QFr (Quebec French)**. For backward compatibility, legacy identifiers `FI` (0) and `FQ` (1) are retained in the dataset, code, prompts and historical results. These denote the same operational categories, not a claim that International French and Metropolitan French are linguistically synonymous.
+
 ## What is included
 
 - `predictions/<model>/original/results.csv` — 1,205 corrected original-order judgments per model.
@@ -31,7 +33,7 @@ python scripts/analyze.py \
   --bootstrap 20000 --permutations 20000 --seed 42
 ```
 
-`results/analysis/` is regenerated, not hand-edited. The analysis groups by marker for confidence intervals and statistical model comparisons, and explicitly distinguishes original-vs-inverted accuracy from A/B position preference.
+`results/analysis/` is regenerated, not hand-edited. The original-versus-robust accuracy scatter plot (`original_vs_robust_accuracy`) and candidate-reversal outcomes (`order_robustness`) are exported separately in PNG and PDF. The analysis groups by marker for confidence intervals and statistical model comparisons, and explicitly distinguishes original-vs-inverted accuracy from A/B position preference.
 
 ## Sharing note
 

@@ -16,9 +16,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-LLMS = {'gemini':'Gemini', 'claude':'Claude', 'gpt54':'GPT-5.4',
-        'gemma4_12b_it':'Gemma 4 12B', 'mistral_nemo_12b':'Mistral NeMo 12B',
-        'qwen3_8b':'Qwen3 8B', 'aya_expanse_8b':'Aya Expanse 8B', 'llama31_8b':'Llama 3.1 8B'}
+LLMS = {
+    'gemini': 'Gemini 3.8 Flash',
+    'claude': 'Claude Opus 4.8',
+    'gpt54': 'GPT-5.4',
+    'gemma4_12b_it': 'Gemma 4 12B IT',
+    'mistral_nemo_12b': 'Mistral NeMo 12B Instruct',
+    'qwen3_8b': 'Qwen3 8B',
+    'aya_expanse_8b': 'Aya Expanse 8B',
+    'llama31_8b': 'Llama 3.1 8B Instruct',
+}
 ENCODERS = {'camembert':'CamemBERT', 'camembertv2':'CamemBERTv2',
             'moderncamembert':'ModernCamemBERT', 'bert_base_cased':'BERT-base-cased', 'roberta_base':'RoBERTa-base'}
 

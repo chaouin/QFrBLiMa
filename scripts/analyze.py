@@ -17,8 +17,16 @@ from qfrblima.protocol import PREFERENCES,load_benchmark,prediction,digest
 from plot_publication_figures import generate_figures
 
 MODELS=['gemini','claude','gpt54','gemma4_12b_it','mistral_nemo_12b','qwen3_8b','aya_expanse_8b','llama31_8b']
-LABELS={'gemini':'Gemini 3.8 Flash','claude':'Claude Opus 4.8','gpt54':'GPT-5.4','gemma4_12b_it':'Gemma 4 12B IT',
-        'mistral_nemo_12b':'Mistral NeMo 12B','qwen3_8b':'Qwen3 8B','aya_expanse_8b':'Aya Expanse 8B','llama31_8b':'Llama 3.1 8B'}
+LABELS={
+    'gemini': 'Gemini 3.8 Flash',
+    'claude': 'Claude Opus 4.8',
+    'gpt54': 'GPT-5.4',
+    'gemma4_12b_it': 'Gemma 4 12B IT',
+    'mistral_nemo_12b': 'Mistral NeMo 12B Instruct',
+    'qwen3_8b': 'Qwen3 8B',
+    'aya_expanse_8b': 'Aya Expanse 8B',
+    'llama31_8b': 'Llama 3.1 8B Instruct',
+}
 
 def holm(ps):
     p=np.asarray(ps,dtype=float);idx=np.argsort(p);out=np.zeros(len(p));prev=0.
@@ -243,8 +251,7 @@ def main():
       ('marker_recognition.csv',pd.DataFrame(marker)),('domain_performance.csv',pd.DataFrame(domains)),
       ('difficult_markers.csv',hard),('shared_pair_errors.csv',pairs_agg)]:
         df.to_csv(a.out/filename,index=False)
-    plot_both(overall,a.out)  # Keep the legacy two-order stacked bar figure.
-    # Paper figures: two-panel accuracy, bootstrap CIs, and 12-category heatmap.
+    # Paper figures: separate accuracy and reversal plots, bootstrap CIs, and category heatmap.
     # IMPORTANT: do not call plot_domains() here: it would overwrite the new heatmap.
     generate_figures(a.out, Path('data/domain_to_broad_category.csv'))
     manifest={'seed':a.seed,'benchmark_sha256':digest(a.benchmark),'models':a.models,
@@ -253,7 +260,7 @@ def main():
       'n_pairs_robust_for_all':int((pairs_agg.n_models_robust==len(a.models)).sum()),
       'statistical_unit':'feature_id (241 marker clusters)',
       'domain_assignment':'first semicolon-separated domain; before >',
-      'interpretation':'McNemar original vs inverted and FQ A vs B are distinct tests; domain analysis descriptive'}
+      'interpretation':'McNemar original vs inverted and QFr A vs B are distinct tests; domain analysis descriptive'}
     (a.out/'analysis_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
     print(overall.to_string(index=False,float_format=lambda x:f'{x:.4f}'))
     print('Saved',a.out)

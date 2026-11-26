@@ -1,6 +1,6 @@
 # Historical encoder fine-tuning results
 
-These files report the original supervised training runs, not new experiments. FI (0) and FQ (1) correspond to MFr and QFr in the paper. Validation and test sets contain 93,768 and 93,428 sentences, respectively.
+These files report the original supervised training runs, not new experiments. The scientific notation is **MFr (Metropolitan French)** and **QFr (Quebec French)**. For backward compatibility, legacy identifiers `FI` (0) and `FQ` (1) are retained in the dataset, code, prompts and historical results. These denote the same operational categories, not a claim that International French and Metropolitan French are linguistically synonymous. Validation and test sets contain 93,768 and 93,428 sentences, respectively.
 
 All five models use the same recorded hyperparameters and PyTorch 2.7.1. Checkpoints were selected by validation macro-F1. ModernCamemBERT selected epoch 2; all other models selected epoch 3.
 

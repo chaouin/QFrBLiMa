@@ -1,10 +1,10 @@
 # Regional classifier training corpus
 
-This directory documents the supervised corpus used for the five encoder classifiers. The raw texts and generated splits are not included. The reported statistics are those of the original training corpus, not a newly reconstructed copy. FI (0) and FQ (1) are the code labels corresponding to MFr and QFr in the paper.
+This directory documents the supervised corpus used for the five encoder classifiers. The raw texts and generated splits are not included. The reported statistics are those of the original training corpus, not a newly reconstructed copy. The scientific notation is **MFr (Metropolitan French)** and **QFr (Quebec French)**. For backward compatibility, legacy identifiers `FI` (0) and `FQ` (1) are retained in the dataset, code, prompts and historical results. These denote the same operational categories, not a claim that International French and Metropolitan French are linguistically synonymous.
 
 ## Sources
 
-| Genre | FI | FQ |
+| Genre | MFr | QFr |
 |---|---|---|
 | Encyclopedic | French Wikipedia and Wikisource | Quebec portal articles on Wikipedia |
 | Parliamentary | French National Assembly | National Assembly of Quebec |
@@ -13,7 +13,7 @@ This directory documents the supervised corpus used for the five encoder classif
 | Informal Web | CoMeRe | Quebec Reddit and Depotoir.ca |
 | Journalistic | MLSUM | CN2i and Radio-Canada |
 
-FreCDo informed part of the FI source selection; other resources were selected to match the QFr genres.
+FreCDo informed part of the MFr source selection; other resources were selected to match the QFr genres.
 
 ### Provenance of the shared resources
 
@@ -72,14 +72,14 @@ The accompanying collection/extraction scripts are retained as historical prepar
 
 ## Reported corpus sizes
 
-| Partition | FI | FQ | Total |
+| Partition | MFr | QFr | Total |
 |---|---:|---:|---:|
 | Train | 375644 | 375644 | 751288 |
 | Validation | 46884 | 46884 | 93768 |
 | Test | 46714 | 46714 | 93428 |
 | Total | 469242 | 469242 | 938484 |
 
-See [corpus_statistics.csv](corpus_statistics.csv) for the breakdown by genre and variety. Each genre is balanced between FI and FQ within each partition; the genres themselves are not necessarily equal in size. Only the 751,288 training examples were used for gradient updates.
+See [corpus_statistics.csv](corpus_statistics.csv) for the breakdown by genre and variety. Each genre is balanced between MFr and QFr within each partition; the genres themselves are not necessarily equal in size. Only the 751,288 training examples were used for gradient updates.
 
 ## Data availability and licensing
 

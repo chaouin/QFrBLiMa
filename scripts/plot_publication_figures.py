@@ -16,9 +16,14 @@ import pandas as pd
 
 MODELS = ["gemini", "claude", "gpt54", "gemma4_12b_it", "mistral_nemo_12b", "qwen3_8b", "aya_expanse_8b", "llama31_8b"]
 LABELS = {
-    "gemini": "Gemini 3.8 Flash", "claude": "Claude Opus 4.8", "gpt54": "GPT-5.4",
-    "gemma4_12b_it": "Gemma 4 12B IT", "mistral_nemo_12b": "Mistral NeMo 12B",
-    "qwen3_8b": "Qwen3 8B", "aya_expanse_8b": "Aya Expanse 8B", "llama31_8b": "Llama 3.1 8B",
+    'gemini': 'Gemini 3.8 Flash',
+    'claude': 'Claude Opus 4.8',
+    'gpt54': 'GPT-5.4',
+    'gemma4_12b_it': 'Gemma 4 12B IT',
+    'mistral_nemo_12b': 'Mistral NeMo 12B Instruct',
+    'qwen3_8b': 'Qwen3 8B',
+    'aya_expanse_8b': 'Aya Expanse 8B',
+    'llama31_8b': 'Llama 3.1 8B Instruct',
 }
 CATEGORIES = [
     "Sports and Recreation", "Food and Hospitality", "Health and Medicine",
@@ -53,7 +58,7 @@ def _save(fig, directory: Path, name: str) -> None:
     plt.close(fig)
 
 
-def plot_two_panel(overall: pd.DataFrame, out: Path) -> None:
+def plot_accuracy_and_reversal(overall: pd.DataFrame, out: Path) -> None:
     arr = overall.set_index("model").loc[MODELS]
     original = arr.original.to_numpy(float)*100
     both = arr.correct_both.to_numpy(float)*100
@@ -61,9 +66,7 @@ def plot_two_panel(overall: pd.DataFrame, out: Path) -> None:
     neither = arr.incorrect_both.to_numpy(float)*100
     if not np.allclose(both+one+neither,100,atol=.01):
         raise ValueError("Two-order results do not sum to 100%")
-    fig = plt.figure(figsize=(15.5,6.1))
-    grid = fig.add_gridspec(1,2,width_ratios=[1,1.45],wspace=.44)
-    a = fig.add_subplot(grid[0,0]); b=fig.add_subplot(grid[0,1])
+    fig, a = plt.subplots(figsize=(8.5, 5.6))
     a.plot([0,100],[0,100],"--",lw=1.2,color="#999999")
     for i in range(8):
         color="#31688e" if i<3 else "#8051a1"
@@ -78,8 +81,13 @@ def plot_two_panel(overall: pd.DataFrame, out: Path) -> None:
     a.set_xticks(np.arange(0, 101, 20))
     a.set_yticks(np.arange(0, 101, 20))
     a.set_aspect("equal", adjustable="box")
-    a.set_title("(a) Original vs. order-robust accuracy",weight="bold")
+    a.set_title("Original vs. order-robust accuracy",weight="bold")
     a.grid(alpha=.17)
+    from matplotlib.lines import Line2D
+    handles = [Line2D([], [], marker="o", linestyle="none", color="#31688e" if i<3 else "#8051a1", label=f"{i+1}. {LABELS[m]}") for i,m in enumerate(MODELS)]
+    a.legend(handles=handles, loc="center left", bbox_to_anchor=(1.03,.5), frameon=False, fontsize=8)
+    _save(fig,out,"original_vs_robust_accuracy")
+    fig, b = plt.subplots(figsize=(10.5, 5.2))
     y=np.arange(8)
     b.barh(y,both,color="#287d80",label="Correct in both orders")
     b.barh(y,one,left=both,color="#d5a04b",label="Correct in one order")
@@ -89,10 +97,9 @@ def plot_two_panel(overall: pd.DataFrame, out: Path) -> None:
     for i in y:
         for value,left in ((both[i],0),(one[i],both[i]),(neither[i],both[i]+one[i])):
             if value>=10: b.text(left+value/2,i,f"{value:.1f}",ha="center",va="center",fontsize=7.7)
-    b.set_title("(b) Outcomes under candidate reversal",weight="bold")
-    fig.legend(*b.get_legend_handles_labels(),loc="lower center",bbox_to_anchor=(.5,-.02),ncol=3,frameon=False,fontsize=8.5)
-    fig.subplots_adjust(bottom=.16)
-    _save(fig,out,"two_panel_accuracy")
+    b.set_title("Outcomes under candidate reversal",weight="bold")
+    b.legend(loc="upper center",bbox_to_anchor=(.5,-.14),ncol=3,frameon=False,fontsize=8.5)
+    _save(fig,out,"order_robustness")
 
 
 def plot_ci(ci: pd.DataFrame, out: Path) -> None:
@@ -157,12 +164,12 @@ def generate_figures(out: Path, mapping_path: Path) -> None:
     ci=_check_models(_load(out/"cluster_bootstrap_ci.csv",{"model","metric","estimate","low95","high95"}),"CI")
     pairs=_check_models(_load(out/"paired_observations.csv",{"model","pair_id","feature_id","domaine","correct_both"}),"paired observations")
     mapping=_load(Path(mapping_path),{"primary_domain","broad_category"})
-    plot_two_panel(overall,out)
+    plot_accuracy_and_reversal(overall,out)
     plot_ci(ci,out)
     categories=aggregate_categories(pairs,mapping)
     categories.to_csv(out/"broad_category_model_results.csv",index=False)
     plot_heatmap(categories,out)
-    print("Saved:",*[str(out/f"{name}.{ext}") for name in ("two_panel_accuracy","robust_accuracy_ci","domain_heatmap") for ext in ("png","pdf")],sep="\n  ")
+    print("Saved:",*[str(out/f"{name}.{ext}") for name in ("original_vs_robust_accuracy","order_robustness","robust_accuracy_ci","domain_heatmap") for ext in ("png","pdf")],sep="\n  ")
 
 
 def main():
