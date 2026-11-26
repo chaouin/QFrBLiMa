@@ -1,0 +1,31 @@
+# Python 3.11
+# Supervised encoder training, inference and analysis.
+#
+# Reference environment: Narval, Alliance Digital Research
+# Infrastructure of Canada.
+# Compute Canada-specific build suffixes are omitted.
+
+# Data processing
+numpy==1.26.4
+pandas==2.2.3
+
+# Deep learning
+torch==2.7.1
+transformers==4.57.6
+tokenizers==0.22.2
+sentencepiece==0.2.0
+safetensors==0.8.0
+huggingface-hub==0.36.2
+accelerate==1.14.0
+protobuf==4.25.8
+
+# Evaluation and statistical analysis
+scikit-learn==1.6.1
+scipy==1.17.0
+
+# Visualization
+matplotlib==3.10.8
+
+# Configuration and utilities
+PyYAML==6.0.3
+tqdm==4.70.0
