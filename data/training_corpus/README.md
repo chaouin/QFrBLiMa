@@ -6,14 +6,32 @@ This directory documents the supervised corpus used for the five encoder classif
 
 | Genre | FI | FQ |
 |---|---|---|
-| Encyclopedic | Wikipedia FR | Wikipedia Quebec |
+| Encyclopedic | French Wikipedia and Wikisource | Quebec portal articles on Wikipedia |
 | Parliamentary | French National Assembly | National Assembly of Quebec |
 | Administrative | Vie-publique | Auditor General of Quebec (VGQ) |
 | Oral | ORFEO | CRIFUQ |
-| Informal Web | CoMeRe | Quebec Reddit and forums |
+| Informal Web | CoMeRe | Quebec Reddit and Depotoir.ca |
 | Journalistic | MLSUM | CN2i and Radio-Canada |
 
-FreCDo informed part of the FI source selection; other sources were selected to match the QFr genres. QFr resources were obtained through VALERIA according to the project records. Exact resource versions, access conditions, and redistribution permissions remain to be confirmed; the included VGQ collection script also offers a public-source acquisition route, not evidence that it produced the actual training input.
+FreCDo informed part of the FI source selection; other resources were selected to match the QFr genres.
+
+### Provenance of the shared resources
+
+Five QFr resources are documented in [Khan et al. (2026)](https://aclanthology.org/2026.lrec-1.840/): Quebec Wikipedia, CN2i–Le Soleil, CRIFUQ, Quebec Reddit and Depotoir.ca. The shared research collection also includes Radio-Canada, Quebec parliamentary transcripts and French Wikipedia/Wikisource, which are not described in that publication. The exact correspondence between the downloaded versions and the versions used in the published study has not been established.
+
+The prepared TXT files were downloaded manually from the shared collection hosted in S3 storage on Université Laval's VALERIA infrastructure, with research access granted by Richard Khoury. VALERIA is the hosting infrastructure, not the corpus producer. The other resources were obtained independently; the included VGQ collection script provides a public-source acquisition route, but its use to produce the historical training input has not been independently established.
+
+The contribution of this repository is the selection, harmonization, cleaning, balancing and partitioning of existing resources for supervised regional classification. See [sources.yaml](sources.yaml) for source-specific provenance, licensing and upstream preprocessing.
+
+### Depotoir input verification
+
+The historical input `data/forums/forums_qc_sentences.txt` is a renamed, byte-identical copy of `commentaires_depotoir.txt` from the shared collection. Both files have the following SHA-256 digest:
+
+```text
+1c4dcce0ef5bb7be6ee2e23e426425df155b69706cc1e8c9573d2f21b2f325c8
+```
+
+The comparison also found 1,035,062 identical text units (100% coverage after splitting on line breaks and `</s>` separators). No additional comment corpus is needed to reproduce this particular input.
 
 ## Construction from prepared inputs
 
@@ -61,4 +79,24 @@ The accompanying collection/extraction scripts are retained as historical prepar
 | Test | 46714 | 46714 | 93428 |
 | Total | 469242 | 469242 | 938484 |
 
-See `corpus_statistics.csv` for the breakdown by genre and variety. No raw source data, generated training texts, or checkpoints are included in this addition.
+See [corpus_statistics.csv](corpus_statistics.csv) for the breakdown by genre and variety. Each genre is balanced between FI and FQ within each partition; the genres themselves are not necessarily equal in size. Only the 751,288 training examples were used for gradient updates.
+
+## Data availability and licensing
+
+The complete supervised corpus is not redistributed because redistribution rights have not been established for all constituent resources. The repository provides construction scripts, source documentation and aggregate statistics. Researchers must obtain the original resources independently and comply with their applicable access and usage conditions.
+
+The shared corpus metadata includes Creative Commons licenses and non-commercial research restrictions. Independently acquired resources are subject to their respective licenses and terms, including Etalab Open Licence 2.0, CC BY 4.0 (CoMeRe), CC BY-NC-SA 4.0 (CEFC-ORFEO), non-commercial research restrictions (MLSUM), and source-specific terms (VGQ). See [sources.yaml](sources.yaml) for details. The scope of the Vie-publique license for report text, the Radio-Canada usage conditions, and any applicable subcorpus-specific restrictions remain to be confirmed. The repository's software license does not supersede the rights associated with the source data. Redistribution of the fine-tuned checkpoints remains pending confirmation.
+
+## Limitations
+
+- Regional labels are source-level proxies, not sentence-level linguistic annotations. French Wikipedia/Wikisource is pan-Francophone, while Quebec Wikipedia articles are selected by topic association with Quebec rather than author-level dialect annotation.
+- Genre balancing reduces genre-related confounding but does not eliminate source-specific topics, collection methods or preprocessing artifacts. The upstream Reddit collection also used Quebec French lexical markers during selection.
+- Document-level separation is applied when identifiers are available; otherwise row-level grouping is used. Exact text overlap across partitions is checked by the builder, but this does not establish complete independence at the original document level.
+- The precise historical input snapshots, preparation commands and cache state have not all been recovered. Exact reconstruction of the original corpus has not been verified. The ANDQ metadata also contains an unresolved inconsistency concerning its parent resource.
+
+## References
+
+Khan, E., Saidani, F., Van Esbroeck, O., Khoury, R., & Kosseim, L. (2026). *Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study*. LREC 2026. https://aclanthology.org/2026.lrec-1.840/
+
+Additional resource links and licensing references are listed in [sources.yaml](sources.yaml).
+

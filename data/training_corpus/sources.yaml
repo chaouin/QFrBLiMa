@@ -1,0 +1,667 @@
+schema_version: 1
+
+description: >
+  Source inventory for the supervised regional French classification
+  corpus used to fine-tune the five encoder-based models evaluated
+  on QFrBLiMa.
+
+# ============================================================
+# Regional labels
+# ============================================================
+
+labels:
+  FI:
+    id: 0
+    name: Metropolitan French
+    paper_label: MFr
+
+  FQ:
+    id: 1
+    name: Quebec French
+    paper_label: QFr
+
+# ============================================================
+# Shared research corpus collection
+# ============================================================
+
+shared_collection:
+  hosting_platform: VALERIA
+  institution: Université Laval
+  storage_type: S3
+  access: restricted
+  acquisition_method: manual_download
+
+  description: >
+    Existing research corpora made available through Université
+    Laval's VALERIA infrastructure. The collection includes
+    resources documented by Khan et al. (2026), as well as
+    additional resources not described in that publication.
+
+  access_note: >
+    Access to the shared collection was granted by Richard Khoury
+    for academic research purposes. VALERIA serves as the hosting
+    infrastructure and is not the original producer of the corpora.
+
+# ============================================================
+# References
+# ============================================================
+
+references:
+  khan-etal-2026-low:
+    title: >
+      Low-Resource Dialect Adaptation of Large Language Models:
+      A French Dialect Case-Study
+    authors:
+      - Khan, E.
+      - Saidani, F.
+      - Van Esbroeck, O.
+      - Khoury, R.
+      - Kosseim, L.
+    year: 2026
+    venue: Language Resources and Evaluation Conference (LREC)
+    url: https://aclanthology.org/2026.lrec-1.840/
+    doi: 10.63317/3kg84h4wnshx
+    repository: https://github.com/CLaC-Lab/QuebecLLM-CPT
+
+# ============================================================
+# Data availability and licensing
+# ============================================================
+
+distribution:
+  full_corpus_redistributed: false
+
+  reason: >
+    Redistribution rights have not been established for all
+    constituent resources.
+
+  publicly_available_artifacts:
+    - corpus_construction_scripts
+    - source_documentation
+    - aggregate_corpus_statistics
+
+  license_note: >
+    Each source remains subject to its original licensing and
+    usage conditions. The repository's software license does not
+    supersede the rights associated with the underlying data.
+
+  checkpoint_redistribution: pending_confirmation
+
+# ============================================================
+# Corpus sources
+# ============================================================
+
+sources:
+
+  # ==========================================================
+  # Metropolitan French (FI / MFr)
+  # ==========================================================
+
+  # ----------------------------------------------------------
+  # Encyclopedic
+  # ----------------------------------------------------------
+
+  - id: wikipedia_fr
+    name: French Wikipedia and Wikisource
+    variety: FI
+    genre: encyclopedic
+
+    shared_collection: true
+    corpus_name: corpus_wiki_fr_clean
+    documented_in_khan_etal_2026: false
+    acquisition_method: manual_download
+
+    source_urls:
+      - https://fr.wikipedia.org/
+      - https://fr.wikisource.org/
+
+    original_filename: corpus_wiki_fr_clean.txt
+
+    temporal_coverage:
+      start: "2001"
+      end: "2023"
+
+    source_size:
+      value: 6.34
+      unit: GB
+
+    upstream_preprocessing:
+      - Unicode normalization
+      - Removal of irrelevant sections
+      - Typographical correction
+      - Removal of residual wiki artifacts
+      - Document deduplication
+      - Length filtering
+
+    license:
+      name: CC-BY-SA
+      version: unspecified
+      basis: corpus_metadata
+
+    notes: >
+      The original corpus contains pan-Francophone content,
+      including texts associated with France, Quebec, Belgium,
+      Switzerland and Africa. It is used as a proxy for FI
+      rather than an exclusively Metropolitan French corpus.
+
+  # ----------------------------------------------------------
+  # Parliamentary
+  # ----------------------------------------------------------
+
+  - id: assemblee_fr
+    name: French National Assembly
+    variety: FI
+    genre: parliamentary
+
+    shared_collection: false
+    acquisition_method: public_data_download
+
+    source_url: https://data.assemblee-nationale.fr/travaux-parlementaires/debats
+
+    dataset_url: https://www.data.gouv.fr/datasets/comptes-rendus-des-debats-de-l-assemblee-nationale
+
+    source_format: XML
+
+    preparation_script: scripts/encoders/corpus/extract_assemblee.py
+
+    license:
+      name: Etalab Open Licence 2.0
+      identifier: Etalab-2.0
+      url: https://github.com/etalab/licence-ouverte/blob/master/LO.md
+      basis: official_source
+      attribution_required: true
+
+  # ----------------------------------------------------------
+  # Administrative
+  # ----------------------------------------------------------
+
+  - id: vie_publique
+    name: Vie-publique public reports
+    variety: FI
+    genre: administrative
+
+    shared_collection: false
+    acquisition_method: public_report_download
+    provider: DILA
+
+    source_url: https://www.vie-publique.fr/rapports
+
+    source_format: PDF
+
+    preparation_script: scripts/encoders/corpus/extract_vie_publique_rapports.py
+
+    license:
+      name: Etalab Open Licence 2.0
+      identifier: Etalab-2.0
+      url: https://github.com/etalab/licence-ouverte/blob/master/LO.md
+      basis: official_source
+      attribution_required: true
+      full_report_text_scope: pending_confirmation
+
+  # ----------------------------------------------------------
+  # Oral
+  # ----------------------------------------------------------
+
+  - id: orfeo
+    name: CEFC-ORFEO
+    variety: FI
+    genre: oral
+
+    shared_collection: false
+    acquisition_method: public_corpus_download
+    hosting_platform: ORTOLANG
+
+    source_url: https://www.ortolang.fr/market/corpora/cefc-orfeo
+
+    project_url: https://orfeo.ortolang.fr/
+
+    preparation_script: scripts/encoders/corpus/prepare_orfeo_fi.py
+
+    selected_subcorpora:
+      - CFPP
+      - CRFP
+      - CLAPI
+
+    license:
+      name: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+      identifier: CC-BY-NC-SA-4.0
+      url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+      basis: official_source
+      attribution_required: true
+      commercial_use: false
+      share_alike: true
+
+  # ----------------------------------------------------------
+  # Informal Web
+  # ----------------------------------------------------------
+
+  - id: comere
+    name: CoMeRe
+    variety: FI
+    genre: informal_web
+
+    shared_collection: false
+    acquisition_method: public_corpus_download
+    hosting_platform: ORTOLANG
+
+    source_url: https://www.ortolang.fr/market/corpora/comere
+
+    persistent_url: https://hdl.handle.net/11403/comere
+
+    source_format: XML
+
+    preparation_script: scripts/encoders/corpus/extract_comere.py
+
+    license:
+      name: Creative Commons Attribution 4.0 International
+      identifier: CC-BY-4.0
+      url: https://creativecommons.org/licenses/by/4.0/
+      basis: official_source
+      attribution_required: true
+
+  # ----------------------------------------------------------
+  # Journalistic
+  # ----------------------------------------------------------
+
+  - id: mlsum
+    name: Multilingual Summarization Dataset
+    variety: FI
+    genre: journalistic
+
+    shared_collection: false
+    acquisition_method: public_dataset_download
+
+    source_url: https://github.com/recitalAI/MLSUM
+
+    download_url: https://gitlab.lip6.fr/scialom/mlsum_data/-/raw/master/MLSUM/fr_train.jsonl?inline=false
+
+    source_format: JSONL
+    language: fr
+    original_split: train
+
+    preparation_script: scripts/encoders/corpus/download_mlsum.py
+
+    license:
+      name: Non-commercial research only
+      basis: official_source
+      commercial_use: false
+      copyright_holder: original_copyright_holders
+
+    notes: >
+      Dataset usage is restricted to non-commercial research
+      purposes. Copyright remains with the original copyright
+      holders. The software license does not apply to the
+      journalistic content.
+
+
+  # ==========================================================
+  # Quebec French (FQ / QFr)
+  # ==========================================================
+
+  # ----------------------------------------------------------
+  # Encyclopedic
+  # ----------------------------------------------------------
+
+  - id: wikipedia_qc
+    name: Quebec Wikipedia
+    variety: FQ
+    genre: encyclopedic
+
+    shared_collection: true
+    corpus_name: wikipedia_quebec_categorie_v2
+    corpus_version: "2.0"
+
+    reference: khan-etal-2026-low
+    documented_in_khan_etal_2026: true
+
+    source_url: https://fr.wikipedia.org/wiki/Portail:Québec
+
+    acquisition_method: manual_download
+    original_collection_method: MediaWiki API
+
+    original_filename: wikipedia_quebec_clean_final.txt
+
+    temporal_coverage:
+      start: "2008"
+      end: "2025"
+
+    source_word_count: 16052632
+
+    upstream_preprocessing:
+      - Removal of Wikipedia artifacts
+      - Unicode normalization
+      - Dehyphenation
+      - Number normalization
+      - Sentence segmentation
+      - Linguistic filtering
+      - Document deduplication
+
+    preparation_script: scripts/encoders/corpus/wiki_build.py
+
+    license:
+      name: Creative Commons Attribution-ShareAlike 3.0
+      identifier: CC-BY-SA-3.0
+      url: https://creativecommons.org/licenses/by-sa/3.0/
+      basis:
+        - corpus_metadata
+        - khan-etal-2026-low
+      attribution_required: true
+      share_alike: true
+
+    notes: >
+      Articles were selected through their association with
+      the Quebec portal. Regional association is based on
+      article selection rather than author-level linguistic
+      annotation.
+
+  # ----------------------------------------------------------
+  # Parliamentary
+  # ----------------------------------------------------------
+
+  - id: assemblee_qc
+    name: National Assembly of Quebec
+    variety: FQ
+    genre: parliamentary
+
+    shared_collection: true
+    corpus_name: transcriptions_andq_quebec_v2
+
+    documented_in_khan_etal_2026: false
+
+    source_url: https://www.assnat.qc.ca/
+
+    acquisition_method: manual_download
+    original_filename: Corpus_ANDQ_final.txt
+
+    source_size:
+      value: 3.4
+      unit: GB
+
+    upstream_preprocessing:
+      - Linguistic cleaning
+      - Typographical normalization
+      - Punctuation normalization
+      - Incomplete segment filtering
+      - Length filtering
+
+    license:
+      name: Non-commercial
+      basis: corpus_metadata
+      commercial_use: false
+
+    notes: >
+      The corpus metadata contains an inconsistency concerning
+      the parent resource identifier. The parliamentary origin
+      is documented, but the complete upstream provenance
+      remains to be confirmed.
+
+  # ----------------------------------------------------------
+  # Administrative
+  # ----------------------------------------------------------
+
+  - id: vgq
+    name: Auditor General of Quebec
+    variety: FQ
+    genre: administrative
+
+    shared_collection: false
+    acquisition_method: public_report_download
+
+    source_url: https://www.vgq.qc.ca/
+
+    source_format: PDF
+
+    preparation_script: scripts/encoders/corpus/download_vgq.py
+
+    license:
+      name: Source-specific terms of use
+      url: https://www.vgq.qc.ca/fr/propriete-intellectuelle
+      basis: official_source
+      commercial_use: false
+      attribution_required: true
+      redistribution_of_modified_text: pending_confirmation
+
+    notes: >
+      Non-commercial reproduction is permitted under the
+      conditions specified by the source website. Redistribution
+      of extracted and normalized textual units remains to
+      be confirmed.
+
+  # ----------------------------------------------------------
+  # Oral
+  # ----------------------------------------------------------
+
+  - id: crifuq
+    name: CRIFUQ - Corpus FDLQ
+    variety: FQ
+    genre: oral
+
+    shared_collection: true
+    corpus_name: corpus_oral_CRIFUQ
+
+    reference: khan-etal-2026-low
+    documented_in_khan_etal_2026: true
+
+    acquisition_method: manual_download
+    original_collection_method: PDF transcription extraction
+
+    temporal_coverage:
+      start: "2012"
+      end: "2019"
+
+    source_word_count: 620848
+
+    upstream_preprocessing:
+      - Removal of transcription artifacts
+      - Character normalization
+      - Speaker formatting
+      - Anonymization
+      - Document concatenation
+
+    license:
+      name: Non-commercial
+      basis:
+        - corpus_metadata
+        - khan-etal-2026-low
+      commercial_use: false
+      usage: academic_research
+
+  # ----------------------------------------------------------
+  # Informal Web - Reddit
+  # ----------------------------------------------------------
+
+  - id: reddit_qc
+    name: Quebec Reddit
+    variety: FQ
+    genre: informal_web
+
+    shared_collection: true
+    corpus_name: reddit_joual_quebec
+
+    reference: khan-etal-2026-low
+    documented_in_khan_etal_2026: true
+
+    source_url: https://www.reddit.com/
+
+    acquisition_method: manual_download
+    original_collection_method: Reddit API
+
+    original_filename: reddit_joual.txt
+    pipeline_filename: reddit_qc_sentences.txt
+
+    collection_date: "2025-07-04"
+
+    temporal_coverage:
+      start: "2025"
+      end: "2025"
+
+    source_word_count: 1414624
+
+    upstream_preprocessing:
+      - Anonymization
+      - Unicode normalization
+      - Removal of HTML and URLs
+      - Emoji removal
+      - Sentence segmentation
+      - Language filtering
+      - Minimum token length filtering
+
+    license:
+      name: Non-commercial
+      basis:
+        - corpus_metadata
+        - khan-etal-2026-low
+      commercial_use: false
+      additional_terms: Reddit Terms of Service
+
+    notes: >
+      The original collection process included lexical
+      selection based on Quebec French linguistic markers.
+      This selection may influence the distribution of
+      regional linguistic features in the supervised corpus.
+
+  # ----------------------------------------------------------
+  # Informal Web - Depotoir
+  # ----------------------------------------------------------
+
+  - id: depotoir
+    name: Depotoir.ca
+    variety: FQ
+    genre: informal_web
+
+    shared_collection: true
+    corpus_name: forum_depotoir_quebec
+
+    reference: khan-etal-2026-low
+    documented_in_khan_etal_2026: true
+
+    source_url: https://www.depotoir.ca/
+
+    acquisition_method: manual_download
+    original_collection_method: web_scraping
+
+    original_filename: commentaires_depotoir.txt
+    pipeline_filename: forums_qc_sentences.txt
+
+    collection_date: "2025-07-03"
+
+    temporal_coverage:
+      start: "2009-07-20"
+      end: "2025-07-03"
+
+    source_word_count: 17876154
+    source_text_units: 1035062
+
+    upstream_preprocessing:
+      - Anonymization
+      - Unicode normalization
+      - Removal of HTML and URLs
+      - Emoji removal
+      - Sentence segmentation
+      - Language filtering
+      - Minimum token length filtering
+
+    file_preparation:
+      method: renamed_copy
+      content_modified: false
+
+    provenance_verification:
+      exact_text_coverage: 1.0
+      identical_sha256: true
+      sha256: "1c4dcce0ef5bb7be6ee2e23e426425df155b69706cc1e8c9573d2f21b2f325c8"
+
+    license:
+      name: Non-commercial
+      basis:
+        - corpus_metadata
+        - khan-etal-2026-low
+      commercial_use: false
+
+    notes: >
+      The pipeline file is a byte-identical renamed copy of
+      the original Depotoir corpus. It does not combine
+      MontrealRacing, Facebook, YouTube or other sources.
+
+  # ----------------------------------------------------------
+  # Journalistic - CN2i
+  # ----------------------------------------------------------
+
+  - id: cn2i
+    name: CN2i - Le Soleil
+    variety: FQ
+    genre: journalistic
+
+    shared_collection: true
+    corpus_name: corpus_medias_CN2i_LeSoleil_v2
+    corpus_version: "2.0"
+
+    reference: khan-etal-2026-low
+    documented_in_khan_etal_2026: true
+
+    acquisition_method: manual_download
+    original_collection_method: CN2i API
+
+    temporal_coverage:
+      start: "2000"
+      end: "2025"
+
+    source_word_count: 5861232
+
+    upstream_preprocessing:
+      - Manual cleaning
+      - Typographical normalization
+      - Punctuation correction
+      - Article reconstruction
+      - Encoding normalization
+
+    license:
+      name: Non-commercial academic research
+      copyright_status: copyrighted
+      basis:
+        - corpus_metadata
+        - khan-etal-2026-low
+      commercial_use: false
+      redistribution: pending_confirmation
+
+  # ----------------------------------------------------------
+  # Journalistic - Radio-Canada
+  # ----------------------------------------------------------
+
+  - id: radio_canada
+    name: Radio-Canada
+    variety: FQ
+    genre: journalistic
+
+    shared_collection: true
+    corpus_name: Radio_Canada_corpus_cleaned.txt
+
+    documented_in_khan_etal_2026: false
+
+    source_url: https://ici.radio-canada.ca/
+
+    acquisition_method: manual_download
+    original_collection_method: direct_provider_transfer
+
+    original_filename: Radio_Canada_corpus_cleaned.txt
+
+    temporal_coverage:
+      start: "2003"
+      end: "2020"
+
+    source_word_count: 354679890
+
+    upstream_preprocessing:
+      - HTML entity decoding
+      - Removal of residual HTML and JSON artifacts
+      - Typographical normalization
+      - Sentence deduplication
+      - Article structure reconstruction
+
+    license:
+      name: unspecified
+      basis: corpus_metadata
+      redistribution: pending_confirmation
+
+    notes: >
+      The original journalistic articles were provided directly
+      by Radio-Canada. Licensing and usage conditions are not
+      specified in the available corpus metadata.
