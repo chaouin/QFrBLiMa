@@ -588,10 +588,14 @@ A BibTeX citation and preprint link will be added once the preprint is publicly 
 
 ## License
 
-QFrBLiMa is distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+The QFrBLiMa benchmark and its original source code are distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 The benchmark incorporates terminology from the *Grand dictionnaire terminologique* (GDT), maintained by the **Office québécois de la langue française (OQLF)** and distributed through **Données Québec**.
 
-Original source attribution and applicable licensing conditions must be preserved. The benchmark license does not grant rights to third-party materials beyond those provided by their respective rights holders. The supervised training sources remain subject to their own licenses and access restrictions. The benchmark license does not automatically extend to the model weights or the separate supervised training corpus. Refer to each model repository for its applicable licensing terms.
+Original source attribution and applicable licensing conditions must be preserved. This license does not grant rights to third-party materials beyond those provided by their respective rights holders.
 
-See [LICENSE](LICENSE.txt) for details.
+The supervised training corpus is not publicly redistributed, and its constituent sources remain subject to their respective licenses, permissions and access restrictions.
+
+The released model weights are distributed separately under the licensing terms documented in their respective Hugging Face repositories.
+
+See [LICENSE.txt](LICENSE.txt) for details.
