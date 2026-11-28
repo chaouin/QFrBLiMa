@@ -32,16 +32,29 @@ def load_records(path):
             data[key]=obj
     return data
 
-def guarded_config(out,a,benchmark_sha):
-    cfg={'model_key':a.model,'provider':PROVIDERS[a.model], 'checkpoint':a.checkpoint,
-         'benchmark_sha256':benchmark_sha,'seed':a.seed,'batch_size':a.batch_size,
-         'max_new_tokens':a.max_new_tokens,'max_retries':a.max_retries,
-         'protocol':'qfrblima_original_public_v1', 'reasoning_effort':'none' if a.model=='gpt54' else None,
-         'gemini_thinking_level':a.thinking_level if a.model=='gemini' else None}
-    path=out/'run_config.json'
-    if path.exists() and json.loads(path.read_text(encoding='utf-8'))!=cfg:
+def guarded_config(out, a, benchmark_sha):
+    cfg = {
+        'model_key': a.model,
+        'provider': PROVIDERS[a.model],
+        'checkpoint': a.checkpoint,
+        'benchmark_sha256': benchmark_sha,
+        'seed': a.seed,
+        'batch_size': a.batch_size,
+        'max_new_tokens': a.max_new_tokens,
+        'max_retries': a.max_retries,
+        'claude_max_tokens': a.claude_max_tokens if a.model == 'claude' else None,
+        'sleep_seconds': a.sleep_seconds,
+        'protocol': 'qfrblima_original_public_v1',
+        'reasoning_effort': 'none' if a.model == 'gpt54' else None,
+        'gemini_thinking_level': a.thinking_level if a.model == 'gemini' else None
+    }
+
+    path = out / 'run_config.json'
+
+    if path.exists() and json.loads(path.read_text(encoding='utf-8')) != cfg:
         raise ValueError(f'Run configuration has changed; use a NEW output directory: {out}')
-    path.write_text(json.dumps(cfg,indent=2),encoding='utf-8')
+
+    path.write_text(json.dumps(cfg, indent=2), encoding='utf-8')
 
 def make_caller(a):
     key=a.model
