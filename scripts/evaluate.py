@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Run QFrBLiMa originals, inversions, or both, using API or local HF models.
 
-The same fixed dataset placements are used for all models. Claude retains its
-historical batch-size 10; other models use one item/request. Invalid outputs
+The same fixed dataset placements are used for all models. All models use
+one item per request by default, matching the historical evaluation. Invalid outputs
 are recorded, never silently repaired or counted as valid judgments.
 """
 from __future__ import annotations
@@ -171,14 +171,14 @@ def main():
     p.add_argument('--max-new-tokens',type=int,default=768)
     p.add_argument('--claude-max-tokens',type=int,default=768)
     p.add_argument('--thinking-level',choices=['low','medium','high'],default='low')
-    p.add_argument('--batch-size',type=int,default=None)
+    p.add_argument('--batch-size',type=int,default=1,help='Items per request (default: 1 for all models)')
     p.add_argument('--max-retries',type=int,default=5)
     p.add_argument('--sleep-seconds',type=float,default=0)
     p.add_argument('--limit',type=int,help='First N jobs for a test; use a separate --out from full')
     p.add_argument('--offline',action='store_true',help='Use locally cached checkpoint only')
     p.add_argument('--retry-invalid',action='store_true',help='Do not overwrite; errors need audited recovery')
     a=p.parse_args()
-    if a.batch_size is None:a.batch_size=10 if a.model=='claude' else 1
+    if a.batch_size<1:p.error('--batch-size must be at least 1')
     if a.model!='claude' and a.batch_size!=1:p.error('Only Claude supports batched requests')
     if a.seed!=42:print('WARNING: changes candidate placement from the publication',file=sys.stderr)
     df=load_benchmark(a.benchmark,strict=a.limit is None)
