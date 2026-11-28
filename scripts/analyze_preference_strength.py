@@ -4,9 +4,6 @@ import argparse
 from pathlib import Path
 import numpy as np
 import pandas as pd
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 from analyze import MODELS, LABELS, load_benchmark, read_valid
 
 ENCODERS={'camembert':'CamemBERT','camembertv2':'CamemBERTv2','moderncamembert':'ModernCamemBERT','roberta_base':'RoBERTa-base','bert_base_cased':'BERT-base-cased'}
@@ -41,12 +38,5 @@ def main():
         rows.append(summarize(label,'Encoder',bins(delta,.05,.20)))
         for low,high in [(l,h) for l in [.01,.025,.05,.075,.10] for h in [.10,.15,.20,.25,.30] if l<h]: sens.append(summarize(label,'Encoder',bins(delta,low,high),low=low,high=high))
     df=pd.DataFrame(rows);df.to_csv(out/'preference_strength.csv',index=False);pd.DataFrame(sens).to_csv(out/'preference_threshold_sensitivity.csv',index=False);pd.DataFrame(diag).to_csv(out/'encoder_margin_distribution.csv',index=False)
-    fig,ax=plt.subplots(figsize=(9,5.6));y=np.r_[np.arange(8),np.arange(9,14)];left=np.zeros(len(df));colors=['#26734d','#a6d4ae','#c4c4c4','#efaa91','#ae3434']
-    for c,color,title in zip(CATS,colors,['Strong correct','Slight correct','No preference','Slight incorrect','Strong incorrect']):
-        v=df[c+'_pct'].to_numpy();ax.barh(y,v,left=left,color=color,height=.72,label=title)
-        for j,w in enumerate(v):
-            if w>=8: ax.text(left[j]+w/2,y[j],f'{w:.1f}',ha='center',va='center',fontsize=8,color='white' if c in [CATS[0],CATS[4]] else 'black')
-        left+=v
-    ax.set_yticks(y,df.model);ax.invert_yaxis();ax.set_xlim(0,100);ax.set_xlabel('Judgments or pair rankings (%)');ax.axhline(8,color='0.75',lw=.8);ax.legend(loc='lower center',bbox_to_anchor=(.5,1.01),ncol=3,frameon=False,fontsize=9);ax.spines[['top','right']].set_visible(False);fig.tight_layout();fig.savefig(out/'preference_strength.pdf',bbox_inches='tight');fig.savefig(out/'preference_strength.png',dpi=300,bbox_inches='tight');plt.close(fig)
     print(df[['model']+[c+'_pct' for c in CATS]].round(2).to_string(index=False));print(pd.DataFrame(diag).round(4).to_string(index=False))
 if __name__=='__main__':main()

@@ -1,0 +1,13 @@
+category,n_markers,llm_single_mean,llm_robust_mean,encoder_pairwise_mean
+"Business, Commerce and Finance",34,58.27205882352941,36.3235294117647,68.0
+Construction and Tools,22,62.954545454545446,38.97727272727273,64.54545454545453
+Education and Social Services,9,71.52777777777779,51.94444444444445,78.22222222222221
+Everyday Life and Consumer Goods,16,59.609375,37.1875,60.75
+Food and Hospitality,20,68.3125,48.375,59.0
+Health and Medicine,16,63.59375,40.3125,51.75
+Public Administration and Law,20,58.6875,36.0,64.6
+Road Use and Safety,8,51.71875,23.4375,51.5
+Science and Nature,30,60.12499999999999,38.00000000000001,58.8
+Sports and Recreation,45,65.05555555555554,44.55555555555556,75.28888888888889
+Technology and Communications,13,57.01923076923077,34.42307692307693,85.84615384615384
+Transportation and Vehicles,8,67.8125,47.5,64.0

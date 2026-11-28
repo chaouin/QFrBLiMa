@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate paired model predictions, compute all full-inversion analyses and plots.
+"""Validate paired model predictions, compute full-inversion analyses and export CSVs.
 
 No inference is performed. Invalid/incomplete inputs fail closed. Statistical
 unit for bootstrap and between-model sign-flip tests: linguistic marker (241).
@@ -10,11 +10,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import numpy as np,pandas as pd
 from scipy.stats import binomtest
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 from qfrblima.protocol import PREFERENCES,load_benchmark,prediction,digest
-from plot_publication_figures import generate_figures
 
 MODELS=['gemini','claude','gpt54','gemma4_12b_it','mistral_nemo_12b','qwen3_8b','aya_expanse_8b','llama31_8b']
 LABELS={
@@ -93,86 +89,37 @@ def boot_ci(matrix,B,rng):
         sample[start:end]=matrix[ids].mean(axis=1)
     return np.quantile(sample,[.025,.975],axis=0)
 
-DOMAIN_LABELS = {
-    'sport': 'Sports',
-    'loisir': 'Leisure',
-    'alimentation': 'Food',
-    'zoologie': 'Zoology',
-    'médecine': 'Medicine',
-    'industrie de la construction': 'Construction',
-    'télécommunication': 'Telecommunications',
-    'botanique': 'Botany',
-    'administration publique': 'Public administration',
-    'comptabilité': 'Accounting',
-    'route': 'Road transport',
-    'éducation': 'Education',
-    'entreprise': 'Business',
-    'commerce': 'Commerce',
-    'finance': 'Finance',
-    'bureau': 'Office work',
-    'droit': 'Law',
-    'industrie automobile': 'Automotive industry',
-    'bijouterie': 'Jewelry',
-    'emballage et conditionnement': 'Packaging',
-    'gestion': 'Management',
-    'économie': 'Economics',
-}
+CATEGORIES = [
+    "Sports and Recreation", "Food and Hospitality", "Health and Medicine",
+    "Science and Nature", "Technology and Communications", "Construction and Tools",
+    "Public Administration and Law", "Business, Commerce and Finance",
+    "Education and Social Services", "Transportation and Vehicles",
+    "Road Use and Safety", "Everyday Life and Consumer Goods",
+]
+def aggregate_categories(pairs: pd.DataFrame, mapping: pd.DataFrame) -> pd.DataFrame:
+    """Map each source first/top-level domain to one broad category; pool pair outcomes."""
+    if mapping.primary_domain.duplicated().any():raise ValueError("Duplicate primary domains in mapping")
+    domain=pairs.domaine.fillna("").astype(str).str.split(";",regex=False).str[0].str.split(">",regex=False).str[0].str.strip()
+    lookup=dict(zip(mapping.primary_domain,mapping.broad_category))
+    missing=sorted(set(domain)-set(lookup))
+    if missing: raise ValueError(f"Unmapped primary domains: {missing}. Update data/domain_to_broad_category.csv")
+    df=pairs.assign(primary_domain=domain,broad_category=domain.map(lookup))
+    if len(df)!=1205*df.model.nunique() or df.feature_id.nunique()!=241:raise ValueError("Expected 1205 pairs per model and 241 markers")
+    summary=(df.groupby(["model","broad_category"],as_index=False)
+        .agg(n_pairs=("pair_id","size"),n_markers=("feature_id","nunique"),robust_successes=("correct_both","sum")))
+    summary["robust"]=summary.robust_successes/summary.n_pairs
+    for model, part in summary.groupby("model"):
+        if part.n_pairs.sum()!=1205 or part.n_markers.sum()!=241 or set(part.broad_category)!=set(CATEGORIES):
+            raise ValueError(f"Incomplete category coverage for {model}")
+    return summary
 
-def plot_both(overall,out):
-    s=overall.sort_values('correct_both',ascending=True)
-    names=s.model.map(LABELS)
-    y=np.arange(len(s))
-    fig,ax=plt.subplots(figsize=(10.5,5.2))
-    parts=[
-        (s.correct_both.to_numpy()*100,'Correct in both orders'),
-        (s.correct_one.to_numpy()*100,'Correct in one order'),
-        (s.incorrect_both.to_numpy()*100,'Incorrect in both orders'),
-    ]
-    left=np.zeros(len(s))
-    for values,label in parts:
-        bars=ax.barh(y,values,left=left,label=label,height=.7)
-        for j,(bar,value) in enumerate(zip(bars,values)):
-            if value>=5:
-                ax.text(left[j]+value/2,bar.get_y()+bar.get_height()/2,
-                        f'{value:.1f}%',ha='center',va='center',
-                        fontsize=8,fontweight='400',
-                        color='white' if np.mean(bar.get_facecolor()[:3])<.5 else 'black')
-        left+=values
-    ax.set(yticks=y,yticklabels=names,xlim=(0,100),xlabel='Share of sentence pairs (%)')
-    ax.legend(fontsize=8,loc='upper center',bbox_to_anchor=(.5,1.13),ncol=3,frameon=False)
-    fig.tight_layout()
-    fig.savefig(out/'order_robustness.png',dpi=250,bbox_inches='tight')
-    plt.close(fig)
-
-def plot_domains(domain,out):
-    size=domain[domain.model=='gemini']
-    chosen=(size.query('n_markers >= 5')
-            .sort_values('n_pairs',ascending=False).head(15).domain.tolist())
-    if not chosen:return
-    mat=(domain.pivot(index='domain',columns='model',values='robust')
-         .reindex(index=chosen,columns=MODELS)*100)
-    english=[DOMAIN_LABELS.get(name,name) for name in mat.index]
-    fig,ax=plt.subplots(figsize=(11.4,max(5.6,.43*len(chosen)+1.5)))
-    im=ax.imshow(mat.to_numpy(),vmin=0,vmax=100,aspect='auto',cmap='viridis')
-    ax.set_yticks(range(len(mat)),english)
-    ax.set_xticks(range(len(MODELS)),[LABELS[m] for m in MODELS],rotation=38,ha='right')
-    for j in range(len(mat)):
-        for k in range(len(MODELS)):
-            value=mat.iloc[j,k]
-            if pd.notna(value):
-                ax.text(k,j,f'{value:.0f}',ha='center',va='center',fontsize=8,
-                        color='white' if value<55 else 'black')
-    fig.colorbar(im,ax=ax,label='Correct in both orders (%)',shrink=.9)
-    ax.set_title('Order-robust recognition by terminological domain')
-    fig.tight_layout()
-    fig.savefig(out/'domain_heatmap.png',dpi=250,bbox_inches='tight')
-    plt.close(fig)
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--benchmark',type=Path,default=Path('data/qfrblima.csv'))
     p.add_argument('--predictions',type=Path,default=Path('results/predictions'))
     p.add_argument('--out',type=Path,default=Path('results/analysis'))
+    p.add_argument('--mapping',type=Path,default=Path('data/domain_to_broad_category.csv'))
     p.add_argument('--models',nargs='+',default=MODELS)
     p.add_argument('--bootstrap',type=int,default=20000)
     p.add_argument('--permutations',type=int,default=20000)
@@ -258,9 +205,8 @@ def main():
       ('marker_recognition.csv',pd.DataFrame(marker)),('domain_performance.csv',pd.DataFrame(domains)),
       ('difficult_markers.csv',hard),('shared_pair_errors.csv',pairs_agg)]:
         df.to_csv(a.out/filename,index=False)
-    # Paper figures: separate accuracy and reversal plots, bootstrap CIs, and category heatmap.
-    # IMPORTANT: do not call plot_domains() here: it would overwrite the new heatmap.
-    generate_figures(a.out, Path('data/domain_to_broad_category.csv'))
+    categories=aggregate_categories(all_pairs,pd.read_csv(a.mapping))
+    categories.to_csv(a.out/'broad_category_model_results.csv',index=False)
     manifest={'seed':a.seed,'benchmark_sha256':digest(a.benchmark),'models':a.models,
       'n_pairs':len(b),'n_markers':b.feature_id.nunique(),
       'n_models':len(a.models),'n_pairs_robust_for_none':int((pairs_agg.n_models_robust==0).sum()),

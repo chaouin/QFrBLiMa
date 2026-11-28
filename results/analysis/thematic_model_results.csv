@@ -1,0 +1,289 @@
+category,n_markers,metric,model,accuracy_pct
+"Business, Commerce and Finance",34,llm_mean_single_order,gemini,96.76470588235294
+"Business, Commerce and Finance",34,llm_mean_single_order,claude,84.70588235294117
+"Business, Commerce and Finance",34,llm_mean_single_order,gpt54,75.0
+"Business, Commerce and Finance",34,llm_mean_single_order,gemma4_12b_it,45.294117647058826
+"Business, Commerce and Finance",34,llm_mean_single_order,mistral_nemo_12b,51.76470588235295
+"Business, Commerce and Finance",34,llm_mean_single_order,qwen3_8b,43.8235294117647
+"Business, Commerce and Finance",34,llm_mean_single_order,aya_expanse_8b,42.64705882352941
+"Business, Commerce and Finance",34,llm_mean_single_order,llama31_8b,26.176470588235297
+"Business, Commerce and Finance",34,llm_mean_single_order,mean,58.27205882352941
+Construction and Tools,22,llm_mean_single_order,gemini,99.54545454545455
+Construction and Tools,22,llm_mean_single_order,claude,82.72727272727273
+Construction and Tools,22,llm_mean_single_order,gpt54,67.72727272727272
+Construction and Tools,22,llm_mean_single_order,gemma4_12b_it,70.9090909090909
+Construction and Tools,22,llm_mean_single_order,mistral_nemo_12b,50.90909090909091
+Construction and Tools,22,llm_mean_single_order,qwen3_8b,50.90909090909091
+Construction and Tools,22,llm_mean_single_order,aya_expanse_8b,44.09090909090909
+Construction and Tools,22,llm_mean_single_order,llama31_8b,36.81818181818181
+Construction and Tools,22,llm_mean_single_order,mean,62.95454545454545
+Education and Social Services,9,llm_mean_single_order,gemini,100.0
+Education and Social Services,9,llm_mean_single_order,claude,98.88888888888889
+Education and Social Services,9,llm_mean_single_order,gpt54,95.55555555555556
+Education and Social Services,9,llm_mean_single_order,gemma4_12b_it,80.0
+Education and Social Services,9,llm_mean_single_order,mistral_nemo_12b,63.33333333333333
+Education and Social Services,9,llm_mean_single_order,qwen3_8b,50.0
+Education and Social Services,9,llm_mean_single_order,aya_expanse_8b,45.55555555555556
+Education and Social Services,9,llm_mean_single_order,llama31_8b,38.88888888888889
+Education and Social Services,9,llm_mean_single_order,mean,71.52777777777777
+Everyday Life and Consumer Goods,16,llm_mean_single_order,gemini,69.375
+Everyday Life and Consumer Goods,16,llm_mean_single_order,claude,75.0
+Everyday Life and Consumer Goods,16,llm_mean_single_order,gpt54,66.875
+Everyday Life and Consumer Goods,16,llm_mean_single_order,gemma4_12b_it,61.875
+Everyday Life and Consumer Goods,16,llm_mean_single_order,mistral_nemo_12b,53.125
+Everyday Life and Consumer Goods,16,llm_mean_single_order,qwen3_8b,52.5
+Everyday Life and Consumer Goods,16,llm_mean_single_order,aya_expanse_8b,48.125
+Everyday Life and Consumer Goods,16,llm_mean_single_order,llama31_8b,50.0
+Everyday Life and Consumer Goods,16,llm_mean_single_order,mean,59.609375
+Food and Hospitality,20,llm_mean_single_order,gemini,98.0
+Food and Hospitality,20,llm_mean_single_order,claude,84.5
+Food and Hospitality,20,llm_mean_single_order,gpt54,85.5
+Food and Hospitality,20,llm_mean_single_order,gemma4_12b_it,70.5
+Food and Hospitality,20,llm_mean_single_order,mistral_nemo_12b,63.0
+Food and Hospitality,20,llm_mean_single_order,qwen3_8b,47.0
+Food and Hospitality,20,llm_mean_single_order,aya_expanse_8b,53.0
+Food and Hospitality,20,llm_mean_single_order,llama31_8b,45.0
+Food and Hospitality,20,llm_mean_single_order,mean,68.3125
+Health and Medicine,16,llm_mean_single_order,gemini,93.125
+Health and Medicine,16,llm_mean_single_order,claude,87.5
+Health and Medicine,16,llm_mean_single_order,gpt54,86.875
+Health and Medicine,16,llm_mean_single_order,gemma4_12b_it,60.0
+Health and Medicine,16,llm_mean_single_order,mistral_nemo_12b,49.375
+Health and Medicine,16,llm_mean_single_order,qwen3_8b,47.5
+Health and Medicine,16,llm_mean_single_order,aya_expanse_8b,46.25
+Health and Medicine,16,llm_mean_single_order,llama31_8b,38.125
+Health and Medicine,16,llm_mean_single_order,mean,63.59375
+Public Administration and Law,20,llm_mean_single_order,gemini,96.0
+Public Administration and Law,20,llm_mean_single_order,claude,83.5
+Public Administration and Law,20,llm_mean_single_order,gpt54,76.0
+Public Administration and Law,20,llm_mean_single_order,gemma4_12b_it,46.5
+Public Administration and Law,20,llm_mean_single_order,mistral_nemo_12b,49.0
+Public Administration and Law,20,llm_mean_single_order,qwen3_8b,49.5
+Public Administration and Law,20,llm_mean_single_order,aya_expanse_8b,46.5
+Public Administration and Law,20,llm_mean_single_order,llama31_8b,22.5
+Public Administration and Law,20,llm_mean_single_order,mean,58.6875
+Road Use and Safety,8,llm_mean_single_order,gemini,100.0
+Road Use and Safety,8,llm_mean_single_order,claude,51.24999999999999
+Road Use and Safety,8,llm_mean_single_order,gpt54,66.25
+Road Use and Safety,8,llm_mean_single_order,gemma4_12b_it,43.75
+Road Use and Safety,8,llm_mean_single_order,mistral_nemo_12b,50.0
+Road Use and Safety,8,llm_mean_single_order,qwen3_8b,48.75
+Road Use and Safety,8,llm_mean_single_order,aya_expanse_8b,43.75
+Road Use and Safety,8,llm_mean_single_order,llama31_8b,10.0
+Road Use and Safety,8,llm_mean_single_order,mean,51.71875
+Science and Nature,30,llm_mean_single_order,gemini,86.33333333333333
+Science and Nature,30,llm_mean_single_order,claude,76.0
+Science and Nature,30,llm_mean_single_order,gpt54,67.66666666666666
+Science and Nature,30,llm_mean_single_order,gemma4_12b_it,59.66666666666667
+Science and Nature,30,llm_mean_single_order,mistral_nemo_12b,56.99999999999999
+Science and Nature,30,llm_mean_single_order,qwen3_8b,43.0
+Science and Nature,30,llm_mean_single_order,aya_expanse_8b,53.0
+Science and Nature,30,llm_mean_single_order,llama31_8b,38.333333333333336
+Science and Nature,30,llm_mean_single_order,mean,60.125
+Sports and Recreation,45,llm_mean_single_order,gemini,99.77777777777777
+Sports and Recreation,45,llm_mean_single_order,claude,94.22222222222221
+Sports and Recreation,45,llm_mean_single_order,gpt54,81.11111111111111
+Sports and Recreation,45,llm_mean_single_order,gemma4_12b_it,71.77777777777777
+Sports and Recreation,45,llm_mean_single_order,mistral_nemo_12b,51.55555555555556
+Sports and Recreation,45,llm_mean_single_order,qwen3_8b,52.0
+Sports and Recreation,45,llm_mean_single_order,aya_expanse_8b,43.333333333333336
+Sports and Recreation,45,llm_mean_single_order,llama31_8b,26.666666666666668
+Sports and Recreation,45,llm_mean_single_order,mean,65.05555555555556
+Technology and Communications,13,llm_mean_single_order,gemini,100.0
+Technology and Communications,13,llm_mean_single_order,claude,90.76923076923077
+Technology and Communications,13,llm_mean_single_order,gpt54,63.07692307692307
+Technology and Communications,13,llm_mean_single_order,gemma4_12b_it,40.76923076923077
+Technology and Communications,13,llm_mean_single_order,mistral_nemo_12b,47.69230769230769
+Technology and Communications,13,llm_mean_single_order,qwen3_8b,34.61538461538461
+Technology and Communications,13,llm_mean_single_order,aya_expanse_8b,45.38461538461539
+Technology and Communications,13,llm_mean_single_order,llama31_8b,33.84615384615385
+Technology and Communications,13,llm_mean_single_order,mean,57.019230769230774
+Transportation and Vehicles,8,llm_mean_single_order,gemini,97.5
+Transportation and Vehicles,8,llm_mean_single_order,claude,87.5
+Transportation and Vehicles,8,llm_mean_single_order,gpt54,83.75
+Transportation and Vehicles,8,llm_mean_single_order,gemma4_12b_it,75.0
+Transportation and Vehicles,8,llm_mean_single_order,mistral_nemo_12b,67.5
+Transportation and Vehicles,8,llm_mean_single_order,qwen3_8b,52.5
+Transportation and Vehicles,8,llm_mean_single_order,aya_expanse_8b,52.5
+Transportation and Vehicles,8,llm_mean_single_order,llama31_8b,26.25
+Transportation and Vehicles,8,llm_mean_single_order,mean,67.8125
+"Business, Commerce and Finance",34,llm_order_robust,gemini,95.88235294117648
+"Business, Commerce and Finance",34,llm_order_robust,claude,72.35294117647058
+"Business, Commerce and Finance",34,llm_order_robust,gpt54,64.70588235294117
+"Business, Commerce and Finance",34,llm_order_robust,gemma4_12b_it,32.35294117647059
+"Business, Commerce and Finance",34,llm_order_robust,mistral_nemo_12b,7.647058823529412
+"Business, Commerce and Finance",34,llm_order_robust,qwen3_8b,4.117647058823529
+"Business, Commerce and Finance",34,llm_order_robust,aya_expanse_8b,7.647058823529412
+"Business, Commerce and Finance",34,llm_order_robust,llama31_8b,5.88235294117647
+"Business, Commerce and Finance",34,llm_order_robust,mean,36.32352941176471
+Construction and Tools,22,llm_order_robust,gemini,99.0909090909091
+Construction and Tools,22,llm_order_robust,claude,76.36363636363637
+Construction and Tools,22,llm_order_robust,gpt54,56.36363636363636
+Construction and Tools,22,llm_order_robust,gemma4_12b_it,53.63636363636364
+Construction and Tools,22,llm_order_robust,mistral_nemo_12b,6.363636363636363
+Construction and Tools,22,llm_order_robust,qwen3_8b,2.727272727272727
+Construction and Tools,22,llm_order_robust,aya_expanse_8b,3.6363636363636362
+Construction and Tools,22,llm_order_robust,llama31_8b,13.636363636363635
+Construction and Tools,22,llm_order_robust,mean,38.977272727272734
+Education and Social Services,9,llm_order_robust,gemini,100.0
+Education and Social Services,9,llm_order_robust,claude,97.77777777777777
+Education and Social Services,9,llm_order_robust,gpt54,91.11111111111111
+Education and Social Services,9,llm_order_robust,gemma4_12b_it,68.88888888888889
+Education and Social Services,9,llm_order_robust,mistral_nemo_12b,37.77777777777778
+Education and Social Services,9,llm_order_robust,qwen3_8b,15.555555555555555
+Education and Social Services,9,llm_order_robust,aya_expanse_8b,0.0
+Education and Social Services,9,llm_order_robust,llama31_8b,4.444444444444445
+Education and Social Services,9,llm_order_robust,mean,51.94444444444444
+Everyday Life and Consumer Goods,16,llm_order_robust,gemini,65.0
+Everyday Life and Consumer Goods,16,llm_order_robust,claude,70.0
+Everyday Life and Consumer Goods,16,llm_order_robust,gpt54,57.49999999999999
+Everyday Life and Consumer Goods,16,llm_order_robust,gemma4_12b_it,50.0
+Everyday Life and Consumer Goods,16,llm_order_robust,mistral_nemo_12b,15.0
+Everyday Life and Consumer Goods,16,llm_order_robust,qwen3_8b,6.25
+Everyday Life and Consumer Goods,16,llm_order_robust,aya_expanse_8b,3.75
+Everyday Life and Consumer Goods,16,llm_order_robust,llama31_8b,30.0
+Everyday Life and Consumer Goods,16,llm_order_robust,mean,37.1875
+Food and Hospitality,20,llm_order_robust,gemini,97.0
+Food and Hospitality,20,llm_order_robust,claude,77.0
+Food and Hospitality,20,llm_order_robust,gpt54,78.0
+Food and Hospitality,20,llm_order_robust,gemma4_12b_it,61.0
+Food and Hospitality,20,llm_order_robust,mistral_nemo_12b,27.0
+Food and Hospitality,20,llm_order_robust,qwen3_8b,7.000000000000001
+Food and Hospitality,20,llm_order_robust,aya_expanse_8b,15.0
+Food and Hospitality,20,llm_order_robust,llama31_8b,25.0
+Food and Hospitality,20,llm_order_robust,mean,48.375
+Health and Medicine,16,llm_order_robust,gemini,92.5
+Health and Medicine,16,llm_order_robust,claude,81.25
+Health and Medicine,16,llm_order_robust,gpt54,76.25
+Health and Medicine,16,llm_order_robust,gemma4_12b_it,45.0
+Health and Medicine,16,llm_order_robust,mistral_nemo_12b,1.25
+Health and Medicine,16,llm_order_robust,qwen3_8b,6.25
+Health and Medicine,16,llm_order_robust,aya_expanse_8b,7.5
+Health and Medicine,16,llm_order_robust,llama31_8b,12.5
+Health and Medicine,16,llm_order_robust,mean,40.3125
+Public Administration and Law,20,llm_order_robust,gemini,94.0
+Public Administration and Law,20,llm_order_robust,claude,77.0
+Public Administration and Law,20,llm_order_robust,gpt54,68.0
+Public Administration and Law,20,llm_order_robust,gemma4_12b_it,38.0
+Public Administration and Law,20,llm_order_robust,mistral_nemo_12b,2.0
+Public Administration and Law,20,llm_order_robust,qwen3_8b,6.0
+Public Administration and Law,20,llm_order_robust,aya_expanse_8b,0.0
+Public Administration and Law,20,llm_order_robust,llama31_8b,3.0
+Public Administration and Law,20,llm_order_robust,mean,36.0
+Road Use and Safety,8,llm_order_robust,gemini,100.0
+Road Use and Safety,8,llm_order_robust,claude,27.500000000000004
+Road Use and Safety,8,llm_order_robust,gpt54,42.5
+Road Use and Safety,8,llm_order_robust,gemma4_12b_it,10.0
+Road Use and Safety,8,llm_order_robust,mistral_nemo_12b,0.0
+Road Use and Safety,8,llm_order_robust,qwen3_8b,0.0
+Road Use and Safety,8,llm_order_robust,aya_expanse_8b,5.0
+Road Use and Safety,8,llm_order_robust,llama31_8b,2.5
+Road Use and Safety,8,llm_order_robust,mean,23.4375
+Science and Nature,30,llm_order_robust,gemini,84.0
+Science and Nature,30,llm_order_robust,claude,62.66666666666667
+Science and Nature,30,llm_order_robust,gpt54,56.00000000000001
+Science and Nature,30,llm_order_robust,gemma4_12b_it,48.0
+Science and Nature,30,llm_order_robust,mistral_nemo_12b,20.666666666666668
+Science and Nature,30,llm_order_robust,qwen3_8b,8.666666666666668
+Science and Nature,30,llm_order_robust,aya_expanse_8b,16.666666666666664
+Science and Nature,30,llm_order_robust,llama31_8b,7.333333333333333
+Science and Nature,30,llm_order_robust,mean,38.0
+Sports and Recreation,45,llm_order_robust,gemini,99.55555555555556
+Sports and Recreation,45,llm_order_robust,claude,88.44444444444444
+Sports and Recreation,45,llm_order_robust,gpt54,76.0
+Sports and Recreation,45,llm_order_robust,gemma4_12b_it,65.77777777777779
+Sports and Recreation,45,llm_order_robust,mistral_nemo_12b,8.0
+Sports and Recreation,45,llm_order_robust,qwen3_8b,9.777777777777779
+Sports and Recreation,45,llm_order_robust,aya_expanse_8b,2.2222222222222223
+Sports and Recreation,45,llm_order_robust,llama31_8b,6.666666666666667
+Sports and Recreation,45,llm_order_robust,mean,44.55555555555556
+Technology and Communications,13,llm_order_robust,gemini,100.0
+Technology and Communications,13,llm_order_robust,claude,81.53846153846153
+Technology and Communications,13,llm_order_robust,gpt54,53.84615384615385
+Technology and Communications,13,llm_order_robust,gemma4_12b_it,27.692307692307693
+Technology and Communications,13,llm_order_robust,mistral_nemo_12b,0.0
+Technology and Communications,13,llm_order_robust,qwen3_8b,1.5384615384615385
+Technology and Communications,13,llm_order_robust,aya_expanse_8b,6.153846153846154
+Technology and Communications,13,llm_order_robust,llama31_8b,4.615384615384616
+Technology and Communications,13,llm_order_robust,mean,34.42307692307693
+Transportation and Vehicles,8,llm_order_robust,gemini,95.0
+Transportation and Vehicles,8,llm_order_robust,claude,87.5
+Transportation and Vehicles,8,llm_order_robust,gpt54,72.5
+Transportation and Vehicles,8,llm_order_robust,gemma4_12b_it,52.5
+Transportation and Vehicles,8,llm_order_robust,mistral_nemo_12b,35.0
+Transportation and Vehicles,8,llm_order_robust,qwen3_8b,7.5
+Transportation and Vehicles,8,llm_order_robust,aya_expanse_8b,17.5
+Transportation and Vehicles,8,llm_order_robust,llama31_8b,12.5
+Transportation and Vehicles,8,llm_order_robust,mean,47.5
+"Business, Commerce and Finance",34,encoder_strict_pairwise,camembert,78.82352941176471
+"Business, Commerce and Finance",34,encoder_strict_pairwise,camembertv2,71.76470588235294
+"Business, Commerce and Finance",34,encoder_strict_pairwise,moderncamembert,77.64705882352942
+"Business, Commerce and Finance",34,encoder_strict_pairwise,roberta_base,51.17647058823529
+"Business, Commerce and Finance",34,encoder_strict_pairwise,bert_base_cased,60.588235294117645
+"Business, Commerce and Finance",34,encoder_strict_pairwise,mean,68.0
+Construction and Tools,22,encoder_strict_pairwise,camembert,77.27272727272727
+Construction and Tools,22,encoder_strict_pairwise,camembertv2,80.9090909090909
+Construction and Tools,22,encoder_strict_pairwise,moderncamembert,73.63636363636363
+Construction and Tools,22,encoder_strict_pairwise,roberta_base,39.09090909090909
+Construction and Tools,22,encoder_strict_pairwise,bert_base_cased,51.81818181818182
+Construction and Tools,22,encoder_strict_pairwise,mean,64.54545454545453
+Education and Social Services,9,encoder_strict_pairwise,camembert,73.33333333333333
+Education and Social Services,9,encoder_strict_pairwise,camembertv2,91.11111111111111
+Education and Social Services,9,encoder_strict_pairwise,moderncamembert,95.55555555555556
+Education and Social Services,9,encoder_strict_pairwise,roberta_base,62.22222222222222
+Education and Social Services,9,encoder_strict_pairwise,bert_base_cased,68.88888888888889
+Education and Social Services,9,encoder_strict_pairwise,mean,78.22222222222221
+Everyday Life and Consumer Goods,16,encoder_strict_pairwise,camembert,72.5
+Everyday Life and Consumer Goods,16,encoder_strict_pairwise,camembertv2,52.5
+Everyday Life and Consumer Goods,16,encoder_strict_pairwise,moderncamembert,67.5
+Everyday Life and Consumer Goods,16,encoder_strict_pairwise,roberta_base,56.25
+Everyday Life and Consumer Goods,16,encoder_strict_pairwise,bert_base_cased,55.00000000000001
+Everyday Life and Consumer Goods,16,encoder_strict_pairwise,mean,60.75
+Food and Hospitality,20,encoder_strict_pairwise,camembert,77.0
+Food and Hospitality,20,encoder_strict_pairwise,camembertv2,72.0
+Food and Hospitality,20,encoder_strict_pairwise,moderncamembert,62.0
+Food and Hospitality,20,encoder_strict_pairwise,roberta_base,36.0
+Food and Hospitality,20,encoder_strict_pairwise,bert_base_cased,48.0
+Food and Hospitality,20,encoder_strict_pairwise,mean,59.0
+Health and Medicine,16,encoder_strict_pairwise,camembert,75.0
+Health and Medicine,16,encoder_strict_pairwise,camembertv2,51.24999999999999
+Health and Medicine,16,encoder_strict_pairwise,moderncamembert,50.0
+Health and Medicine,16,encoder_strict_pairwise,roberta_base,55.00000000000001
+Health and Medicine,16,encoder_strict_pairwise,bert_base_cased,27.500000000000004
+Health and Medicine,16,encoder_strict_pairwise,mean,51.75
+Public Administration and Law,20,encoder_strict_pairwise,camembert,68.0
+Public Administration and Law,20,encoder_strict_pairwise,camembertv2,66.0
+Public Administration and Law,20,encoder_strict_pairwise,moderncamembert,80.0
+Public Administration and Law,20,encoder_strict_pairwise,roberta_base,62.0
+Public Administration and Law,20,encoder_strict_pairwise,bert_base_cased,47.0
+Public Administration and Law,20,encoder_strict_pairwise,mean,64.6
+Road Use and Safety,8,encoder_strict_pairwise,camembert,47.5
+Road Use and Safety,8,encoder_strict_pairwise,camembertv2,72.5
+Road Use and Safety,8,encoder_strict_pairwise,moderncamembert,60.0
+Road Use and Safety,8,encoder_strict_pairwise,roberta_base,42.5
+Road Use and Safety,8,encoder_strict_pairwise,bert_base_cased,35.0
+Road Use and Safety,8,encoder_strict_pairwise,mean,51.5
+Science and Nature,30,encoder_strict_pairwise,camembert,51.33333333333333
+Science and Nature,30,encoder_strict_pairwise,camembertv2,56.666666666666664
+Science and Nature,30,encoder_strict_pairwise,moderncamembert,50.66666666666667
+Science and Nature,30,encoder_strict_pairwise,roberta_base,68.66666666666667
+Science and Nature,30,encoder_strict_pairwise,bert_base_cased,66.66666666666666
+Science and Nature,30,encoder_strict_pairwise,mean,58.8
+Sports and Recreation,45,encoder_strict_pairwise,camembert,82.22222222222221
+Sports and Recreation,45,encoder_strict_pairwise,camembertv2,78.22222222222223
+Sports and Recreation,45,encoder_strict_pairwise,moderncamembert,71.11111111111111
+Sports and Recreation,45,encoder_strict_pairwise,roberta_base,76.44444444444444
+Sports and Recreation,45,encoder_strict_pairwise,bert_base_cased,68.44444444444444
+Sports and Recreation,45,encoder_strict_pairwise,mean,75.28888888888889
+Technology and Communications,13,encoder_strict_pairwise,camembert,73.84615384615385
+Technology and Communications,13,encoder_strict_pairwise,camembertv2,90.76923076923077
+Technology and Communications,13,encoder_strict_pairwise,moderncamembert,84.61538461538461
+Technology and Communications,13,encoder_strict_pairwise,roberta_base,92.3076923076923
+Technology and Communications,13,encoder_strict_pairwise,bert_base_cased,87.6923076923077
+Technology and Communications,13,encoder_strict_pairwise,mean,85.84615384615384
+Transportation and Vehicles,8,encoder_strict_pairwise,camembert,72.5
+Transportation and Vehicles,8,encoder_strict_pairwise,camembertv2,65.0
+Transportation and Vehicles,8,encoder_strict_pairwise,moderncamembert,72.5
+Transportation and Vehicles,8,encoder_strict_pairwise,roberta_base,55.00000000000001
+Transportation and Vehicles,8,encoder_strict_pairwise,bert_base_cased,55.00000000000001
+Transportation and Vehicles,8,encoder_strict_pairwise,mean,64.0
